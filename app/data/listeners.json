@@ -1,0 +1,14 @@
+[
+  {
+    "city": "Taipei",
+    "lat": 25.0330,
+    "lng": 121.5654,
+    "entry_date": "2022-03"
+  },
+  {
+    "city": "San Francisco",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "entry_date": "2021-11"
+  }
+]
