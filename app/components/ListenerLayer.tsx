@@ -78,7 +78,7 @@ export default function ListenerCircle({
             >
               {isUserCity ? (
                 <>
-                  <div className="font-bold" style={{ color: "rgb(251,191,36)" }}>That’s me. 👋</div>
+                  <div className="font-bold" style={{ color: "rgb(251,191,36)" }}>That’s me.</div>
                   <div className="text-zinc-300 text-xs mt-0.5">{city}</div>
                   <div className="text-zinc-500 text-xs mt-0.5">
                     {count.toLocaleString()} listener{count !== 1 ? "s" : ""} in this chapter

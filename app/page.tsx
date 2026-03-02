@@ -19,6 +19,7 @@ import episodesData from "./data/episodes.json";
 import listenersJson from "./data/listeners.json";
 import type { Episode, Listener } from "../types/data";
 import { useMapProjection } from "./components/MapView";
+import CommunitySection from "./components/CommunitySection";
 
 // Listener aggregation shape
 type ListenerAgg = {
@@ -406,6 +407,12 @@ export default function Home() {
           )}
         </AnimatePresence>
       </main>
+
+      {/* ── Community Section ── */}
+      <div className="w-full bg-zinc-950 border-t border-zinc-800">
+        <CommunitySection />
+      </div>
+
       <footer className="py-4 text-center text-zinc-400 text-xs bg-zinc-900">
         &copy; {new Date().getFullYear()} The Acquired Universe
       </footer>
