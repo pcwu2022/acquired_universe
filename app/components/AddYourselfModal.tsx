@@ -183,7 +183,8 @@ export default function AddYourselfModal({
 
             <button
               type="submit"
-              className="mt-4 px-4 py-2 rounded font-semibold transition disabled:opacity-60 text-black"
+              className="mt-4 px-4 py-2 rounded font-semibold transition disabled:opacity-60 text-black cursor-pointer"
+              title={(!selectedCity ? "Select a city first" : (initialCity ? "Update your pin on the map" : "Add yourself to the map"))}
               style={{ backgroundColor: "#39F9CD" }}
               disabled={submitting || !selectedCity}
             >

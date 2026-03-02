@@ -59,7 +59,7 @@ export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, 
         <img
           src={episode.sticker || FALLBACK_STICKER}
           alt={episode.company}
-          className="w-4/5 h-4/5 object-contain"
+          className="w-full h-full object-contain p-1"
           draggable={false}
           onError={(e) => {
             (e.target as HTMLImageElement).src = FALLBACK_STICKER;

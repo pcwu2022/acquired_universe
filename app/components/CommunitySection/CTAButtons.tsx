@@ -14,7 +14,8 @@ export default function CTAButtons({ showCountMeIn, onCountMeIn }: CTAButtonsPro
         href="https://acquired.fm/slack"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105"
+        title="Join the Acquired Slack community"
+        className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105 cursor-pointer"
         style={{ background: "#4A154B", color: "#fff" }}
       >
         <FaSlack className="text-base" />
@@ -24,7 +25,8 @@ export default function CTAButtons({ showCountMeIn, onCountMeIn }: CTAButtonsPro
         href="https://acquired.fm/newsletter"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm border transition-all hover:scale-105"
+        title="Sign up for email updates"
+        className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm border transition-all hover:scale-105 cursor-pointer"
         style={{ borderColor: "rgba(251,191,36,0.5)", color: "rgb(251,191,36)", background: "rgba(251,191,36,0.08)" }}
       >
         <FaEnvelope className="text-base" />
@@ -33,7 +35,8 @@ export default function CTAButtons({ showCountMeIn, onCountMeIn }: CTAButtonsPro
       {showCountMeIn && (
         <button
           onClick={onCountMeIn}
-          className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105"
+          title="Add yourself to the community map"
+          className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-105 cursor-pointer"
           style={{ background: "#39F9CD", color: "#000" }}
         >
           <FaMapMarkerAlt className="text-base" />

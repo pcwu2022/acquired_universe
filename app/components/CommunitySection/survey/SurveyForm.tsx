@@ -136,7 +136,8 @@ export default function SurveyForm({ onSubmit }: SurveyFormProps) {
           type="button"
           onClick={handleBack}
           disabled={step === 0}
-          className="text-sm text-zinc-500 hover:text-zinc-300 transition disabled:opacity-30 disabled:cursor-not-allowed"
+          title="Go to previous question"
+          className="text-sm text-zinc-500 hover:text-zinc-300 transition disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
         >
           ‹ Back
         </button>
@@ -148,7 +149,8 @@ export default function SurveyForm({ onSubmit }: SurveyFormProps) {
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="text-sm text-zinc-500 hover:text-zinc-400 transition px-3 py-1.5"
+                  title="Skip this question"
+                  className="text-sm text-zinc-500 hover:text-zinc-400 transition px-3 py-1.5 cursor-pointer"
                 >
                   Skip
                 </button>
@@ -157,7 +159,8 @@ export default function SurveyForm({ onSubmit }: SurveyFormProps) {
                 type="button"
                 onClick={handleNext}
                 disabled={!canProceed}
-                className="px-5 py-2 rounded-lg text-sm font-semibold transition-all hover:scale-105 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100"
+                title="Next question"
+                className="px-5 py-2 rounded-lg text-sm font-semibold transition-all hover:scale-105 disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:scale-100 cursor-pointer"
                 style={{ background: "#39F9CD", color: "#000" }}
               >
                 Next ›
@@ -168,7 +171,8 @@ export default function SurveyForm({ onSubmit }: SurveyFormProps) {
               type="button"
               onClick={handleSubmit}
               disabled={submitting}
-              className="px-5 py-2 rounded-lg text-sm font-semibold transition-all hover:scale-105 disabled:opacity-60"
+              title="Submit your survey"
+              className="px-5 py-2 rounded-lg text-sm font-semibold transition-all hover:scale-105 disabled:opacity-60 cursor-pointer"
               style={{ background: "#39F9CD", color: "#000" }}
             >
               {submitting ? "Submitting…" : "Submit"}

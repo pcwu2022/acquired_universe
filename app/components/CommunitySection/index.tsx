@@ -8,7 +8,12 @@ import { useSurveyState } from "./hooks/useSurveyState";
 import { useCommunityStats } from "./hooks/useCommunityStats";
 import type { SurveyAnswers } from "./survey/questions";
 
-export default function CommunitySection() {
+interface CommunitySectionProps {
+  /** called when user clicks "Count Me In" CTA */
+  onCountMeIn?: () => void;
+}
+
+export default function CommunitySection({ onCountMeIn }: CommunitySectionProps) {
   const { surveyRecord, hasSubmitted, loading: surveyLoading, saveSubmission } = useSurveyState();
   const { stats, loading: statsLoading, error: statsError, refetch } = useCommunityStats();
   const [showSurvey, setShowSurvey] = useState(false);
@@ -66,7 +71,13 @@ export default function CommunitySection() {
           )}
           <CTAButtons
             showCountMeIn={!hasSubmitted && !surveyLoading}
-            onCountMeIn={() => setShowSurvey(true)}
+            onCountMeIn={() => {
+              if (onCountMeIn) {
+                onCountMeIn();
+              } else {
+                setShowSurvey(true);
+              }
+            }}
           />
         </div>
 
@@ -121,7 +132,8 @@ export default function CommunitySection() {
                 <div className="text-center">
                   <button
                     onClick={() => setShowSurvey(true)}
-                    className="px-6 py-2.5 rounded-lg text-sm font-semibold transition-all hover:scale-105"
+                    title="Fill in the survey to unlock statistics"
+                    className="px-6 py-2.5 rounded-lg text-sm font-semibold transition-all hover:scale-105 cursor-pointer"
                     style={{ background: "#39F9CD", color: "#000" }}
                   >
                     Unlock the Stats

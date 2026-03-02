@@ -136,7 +136,12 @@ function MapOverlayContent({
             episode={ep}
             isSelected={panelEpisode?.company === ep.company}
             onClick={() => setPanelEpisode(ep)}
-            scale={1 + 0.5 * (timeline.indexOf(selected) - timeline.indexOf(ep.release_date) < 6 ? 1 : 0)}
+            scale={(() => {
+              const monthsAgo = timeline.indexOf(selected) - timeline.indexOf(ep.release_date);
+              if (monthsAgo <= 0) return 1.5;
+              if (monthsAgo >= 12) return 1.0;
+              return 1.5 - (monthsAgo / 12) * 0.5;
+            })()}
             x={x}
             y={y}
           />
@@ -260,15 +265,7 @@ export default function Home() {
 
   // Memoize center so MapView never receives a new array reference (which could
   // otherwise confuse reconciliation even if the map itself ignores prop updates).
-  const center = useMemo((): [number, number] => {
-    const allCoords = (episodesData as Episode[]).map(e => [e.hq.lng, e.hq.lat]);
-    return allCoords.length
-      ? [
-          allCoords.reduce((a, b) => a + b[0], 0) / allCoords.length,
-          allCoords.reduce((a, b) => a + b[1], 0) / allCoords.length,
-        ]
-      : [0, 0];
-  }, []);
+  const center = useMemo((): [number, number] => [-122.42, 37.77], []);
 
   const handleAddListener = useCallback(async (data: { city: string; entry_date: string }) => {
     // Persist to localStorage
@@ -305,8 +302,9 @@ export default function Home() {
           The Acquired Universe
         </span>
         <button
-          className="px-3 py-1.5 rounded text-sm font-semibold text-black transition hover:opacity-90 active:scale-95"
+          className="px-3 py-1.5 rounded text-sm font-semibold text-black transition hover:opacity-90 active:scale-95 cursor-pointer"
           style={{ backgroundColor: "#39F9CD" }}
+          title="Add yourself to the listener map"
           onClick={() => setShowAddModal(true)}
         >
           Count Me In
@@ -332,7 +330,7 @@ export default function Home() {
         {/* ── Map ── */}
         <div className="relative w-full h-[60vh]">
           <div className="w-full h-full rounded-xl overflow-hidden bg-zinc-800 shadow-lg">
-            <MapView center={center} zoom={2}>
+            <MapView center={center} zoom={4}>
               <MapOverlayContent
                 filteredEpisodes={filteredEpisodes}
                 listenerAgg={listenerAgg}
@@ -356,7 +354,8 @@ export default function Home() {
               <button
                 key={l.id}
                 onClick={() => setActiveLayers(l.id)}
-                className="px-2.5 py-1 rounded text-xs font-medium transition"
+                title={l.label}
+                className="px-2.5 py-1 rounded text-xs font-medium transition cursor-pointer"
                 style={
                   activeLayers === l.id
                     ? { backgroundColor: "#39F9CD", color: "#000" }
@@ -411,7 +410,7 @@ export default function Home() {
 
       {/* ── Community Section ── */}
       <div className="w-full bg-zinc-950 border-t border-zinc-800">
-        <CommunitySection />
+        <CommunitySection onCountMeIn={() => setShowAddModal(true)} />
       </div>
 
       <footer className="py-12 text-center bg-zinc-900 border-t border-zinc-800">

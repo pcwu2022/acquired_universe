@@ -16,16 +16,16 @@ export default function PlaybackControls({ isPlaying, onPlay, onPause, onReset, 
       {showReset && onReset && (
         <button
           onClick={onReset}
-          title="Restart"
-          className="p-1.5 rounded text-zinc-400 hover:text-white transition"
+          title="Restart from beginning"
+          className="p-1.5 rounded text-zinc-400 hover:text-white transition cursor-pointer"
         >
           <FaUndo size={12} />
         </button>
       )}
       <button
         onClick={isPlaying ? onPause : onPlay}
-        title={isPlaying ? "Pause" : "Play"}
-        className="w-8 h-8 flex items-center justify-center rounded-full text-black transition hover:scale-110"
+        title={isPlaying ? "Pause timeline" : "Play timeline"}
+        className="w-8 h-8 flex items-center justify-center rounded-full text-black transition hover:scale-110 cursor-pointer"
         style={{ backgroundColor: "#39F9CD" }}
       >
         {isPlaying ? <FaPause size={13} /> : <FaPlay size={13} className="ml-0.5" />}

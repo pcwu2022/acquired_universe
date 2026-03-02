@@ -102,6 +102,7 @@ export const SURVEY_QUESTIONS: SurveyQuestion[] = [
       "Podcast charts",
       "Another podcast",
       "Search / Google",
+      "Podcast recommendations",
       "Can't remember",
     ],
     required: false,
