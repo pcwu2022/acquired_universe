@@ -1,19 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import citiesData from "../data/cities.json";
 
-const cities = [
-  { name: "Taipei", lat: 25.0330, lng: 121.5654 },
-  { name: "San Francisco", lat: 37.7749, lng: -122.4194 },
-  { name: "London", lat: 51.5074, lng: -0.1278 },
-  { name: "New York", lat: 40.7128, lng: -74.0060 },
-  { name: "Tokyo", lat: 35.6895, lng: 139.6917 },
-  // ...add more as needed
-];
+type City = { name: string; lat: number; lng: number };
+const allCities = citiesData as City[];
 
-function getMonthYearOptions() {
+function getMonthYearOptions(): string[] {
   const now = new Date();
-  const arr = [];
+  const arr: string[] = [];
   for (let y = now.getFullYear(); y >= 2015; y--) {
     for (let m = 12; m >= 1; m--) {
       if (y === now.getFullYear() && m > now.getMonth() + 1) continue;
@@ -23,20 +18,66 @@ function getMonthYearOptions() {
   return arr;
 }
 
-export default function AddYourselfModal({ open, onClose, onSubmit }: { open: boolean; onClose: () => void; onSubmit: (data: { city: string; lat: number; lng: number; entry_date: string }) => void; }) {
-  const [city, setCity] = useState(cities[0]);
-  const [entryDate, setEntryDate] = useState(getMonthYearOptions()[0]);
+const MONTH_OPTIONS = getMonthYearOptions();
+
+export default function AddYourselfModal({
+  open,
+  onClose,
+  onSubmit,
+}: {
+  open: boolean;
+  onClose: () => void;
+  onSubmit: (data: { city: string; entry_date: string }) => void;
+}) {
+  const [query, setQuery] = useState("");
+  const [selectedCity, setSelectedCity] = useState<City | null>(null);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [entryDate, setEntryDate] = useState(MONTH_OPTIONS[0]);
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const filtered =
+    query.trim().length >= 1
+      ? allCities
+          .filter(c => c.name.toLowerCase().includes(query.toLowerCase()))
+          .slice(0, 8)
+      : [];
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(e.target as Node) &&
+        inputRef.current &&
+        !inputRef.current.contains(e.target as Node)
+      ) {
+        setShowDropdown(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  function selectCity(city: City) {
+    setSelectedCity(city);
+    setQuery(city.name);
+    setShowDropdown(false);
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!selectedCity) return;
     setSubmitting(true);
-    await onSubmit({ city: city.name, lat: city.lat, lng: city.lng, entry_date: entryDate });
+    await onSubmit({ city: selectedCity.name, entry_date: entryDate });
     setSubmitting(false);
     setSuccess(true);
     setTimeout(() => {
       setSuccess(false);
+      setQuery("");
+      setSelectedCity(null);
       onClose();
     }, 1200);
   };
@@ -60,17 +101,51 @@ export default function AddYourselfModal({ open, onClose, onSubmit }: { open: bo
             onSubmit={handleSubmit}
           >
             <h2 className="text-xl font-bold mb-2">Add Yourself</h2>
+
+            {/* Searchable city combobox */}
             <label className="text-sm font-medium">City</label>
-            <select
-              className="p-2 rounded bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white"
-              value={city.name}
-              onChange={e => setCity(cities.find(c => c.name === e.target.value) || cities[0])}
-              required
-            >
-              {cities.map(c => (
-                <option key={c.name} value={c.name}>{c.name}</option>
-              ))}
-            </select>
+            <div className="relative">
+              <input
+                ref={inputRef}
+                type="text"
+                className="w-full p-2 rounded bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white outline-none border border-transparent focus:border-blue-500 transition"
+                placeholder="Search for a city…"
+                value={query}
+                onChange={e => {
+                  setQuery(e.target.value);
+                  setSelectedCity(null);
+                  setShowDropdown(true);
+                }}
+                onFocus={() => setShowDropdown(true)}
+                autoComplete="off"
+                spellCheck={false}
+              />
+              <AnimatePresence>
+                {showDropdown && filtered.length > 0 && (
+                  <motion.div
+                    ref={dropdownRef}
+                    className="absolute left-0 right-0 top-full mt-1 z-60 rounded-lg bg-zinc-900 border border-white/10 shadow-xl overflow-hidden"
+                    initial={{ opacity: 0, y: -4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -4 }}
+                    transition={{ duration: 0.12 }}
+                  >
+                    {filtered.map(city => (
+                      <button
+                        key={`${city.name}-${city.lat}`}
+                        type="button"
+                        className="w-full text-left px-4 py-2 text-sm text-white hover:bg-zinc-700 transition"
+                        onMouseDown={() => selectCity(city)}
+                      >
+                        {city.name}
+                      </button>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Month-Year */}
             <label className="text-sm font-medium">Month-Year Started Listening</label>
             <select
               className="p-2 rounded bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white"
@@ -78,16 +153,17 @@ export default function AddYourselfModal({ open, onClose, onSubmit }: { open: bo
               onChange={e => setEntryDate(e.target.value)}
               required
             >
-              {getMonthYearOptions().map(opt => (
+              {MONTH_OPTIONS.map(opt => (
                 <option key={opt} value={opt}>{opt}</option>
               ))}
             </select>
+
             <button
               type="submit"
               className="mt-4 px-4 py-2 rounded bg-blue-600 text-white font-semibold hover:bg-blue-700 transition disabled:opacity-60"
-              disabled={submitting}
+              disabled={submitting || !selectedCity}
             >
-              {submitting ? "Submitting..." : "Submit"}
+              {submitting ? "Submitting…" : "Submit"}
             </button>
             {success && <div className="text-green-500 text-center">Thank you!</div>}
           </motion.form>

@@ -10,7 +10,6 @@ export type Episode = {
 
 export type Listener = {
   city: string;
-  lat: number;
-  lng: number;
   entry_date: string; // YYYY-MM
+  count: number;      // number of listeners aggregated into this record
 };

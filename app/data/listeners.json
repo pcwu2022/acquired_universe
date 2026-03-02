@@ -1,14 +1,127 @@
 [
   {
     "city": "Taipei",
-    "lat": 25.0330,
-    "lng": 121.5654,
-    "entry_date": "2022-03"
+    "entry_date": "2022-03",
+    "count": 15
+  },
+  {
+    "city": "Taipei",
+    "entry_date": "2022-05",
+    "count": 10
+  },
+  {
+    "city": "Taipei",
+    "entry_date": "2022-07",
+    "count": 12
   },
   {
     "city": "San Francisco",
-    "lat": 37.7749,
-    "lng": -122.4194,
-    "entry_date": "2021-11"
+    "entry_date": "2021-11",
+    "count": 20
+  },
+  {
+    "city": "San Francisco",
+    "entry_date": "2022-04",
+    "count": 18
+  },
+  {
+    "city": "New York",
+    "entry_date": "2022-01",
+    "count": 25
+  },
+  {
+    "city": "New York",
+    "entry_date": "2022-06",
+    "count": 28
+  },
+  {
+    "city": "Los Angeles",
+    "entry_date": "2022-02",
+    "count": 18
+  },
+  {
+    "city": "Los Angeles",
+    "entry_date": "2022-08",
+    "count": 22
+  },
+  {
+    "city": "Chicago",
+    "entry_date": "2022-03",
+    "count": 12
+  },
+  {
+    "city": "Chicago",
+    "entry_date": "2022-09",
+    "count": 15
+  },
+  {
+    "city": "Boston",
+    "entry_date": "2022-04",
+    "count": 22
+  },
+  {
+    "city": "Boston",
+    "entry_date": "2022-10",
+    "count": 26
+  },
+  {
+    "city": "Seattle",
+    "entry_date": "2022-05",
+    "count": 16
+  },
+  {
+    "city": "Seattle",
+    "entry_date": "2022-11",
+    "count": 19
+  },
+  {
+    "city": "Miami",
+    "entry_date": "2022-06",
+    "count": 19
+  },
+  {
+    "city": "Miami",
+    "entry_date": "2022-12",
+    "count": 21
+  },
+  {
+    "city": "Denver",
+    "entry_date": "2022-07",
+    "count": 14
+  },
+  {
+    "city": "Denver",
+    "entry_date": "2023-01",
+    "count": 17
+  },
+  {
+    "city": "Austin",
+    "entry_date": "2022-08",
+    "count": 21
+  },
+  {
+    "city": "Austin",
+    "entry_date": "2023-02",
+    "count": 24
+  },
+  {
+    "city": "Portland",
+    "entry_date": "2022-09",
+    "count": 17
+  },
+  {
+    "city": "Portland",
+    "entry_date": "2023-03",
+    "count": 20
+  },
+  {
+    "city": "Toronto",
+    "entry_date": "2022-10",
+    "count": 23
+  },
+  {
+    "city": "Toronto",
+    "entry_date": "2023-04",
+    "count": 27
   }
 ]

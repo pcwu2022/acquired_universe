@@ -11,8 +11,9 @@ import SidePanel from "./components/SidePanel";
 import AddYourselfModal from "./components/AddYourselfModal";
 import { aggregateListeners } from "./utils/aggregation";
 import { incrementYYYYMM, compareYYYYMM } from "./utils/dateUtils";
+import { USE_DB } from "./utils/config";
 import episodesData from "./data/episodes.json";
-import listenersData from "./data/listeners.json";
+import listenersJson from "./data/listeners.json";
 import type { Episode, Listener } from "../types/data";
 import { useMapProjection } from "./components/MapView";
 
@@ -102,8 +103,19 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [panelEpisode, setPanelEpisode] = useState<Episode | null>(null);
   const [showAddModal, setShowAddModal] = useState(false);
-  const [localListeners, setLocalListeners] = useState<Listener[]>(listenersData as Listener[]);
+  const [localListeners, setLocalListeners] = useState<Listener[]>(
+    USE_DB ? [] : (listenersJson as Listener[])
+  );
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // When USE_DB=true, load all listeners from the API on mount
+  useEffect(() => {
+    if (!USE_DB) return;
+    fetch("/api/listeners")
+      .then(r => r.json())
+      .then((data: Listener[]) => setLocalListeners(data))
+      .catch(err => console.error("Failed to load listeners:", err));
+  }, []);
 
   useEffect(() => {
     if (isPlaying) {
@@ -127,8 +139,14 @@ export default function Home() {
   }, [isPlaying, timeline]);
 
   // Filter episodes and listeners by selected date
-  const filteredEpisodes = (episodesData as Episode[]).filter(e => e.release_date <= selected);
-  const listenerAgg = aggregateListeners(localListeners, selected);
+  const filteredEpisodes = useMemo(
+    () => (episodesData as Episode[]).filter(e => e.release_date <= selected),
+    [selected]
+  );
+  const listenerAgg = useMemo(
+    () => aggregateListeners(localListeners, selected),
+    [localListeners, selected]
+  );
 
   // Memoize center so MapView never receives a new array reference (which could
   // otherwise confuse reconciliation even if the map itself ignores prop updates).
@@ -141,6 +159,26 @@ export default function Home() {
         ]
       : [0, 0];
   }, []);
+
+  async function handleAddListener(data: { city: string; entry_date: string }) {
+    if (USE_DB) {
+      try {
+        await fetch("/api/listeners", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        });
+        // Refresh from DB to get accurate aggregated counts
+        const updated: Listener[] = await fetch("/api/listeners").then(r => r.json());
+        setLocalListeners(updated);
+      } catch (err) {
+        console.error("Failed to save listener:", err);
+      }
+    } else {
+      // JSON mode: optimistically add a local entry with count=1
+      setLocalListeners(prev => [...prev, { ...data, count: 1 }]);
+    }
+  }
 
   return (
     <div className="flex flex-col min-h-screen bg-zinc-950 text-white">
@@ -189,9 +227,7 @@ export default function Home() {
         <AddYourselfModal
           open={showAddModal}
           onClose={() => setShowAddModal(false)}
-          onSubmit={data => {
-            setLocalListeners(prev => [...prev, data]);
-          }}
+          onSubmit={handleAddListener}
         />
       </main>
       <footer className="py-4 text-center text-zinc-400 text-xs bg-zinc-900">
