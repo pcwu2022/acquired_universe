@@ -43,6 +43,16 @@ export default function CTAButtons({ showCountMeIn, onCountMeIn }: CTAButtonsPro
           Count Me In
         </button>
       )}
+      <a
+        href="https://forms.gle/L7BMxT8pdDAtcRsQ7"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Take the Acquired quiz"
+        className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm border transition-all hover:scale-105 cursor-pointer"
+        style={{ borderColor: "#39F9CD", color: "#39F9CD" }}
+      >
+        Try the Acquired Quiz
+      </a>
     </div>
   );
 }

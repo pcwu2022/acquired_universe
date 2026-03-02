@@ -38,7 +38,7 @@ type UserRecord = { city: string; entry_date: string };
 // ── Milestone popup shown when timeline crosses the user's entry month ──
 function UserMilestonePopup({ record, onDone }: { record: UserRecord; onDone: () => void }) {
   useEffect(() => {
-    const t = setTimeout(onDone, 5500);
+    const t = setTimeout(onDone, 2000);
     return () => clearTimeout(t);
   }, [onDone]);
 
@@ -54,16 +54,17 @@ function UserMilestonePopup({ record, onDone }: { record: UserRecord; onDone: ()
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.25 }}
     >
       {/* Subtle vignette */}
       <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.55) 100%)" }} />
 
       <motion.div
-        className="relative text-center px-12 py-10 max-w-sm"
+        className="relative text-center px-12 py-10 max-w-sm rounded-2xl"
+        style={{ background: "rgba(0,0,0,0.45)" }}
         initial={{ scale: 0.85, y: 24, opacity: 0 }}
         animate={{ scale: 1, y: 0, opacity: 1 }}
-        exit={{ scale: 0.92, y: -16, opacity: 0 }}
+        exit={{ scale: 0.92, y: -16, opacity: 0, transition: { duration: 0.18 } }}
         transition={{ type: "spring", stiffness: 260, damping: 24, delay: 0.1 }}
       >
         {/* Decorative rule */}
