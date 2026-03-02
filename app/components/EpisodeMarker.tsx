@@ -56,12 +56,10 @@ export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, 
             : `0 0 8px 2px ${colors.ring}33`,
         }}
       >
-        {/* SVG logos from Wikipedia are typically black; invert for dark backgrounds */}
         <img
           src={episode.sticker || FALLBACK_STICKER}
           alt={episode.company}
           className="w-4/5 h-4/5 object-contain"
-          style={{ filter: "invert(1) brightness(2)" }}
           draggable={false}
           onError={(e) => {
             (e.target as HTMLImageElement).src = FALLBACK_STICKER;

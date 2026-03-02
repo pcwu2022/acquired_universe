@@ -40,7 +40,7 @@ export default function MapView({
   zoom = 2,
   children,
   style,
-  mapStyleUrl = "https://demotiles.maplibre.org/style.json",
+  mapStyleUrl = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
 }: MapViewProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);

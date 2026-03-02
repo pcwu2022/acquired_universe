@@ -1,7 +1,10 @@
 // page.tsx
 
 "use client";
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, { useState, useEffect, useRef, useMemo, useCallback } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const LP_STORAGE_KEY = "acquired_lp_v1";
 import Timeline from "./components/Timeline";
 import PlaybackControls from "./components/PlaybackControls";
 import MapView from "./components/MapView";
@@ -26,6 +29,72 @@ type ListenerAgg = {
   };
 };
 
+type ActiveLayers = "episodes" | "listeners" | "both";
+
+type UserRecord = { city: string; entry_date: string };
+
+// ── Milestone popup shown when timeline crosses the user's entry month ──
+function UserMilestonePopup({ record, onDone }: { record: UserRecord; onDone: () => void }) {
+  useEffect(() => {
+    const t = setTimeout(onDone, 5500);
+    return () => clearTimeout(t);
+  }, [onDone]);
+
+  const [month, year] = (() => {
+    const [y, m] = record.entry_date.split("-");
+    const d = new Date(Number(y), Number(m) - 1, 1);
+    return [d.toLocaleString("en", { month: "long" }), y];
+  })();
+
+  return (
+    <motion.div
+      className="fixed inset-0 z-50 flex items-center justify-center pointer-events-none"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.4 }}
+    >
+      {/* Subtle vignette */}
+      <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.55) 100%)" }} />
+
+      <motion.div
+        className="relative text-center px-12 py-10 max-w-sm"
+        initial={{ scale: 0.85, y: 24, opacity: 0 }}
+        animate={{ scale: 1, y: 0, opacity: 1 }}
+        exit={{ scale: 0.92, y: -16, opacity: 0 }}
+        transition={{ type: "spring", stiffness: 260, damping: 24, delay: 0.1 }}
+      >
+        {/* Decorative rule */}
+        <div className="flex items-center gap-3 mb-6 justify-center">
+          <span className="h-px w-12 bg-amber-400/60" />
+          <span className="text-amber-400 text-xs tracking-[0.25em] uppercase font-semibold">Chapter One</span>
+          <span className="h-px w-12 bg-amber-400/60" />
+        </div>
+
+        <p className="text-white/60 text-sm tracking-widest uppercase mb-2">The month you became a listener</p>
+        <p
+          className="text-5xl font-bold tracking-tight leading-none mb-1"
+          style={{ color: "rgb(251,191,36)" }}
+        >
+          {month}
+        </p>
+        <p className="text-3xl font-light text-white/80 mb-6">{year}</p>
+
+        <p className="text-white/40 text-xs tracking-wider italic">
+          &ldquo;This is where your story began.&rdquo;
+        </p>
+
+        {/* Decorative rule */}
+        <div className="flex items-center gap-3 mt-6 justify-center">
+          <span className="h-px w-20 bg-white/10" />
+          <span className="text-white/20 text-xs">✦</span>
+          <span className="h-px w-20 bg-white/10" />
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+}
+
 // Defined at MODULE SCOPE so React sees a stable component identity.
 // If defined inside Home() a new function reference is created on every render,
 // causing React to unmount/remount the entire subtree and re-fire Framer Motion
@@ -37,6 +106,8 @@ function MapOverlayContent({
   selected,
   panelEpisode,
   setPanelEpisode,
+  activeLayers,
+  userCity,
 }: {
   filteredEpisodes: Episode[];
   listenerAgg: ListenerAgg;
@@ -44,12 +115,16 @@ function MapOverlayContent({
   selected: string;
   panelEpisode: Episode | null;
   setPanelEpisode: (ep: Episode) => void;
+  activeLayers: ActiveLayers;
+  userCity?: string;
 }) {
   const project = useMapProjection();
   if (!project) return null;
+  const showEpisodes = activeLayers === "episodes" || activeLayers === "both";
+  const showListeners = activeLayers === "listeners" || activeLayers === "both";
   return (
     <>
-      {filteredEpisodes.map((ep) => {
+      {showEpisodes && filteredEpisodes.map((ep) => {
         const xy = project([ep.hq.lng, ep.hq.lat]);
         if (!xy) return null;
         const [x, y] = xy;
@@ -65,11 +140,21 @@ function MapOverlayContent({
           />
         );
       })}
-      {Object.entries(listenerAgg).map(([city, { lat, lng, count }]) => {
+      {showListeners && Object.entries(listenerAgg).map(([city, { lat, lng, count }]) => {
         const xy = project([lng, lat]);
         if (!xy) return null;
         const [x, y] = xy;
-        return <ListenerLayer key={city} x={x} y={y} count={count} />;
+        return (
+          <ListenerLayer
+            key={city}
+            x={x}
+            y={y}
+            count={count}
+            city={city}
+            showTooltip={activeLayers === "listeners"}
+            isUserCity={!!userCity && city === userCity}
+          />
+        );
       })}
     </>
   );
@@ -103,10 +188,33 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [panelEpisode, setPanelEpisode] = useState<Episode | null>(null);
   const [showAddModal, setShowAddModal] = useState(false);
+  const [activeLayers, setActiveLayers] = useState<ActiveLayers>("both");
   const [localListeners, setLocalListeners] = useState<Listener[]>(
     USE_DB ? [] : (listenersJson as Listener[])
   );
+  const [userRecord, setUserRecord] = useState<UserRecord | null>(null);
+  const [showMilestone, setShowMilestone] = useState(false);
+  const prevSelected = useRef<string | null>(null);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Load user record from localStorage on mount
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(LP_STORAGE_KEY);
+      if (raw) setUserRecord(JSON.parse(raw) as UserRecord);
+    } catch { /* ignore */ }
+  }, []);
+
+  // Detect when the timeline crosses the user's entry month
+  useEffect(() => {
+    if (!userRecord) return;
+    const prev = prevSelected.current;
+    prevSelected.current = selected;
+    // Fire on first arrival at that exact month (from a previous month, or cold-start match)
+    if (selected === userRecord.entry_date && prev !== userRecord.entry_date) {
+      setShowMilestone(true);
+    }
+  }, [selected, userRecord]);
 
   // When USE_DB=true, load all listeners from the API on mount
   useEffect(() => {
@@ -160,7 +268,13 @@ export default function Home() {
       : [0, 0];
   }, []);
 
-  async function handleAddListener(data: { city: string; entry_date: string }) {
+  const handleAddListener = useCallback(async (data: { city: string; entry_date: string }) => {
+    // Persist to localStorage
+    try {
+      localStorage.setItem(LP_STORAGE_KEY, JSON.stringify(data));
+    } catch { /* ignore */ }
+    setUserRecord(data);
+
     if (USE_DB) {
       try {
         await fetch("/api/listeners", {
@@ -168,43 +282,93 @@ export default function Home() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data),
         });
-        // Refresh from DB to get accurate aggregated counts
         const updated: Listener[] = await fetch("/api/listeners").then(r => r.json());
         setLocalListeners(updated);
       } catch (err) {
         console.error("Failed to save listener:", err);
       }
     } else {
-      // JSON mode: optimistically add a local entry with count=1
       setLocalListeners(prev => [...prev, { ...data, count: 1 }]);
     }
-  }
+  }, []);
 
   return (
     <div className="flex flex-col min-h-screen bg-zinc-950 text-white">
-      <header className="py-4 px-8 text-2xl font-bold tracking-tight bg-zinc-900 shadow">
-        The Acquired Universe
-      </header>
-      <main className="flex flex-col items-center flex-1 w-full max-w-5xl mx-auto py-8 gap-4">
+      {/* ── Compact header ── */}
+      <header className="py-2 px-6 flex items-center justify-between bg-zinc-900 border-b border-zinc-800 shadow">
+        <span
+          className="text-xl font-bold tracking-tight"
+          style={{ color: "#39F9CD" }}
+        >
+          The Acquired Universe
+        </span>
         <button
-          className="mb-2 px-4 py-2 rounded bg-green-600 text-white font-semibold hover:bg-green-700 transition self-end"
+          className="px-3 py-1.5 rounded text-sm font-semibold text-black transition hover:opacity-90 active:scale-95"
+          style={{ backgroundColor: "#39F9CD" }}
           onClick={() => setShowAddModal(true)}
         >
-          Add Yourself
+          Count Me In
         </button>
-        <div className="relative w-full h-[60vh] rounded-xl overflow-hidden bg-zinc-800 shadow-lg">
-          <MapView center={center} zoom={2}>
-            <MapOverlayContent
-              filteredEpisodes={filteredEpisodes}
-              listenerAgg={listenerAgg}
-              timeline={timeline}
-              selected={selected}
-              panelEpisode={panelEpisode}
-              setPanelEpisode={setPanelEpisode}
-            />
-          </MapView>
+      </header>
+
+      <main className="flex flex-col items-center flex-1 w-full max-w-5xl mx-auto px-4 pt-5 pb-8 gap-4">
+        {/* ── Intro text ── */}
+        <div className="w-full text-sm text-zinc-400 leading-relaxed">
+          Welcome to <i className="italic">the Acquired Universe</i> — a time-lapse of every company covered on the{" "}
+          <a
+            href="https://www.acquired.fm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold hover:underline"
+            style={{ color: "#39F9CD" }}
+          >
+            Acquired podcast
+          </a>
+          {" "} and where its listeners are in the world.
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-4 w-full justify-between">
+
+        {/* ── Map ── */}
+        <div className="relative w-full h-[60vh]">
+          <div className="w-full h-full rounded-xl overflow-hidden bg-zinc-800 shadow-lg">
+            <MapView center={center} zoom={2}>
+              <MapOverlayContent
+                filteredEpisodes={filteredEpisodes}
+                listenerAgg={listenerAgg}
+                timeline={timeline}
+                selected={selected}
+                panelEpisode={panelEpisode}
+                setPanelEpisode={setPanelEpisode}
+                activeLayers={activeLayers}
+                userCity={userRecord?.city}
+              />
+            </MapView>
+          </div>
+
+          {/* Layer toggle */}
+          <div className="absolute top-3 right-3 z-10 flex gap-1 bg-zinc-900/85 backdrop-blur-sm rounded-lg p-1 border border-zinc-700">
+            {([
+              { id: "episodes", label: "Company Universe", icon: "" },
+              { id: "listeners", label: "Listener Pulse",  icon: "" },
+              { id: "both",     label: "Full Universe",    icon: "" },
+            ] as { id: ActiveLayers; label: string; icon: string }[]).map(l => (
+              <button
+                key={l.id}
+                onClick={() => setActiveLayers(l.id)}
+                className="px-2.5 py-1 rounded text-xs font-medium transition"
+                style={
+                  activeLayers === l.id
+                    ? { backgroundColor: "#39F9CD", color: "#000" }
+                    : { color: "#a1a1aa" }
+                }
+              >
+                {l.icon} {l.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* ── YouTube-style player bar ── */}
+        <div className="flex items-center gap-3 w-full px-1 py-1">
           <PlaybackControls
             isPlaying={isPlaying}
             onPlay={() => setIsPlaying(true)}
@@ -228,7 +392,19 @@ export default function Home() {
           open={showAddModal}
           onClose={() => setShowAddModal(false)}
           onSubmit={handleAddListener}
+          initialCity={userRecord?.city}
+          initialDate={userRecord?.entry_date}
         />
+
+        {/* Milestone popup */}
+        <AnimatePresence>
+          {showMilestone && userRecord && (
+            <UserMilestonePopup
+              record={userRecord}
+              onDone={() => setShowMilestone(false)}
+            />
+          )}
+        </AnimatePresence>
       </main>
       <footer className="py-4 text-center text-zinc-400 text-xs bg-zinc-900">
         &copy; {new Date().getFullYear()} The Acquired Universe

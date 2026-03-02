@@ -12,21 +12,24 @@ type PlaybackControlsProps = {
 
 export default function PlaybackControls({ isPlaying, onPlay, onPause, onReset, showReset }: PlaybackControlsProps) {
   return (
-    <div className="flex items-center gap-4 py-2">
-      {isPlaying ? (
-        <button onClick={onPause} className="p-2 rounded bg-blue-600 text-white hover:bg-blue-700 transition">
-          <FaPause />
-        </button>
-      ) : (
-        <button onClick={onPlay} className="p-2 rounded bg-blue-600 text-white hover:bg-blue-700 transition">
-          <FaPlay />
-        </button>
-      )}
+    <div className="flex items-center gap-1.5 shrink-0">
       {showReset && onReset && (
-        <button onClick={onReset} className="p-2 rounded bg-gray-600 text-white hover:bg-gray-700 transition">
-          <FaUndo />
+        <button
+          onClick={onReset}
+          title="Restart"
+          className="p-1.5 rounded text-zinc-400 hover:text-white transition"
+        >
+          <FaUndo size={12} />
         </button>
       )}
+      <button
+        onClick={isPlaying ? onPause : onPlay}
+        title={isPlaying ? "Pause" : "Play"}
+        className="w-8 h-8 flex items-center justify-center rounded-full text-black transition hover:scale-110"
+        style={{ backgroundColor: "#39F9CD" }}
+      >
+        {isPlaying ? <FaPause size={13} /> : <FaPlay size={13} className="ml-0.5" />}
+      </button>
     </div>
   );
 }

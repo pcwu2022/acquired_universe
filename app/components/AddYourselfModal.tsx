@@ -24,17 +24,32 @@ export default function AddYourselfModal({
   open,
   onClose,
   onSubmit,
+  initialCity,
+  initialDate,
 }: {
   open: boolean;
   onClose: () => void;
   onSubmit: (data: { city: string; entry_date: string }) => void;
+  initialCity?: string;
+  initialDate?: string;
 }) {
-  const [query, setQuery] = useState("");
-  const [selectedCity, setSelectedCity] = useState<City | null>(null);
+  const [query, setQuery] = useState(initialCity ?? "");
+  const [selectedCity, setSelectedCity] = useState<City | null>(
+    initialCity ? (allCities.find(c => c.name === initialCity) ?? null) : null
+  );
   const [showDropdown, setShowDropdown] = useState(false);
-  const [entryDate, setEntryDate] = useState(MONTH_OPTIONS[0]);
+  const [entryDate, setEntryDate] = useState(initialDate ?? MONTH_OPTIONS[0]);
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
+
+  // Sync autofill when props change (e.g. localStorage loads after first render)
+  useEffect(() => {
+    if (initialCity) {
+      setQuery(initialCity);
+      setSelectedCity(allCities.find(c => c.name === initialCity) ?? null);
+    }
+    if (initialDate) setEntryDate(initialDate);
+  }, [initialCity, initialDate]);
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -100,10 +115,18 @@ export default function AddYourselfModal({
             exit={{ scale: 0.9, opacity: 0 }}
             onSubmit={handleSubmit}
           >
-            <h2 className="text-xl font-bold mb-2">Add Yourself</h2>
+            <h2 className="text-xl font-bold mb-1">Count Me In</h2>
+            <p className="text-xs text-zinc-400 mb-1">
+              Add yourself to the Acquired Listener Universe. Your submission is anonymous — only your city and start
+              date are recorded.
+            </p>
 
             {/* Searchable city combobox */}
             <label className="text-sm font-medium">City</label>
+            <p className="text-xs text-zinc-500 -mt-2">
+              The list covers the top ~1,000 cities worldwide. If your hometown isn’t listed, pick the
+              nearest large city.
+            </p>
             <div className="relative">
               <input
                 ref={inputRef}
@@ -160,10 +183,11 @@ export default function AddYourselfModal({
 
             <button
               type="submit"
-              className="mt-4 px-4 py-2 rounded bg-blue-600 text-white font-semibold hover:bg-blue-700 transition disabled:opacity-60"
+              className="mt-4 px-4 py-2 rounded font-semibold transition disabled:opacity-60 text-black"
+              style={{ backgroundColor: "#39F9CD" }}
               disabled={submitting || !selectedCity}
             >
-              {submitting ? "Submitting…" : "Submit"}
+              {submitting ? "Submitting…" : initialCity ? "Update My Pin" : "Count Me In"}
             </button>
             {success && <div className="text-green-500 text-center">Thank you!</div>}
           </motion.form>
