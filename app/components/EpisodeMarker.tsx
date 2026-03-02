@@ -16,7 +16,7 @@ type EpisodeMarkerProps = {
 };
 
 const FALLBACK_STICKER =
-  "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d6/e9/f9/d6e9f92c-8f46-a302-f7a2-144cefbd74bf/mza_16135045473976550452.jpg/600x600bb.webp";
+  "acquired_universe.png";
 
 export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, y }: EpisodeMarkerProps) {
   const [isHovered, setIsHovered] = useState(false);
@@ -71,15 +71,24 @@ export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, 
       <AnimatePresence>
         {isHovered && (
           <motion.div
-            className="absolute bottom-[110%] left-1/2 -translate-x-1/2 pointer-events-none z-20 whitespace-nowrap"
+            className="absolute bottom-[110%] left-1/2 -translate-x-1/2 pointer-events-none z-20"
+            style={{ width: "max-content", maxWidth: 140 }}
             initial={{ opacity: 0, y: 4 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 4 }}
             transition={{ duration: 0.15 }}
           >
-            <div className="bg-zinc-900/95 backdrop-blur rounded-lg shadow-xl px-3 py-2 text-sm border border-white/10">
-              <div className="font-bold text-white">{episode.company}</div>
-              <div className="text-zinc-400 text-xs mt-0.5">{episode.release_date}</div>
+            <div className="bg-zinc-900/95 backdrop-blur rounded-lg shadow-xl px-3 py-2 text-xs border border-white/10">
+              <div
+                className="font-bold text-white leading-snug"
+                style={{
+                  display: "-webkit-box",
+                  WebkitLineClamp: 2,
+                  WebkitBoxOrient: "vertical",
+                  overflow: "hidden",
+                }}
+              >{episode.company}</div>
+              <div className="text-zinc-500 mt-0.5">{episode.release_date}</div>
               <div className="flex items-center gap-1.5 mt-1.5">
                 <span
                   className="inline-block w-2 h-2 rounded-full shrink-0"

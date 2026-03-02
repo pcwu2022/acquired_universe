@@ -2,6 +2,7 @@
 
 "use client";
 import React, { useState, useEffect, useRef, useMemo, useCallback } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const LP_STORAGE_KEY = "acquired_lp_v1";
@@ -413,8 +414,29 @@ export default function Home() {
         <CommunitySection />
       </div>
 
-      <footer className="py-4 text-center text-zinc-400 text-xs bg-zinc-900">
-        &copy; {new Date().getFullYear()} The Acquired Universe
+      <footer className="py-12 text-center bg-zinc-900 border-t border-zinc-800">
+        <div className="flex flex-col items-center gap-4">
+          <Image
+            src="/acquired_universe.png"
+            alt="Acquired Universe"
+            width={96}
+            height={96}
+            className="rounded-full"
+            style={{ border: "2px solid rgba(57,249,205,0.25)" }}
+          />
+          <p className="text-zinc-500 text-xs tracking-widest uppercase">
+            Created by{" "}
+            <a
+              href="https://pcwu2022.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-zinc-300 transition underline underline-offset-2"
+            >
+              Po-Chun Wu 
+            </a>
+            {" "}🇹🇼
+          </p>
+        </div>
       </footer>
     </div>
   );
