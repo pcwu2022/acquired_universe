@@ -1,5 +1,7 @@
+// MapView.tsx
+
 "use client";
-import React, { useRef, useEffect, useState, useCallback, createContext, useContext } from "react";
+import React, { useRef, useEffect, useState, useMemo, createContext, useContext } from "react";
 
 // Do NOT statically import maplibregl for SSR safety. Import CSS via <link> in _app or layout if needed.
 
@@ -42,8 +44,10 @@ export default function MapView({
 }: MapViewProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
-  const [projectFn, setProjectFn] = useState<ProjectFn | null>(null);
-  const [, setMapRenderTick] = useState(0); // force update overlays on map move
+  const projectRef = useRef<ProjectFn | null>(null);
+  // Each tick increment creates a new projectFn via useMemo, changing context value
+  // and forcing all consumers (MapOverlayContent) to re-render with fresh coordinates.
+  const [mapTick, setMapRenderTick] = useState(0);
 
   // Initialize map only when container has size
   useEffect(() => {
@@ -66,21 +70,27 @@ export default function MapView({
 
       mapRef.current = map;
 
-      const handleMove = () => setMapRenderTick(t => t + 1);
+      const stableProject: ProjectFn = (lngLat) => {
+        if (!mapRef.current || !lngLat) return null;
+        const [lng, lat] = lngLat;
+        if (lng == null || lat == null) return null;
+        const p = mapRef.current.project({ lng, lat });
+        return [p.x, p.y];
+      };
+
+      projectRef.current = stableProject;
+
+      const handleMove = () => {
+        projectRef.current = stableProject;
+        setMapRenderTick(t => t + 1);
+      };
       map.on("move", handleMove);
       map.on("zoom", handleMove);
       map.on("resize", handleMove);
 
       map.on("load", () => {
-        setProjectFn(() => {
-          return (lngLat?: [number, number] | null): [number, number] | null => {
-            if (!mapRef.current || !lngLat) return null;
-            const [lng, lat] = lngLat;
-            if (lng == null || lat == null) return null;
-            const p = mapRef.current.project({ lng, lat });
-            return [p.x, p.y] as [number, number];
-          };
-        });
+        projectRef.current = stableProject;
+        setMapRenderTick(t => t + 1);
       });
 
       map.on("error", (e: any) => {
@@ -101,6 +111,17 @@ export default function MapView({
   // Default minHeight if not provided
   const mergedStyle = { minHeight: 400, ...gridBgStyle, ...style };
 
+  // A NEW function reference is produced on every mapTick so React detects the
+  // context value change and re-renders MapOverlayContent (= fresh x/y projection).
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const projectFn = useMemo((): ProjectFn => {
+    return (lngLat?: [number, number] | null): [number, number] | null => {
+      if (!projectRef.current) return null;
+      return projectRef.current(lngLat ?? null);
+    };
+  // mapTick is intentionally the only dep — we want a new fn on every map move
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mapTick]);
   return (
     <div
       className={`relative w-full h-full overflow-hidden ${gridBg}`}
@@ -109,9 +130,10 @@ export default function MapView({
       <div ref={mapContainer} className="absolute inset-0 z-0" />
       {/* Overlays: pointer-events-auto for interactivity */}
       <MapProjectionContext.Provider value={projectFn}>
-        {projectFn && children && (
-          <div className={overlayClass + " pointer-events-auto"}>{children}</div>
-        )}
+        <div className={overlayClass + " pointer-events-none"}>
+          {/* mapTick > 0 means the map has fired at least one load/move event */}
+          {mapTick > 0 && children}
+        </div>
       </MapProjectionContext.Provider>
     </div>
   );

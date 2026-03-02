@@ -3,7 +3,8 @@
     "company": "Apple",
     "release_date": "2017-03",
     "hq": { "lat": 37.3349, "lng": -122.0090 },
-    "market_cap_at_release": 750000000000,
+    "sticker": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "category": "Technology",
     "description": "The story of Apple...",
     "episode_url": "https://podcasts.apple.com/us/podcast/acquired/id1050462261?i=1000379999999"
   },
@@ -11,7 +12,8 @@
     "company": "Nintendo",
     "release_date": "2018-07",
     "hq": { "lat": 34.6901, "lng": 135.1955 },
-    "market_cap_at_release": 40000000000,
+    "sticker": "https://upload.wikimedia.org/wikipedia/en/0/0d/Nintendo.svg",
+    "category": "Gaming",
     "description": "Nintendo's journey...",
     "episode_url": "https://podcasts.apple.com/us/podcast/acquired/id1050462261?i=1000388888888"
   }

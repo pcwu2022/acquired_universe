@@ -2,6 +2,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Episode } from "../../types/data";
+import { CATEGORY_COLORS } from "../utils/categories";
 
 type SidePanelProps = {
   episode: Episode | null;
@@ -35,9 +36,33 @@ export default function SidePanel({ episode, onClose }: SidePanelProps) {
             >
               Close
             </button>
-            <h2 className="text-2xl font-bold mb-2">{episode.company}</h2>
+            {/* Company header with sticker */}
+            <div className="flex items-center gap-3 mb-3">
+              <div
+                className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 border-2"
+                style={{
+                  backgroundColor: (CATEGORY_COLORS[episode.category] ?? CATEGORY_COLORS["_default"]).bg,
+                  borderColor: (CATEGORY_COLORS[episode.category] ?? CATEGORY_COLORS["_default"]).ring,
+                }}
+              >
+                <img
+                  src={episode.sticker}
+                  alt={episode.company}
+                  className="w-4/5 h-4/5 object-contain"
+                  style={{ filter: "invert(1) brightness(2)" }}
+                />
+              </div>
+              <h2 className="text-2xl font-bold">{episode.company}</h2>
+            </div>
+            {/* Category badge */}
+            <div className="flex items-center gap-2 mb-2">
+              <span
+                className="inline-block w-2.5 h-2.5 rounded-full"
+                style={{ backgroundColor: (CATEGORY_COLORS[episode.category] ?? CATEGORY_COLORS["_default"]).ring }}
+              />
+              <span className="text-sm text-zinc-300">{episode.category}</span>
+            </div>
             <div className="text-sm text-zinc-300 mb-2">Released: {episode.release_date}</div>
-            <div className="text-sm text-zinc-300 mb-2">Market Cap: ${episode.market_cap_at_release.toLocaleString()}</div>
             <p className="mb-4 text-zinc-100">{episode.description}</p>
             <a
               href={episode.episode_url}

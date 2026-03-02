@@ -3,23 +3,21 @@ import React from "react";
 import { motion } from "framer-motion";
 
 type ListenerCircleProps = {
-  lat: number;
-  lng: number;
+  // Pixel coordinates from the map projection
+  x: number;
+  y: number;
   count: number;
   scaleFactor?: number;
 };
 
-export default function ListenerCircle({ lat, lng, count, scaleFactor = 4 }: ListenerCircleProps) {
-  // Placeholder: replace with projection
-  const left = `calc(${lng}% - 12px)`;
-  const top = `calc(${lat}% - 12px)`;
+export default function ListenerCircle({ x, y, count, scaleFactor = 4 }: ListenerCircleProps) {
   const radius = Math.sqrt(count) * scaleFactor;
   return (
     <motion.div
       className="absolute listener-circle rounded-full bg-pink-500/60 border border-pink-300 shadow-lg pointer-events-none"
       style={{
-        left,
-        top,
+        left: x,
+        top: y,
         width: radius * 2,
         height: radius * 2,
         marginLeft: -radius,
