@@ -1,0 +1,20 @@
+[
+  {
+    "start": "2015-10",
+    "end": "2017-06",
+    "location_ben": {"lat": 47.6001, "lng": -122.3331}, 
+    "location_david": {"lat": 47.6053, "lng": -122.3337}
+  },
+  {
+    "start": "2017-07",
+    "end": "2023-12",
+    "location_ben": {"lat": 47.6001, "lng": -122.3331},
+    "location_david": {"lat": 37.7941, "lng": -122.4674}
+  },
+  {
+    "start": "2024-01",
+    "end": "2027-03",
+    "location_ben": {"lat": 37.7859, "lng": -122.4194},
+    "location_david": {"lat": 37.7749, "lng": -122.4194}
+  }
+]

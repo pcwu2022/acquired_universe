@@ -10,6 +10,9 @@ import Timeline from "./components/Timeline";
 import PlaybackControls from "./components/PlaybackControls";
 import MapView from "./components/MapView";
 import EpisodeMarker from "./components/EpisodeMarker";
+import HostMarker, { HOSTS } from "./components/HostMarker";
+import type { Host } from "./components/HostMarker";
+import HostPanel from "./components/HostPanel";
 import ListenerLayer from "./components/ListenerLayer";
 import SidePanel from "./components/SidePanel";
 import AddYourselfModal from "./components/AddYourselfModal";
@@ -18,6 +21,7 @@ import { incrementYYYYMM, compareYYYYMM } from "./utils/dateUtils";
 import { USE_DB } from "./utils/config";
 import episodesData from "./data/episodes.json";
 import listenersJson from "./data/listeners.json";
+import hostsData from "./data/hosts.json";
 import type { Episode, Listener } from "../types/data";
 import { useMapProjection } from "./components/MapView";
 import CommunitySection from "./components/CommunitySection";
@@ -32,6 +36,19 @@ type ListenerAgg = {
 };
 
 type ActiveLayers = "episodes" | "listeners" | "both";
+
+type HostPeriod = {
+  start: string;
+  end: string;
+  location_ben: { lat: number; lng: number };
+  location_david: { lat: number; lng: number };
+};
+
+function getHostPositions(selected: string): { ben: { lat: number; lng: number }; david: { lat: number; lng: number } } {
+  const periods = hostsData as HostPeriod[];
+  const period = periods.find(p => selected >= p.start && selected <= p.end) ?? periods[periods.length - 1];
+  return { ben: period.location_ben, david: period.location_david };
+}
 
 type UserRecord = { city: string; entry_date: string };
 
@@ -111,6 +128,10 @@ function MapOverlayContent({
   setPanelEpisode,
   activeLayers,
   userCity,
+  benPos,
+  davidPos,
+  selectedHost,
+  setSelectedHost,
 }: {
   filteredEpisodes: Episode[];
   listenerAgg: ListenerAgg;
@@ -120,6 +141,10 @@ function MapOverlayContent({
   setPanelEpisode: (ep: Episode) => void;
   activeLayers: ActiveLayers;
   userCity?: string;
+  benPos: { lat: number; lng: number };
+  davidPos: { lat: number; lng: number };
+  selectedHost: Host | null;
+  setSelectedHost: (h: Host | null) => void;
 }) {
   const project = useMapProjection();
   if (!project) return null;
@@ -154,6 +179,24 @@ function MapOverlayContent({
           );
         });
       })()}
+      {/* Host markers — always visible regardless of active layer */}
+      {(["ben", "david"] as const).map((id) => {
+        const pos = id === "ben" ? benPos : davidPos;
+        const xy = project([pos.lng, pos.lat]);
+        if (!xy) return null;
+        const [hx, hy] = xy;
+        return (
+          <HostMarker
+            key={id}
+            host={HOSTS[id]}
+            x={hx}
+            y={hy}
+            isSelected={selectedHost?.id === id}
+            onClick={() => setSelectedHost(selectedHost?.id === id ? null : HOSTS[id])}
+          />
+        );
+      })}
+
       {showListeners && Object.entries(listenerAgg).map(([city, { lat, lng, count }]) => {
         const xy = project([lng, lat]);
         if (!xy) return null;
@@ -201,6 +244,7 @@ export default function Home() {
   });
   const [isPlaying, setIsPlaying] = useState(false);
   const [panelEpisode, setPanelEpisode] = useState<Episode | null>(null);
+  const [selectedHost, setSelectedHost] = useState<Host | null>(null);
   const [showAddModal, setShowAddModal] = useState(false);
   const [activeLayers, setActiveLayers] = useState<ActiveLayers>("both");
   const [localListeners, setLocalListeners] = useState<Listener[]>(
@@ -273,6 +317,7 @@ export default function Home() {
   // Memoize center so MapView never receives a new array reference (which could
   // otherwise confuse reconciliation even if the map itself ignores prop updates).
   const center = useMemo((): [number, number] => [-122.42, 37.77], []);
+  const hostPositions = useMemo(() => getHostPositions(selected), [selected]);
 
   const handleAddListener = useCallback(async (data: { city: string; entry_date: string }) => {
     // Persist to localStorage
@@ -361,6 +406,10 @@ export default function Home() {
                 setPanelEpisode={setPanelEpisode}
                 activeLayers={activeLayers}
                 userCity={userRecord?.city}
+                benPos={hostPositions.ben}
+                davidPos={hostPositions.david}
+                selectedHost={selectedHost}
+                setSelectedHost={setSelectedHost}
               />
             </MapView>
           </div>
@@ -409,6 +458,8 @@ export default function Home() {
         </div>
         {/* SidePanel overlay */}
         <SidePanel episode={panelEpisode} onClose={() => setPanelEpisode(null)} />
+        {/* Host panel overlay */}
+        <HostPanel host={selectedHost} onClose={() => setSelectedHost(null)} />
         {/* Add Yourself Modal */}
         <AddYourselfModal
           open={showAddModal}
