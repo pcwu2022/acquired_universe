@@ -370,7 +370,7 @@ export default function GraphPage() {
       ctx.moveTo(x1, y1);
       ctx.lineTo(x2, y2);
       ctx.strokeStyle = isHighlighted ? "#39F9CD" : "#3f3f46";
-      ctx.lineWidth = isHighlighted ? Math.max(1, link.weight * 0.5) : 0.5;
+      ctx.lineWidth = isHighlighted ? Math.max(1, link.weight * 1) : 0.5;
       ctx.globalAlpha = isHighlighted ? 0.7 : 0.3;
       ctx.stroke();
       ctx.restore();
