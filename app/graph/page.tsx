@@ -41,11 +41,46 @@ function loadImage(url: string, onLoad: () => void): HTMLImageElement | null {
 }
 
 // ── Node detail side panel ───────────────────────────────────────────────────
-function NodePanel({ node, onClose }: { node: GraphNode | null; onClose: () => void }) {
+type Neighbour = { node: GraphNode; weight: number };
+
+function NodePanel({
+  node,
+  graphData,
+  onClose,
+  onNavigate,
+}: {
+  node: GraphNode | null;
+  graphData: { nodes: GraphNode[]; links: GraphLink[] };
+  onClose: () => void;
+  onNavigate: (node: GraphNode) => void;
+}) {
   const episode = node?.episode as Episode | undefined;
   const catColors = episode
     ? (CATEGORY_COLORS[episode.category] ?? CATEGORY_COLORS["_default"])
     : CATEGORY_COLORS["_default"];
+
+  // Build sorted neighbour list for the selected node
+  const neighbours = useMemo((): Neighbour[] => {
+    if (!node) return [];
+    const nodeMap = new Map(graphData.nodes.map((n) => [n.id, n]));
+    const found = new Map<string, number>();
+    for (const link of graphData.links) {
+      const src = typeof link.source === "object" ? (link.source as any).id : link.source;
+      const tgt = typeof link.target === "object" ? (link.target as any).id : link.target;
+      if (src === node.id && nodeMap.has(tgt)) {
+        found.set(tgt, (found.get(tgt) ?? 0) + link.weight);
+      } else if (tgt === node.id && nodeMap.has(src)) {
+        found.set(src, (found.get(src) ?? 0) + link.weight);
+      }
+    }
+    return Array.from(found.entries())
+      .map(([id, weight]) => ({ node: nodeMap.get(id)!, weight }))
+      .sort((a, b) => b.weight - a.weight);
+  }, [node, graphData]);
+
+  const [showAll, setShowAll] = useState(false);
+  const INITIAL_SHOW = 6;
+  const visible = showAll ? neighbours : neighbours.slice(0, INITIAL_SHOW);
 
   return (
     <AnimatePresence>
@@ -136,6 +171,98 @@ function NodePanel({ node, onClose }: { node: GraphNode | null; onClose: () => v
                 <p className="text-zinc-500 text-sm italic">
                   No episode found for "{node.label}"
                 </p>
+              )}
+
+              {/* ── Orbit section ── */}
+              {neighbours.length > 0 && (
+                <div className="flex flex-col gap-3 mt-2">
+                  {/* Section header */}
+                  <div className="flex items-center gap-3">
+                    <span className="h-px flex-1 bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-zinc-500">
+                      In Orbit
+                    </span>
+                    <span className="h-px flex-1 bg-gradient-to-r from-transparent via-zinc-700 to-transparent" />
+                  </div>
+                  <p className="text-[11px] text-zinc-600 -mt-1">
+                    Companies most frequently mentioned alongside {node.label}
+                  </p>
+
+                  {/* Connection cards */}
+                  <div className="flex flex-col gap-1.5">
+                    {visible.map(({ node: n, weight }) => {
+                      const nEp = n.episode;
+                      const nCat = nEp
+                        ? (CATEGORY_COLORS[nEp.category] ?? CATEGORY_COLORS["_default"])
+                        : CATEGORY_COLORS["_default"];
+                      return (
+                        <button
+                          key={n.id}
+                          onClick={() => onNavigate(n)}
+                          className="flex items-center gap-3 w-full rounded-xl px-3 py-2.5 transition cursor-pointer text-left group"
+                          style={{ background: "rgba(255,255,255,0.03)" }}
+                          onMouseEnter={(e) =>
+                            (e.currentTarget.style.background = "rgba(255,255,255,0.07)")
+                          }
+                          onMouseLeave={(e) =>
+                            (e.currentTarget.style.background = "rgba(255,255,255,0.03)")
+                          }
+                        >
+                          {/* Sticker thumbnail */}
+                          <div
+                            className="w-10 h-10 rounded-lg shrink-0 overflow-hidden relative"
+                            style={{ background: nCat.bg }}
+                          >
+                            {nEp?.sticker && (
+                              <img
+                                src={nEp.sticker}
+                                alt={n.label}
+                                className="absolute inset-0 w-full h-full object-cover"
+                                draggable={false}
+                              />
+                            )}
+                          </div>
+
+                          {/* Name + category */}
+                          <div className="flex flex-col min-w-0 flex-1">
+                            <span className="text-sm font-semibold text-white truncate group-hover:text-[#39F9CD] transition-colors">
+                              {n.label}
+                            </span>
+                            {nEp && (
+                              <span className="text-[11px] truncate" style={{ color: nCat.ring }}>
+                                {nEp.category}
+                              </span>
+                            )}
+                          </div>
+
+                          {/* Weight badge */}
+                          <div
+                            className="shrink-0 flex items-center justify-center rounded-full text-[10px] font-bold w-6 h-6"
+                            style={{
+                              background: `${node.color}22`,
+                              color: node.color,
+                              border: `1px solid ${node.color}44`,
+                            }}
+                          >
+                            {weight}
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  {/* Show more / less */}
+                  {neighbours.length > INITIAL_SHOW && (
+                    <button
+                      className="text-xs text-zinc-500 hover:text-zinc-300 transition self-center mt-0.5 cursor-pointer"
+                      onClick={() => setShowAll((v) => !v)}
+                    >
+                      {showAll
+                        ? "Show less ↑"
+                        : `Show all ${neighbours.length} connections ↓`}
+                    </button>
+                  )}
+                </div>
               )}
             </div>
           </motion.aside>
@@ -397,7 +524,7 @@ export default function GraphPage() {
             className="px-3 py-1.5 rounded text-sm font-semibold text-black transition"
             style={{ backgroundColor: "#39F9CD" }}
           >
-            Space View
+            Constellation View
           </Link>
           <span className="w-px h-5 bg-zinc-700" />
           <a
@@ -415,20 +542,19 @@ export default function GraphPage() {
       </header>
 
       {/* ── Intro blurb ── */}
-      <div className="w-full max-w-5xl mx-auto px-6 pt-4 pb-2 text-sm text-zinc-400 leading-relaxed shrink-0">
-        A force-directed graph of every company covered on{" "}
-        <a
-          href="https://www.acquired.fm"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold hover:underline"
-          style={{ color: "#39F9CD" }}
-        >
-          Acquired
-        </a>
-        . Nodes are sized by the number of connections, and images are taken from the episode artwork.
-        Click a node to learn more.
-      </div>
+    <div className="w-full max-w-5xl mx-auto px-6 pt-4 pb-2 text-sm text-zinc-400 leading-relaxed shrink-0">
+      Explore the constellation of companies across the{" "}
+      <a
+        href="https://www.acquired.fm"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-semibold hover:underline"
+        style={{ color: "#39F9CD" }}
+      >
+        Acquired
+      </a>
+      {" "} universe. Each node represents a company, sized by its gravitational pull—how often it's referenced across episodes. Connections reveal the hidden ties that bind this ecosystem together. Click any node to discover its story.
+    </div>
 
       {/* ── Graph canvas ── */}
       <div
@@ -518,7 +644,12 @@ export default function GraphPage() {
       </footer>
 
       {/* ── Node panel ── */}
-      <NodePanel node={selectedNode} onClose={() => setSelectedNode(null)} />
+      <NodePanel
+        node={selectedNode}
+        graphData={graphData}
+        onClose={() => setSelectedNode(null)}
+        onNavigate={(n) => setSelectedNode(n)}
+      />
     </div>
   );
 }

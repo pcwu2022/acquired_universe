@@ -366,7 +366,7 @@ export default function Home() {
             href="/graph"
             className="px-3 py-1.5 rounded text-sm font-medium text-zinc-400 hover:text-white transition"
           >
-            Space View
+            Constellation View
           </Link>
           <span className="w-px h-5 bg-zinc-700" />
           <a

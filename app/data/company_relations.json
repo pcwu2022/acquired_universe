@@ -1,7 +1,11 @@
 {
     "DoorDash": [
         [
-            "Twitter",
+            "Facebook",
+            1
+        ],
+        [
+            "Instagram",
             1
         ],
         [
@@ -9,44 +13,8 @@
             1
         ],
         [
-            "Zoom",
-            1
-        ],
-        [
-            "Slack",
+            "Uber",
             2
-        ],
-        [
-            "Instagram",
-            1
-        ],
-        [
-            "Peloton",
-            1
-        ],
-        [
-            "Pinduoduo",
-            1
-        ],
-        [
-            "Playbook",
-            1
-        ],
-        [
-            "Zappos",
-            1
-        ],
-        [
-            "Bitcoin",
-            2
-        ],
-        [
-            "Facebook",
-            1
-        ],
-        [
-            "Lyft",
-            1
         ],
         [
             "Amazon",
@@ -61,11 +29,19 @@
             1
         ],
         [
-            "Epic Games",
+            "Slack",
+            2
+        ],
+        [
+            "Bitcoin",
+            2
+        ],
+        [
+            "Playbook",
             1
         ],
         [
-            "Meituan",
+            "Zoom",
             1
         ],
         [
@@ -73,8 +49,32 @@
             2
         ],
         [
-            "Uber",
-            2
+            "Meituan",
+            1
+        ],
+        [
+            "Twitter",
+            1
+        ],
+        [
+            "Zappos",
+            1
+        ],
+        [
+            "Pinduoduo",
+            1
+        ],
+        [
+            "Epic Games",
+            1
+        ],
+        [
+            "Peloton",
+            1
+        ],
+        [
+            "Lyft",
+            1
         ],
         [
             "Sequoia Capital",
@@ -119,43 +119,11 @@
             1
         ],
         [
-            "Twitter",
-            1
-        ],
-        [
-            "SpaceX",
-            1
-        ],
-        [
             "Amazon",
             2
         ],
         [
-            "Mars",
-            1
-        ],
-        [
             "Spotify",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Virgin America",
-            1
-        ],
-        [
-            "Netflix",
-            1
-        ],
-        [
-            "Microsoft",
             1
         ],
         [
@@ -167,7 +135,35 @@
             1
         ],
         [
+            "Microsoft",
+            1
+        ],
+        [
+            "Mars",
+            1
+        ],
+        [
+            "Netflix",
+            1
+        ],
+        [
+            "Virgin America",
+            1
+        ],
+        [
+            "SpaceX",
+            1
+        ],
+        [
             "Slack",
+            1
+        ],
+        [
+            "Tesla",
+            1
+        ],
+        [
+            "Twitter",
             1
         ],
         [
@@ -183,35 +179,11 @@
     ],
     "Inside the M&A Press": [
         [
-            "Facebook",
-            1
-        ],
-        [
-            "Twitter",
-            1
-        ],
-        [
-            "WhatsApp",
-            1
-        ],
-        [
-            "Amazon",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
-            "Recode",
-            1
-        ],
-        [
             "YouTube",
+            1
+        ],
+        [
+            "Facebook",
             1
         ],
         [
@@ -219,7 +191,7 @@
             1
         ],
         [
-            "Instagram",
+            "Amazon",
             1
         ],
         [
@@ -231,13 +203,41 @@
             1
         ],
         [
+            "Instagram",
+            1
+        ],
+        [
+            "WhatsApp",
+            1
+        ],
+        [
+            "Time Warner",
+            1
+        ],
+        [
             "Uber",
+            1
+        ],
+        [
+            "Recode",
+            1
+        ],
+        [
+            "Twitter",
             1
         ]
     ],
     "Death of Sega": [
         [
+            "YouTube",
+            1
+        ],
+        [
             "Atari",
+            1
+        ],
+        [
+            "Nintendo",
             1
         ],
         [
@@ -245,19 +245,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
             "Slack",
-            1
-        ],
-        [
-            "Nintendo",
             1
         ]
     ],
@@ -267,67 +255,7 @@
             1
         ],
         [
-            "Standard Oil",
-            1
-        ],
-        [
-            "Twitter",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Hermes",
-            2
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "Berkshire Hathaway",
-            2
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "NFL",
-            2
-        ],
-        [
-            "IKEA",
-            1
-        ],
-        [
-            "Starbucks",
-            1
-        ],
-        [
             "Costco",
-            1
-        ],
-        [
-            "Coca-Cola",
-            2
-        ],
-        [
-            "Novo Nordisk",
-            1
-        ],
-        [
-            "Google Maps",
-            1
-        ],
-        [
-            "Nest",
-            1
-        ],
-        [
-            "Visa",
             1
         ],
         [
@@ -335,11 +263,51 @@
             1
         ],
         [
+            "Visa",
+            1
+        ],
+        [
+            "Novo Nordisk",
+            1
+        ],
+        [
+            "IKEA",
+            1
+        ],
+        [
+            "NFL",
+            2
+        ],
+        [
+            "Tesla",
+            1
+        ],
+        [
+            "Nest",
+            1
+        ],
+        [
+            "Hermes",
+            2
+        ],
+        [
+            "Google Maps",
+            1
+        ],
+        [
+            "LVMH",
+            1
+        ],
+        [
             "Amazon",
             1
         ],
         [
-            "Tesla",
+            "Berkshire Hathaway",
+            2
+        ],
+        [
+            "Standard Oil",
             1
         ],
         [
@@ -347,8 +315,24 @@
             1
         ],
         [
-            "LVMH",
+            "Slack",
             1
+        ],
+        [
+            "Starbucks",
+            1
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
+            "Twitter",
+            1
+        ],
+        [
+            "Coca-Cola",
+            2
         ],
         [
             "Renaissance Technologies",
@@ -389,19 +373,15 @@
     ],
     "Complexity Investing & Semiconductors": [
         [
+            "YouTube",
+            1
+        ],
+        [
+            "TSMC",
+            1
+        ],
+        [
             "P.A. Semi",
-            1
-        ],
-        [
-            "Nvidia",
-            1
-        ],
-        [
-            "Twitter",
-            1
-        ],
-        [
-            "NeXT",
             1
         ],
         [
@@ -413,27 +393,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "Tencent",
-            1
-        ],
-        [
-            "TSMC",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "Qualcomm",
-            1
-        ],
-        [
-            "Recode",
+            "NeXT",
             1
         ],
         [
@@ -441,7 +401,11 @@
             1
         ],
         [
-            "Tesla",
+            "Broadcom",
+            1
+        ],
+        [
+            "Tencent",
             1
         ],
         [
@@ -449,7 +413,7 @@
             1
         ],
         [
-            "PayPal",
+            "Nvidia",
             1
         ],
         [
@@ -457,23 +421,31 @@
             1
         ],
         [
+            "PayPal",
+            1
+        ],
+        [
+            "Qualcomm",
+            1
+        ],
+        [
+            "Tesla",
+            1
+        ],
+        [
             "Uber",
+            1
+        ],
+        [
+            "Recode",
+            1
+        ],
+        [
+            "Twitter",
             1
         ]
     ],
     "Super Pumped": [
-        [
-            "Twitter",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Ethereum",
-            1
-        ],
         [
             "YouTube",
             1
@@ -481,55 +453,13 @@
         [
             "Uber",
             1
-        ]
-    ],
-    "Amazon Unbound": [
-        [
-            "Alibaba",
-            1
         ],
         [
-            "WhatsApp",
+            "Ethereum",
             1
         ],
         [
             "Twitter",
-            1
-        ],
-        [
-            "Amazon",
-            2
-        ],
-        [
-            "Walmart",
-            1
-        ],
-        [
-            "Zappos",
-            1
-        ],
-        [
-            "Whole Foods Market",
-            1
-        ],
-        [
-            "Shopify",
-            1
-        ],
-        [
-            "Oprah",
-            1
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "Uber",
-            1
-        ],
-        [
-            "Berkshire Hathaway",
             1
         ]
     ],
@@ -555,47 +485,59 @@
             1
         ],
         [
-            "Amazon Unbound",
+            "Costco",
             2
         ],
         [
-            "Jet",
-            2
-        ],
-        [
-            "Standard Oil",
+            "Facebook",
             3
-        ],
-        [
-            "Twitter",
-            2
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Microsoft",
-            3
-        ],
-        [
-            "Berkshire Hathaway",
-            4
-        ],
-        [
-            "Slack",
-            2
         ],
         [
             "Instagram",
             1
         ],
         [
-            "Starbucks",
+            "Tesla",
+            1
+        ],
+        [
+            "Uber",
             3
         ],
         [
-            "Costco",
+            "YouTube",
+            1
+        ],
+        [
+            "Skype",
+            1
+        ],
+        [
+            "Berkshire Hathaway",
+            4
+        ],
+        [
+            "Standard Oil",
+            3
+        ],
+        [
+            "Walmart",
+            3
+        ],
+        [
+            "PayPal",
+            1
+        ],
+        [
+            "Benchmark",
+            4
+        ],
+        [
+            "Shopify",
+            2
+        ],
+        [
+            "Slack",
             2
         ],
         [
@@ -603,7 +545,27 @@
             2
         ],
         [
-            "YouTube",
+            "Starbucks",
+            3
+        ],
+        [
+            "Sequoia Capital",
+            3
+        ],
+        [
+            "Jet",
+            2
+        ],
+        [
+            "Rec Room",
+            2
+        ],
+        [
+            "Twitter",
+            2
+        ],
+        [
+            "Taylor Swift",
             1
         ],
         [
@@ -611,52 +573,12 @@
             2
         ],
         [
-            "Skype",
-            1
-        ],
-        [
-            "Taylor Swift",
-            1
-        ],
-        [
-            "Facebook",
-            3
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Walmart",
+            "Microsoft",
             3
         ],
         [
             "Andreessen Horowitz",
             3
-        ],
-        [
-            "Rec Room",
-            2
-        ],
-        [
-            "PayPal",
-            1
-        ],
-        [
-            "Shopify",
-            2
-        ],
-        [
-            "Benchmark",
-            4
-        ],
-        [
-            "Sequoia Capital",
-            3
-        ],
-        [
-            "Uber",
-            4
         ],
         [
             "Renaissance Technologies",
@@ -684,10 +606,6 @@
         ],
         [
             "SoundJam",
-            1
-        ],
-        [
-            "Arena Show",
             1
         ],
         [
@@ -719,6 +637,10 @@
             1
         ],
         [
+            "Didi Chuxing Merger",
+            1
+        ],
+        [
             "Nvidia",
             2
         ],
@@ -743,7 +665,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -925,39 +847,11 @@
             2
         ],
         [
-            "Twitter",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
-            "Microsoft",
-            1
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
             "Costco",
             1
         ],
         [
-            "Twitch",
-            1
-        ],
-        [
-            "LinkedIn",
-            1
-        ],
-        [
-            "Lucasfilm",
+            "Facebook",
             1
         ],
         [
@@ -973,15 +867,15 @@
             1
         ],
         [
+            "LinkedIn",
+            1
+        ],
+        [
+            "Microsoft",
+            1
+        ],
+        [
             "Waze",
-            1
-        ],
-        [
-            "Facebook",
-            1
-        ],
-        [
-            "Lyft",
             1
         ],
         [
@@ -989,11 +883,31 @@
             2
         ],
         [
+            "Twitch",
+            1
+        ],
+        [
             "Stratechery",
             1
         ],
         [
+            "Lyft",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
             "Uber",
+            1
+        ],
+        [
+            "Lucasfilm",
+            1
+        ],
+        [
+            "Twitter",
             1
         ],
         [
@@ -1079,35 +993,15 @@
             1
         ],
         [
-            "Apple",
+            "Costco",
             1
         ],
         [
-            "TSMC",
+            "Facebook",
             1
-        ],
-        [
-            "Hermes",
-            1
-        ],
-        [
-            "TikTok",
-            1
-        ],
-        [
-            "Slack",
-            2
         ],
         [
             "Instagram",
-            1
-        ],
-        [
-            "Nintendo",
-            1
-        ],
-        [
-            "Lockheed Martin",
             1
         ],
         [
@@ -1115,15 +1009,7 @@
             1
         ],
         [
-            "Starbucks",
-            1
-        ],
-        [
-            "Costco",
-            1
-        ],
-        [
-            "NVIDIA",
+            "Hermes",
             1
         ],
         [
@@ -1131,19 +1017,7 @@
             1
         ],
         [
-            "Nike",
-            1
-        ],
-        [
-            "Charlie Munger",
-            1
-        ],
-        [
-            "NBA",
-            2
-        ],
-        [
-            "Facebook",
+            "LVMH",
             1
         ],
         [
@@ -1151,7 +1025,43 @@
             2
         ],
         [
-            "LVMH",
+            "NBA",
+            2
+        ],
+        [
+            "Slack",
+            2
+        ],
+        [
+            "Lockheed Martin",
+            1
+        ],
+        [
+            "Starbucks",
+            1
+        ],
+        [
+            "Charlie Munger",
+            1
+        ],
+        [
+            "NVIDIA",
+            1
+        ],
+        [
+            "Nike",
+            1
+        ],
+        [
+            "TSMC",
+            1
+        ],
+        [
+            "TikTok",
+            1
+        ],
+        [
+            "Nintendo",
             1
         ],
         [
@@ -1237,15 +1147,11 @@
     ],
     "Alibaba": [
         [
-            "Amazon Unbound",
-            1
-        ],
-        [
             "Amazon Web Services",
             1
         ],
         [
-            "Uber",
+            "Didi Chuxing Merger",
             1
         ],
         [
@@ -1307,10 +1213,6 @@
             1
         ],
         [
-            "Apple",
-            2
-        ],
-        [
             "Zappos",
             2
         ],
@@ -1367,35 +1269,15 @@
             1
         ],
         [
-            "Facebook",
-            2
-        ],
-        [
-            "Twitter",
-            1
-        ],
-        [
-            "WhatsApp",
-            2
-        ],
-        [
-            "Electronic Arts",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
         [
-            "Nike",
-            1
+            "Facebook",
+            2
         ],
         [
-            "Shopify",
-            1
-        ],
-        [
-            "Benchmark",
+            "Electronic Arts",
             1
         ],
         [
@@ -1407,11 +1289,31 @@
             2
         ],
         [
-            "NVIDIA",
+            "WhatsApp",
+            2
+        ],
+        [
+            "Shopify",
+            1
+        ],
+        [
+            "Benchmark",
+            1
+        ],
+        [
+            "Nike",
+            1
+        ],
+        [
+            "Twitter",
             1
         ],
         [
             "Tencent",
+            1
+        ],
+        [
+            "NVIDIA",
             1
         ],
         [
@@ -1433,23 +1335,11 @@
             1
         ],
         [
-            "Apple",
+            "LVMH",
             1
         ],
         [
-            "Qualcomm",
-            1
-        ],
-        [
-            "Hermes",
-            1
-        ],
-        [
-            "Nike",
-            1
-        ],
-        [
-            "Instagram",
+            "Bitcoin",
             1
         ],
         [
@@ -1461,15 +1351,7 @@
             1
         ],
         [
-            "LinkedIn",
-            1
-        ],
-        [
-            "Bitcoin",
-            1
-        ],
-        [
-            "Slack",
+            "Instagram",
             1
         ],
         [
@@ -1477,43 +1359,27 @@
             1
         ],
         [
-            "LVMH",
+            "Slack",
+            1
+        ],
+        [
+            "Qualcomm",
+            1
+        ],
+        [
+            "Nike",
+            1
+        ],
+        [
+            "LinkedIn",
+            1
+        ],
+        [
+            "Hermes",
             1
         ]
     ],
     "Superhuman": [
-        [
-            "Lyft",
-            1
-        ],
-        [
-            "Twitter",
-            1
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Slack",
-            2
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Pinterest",
-            1
-        ],
-        [
-            "Walmart",
-            1
-        ],
-        [
-            "Microsoft",
-            1
-        ],
         [
             "LinkedIn",
             1
@@ -1523,11 +1389,35 @@
             1
         ],
         [
+            "Pinterest",
+            1
+        ],
+        [
+            "Microsoft",
+            1
+        ],
+        [
             "Dropbox",
             1
         ],
         [
+            "Walmart",
+            1
+        ],
+        [
+            "Lyft",
+            1
+        ],
+        [
+            "Slack",
+            2
+        ],
+        [
             "Airbnb",
+            1
+        ],
+        [
+            "Tesla",
             1
         ],
         [
@@ -1535,11 +1425,15 @@
             1
         ],
         [
+            "Twitter",
+            1
+        ],
+        [
             "ACQ Sessions",
             1
         ],
         [
-            "Atari",
+            "WhatsApp",
             1
         ],
         [
@@ -1547,7 +1441,7 @@
             1
         ],
         [
-            "WhatsApp",
+            "Atari",
             1
         ],
         [
@@ -1561,11 +1455,15 @@
             1
         ],
         [
+            "Costco",
+            1
+        ],
+        [
             "Facebook",
             1
         ],
         [
-            "Twitter",
+            "Microsoft",
             1
         ],
         [
@@ -1577,11 +1475,7 @@
             1
         ],
         [
-            "Costco",
-            1
-        ],
-        [
-            "Microsoft",
+            "Instagram",
             1
         ],
         [
@@ -1593,77 +1487,7 @@
             1
         ],
         [
-            "Instagram",
-            1
-        ]
-    ],
-    "Arena Show": [
-        [
-            "Amazon",
-            1
-        ],
-        [
-            "Solana",
-            1
-        ],
-        [
-            "Apple",
-            2
-        ],
-        [
-            "Walmart",
-            1
-        ],
-        [
-            "Nike",
-            1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "Berkshire Hathaway",
-            2
-        ],
-        [
-            "Not Boring",
-            1
-        ],
-        [
             "Twitter",
-            1
-        ],
-        [
-            "WhatsApp",
-            1
-        ],
-        [
-            "Pixar",
-            1
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "Zillow",
-            1
-        ],
-        [
-            "FTX",
-            1
-        ],
-        [
-            "Dropbox",
-            1
-        ],
-        [
-            "Airbnb",
-            1
-        ],
-        [
-            "Nvidia",
             1
         ]
     ],
@@ -1673,7 +1497,39 @@
             1
         ],
         [
-            "Twitter",
+            "Facebook",
+            1
+        ],
+        [
+            "Android",
+            1
+        ],
+        [
+            "Tencent",
+            1
+        ],
+        [
+            "NFL",
+            1
+        ],
+        [
+            "Tesla",
+            1
+        ],
+        [
+            "Uber",
+            1
+        ],
+        [
+            "YouTube",
+            1
+        ],
+        [
+            "LVMH",
+            1
+        ],
+        [
+            "Benchmark",
             1
         ],
         [
@@ -1681,11 +1537,23 @@
             1
         ],
         [
-            "Apple",
+            "Bitcoin",
             1
         ],
         [
-            "Tencent",
+            "Atari",
+            1
+        ],
+        [
+            "Twitch",
+            1
+        ],
+        [
+            "Airbnb",
+            1
+        ],
+        [
+            "Twitter",
             1
         ],
         [
@@ -1697,19 +1565,7 @@
             1
         ],
         [
-            "Nintendo",
-            1
-        ],
-        [
-            "Atari",
-            1
-        ],
-        [
-            "LVMH",
-            1
-        ],
-        [
-            "NFL",
+            "Epic Games",
             1
         ],
         [
@@ -1717,47 +1573,11 @@
             1
         ],
         [
-            "Twitch",
+            "Nintendo",
             1
         ],
         [
             "LinkedIn",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "Android",
-            1
-        ],
-        [
-            "Bitcoin",
-            1
-        ],
-        [
-            "Facebook",
-            1
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Benchmark",
-            1
-        ],
-        [
-            "Epic Games",
-            1
-        ],
-        [
-            "Airbnb",
-            1
-        ],
-        [
-            "Uber",
             1
         ]
     ],
@@ -1783,27 +1603,7 @@
             1
         ],
         [
-            "Standard Oil",
-            1
-        ],
-        [
-            "Lyft",
-            1
-        ],
-        [
-            "NFL",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Hermes",
-            2
-        ],
-        [
-            "Meta",
+            "Visa",
             1
         ],
         [
@@ -1811,7 +1611,7 @@
             2
         ],
         [
-            "Charlie Munger",
+            "Standard Oil",
             1
         ],
         [
@@ -1819,16 +1619,32 @@
             1
         ],
         [
+            "Charlie Munger",
+            1
+        ],
+        [
+            "Meta",
+            1
+        ],
+        [
+            "Lyft",
+            1
+        ],
+        [
             "CAA",
             1
         ],
         [
-            "Visa",
+            "NFL",
             1
         ],
         [
             "Uber",
             1
+        ],
+        [
+            "Hermes",
+            2
         ],
         [
             "Epic Systems",
@@ -1857,27 +1673,11 @@
             1
         ],
         [
-            "Atari",
-            2
+            "YouTube",
+            1
         ],
         [
             "Facebook",
-            1
-        ],
-        [
-            "WhatsApp",
-            1
-        ],
-        [
-            "Bitcoin",
-            1
-        ],
-        [
-            "NFL",
-            1
-        ],
-        [
-            "Pixar",
             1
         ],
         [
@@ -1885,31 +1685,7 @@
             2
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
-            "NVIDIA",
-            2
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "Netflix",
-            1
-        ],
-        [
-            "Microsoft",
-            3
-        ],
-        [
-            "Instagram",
+            "LVMH",
             1
         ],
         [
@@ -1917,11 +1693,43 @@
             1
         ],
         [
+            "Bitcoin",
+            1
+        ],
+        [
+            "Microsoft",
+            3
+        ],
+        [
+            "Atari",
+            2
+        ],
+        [
+            "Instagram",
+            1
+        ],
+        [
+            "WhatsApp",
+            1
+        ],
+        [
+            "Netflix",
+            1
+        ],
+        [
+            "NVIDIA",
+            2
+        ],
+        [
             "Slack",
             1
         ],
         [
-            "LVMH",
+            "Pixar",
+            1
+        ],
+        [
+            "NFL",
             1
         ],
         [
@@ -1991,35 +1799,7 @@
             1
         ],
         [
-            "Twitter",
-            1
-        ],
-        [
-            "SpaceX",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "TSMC",
-            1
-        ],
-        [
-            "Netflix",
-            1
-        ],
-        [
-            "Microsoft",
-            1
-        ],
-        [
-            "PowerPoint",
-            1
-        ],
-        [
-            "Slack",
+            "Facebook",
             1
         ],
         [
@@ -2027,11 +1807,55 @@
             1
         ],
         [
+            "Netflix",
+            1
+        ],
+        [
+            "Uber",
+            1
+        ],
+        [
+            "YouTube",
+            1
+        ],
+        [
+            "Google Maps",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
+            "SpaceX",
+            1
+        ],
+        [
+            "PowerPoint",
+            1
+        ],
+        [
+            "Dropbox",
+            1
+        ],
+        [
             "Twitch",
             1
         ],
         [
-            "LinkedIn",
+            "Airbnb",
+            1
+        ],
+        [
+            "Twitter",
+            1
+        ],
+        [
+            "TSMC",
+            1
+        ],
+        [
+            "Microsoft",
             1
         ],
         [
@@ -2043,27 +1867,7 @@
             1
         ],
         [
-            "Google Maps",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "Dropbox",
-            1
-        ],
-        [
-            "Facebook",
-            1
-        ],
-        [
-            "Airbnb",
-            1
-        ],
-        [
-            "Uber",
+            "LinkedIn",
             1
         ],
         [
@@ -2093,19 +1897,7 @@
             1
         ],
         [
-            "Lockheed Martin",
-            1
-        ],
-        [
-            "NVIDIA",
-            2
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Walmart",
+            "Visa",
             2
         ],
         [
@@ -2117,15 +1909,19 @@
             1
         ],
         [
+            "TikTok",
+            1
+        ],
+        [
+            "Walmart",
+            2
+        ],
+        [
             "Starbucks",
             2
         ],
         [
-            "Nike",
-            1
-        ],
-        [
-            "Zoom",
+            "Instagram",
             1
         ],
         [
@@ -2133,23 +1929,27 @@
             2
         ],
         [
+            "Zoom",
+            1
+        ],
+        [
+            "NVIDIA",
+            2
+        ],
+        [
+            "Nike",
+            1
+        ],
+        [
             "Airbnb",
             1
         ],
         [
-            "TikTok",
+            "Lockheed Martin",
             1
         ],
         [
             "LinkedIn",
-            1
-        ],
-        [
-            "Visa",
-            2
-        ],
-        [
-            "Instagram",
             1
         ],
         [
@@ -2199,10 +1999,6 @@
             2
         ],
         [
-            "Amazon Unbound",
-            1
-        ],
-        [
             "Amazon",
             4
         ],
@@ -2227,26 +2023,6 @@
             1
         ],
         [
-            "Arena Show",
-            2
-        ],
-        [
-            "ESPN",
-            1
-        ],
-        [
-            "Apple",
-            3
-        ],
-        [
-            "Zoom",
-            2
-        ],
-        [
-            "Charlie Munger",
-            4
-        ],
-        [
             "Coca-Cola",
             4
         ],
@@ -2255,8 +2031,20 @@
             2
         ],
         [
+            "Charlie Munger",
+            4
+        ],
+        [
+            "Zoom",
+            2
+        ],
+        [
             "Slack",
             2
+        ],
+        [
+            "ESPN",
+            1
         ],
         [
             "Ethereum",
@@ -2295,7 +2083,7 @@
             1
         ],
         [
-            "Not Boring",
+            "TSMC",
             1
         ],
         [
@@ -2303,11 +2091,11 @@
             2
         ],
         [
-            "Tesla",
-            1
+            "Microsoft",
+            2
         ],
         [
-            "TSMC",
+            "Not Boring",
             1
         ],
         [
@@ -2315,8 +2103,8 @@
             2
         ],
         [
-            "Microsoft",
-            2
+            "Tesla",
+            1
         ],
         [
             "Uber",
@@ -2335,19 +2123,19 @@
             1
         ],
         [
-            "Netflix",
-            1
-        ],
-        [
-            "Marvel",
-            1
-        ],
-        [
             "Facebook",
             1
         ],
         [
+            "Netflix",
+            1
+        ],
+        [
             "Airbnb",
+            1
+        ],
+        [
+            "Marvel",
             1
         ],
         [
@@ -2369,7 +2157,7 @@
             1
         ],
         [
-            "Android",
+            "Google Maps",
             2
         ],
         [
@@ -2377,31 +2165,15 @@
             1
         ],
         [
-            "Twitter",
-            1
-        ],
-        [
-            "WhatsApp",
-            1
-        ],
-        [
-            "Google Maps",
-            2
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "LinkedIn",
             1
         ],
         [
-            "Oculus",
+            "Android",
+            2
+        ],
+        [
+            "Skype",
             1
         ],
         [
@@ -2409,7 +2181,11 @@
             1
         ],
         [
-            "Skype",
+            "WhatsApp",
+            1
+        ],
+        [
+            "Oculus",
             1
         ],
         [
@@ -2421,7 +2197,15 @@
             1
         ],
         [
+            "Tesla",
+            1
+        ],
+        [
             "Uber",
+            1
+        ],
+        [
+            "Twitter",
             1
         ]
     ],
@@ -2451,10 +2235,6 @@
             1
         ],
         [
-            "Amazon Unbound",
-            1
-        ],
-        [
             "Amazon",
             2
         ],
@@ -2479,10 +2259,6 @@
             1
         ],
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Benchmark\u2019s Mitch Lasky",
             1
         ],
@@ -2499,11 +2275,7 @@
             2
         ],
         [
-            "LinkedIn",
-            2
-        ],
-        [
-            "Netflix",
+            "Android",
             1
         ],
         [
@@ -2511,20 +2283,24 @@
             2
         ],
         [
-            "Peloton",
-            2
-        ],
-        [
             "TikTok",
             2
         ],
         [
-            "Android",
+            "Instagram",
             1
         ],
         [
-            "Instagram",
+            "Netflix",
             1
+        ],
+        [
+            "Peloton",
+            2
+        ],
+        [
+            "LinkedIn",
+            2
         ],
         [
             "PayPal",
@@ -2567,8 +2343,8 @@
             1
         ],
         [
-            "Uber",
-            3
+            "Didi Chuxing Merger",
+            1
         ],
         [
             "Epic Games",
@@ -2591,7 +2367,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -2629,6 +2405,10 @@
         [
             "LA Clippers",
             1
+        ],
+        [
+            "Uber",
+            2
         ],
         [
             "Overture",
@@ -2757,31 +2537,11 @@
             1
         ],
         [
-            "Facebook",
-            1
-        ],
-        [
-            "Pixar",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Pinterest",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
         [
-            "Instagram",
-            1
-        ],
-        [
-            "Bungie",
+            "Facebook",
             1
         ],
         [
@@ -2793,11 +2553,27 @@
             1
         ],
         [
+            "Pinterest",
+            1
+        ],
+        [
+            "Instagram",
+            1
+        ],
+        [
+            "Pixar",
+            1
+        ],
+        [
             "Airbnb",
             2
         ],
         [
             "Uber",
+            1
+        ],
+        [
+            "Bungie",
             1
         ],
         [
@@ -2813,7 +2589,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -2879,43 +2655,7 @@
             1
         ],
         [
-            "Sessions",
-            1
-        ],
-        [
-            "Standard Oil",
-            1
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Tencent",
-            1
-        ],
-        [
-            "Stratechery",
-            1
-        ],
-        [
             "YouTube",
-            1
-        ],
-        [
-            "Netflix",
-            1
-        ],
-        [
-            "Peloton",
-            2
-        ],
-        [
-            "Instagram",
             1
         ],
         [
@@ -2923,15 +2663,51 @@
             1
         ],
         [
-            "FTX",
+            "Standard Oil",
             1
+        ],
+        [
+            "Beats",
+            1
+        ],
+        [
+            "Sessions",
+            1
+        ],
+        [
+            "Instagram",
+            1
+        ],
+        [
+            "Netflix",
+            1
+        ],
+        [
+            "Stratechery",
+            1
+        ],
+        [
+            "Tencent",
+            1
+        ],
+        [
+            "Peloton",
+            2
         ],
         [
             "Slack",
             1
         ],
         [
+            "FTX",
+            1
+        ],
+        [
             "Airbnb",
+            1
+        ],
+        [
+            "Tesla",
             1
         ],
         [
@@ -3009,6 +2785,22 @@
             1
         ],
         [
+            "Alphabet",
+            1
+        ],
+        [
+            "Dropbox",
+            1
+        ],
+        [
+            "Time Warner",
+            1
+        ],
+        [
+            "T-Mobile",
+            1
+        ],
+        [
             "Lyft",
             1
         ],
@@ -3017,23 +2809,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "Alphabet",
-            1
-        ],
-        [
-            "T-Mobile",
-            1
-        ],
-        [
             "Benchmark",
-            1
-        ],
-        [
-            "Dropbox",
             1
         ],
         [
@@ -3055,15 +2831,7 @@
             1
         ],
         [
-            "Atari",
-            1
-        ],
-        [
             "Facebook",
-            1
-        ],
-        [
-            "WhatsApp",
             1
         ],
         [
@@ -3071,11 +2839,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
+            "Bitcoin",
             1
         ],
         [
@@ -3083,11 +2847,15 @@
             1
         ],
         [
+            "Atari",
+            1
+        ],
+        [
             "Instagram",
             1
         ],
         [
-            "Bitcoin",
+            "WhatsApp",
             1
         ],
         [
@@ -3129,6 +2897,30 @@
             1
         ],
         [
+            "Microsoft",
+            2
+        ],
+        [
+            "Dropbox",
+            1
+        ],
+        [
+            "Instagram",
+            2
+        ],
+        [
+            "Playbook",
+            1
+        ],
+        [
+            "Twitch",
+            1
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
             "Lyft",
             2
         ],
@@ -3137,31 +2929,7 @@
             1
         ],
         [
-            "Microsoft",
-            2
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "Instagram",
-            2
-        ],
-        [
-            "Twitch",
-            1
-        ],
-        [
             "Shopify",
-            1
-        ],
-        [
-            "Playbook",
-            1
-        ],
-        [
-            "Dropbox",
             1
         ],
         [
@@ -3221,23 +2989,11 @@
             1
         ],
         [
+            "Facebook",
+            1
+        ],
+        [
             "Pinterest",
-            1
-        ],
-        [
-            "PowerPoint",
-            1
-        ],
-        [
-            "Opsware",
-            2
-        ],
-        [
-            "LinkedIn",
-            1
-        ],
-        [
-            "Google Maps",
             1
         ],
         [
@@ -3245,15 +3001,15 @@
             1
         ],
         [
+            "Google Maps",
+            1
+        ],
+        [
             "Skype",
             1
         ],
         [
-            "CAA",
-            1
-        ],
-        [
-            "Facebook",
+            "Stitch Fix",
             1
         ],
         [
@@ -3261,11 +3017,23 @@
             2
         ],
         [
+            "PowerPoint",
+            1
+        ],
+        [
             "Zillow",
             1
         ],
         [
-            "Stitch Fix",
+            "Opsware",
+            2
+        ],
+        [
+            "CAA",
+            1
+        ],
+        [
+            "LinkedIn",
             1
         ],
         [
@@ -3299,19 +3067,7 @@
             1
         ],
         [
-            "AOL",
-            1
-        ],
-        [
-            "Andreessen Horowitz",
-            1
-        ],
-        [
-            "Booking",
-            1
-        ],
-        [
-            "Zillow",
+            "Skype",
             1
         ],
         [
@@ -3319,7 +3075,15 @@
             1
         ],
         [
-            "Skype",
+            "Zillow",
+            1
+        ],
+        [
+            "Booking",
+            1
+        ],
+        [
+            "Andreessen Horowitz",
             1
         ],
         [
@@ -3345,11 +3109,11 @@
             1
         ],
         [
-            "Apple",
+            "YouTube",
             1
         ],
         [
-            "Netflix",
+            "Facebook",
             1
         ],
         [
@@ -3357,27 +3121,7 @@
             1
         ],
         [
-            "Slack",
-            1
-        ],
-        [
             "Instagram",
-            1
-        ],
-        [
-            "Pixar",
-            1
-        ],
-        [
-            "NFL",
-            1
-        ],
-        [
-            "ESPN",
-            1
-        ],
-        [
-            "Twitch",
             1
         ],
         [
@@ -3385,19 +3129,11 @@
             1
         ],
         [
-            "Lucasfilm",
+            "Twitch",
             1
         ],
         [
-            "YouTube",
-            1
-        ],
-        [
-            "NBA",
-            1
-        ],
-        [
-            "Facebook",
+            "Netflix",
             1
         ],
         [
@@ -3409,7 +3145,31 @@
             1
         ],
         [
+            "ESPN",
+            1
+        ],
+        [
+            "NBA",
+            1
+        ],
+        [
+            "NFL",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
+            "Pixar",
+            1
+        ],
+        [
             "Uber",
+            1
+        ],
+        [
+            "Lucasfilm",
             1
         ]
     ],
@@ -3487,51 +3247,23 @@
             1
         ],
         [
-            "Apple",
-            2
-        ],
-        [
-            "TSMC",
+            "Facebook",
             3
         ],
         [
-            "Hermes",
+            "Visa",
             2
         ],
         [
-            "PowerPoint",
-            2
-        ],
-        [
-            "Slack",
-            2
+            "Atlassian",
+            1
         ],
         [
             "Instagram",
             1
         ],
         [
-            "Atari",
-            1
-        ],
-        [
-            "Peloton",
-            2
-        ],
-        [
-            "Playbook",
-            2
-        ],
-        [
-            "Porsche",
-            1
-        ],
-        [
-            "NeXT",
-            2
-        ],
-        [
-            "NVIDIA",
+            "Hermes",
             2
         ],
         [
@@ -3539,11 +3271,39 @@
             2
         ],
         [
-            "Visa",
+            "LVMH",
+            1
+        ],
+        [
+            "Meta",
+            3
+        ],
+        [
+            "Slack",
             2
         ],
         [
-            "Facebook",
+            "PowerPoint",
+            2
+        ],
+        [
+            "NeXT",
+            2
+        ],
+        [
+            "Atari",
+            1
+        ],
+        [
+            "Playbook",
+            2
+        ],
+        [
+            "NVIDIA",
+            2
+        ],
+        [
+            "TSMC",
             3
         ],
         [
@@ -3551,16 +3311,12 @@
             2
         ],
         [
-            "Meta",
-            3
-        ],
-        [
-            "Atlassian",
+            "Porsche",
             1
         ],
         [
-            "LVMH",
-            1
+            "Peloton",
+            2
         ],
         [
             "SoundJam",
@@ -3599,7 +3355,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             2
         ],
         [
@@ -3715,15 +3471,15 @@
             1
         ],
         [
+            "Tesla",
+            1
+        ],
+        [
             "Zoom",
             2
         ],
         [
             "Marvel",
-            1
-        ],
-        [
-            "Tesla",
             1
         ],
         [
@@ -3781,11 +3537,11 @@
             1
         ],
         [
-            "Facebook",
+            "Google Maps",
             1
         ],
         [
-            "Google Maps",
+            "Facebook",
             1
         ],
         [
@@ -3793,15 +3549,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
-            "Pixar",
+            "Instagram",
             1
         ],
         [
@@ -3809,11 +3557,11 @@
             1
         ],
         [
-            "Instagram",
+            "Slack",
             1
         ],
         [
-            "Slack",
+            "Pixar",
             1
         ],
         [
@@ -3981,15 +3729,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "LinkedIn",
-            2
-        ],
-        [
-            "Oculus",
+            "Visa",
             2
         ],
         [
@@ -3997,19 +3737,7 @@
             1
         ],
         [
-            "Zillow",
-            2
-        ],
-        [
-            "Instagram",
-            1
-        ],
-        [
-            "Skype",
-            2
-        ],
-        [
-            "Shopify",
+            "LinkedIn",
             2
         ],
         [
@@ -4017,16 +3745,32 @@
             2
         ],
         [
+            "Skype",
+            2
+        ],
+        [
+            "Instagram",
+            1
+        ],
+        [
+            "Oculus",
+            2
+        ],
+        [
+            "Zillow",
+            2
+        ],
+        [
             "Slack",
             1
         ],
         [
-            "Visa",
+            "Shopify",
             2
         ],
         [
             "Uber",
-            3
+            2
         ],
         [
             "Airbnb",
@@ -4038,6 +3782,10 @@
         ],
         [
             "Blue Bottle Coffee",
+            1
+        ],
+        [
+            "Didi Chuxing Merger",
             1
         ],
         [
@@ -4061,7 +3809,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -4259,10 +4007,6 @@
             1
         ],
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Benchmark\u2019s Mitch Lasky",
             1
         ],
@@ -4299,47 +4043,11 @@
             1
         ],
         [
-            "SpaceX",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            2
-        ],
-        [
-            "Booking",
-            2
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "Eventbrite",
-            2
-        ],
-        [
-            "Slack",
-            2
-        ],
-        [
             "Instagram",
             1
         ],
         [
-            "Twitch",
-            1
-        ],
-        [
-            "Pinduoduo",
-            1
-        ],
-        [
-            "Playbook",
+            "Uber",
             2
         ],
         [
@@ -4347,11 +4055,23 @@
             1
         ],
         [
-            "Zappos",
-            1
+            "Eventbrite",
+            2
         ],
         [
             "NBA",
+            1
+        ],
+        [
+            "SpaceX",
+            1
+        ],
+        [
+            "Slack",
+            2
+        ],
+        [
+            "Oprah",
             1
         ],
         [
@@ -4359,7 +4079,35 @@
             1
         ],
         [
-            "Oprah",
+            "Playbook",
+            2
+        ],
+        [
+            "Twitch",
+            1
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
+            "Booking",
+            2
+        ],
+        [
+            "Meituan",
+            1
+        ],
+        [
+            "Zappos",
+            1
+        ],
+        [
+            "Pinduoduo",
+            1
+        ],
+        [
+            "Epic Games",
             1
         ],
         [
@@ -4371,18 +4119,6 @@
             2
         ],
         [
-            "Epic Games",
-            1
-        ],
-        [
-            "Meituan",
-            1
-        ],
-        [
-            "Uber",
-            3
-        ],
-        [
             "Ethereum",
             1
         ],
@@ -4391,11 +4127,19 @@
             1
         ],
         [
+            "Didi Chuxing Merger",
+            1
+        ],
+        [
             "Electronic Arts",
             1
         ],
         [
             "Convoy",
+            1
+        ],
+        [
+            "Time Warner",
             1
         ],
         [
@@ -4485,14 +4229,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
@@ -4502,6 +4238,10 @@
         ],
         [
             "Slack",
+            1
+        ],
+        [
+            "Tesla",
             1
         ],
         [
@@ -4563,31 +4303,15 @@
             2
         ],
         [
-            "WhatsApp",
+            "Android",
             1
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Andreessen Horowitz",
-            2
-        ],
-        [
-            "Rec Room",
-            2
         ],
         [
             "Instagram",
             1
         ],
         [
-            "Android",
+            "WhatsApp",
             1
         ],
         [
@@ -4595,8 +4319,20 @@
             1
         ],
         [
+            "Andreessen Horowitz",
+            2
+        ],
+        [
+            "Tesla",
+            1
+        ],
+        [
             "Uber",
             1
+        ],
+        [
+            "Rec Room",
+            2
         ],
         [
             "Meta",
@@ -4661,31 +4397,15 @@
             2
         ],
         [
-            "Standard Oil",
-            1
-        ],
-        [
-            "WhatsApp",
-            2
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "NVIDIA",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
         [
-            "Zoom",
+            "Oprah",
+            2
+        ],
+        [
+            "Standard Oil",
             1
         ],
         [
@@ -4693,19 +4413,31 @@
             2
         ],
         [
+            "Instagram",
+            1
+        ],
+        [
+            "WhatsApp",
+            2
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
+            "NVIDIA",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
             "Shopify",
             2
         ],
         [
-            "Oprah",
-            2
-        ],
-        [
             "Meituan",
-            1
-        ],
-        [
-            "Instagram",
             1
         ],
         [
@@ -4803,38 +4535,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "Netflix",
-            1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "FTX",
-            1
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "Solana",
-            2
-        ],
-        [
-            "Bitcoin",
-            2
-        ],
-        [
-            "NBA",
-            1
-        ],
-        [
             "Visa",
             1
         ],
@@ -4843,15 +4543,43 @@
             1
         ],
         [
+            "Netflix",
+            1
+        ],
+        [
             "Tesla",
             1
         ],
         [
-            "Meituan",
+            "Uber",
             1
         ],
         [
-            "Uber",
+            "Solana",
+            2
+        ],
+        [
+            "NBA",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
+            "FTX",
+            1
+        ],
+        [
+            "Bitcoin",
+            2
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
+            "Meituan",
             1
         ],
         [
@@ -4889,14 +4617,6 @@
             1
         ],
         [
-            "Nest",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "Walmart",
             1
         ],
@@ -4906,10 +4626,6 @@
         ],
         [
             "Instagram",
-            1
-        ],
-        [
-            "LA Clippers",
             1
         ],
         [
@@ -4923,39 +4639,19 @@
         [
             "Uber",
             1
+        ],
+        [
+            "Nest",
+            1
+        ],
+        [
+            "LA Clippers",
+            1
         ]
     ],
-    "Uber": [
-        [
-            "DoorDash",
-            2
-        ],
-        [
-            "Inside the M&A Press",
-            1
-        ],
-        [
-            "Complexity Investing & Semiconductors",
-            1
-        ],
-        [
-            "Super Pumped",
-            1
-        ],
-        [
-            "Amazon Unbound",
-            1
-        ],
+    "Didi Chuxing Merger": [
         [
             "Amazon",
-            4
-        ],
-        [
-            "Jet",
-            1
-        ],
-        [
-            "Spotify",
             1
         ],
         [
@@ -4963,107 +4659,19 @@
             1
         ],
         [
-            "Sequoia Capital",
-            1
-        ],
-        [
-            "Superhuman",
-            1
-        ],
-        [
-            "Benchmark\u2019s Mitch Lasky",
-            1
-        ],
-        [
-            "Novo Nordisk",
-            1
-        ],
-        [
-            "Amazon Web Services",
-            1
-        ],
-        [
-            "Berkshire Hathaway",
-            2
-        ],
-        [
-            "Waze",
-            1
-        ],
-        [
             "Twitter",
-            3
-        ],
-        [
-            "PayPal",
-            1
-        ],
-        [
-            "Taylor Swift",
-            1
-        ],
-        [
-            "WeWork \u201c",
-            1
-        ],
-        [
-            "Kevin Rose from Web 2.0 to Web3",
-            1
-        ],
-        [
-            "Benchmark",
-            4
-        ],
-        [
-            "BAMTech, Disney",
-            1
-        ],
-        [
-            "Microsoft",
-            1
-        ],
-        [
-            "SoundJam",
-            1
-        ],
-        [
-            "ESPN",
             1
         ],
         [
             "Facebook",
-            3
+            1
         ],
         [
             "Airbnb",
-            3
-        ],
-        [
-            "SpaceX",
             1
-        ],
-        [
-            "Oculus",
-            1
-        ],
-        [
-            "Ethereum",
-            1
-        ],
-        [
-            "Blue Bottle Coffee",
-            1
-        ],
-        [
-            "Lyft",
-            3
         ],
         [
             "Google Maps",
-            2
-        ],
-        [
-            "Recode",
             1
         ],
         [
@@ -5072,146 +4680,22 @@
         ],
         [
             "Zillow",
-            2
+            1
+        ],
+        [
+            "Lyft",
+            1
         ],
         [
             "Slack",
-            3
-        ],
-        [
-            "Epic Games",
             1
         ],
         [
-            "Electronic Arts",
+            "Uber",
             1
         ],
         [
-            "Stratechery",
-            1
-        ],
-        [
-            "Convoy",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
-            "ACQ Sessions",
-            1
-        ],
-        [
-            "Standard Oil",
-            2
-        ],
-        [
-            "AI Company",
-            1
-        ],
-        [
-            "WhatsApp",
-            1
-        ],
-        [
-            "Charlie Munger",
-            1
-        ],
-        [
-            "Atari",
-            1
-        ],
-        [
-            "Pinduoduo",
-            1
-        ],
-        [
-            "Pinterest",
-            1
-        ],
-        [
-            "Andreessen Horowitz",
-            2
-        ],
-        [
-            "Overture",
-            1
-        ],
-        [
-            "Booking",
-            2
-        ],
-        [
-            "Meta",
-            1
-        ],
-        [
-            "Netflix",
-            1
-        ],
-        [
-            "Instagram",
-            1
-        ],
-        [
-            "Android",
-            1
-        ],
-        [
-            "Whole Foods Market",
-            1
-        ],
-        [
-            "TSMC",
-            2
-        ],
-        [
-            "FTX",
-            1
-        ],
-        [
-            "Starbucks",
-            1
-        ],
-        [
-            "NBA",
-            1
-        ],
-        [
-            "Shopify",
-            1
-        ],
-        [
-            "Eventbrite",
-            1
-        ],
-        [
-            "Alphabet",
-            1
-        ],
-        [
-            "Slack DPO",
-            1
-        ],
-        [
-            "New York Times Company",
-            1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "Not Boring",
-            1
-        ],
-        [
-            "Opsware",
-            1
-        ],
-        [
-            "Nike",
+            "Recode",
             1
         ]
     ],
@@ -5234,10 +4718,6 @@
         ],
         [
             "Sequoia Capital",
-            1
-        ],
-        [
-            "Arena Show",
             1
         ],
         [
@@ -5269,19 +4749,7 @@
             1
         ],
         [
-            "Apple",
-            3
-        ],
-        [
-            "TSMC",
-            4
-        ],
-        [
-            "Zoom",
-            2
-        ],
-        [
-            "Slack",
+            "Android",
             2
         ],
         [
@@ -5289,8 +4757,44 @@
             2
         ],
         [
+            "Stratechery",
+            3
+        ],
+        [
+            "Tesla",
+            2
+        ],
+        [
+            "YouTube",
+            3
+        ],
+        [
+            "Meta",
+            3
+        ],
+        [
+            "Slack",
+            2
+        ],
+        [
             "Qualcomm",
             2
+        ],
+        [
+            "Bitcoin",
+            1
+        ],
+        [
+            "Zoom",
+            2
+        ],
+        [
+            "NVIDIA",
+            4
+        ],
+        [
+            "TSMC",
+            4
         ],
         [
             "Peloton",
@@ -5301,39 +4805,11 @@
             1
         ],
         [
-            "NVIDIA",
-            4
-        ],
-        [
-            "YouTube",
-            3
-        ],
-        [
-            "Android",
-            2
-        ],
-        [
-            "Bitcoin",
+            "GitHub",
             1
-        ],
-        [
-            "Tesla",
-            2
-        ],
-        [
-            "Stratechery",
-            3
-        ],
-        [
-            "Meta",
-            3
         ],
         [
             "Tencent",
-            1
-        ],
-        [
-            "Pixar",
             1
         ],
         [
@@ -5341,7 +4817,11 @@
             1
         ],
         [
-            "GitHub",
+            "Pixar",
+            1
+        ],
+        [
+            "Google Maps",
             1
         ],
         [
@@ -5349,7 +4829,7 @@
             1
         ],
         [
-            "Google Maps",
+            "Broadcom",
             1
         ],
         [
@@ -5403,19 +4883,7 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Electronic Arts",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Tencent",
+            "Android",
             1
         ],
         [
@@ -5423,11 +4891,15 @@
             1
         ],
         [
-            "Zoom",
+            "Stratechery",
             1
         ],
         [
-            "TikTok",
+            "Tencent",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -5435,7 +4907,15 @@
             1
         ],
         [
+            "Activision Blizzard",
+            1
+        ],
+        [
             "Slack",
+            1
+        ],
+        [
+            "Electronic Arts",
             1
         ],
         [
@@ -5443,15 +4923,11 @@
             1
         ],
         [
-            "Activision Blizzard",
+            "Zoom",
             1
         ],
         [
-            "Pinduoduo",
-            2
-        ],
-        [
-            "Android",
+            "Meituan",
             1
         ],
         [
@@ -5459,12 +4935,12 @@
             1
         ],
         [
-            "Stratechery",
+            "TikTok",
             1
         ],
         [
-            "Meituan",
-            1
+            "Pinduoduo",
+            2
         ]
     ],
     "Electronic Arts": [
@@ -5505,11 +4981,19 @@
             1
         ],
         [
-            "Uber",
+            "Epic Games",
             1
         ],
         [
-            "Epic Games",
+            "YouTube",
+            1
+        ],
+        [
+            "PowerPoint",
+            1
+        ],
+        [
+            "Pinterest",
             1
         ],
         [
@@ -5521,7 +5005,7 @@
             1
         ],
         [
-            "NFL",
+            "NBA",
             1
         ],
         [
@@ -5529,23 +5013,11 @@
             1
         ],
         [
-            "Apple",
+            "NFL",
             1
         ],
         [
-            "Pinterest",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "NBA",
-            1
-        ],
-        [
-            "PowerPoint",
+            "Uber",
             1
         ],
         [
@@ -5603,10 +5075,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Nvidia",
             3
         ],
@@ -5615,19 +5083,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "TSMC",
-            1
-        ],
-        [
-            "Meta",
-            1
-        ],
-        [
-            "Zillow",
             1
         ],
         [
@@ -5635,7 +5091,19 @@
             1
         ],
         [
+            "Zillow",
+            1
+        ],
+        [
+            "Meta",
+            1
+        ],
+        [
             "Slack",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -5689,19 +5157,7 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "Starbucks",
-            1
-        ],
-        [
-            "Instagram",
+            "Android",
             1
         ],
         [
@@ -5709,11 +5165,23 @@
             2
         ],
         [
-            "Android",
+            "Dropbox",
             1
         ],
         [
-            "Dropbox",
+            "Instagram",
+            1
+        ],
+        [
+            "Starbucks",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -5743,15 +5211,15 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Electronic Arts",
             1
         ],
         [
             "P.A. Semi",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -5785,10 +5253,6 @@
             1
         ],
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Twitter",
             1
         ],
@@ -5805,23 +5269,11 @@
             1
         ],
         [
-            "Qualcomm",
-            2
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Andreessen Horowitz",
+            "Visa",
             1
         ],
         [
             "TSMC",
-            1
-        ],
-        [
-            "Slack",
             1
         ],
         [
@@ -5829,19 +5281,15 @@
             1
         ],
         [
-            "Zoom",
-            1
-        ],
-        [
-            "Skype",
-            1
-        ],
-        [
             "Android",
             1
         ],
         [
             "Bitcoin",
+            1
+        ],
+        [
+            "Skype",
             1
         ],
         [
@@ -5849,337 +5297,7 @@
             1
         ],
         [
-            "Visa",
-            1
-        ]
-    ],
-    "Apple": [
-        [
-            "Virgin Galactic",
-            1
-        ],
-        [
-            "Inside the M&A Press",
-            1
-        ],
-        [
-            "Death of Sega",
-            1
-        ],
-        [
-            "Mars",
-            1
-        ],
-        [
-            "Complexity Investing & Semiconductors",
-            1
-        ],
-        [
-            "Super Pumped",
-            1
-        ],
-        [
-            "Amazon",
-            1
-        ],
-        [
-            "Jet",
-            1
-        ],
-        [
-            "Spotify",
-            1
-        ],
-        [
-            "Sequoia Capital",
-            2
-        ],
-        [
-            "Renaissance Technologies",
-            1
-        ],
-        [
-            "Superhuman",
-            1
-        ],
-        [
-            "Arena Show",
-            2
-        ],
-        [
-            "Benchmark\u2019s Mitch Lasky",
-            1
-        ],
-        [
-            "Novo Nordisk",
-            1
-        ],
-        [
-            "Nintendo",
-            1
-        ],
-        [
-            "Amazon Web Services",
-            1
-        ],
-        [
-            "Costco",
-            1
-        ],
-        [
-            "Berkshire Hathaway",
-            3
-        ],
-        [
-            "Waze",
-            1
-        ],
-        [
-            "PayPal",
-            1
-        ],
-        [
-            "Taylor Swift",
-            1
-        ],
-        [
-            "WeWork \u201c",
-            1
-        ],
-        [
-            "Kevin Rose from Web 2.0 to Web3",
-            1
-        ],
-        [
-            "BAMTech, Disney",
-            1
-        ],
-        [
-            "Microsoft",
-            2
-        ],
-        [
-            "SoundJam",
-            1
-        ],
-        [
-            "Facebook",
-            1
-        ],
-        [
-            "Airbnb",
-            1
-        ],
-        [
-            "SpaceX",
-            1
-        ],
-        [
-            "Oculus",
-            1
-        ],
-        [
-            "Playbook",
-            1
-        ],
-        [
-            "Ethereum",
-            1
-        ],
-        [
-            "Blue Bottle Coffee",
-            1
-        ],
-        [
-            "Nvidia",
-            3
-        ],
-        [
-            "Epic Games",
-            1
-        ],
-        [
-            "Electronic Arts",
-            1
-        ],
-        [
-            "Stratechery",
-            1
-        ],
-        [
-            "Meta",
-            1
-        ],
-        [
-            "Sessions",
-            1
-        ],
-        [
-            "Visa",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
-            "Epic Systems",
-            1
-        ],
-        [
-            "Andreessen Horowitz",
-            2
-        ],
-        [
-            "Lockheed Martin",
-            1
-        ],
-        [
-            "Console Wars",
-            1
-        ],
-        [
-            "P.A. Semi",
-            1
-        ],
-        [
-            "TSMC",
-            3
-        ],
-        [
-            "AI Company",
-            1
-        ],
-        [
-            "WhatsApp",
-            1
-        ],
-        [
-            "Charlie Munger",
-            1
-        ],
-        [
-            "LVMH",
-            1
-        ],
-        [
-            "Atari",
-            1
-        ],
-        [
-            "IKEA",
-            1
-        ],
-        [
-            "NeXT",
-            1
-        ],
-        [
-            "Overture",
-            1
-        ],
-        [
-            "Qualcomm",
-            1
-        ],
-        [
-            "Zillow",
-            1
-        ],
-        [
-            "Android",
-            1
-        ],
-        [
-            "Bitcoin",
-            1
-        ],
-        [
-            "Whole Foods Market",
-            1
-        ],
-        [
-            "Walmart",
-            1
-        ],
-        [
-            "Rolex",
-            1
-        ],
-        [
-            "Starbucks",
-            2
-        ],
-        [
-            "Midroll",
-            1
-        ],
-        [
-            "Push Pop Press",
-            1
-        ],
-        [
-            "LinkedIn",
-            1
-        ],
-        [
-            "Shopify",
-            1
-        ],
-        [
-            "Skype",
-            1
-        ],
-        [
-            "Porsche",
-            1
-        ],
-        [
-            "Virgin America",
-            1
-        ],
-        [
-            "Rec Room",
-            1
-        ],
-        [
-            "Hermes",
-            1
-        ],
-        [
-            "Standard Oil",
-            1
-        ],
-        [
-            "Booking",
-            1
-        ],
-        [
-            "TikTok",
-            1
-        ],
-        [
-            "Alphabet",
-            1
-        ],
-        [
-            "Google Maps",
-            1
-        ],
-        [
-            "Trader Joe\u2019s",
-            1
-        ],
-        [
-            "Origin of Search",
-            1
-        ],
-        [
-            "Slack DPO",
-            1
-        ],
-        [
-            "Activision Blizzard",
+            "Zoom",
             1
         ],
         [
@@ -6187,59 +5305,37 @@
             1
         ],
         [
-            "Disney, Plus",
+            "Qualcomm",
+            2
+        ],
+        [
+            "Andreessen Horowitz",
             1
         ],
         [
-            "ExactTarget",
+            "Tesla",
+            1
+        ]
+    ],
+    "Beats": [
+        [
+            "Taylor Swift",
             1
         ],
         [
-            "SONY",
+            "Android",
             1
         ],
         [
-            "CAA",
+            "Midroll",
             1
         ],
         [
-            "New York Times Company",
-            1
-        ],
-        [
-            "Peloton",
-            1
-        ],
-        [
-            "Oprah",
-            1
-        ],
-        [
-            "\"Why Now\" for Digital Health",
-            1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "Not Boring",
+            "NFL",
             1
         ],
         [
             "Opsware",
-            1
-        ],
-        [
-            "Coca-Cola",
-            1
-        ],
-        [
-            "Nike",
-            1
-        ],
-        [
-            "NVIDIA",
             1
         ]
     ],
@@ -6305,10 +5401,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Nvidia",
             3
         ],
@@ -6321,15 +5413,19 @@
             1
         ],
         [
-            "Apple",
+            "Android",
             1
         ],
         [
-            "AOL",
+            "Instagram",
             1
         ],
         [
-            "TikTok",
+            "WhatsApp",
+            1
+        ],
+        [
+            "YouTube",
             1
         ],
         [
@@ -6341,27 +5437,15 @@
             1
         ],
         [
-            "Instagram",
-            1
-        ],
-        [
-            "LinkedIn",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "Android",
-            1
-        ],
-        [
             "Dropbox",
             1
         ],
         [
-            "WhatsApp",
+            "TikTok",
+            1
+        ],
+        [
+            "LinkedIn",
             1
         ],
         [
@@ -6386,6 +5470,10 @@
         ],
         [
             "Andreessen Horowitz",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -6465,27 +5553,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "Atari",
-            1
-        ],
-        [
-            "LVMH",
-            1
-        ],
-        [
-            "Pixar",
-            1
-        ],
-        [
-            "NFL",
-            1
-        ],
-        [
-            "Walmart",
+            "YouTube",
             1
         ],
         [
@@ -6493,11 +5561,11 @@
             1
         ],
         [
-            "YouTube",
+            "LVMH",
             1
         ],
         [
-            "Zoom",
+            "NFL",
             1
         ],
         [
@@ -6505,7 +5573,23 @@
             1
         ],
         [
+            "Atari",
+            1
+        ],
+        [
+            "Walmart",
+            1
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
             "Slack",
+            1
+        ],
+        [
+            "Pixar",
             1
         ],
         [
@@ -6563,35 +5647,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
-            1
-        ],
-        [
-            "Standard Oil",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
-            "Netflix",
-            1
-        ],
-        [
-            "Lockheed Martin",
-            1
-        ],
-        [
-            "NFL",
-            1
-        ],
-        [
-            "NVIDIA",
             1
         ],
         [
@@ -6599,7 +5655,15 @@
             1
         ],
         [
-            "Charlie Munger",
+            "Standard Oil",
+            1
+        ],
+        [
+            "NFL",
+            1
+        ],
+        [
+            "Walmart",
             1
         ],
         [
@@ -6607,7 +5671,19 @@
             1
         ],
         [
-            "Walmart",
+            "Charlie Munger",
+            1
+        ],
+        [
+            "Netflix",
+            1
+        ],
+        [
+            "NVIDIA",
+            1
+        ],
+        [
+            "Lockheed Martin",
             1
         ],
         [
@@ -6631,21 +5707,13 @@
             1
         ]
     ],
-    "AOL": [
+    "Time Warner": [
         [
             "Inside the M&A Press",
             1
         ],
         [
             "Amazon",
-            1
-        ],
-        [
-            "Jet",
-            1
-        ],
-        [
-            "Nintendo",
             1
         ],
         [
@@ -6657,11 +5725,7 @@
             1
         ],
         [
-            "Kevin Rose from Web 2.0 to Web3",
-            1
-        ],
-        [
-            "Altimeter",
+            "WeWork \u201c",
             1
         ],
         [
@@ -6669,43 +5733,11 @@
             2
         ],
         [
-            "SoundJam",
-            1
-        ],
-        [
             "Facebook",
             1
         ],
         [
             "Airbnb",
-            2
-        ],
-        [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "Meta",
-            1
-        ],
-        [
-            "Visa",
-            1
-        ],
-        [
-            "WhatsApp",
-            2
-        ],
-        [
-            "NeXT",
-            1
-        ],
-        [
-            "NFL",
             1
         ],
         [
@@ -6713,7 +5745,15 @@
             1
         ],
         [
-            "Netflix",
+            "NeXT",
+            1
+        ],
+        [
+            "Skype",
+            2
+        ],
+        [
+            "Instagram",
             1
         ],
         [
@@ -6721,11 +5761,11 @@
             1
         ],
         [
-            "Instagram",
+            "WhatsApp",
             1
         ],
         [
-            "Skype",
+            "Netflix",
             1
         ],
         [
@@ -6733,15 +5773,15 @@
             1
         ],
         [
-            "ACQ Sessions",
+            "NFL",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
             "Andreessen Horowitz",
-            2
-        ],
-        [
-            "Overture",
             1
         ],
         [
@@ -6749,39 +5789,15 @@
             1
         ],
         [
-            "Starbucks",
-            1
-        ],
-        [
-            "Booking",
-            1
-        ],
-        [
-            "From NFL to Startup COO to Congressman Regulating Crypto",
-            1
-        ],
-        [
-            "Eventbrite",
-            1
-        ],
-        [
-            "Alphabet",
-            1
-        ],
-        [
             "Google Maps",
             1
         ],
         [
-            "Origin of Search",
+            "Marvel",
             1
         ],
         [
             "Disney, Plus",
-            1
-        ],
-        [
-            "New York Times Company",
             1
         ]
     ],
@@ -6823,27 +5839,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
-            1
-        ],
-        [
-            "Standard Oil",
-            1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "Lockheed Martin",
             1
         ],
         [
@@ -6851,19 +5847,23 @@
             1
         ],
         [
-            "Starbucks",
-            1
-        ],
-        [
-            "NVIDIA",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
         [
-            "Nike",
+            "Standard Oil",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
+            "Shopify",
+            1
+        ],
+        [
+            "Lockheed Martin",
             1
         ],
         [
@@ -6871,11 +5871,23 @@
             1
         ],
         [
+            "Starbucks",
+            1
+        ],
+        [
             "Zillow",
             1
         ],
         [
-            "Shopify",
+            "Zoom",
+            1
+        ],
+        [
+            "NVIDIA",
+            1
+        ],
+        [
+            "Nike",
             1
         ]
     ],
@@ -6917,10 +5929,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Stratechery",
             1
         ],
@@ -6929,15 +5937,23 @@
             1
         ],
         [
-            "AOL",
+            "Instagram",
             1
         ],
         [
-            "Zoom",
+            "WhatsApp",
             1
         ],
         [
-            "PowerPoint",
+            "Uber",
+            1
+        ],
+        [
+            "YouTube",
+            1
+        ],
+        [
+            "Shopify",
             1
         ],
         [
@@ -6945,7 +5961,7 @@
             1
         ],
         [
-            "Instagram",
+            "PowerPoint",
             1
         ],
         [
@@ -6957,7 +5973,7 @@
             1
         ],
         [
-            "YouTube",
+            "Zoom",
             1
         ],
         [
@@ -6965,15 +5981,7 @@
             1
         ],
         [
-            "WhatsApp",
-            1
-        ],
-        [
             "Andreessen Horowitz",
-            1
-        ],
-        [
-            "Shopify",
             1
         ]
     ],
@@ -7035,10 +6043,6 @@
             2
         ],
         [
-            "Uber",
-            2
-        ],
-        [
             "Stratechery",
             1
         ],
@@ -7051,47 +6055,15 @@
             1
         ],
         [
-            "Apple",
-            2
-        ],
-        [
             "Meta",
             1
         ],
         [
-            "AOL",
-            2
+            "Time Warner",
+            1
         ],
         [
             "ACQ Sessions",
-            1
-        ],
-        [
-            "Zoom",
-            2
-        ],
-        [
-            "PowerPoint",
-            1
-        ],
-        [
-            "Slack",
-            2
-        ],
-        [
-            "Opsware",
-            3
-        ],
-        [
-            "LinkedIn",
-            2
-        ],
-        [
-            "Lucasfilm",
-            1
-        ],
-        [
-            "NeXT",
             1
         ],
         [
@@ -7099,11 +6071,39 @@
             2
         ],
         [
+            "Slack",
+            2
+        ],
+        [
+            "PowerPoint",
+            1
+        ],
+        [
+            "NeXT",
+            1
+        ],
+        [
+            "Zoom",
+            2
+        ],
+        [
             "Zappos",
             1
         ],
         [
+            "Opsware",
+            3
+        ],
+        [
             "CAA",
+            2
+        ],
+        [
+            "Lucasfilm",
+            1
+        ],
+        [
+            "LinkedIn",
             2
         ],
         [
@@ -7111,7 +6111,11 @@
             1
         ],
         [
-            "Eventbrite",
+            "Uber",
+            2
+        ],
+        [
+            "GitHub",
             1
         ],
         [
@@ -7119,7 +6123,7 @@
             1
         ],
         [
-            "Coca-Cola",
+            "Eventbrite",
             1
         ],
         [
@@ -7131,11 +6135,11 @@
             1
         ],
         [
-            "Lyft",
+            "Coca-Cola",
             1
         ],
         [
-            "GitHub",
+            "Lyft",
             1
         ],
         [
@@ -7193,15 +6197,15 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Visa",
             1
         ],
         [
             "Epic Systems",
+            1
+        ],
+        [
+            "YouTube",
             1
         ],
         [
@@ -7213,19 +6217,7 @@
             1
         ],
         [
-            "Tesla",
-            1
-        ],
-        [
             "Walmart",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "Zoom",
             1
         ],
         [
@@ -7233,7 +6225,15 @@
             1
         ],
         [
+            "Zoom",
+            1
+        ],
+        [
             "Slack",
+            1
+        ],
+        [
+            "Tesla",
             1
         ],
         [
@@ -7275,7 +6275,7 @@
             1
         ],
         [
-            "Apple",
+            "Google Maps",
             1
         ],
         [
@@ -7283,19 +6283,19 @@
             1
         ],
         [
-            "Google Maps",
+            "Instagram",
             1
         ],
         [
-            "Pixar",
+            "Marvel",
             1
         ],
         [
-            "NFL",
+            "Netflix",
             1
         ],
         [
-            "Slack",
+            "Nike",
             1
         ],
         [
@@ -7307,23 +6307,19 @@
             1
         ],
         [
-            "Nike",
+            "Slack",
             1
         ],
         [
-            "Netflix",
+            "NFL",
             1
         ],
         [
-            "Instagram",
+            "Pixar",
             1
         ],
         [
             "Lucasfilm",
-            1
-        ],
-        [
-            "Marvel",
             1
         ]
     ],
@@ -7373,15 +6369,11 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Xiaomi",
             1
         ],
         [
-            "Slack",
+            "Android",
             1
         ],
         [
@@ -7389,19 +6381,7 @@
             1
         ],
         [
-            "LinkedIn",
-            1
-        ],
-        [
             "Nest",
-            1
-        ],
-        [
-            "NeXT",
-            1
-        ],
-        [
-            "Android",
             1
         ],
         [
@@ -7410,6 +6390,18 @@
         ],
         [
             "Virgin America",
+            1
+        ],
+        [
+            "Slack",
+            1
+        ],
+        [
+            "NeXT",
+            1
+        ],
+        [
+            "LinkedIn",
             1
         ],
         [
@@ -7471,10 +6463,6 @@
             1
         ],
         [
-            "Uber",
-            2
-        ],
-        [
             "Nvidia",
             4
         ],
@@ -7485,10 +6473,6 @@
         [
             "Solana",
             1
-        ],
-        [
-            "Apple",
-            3
         ],
         [
             "Sessions",
@@ -7503,23 +6487,27 @@
             2
         ],
         [
-            "Qualcomm",
-            4
-        ],
-        [
-            "NVIDIA",
-            2
-        ],
-        [
             "YouTube",
             1
+        ],
+        [
+            "Marvel",
+            3
         ],
         [
             "Zoom",
             1
         ],
         [
-            "Marvel",
+            "NVIDIA",
+            2
+        ],
+        [
+            "Qualcomm",
+            4
+        ],
+        [
+            "Broadcom",
             3
         ],
         [
@@ -7539,7 +6527,7 @@
             1
         ],
         [
-            "Huawei",
+            "Android",
             2
         ],
         [
@@ -7547,7 +6535,19 @@
             2
         ],
         [
+            "Tesla",
+            2
+        ],
+        [
+            "Uber",
+            2
+        ],
+        [
             "Slack",
+            2
+        ],
+        [
+            "Huawei",
             2
         ],
         [
@@ -7556,14 +6556,6 @@
         ],
         [
             "CAA",
-            2
-        ],
-        [
-            "Android",
-            2
-        ],
-        [
-            "Tesla",
             2
         ],
         [
@@ -7643,14 +6635,6 @@
             1
         ],
         [
-            "Uber",
-            2
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -7671,10 +6655,6 @@
             4
         ],
         [
-            "Tesla",
-            2
-        ],
-        [
             "YouTube",
             1
         ],
@@ -7683,7 +6663,19 @@
             2
         ],
         [
+            "Tesla",
+            2
+        ],
+        [
+            "Uber",
+            2
+        ],
+        [
             "Qualcomm",
+            1
+        ],
+        [
+            "Instagram",
             1
         ],
         [
@@ -7691,15 +6683,11 @@
             1
         ],
         [
-            "Lyft",
-            1
-        ],
-        [
             "Peloton",
             1
         ],
         [
-            "Instagram",
+            "Lyft",
             1
         ],
         [
@@ -7761,14 +6749,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -7777,51 +6757,7 @@
             1
         ],
         [
-            "Netflix",
-            1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "TikTok",
-            1
-        ],
-        [
-            "Instagram",
-            1
-        ],
-        [
-            "NFL",
-            1
-        ],
-        [
-            "Google Maps",
-            1
-        ],
-        [
-            "NVIDIA",
-            1
-        ],
-        [
-            "Alphabet",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
             "Android",
-            1
-        ],
-        [
-            "Dropbox",
-            1
-        ],
-        [
-            "Lyft",
             1
         ],
         [
@@ -7829,21 +6765,65 @@
             1
         ],
         [
+            "Alphabet",
+            1
+        ],
+        [
+            "Instagram",
+            1
+        ],
+        [
+            "Netflix",
+            1
+        ],
+        [
+            "NFL",
+            1
+        ],
+        [
             "Tesla",
             1
         ],
         [
+            "Uber",
+            1
+        ],
+        [
+            "YouTube",
+            1
+        ],
+        [
+            "Google Maps",
+            1
+        ],
+        [
             "Shopify",
+            1
+        ],
+        [
+            "Dropbox",
+            1
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
+            "NVIDIA",
+            1
+        ],
+        [
+            "TikTok",
+            1
+        ],
+        [
+            "Lyft",
             1
         ]
     ],
     "WhatsApp": [
         [
             "Inside the M&A Press",
-            1
-        ],
-        [
-            "Amazon Unbound",
             1
         ],
         [
@@ -7856,10 +6836,6 @@
         ],
         [
             "Superhuman",
-            1
-        ],
-        [
-            "Arena Show",
             1
         ],
         [
@@ -7903,15 +6879,7 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Convoy",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -7923,8 +6891,8 @@
             1
         ],
         [
-            "AOL",
-            2
+            "Time Warner",
+            1
         ],
         [
             "ACQ Sessions",
@@ -7935,27 +6903,7 @@
             1
         ],
         [
-            "Tencent",
-            1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "TikTok",
-            2
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
-            "Instagram",
-            1
-        ],
-        [
-            "Venmo",
+            "YouTube",
             1
         ],
         [
@@ -7963,15 +6911,39 @@
             2
         ],
         [
+            "TikTok",
+            2
+        ],
+        [
+            "Venmo",
+            1
+        ],
+        [
+            "Instagram",
+            1
+        ],
+        [
+            "Tencent",
+            1
+        ],
+        [
             "Porsche",
             1
         ],
         [
-            "YouTube",
+            "Zoom",
+            1
+        ],
+        [
+            "Slack",
             1
         ],
         [
             "Nike",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -8037,14 +7009,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -8061,7 +7025,23 @@
             1
         ],
         [
-            "Hermes",
+            "LVMH",
+            1
+        ],
+        [
+            "Bitcoin",
+            1
+        ],
+        [
+            "Coca-Cola",
+            2
+        ],
+        [
+            "Walmart",
+            1
+        ],
+        [
+            "Nike",
             1
         ],
         [
@@ -8073,31 +7053,19 @@
             1
         ],
         [
-            "Coca-Cola",
-            2
+            "Tesla",
+            1
+        ],
+        [
+            "Uber",
+            1
         ],
         [
             "Nest",
             1
         ],
         [
-            "Nike",
-            1
-        ],
-        [
-            "Bitcoin",
-            1
-        ],
-        [
-            "Tesla",
-            1
-        ],
-        [
-            "Walmart",
-            1
-        ],
-        [
-            "LVMH",
+            "Hermes",
             1
         ],
         [
@@ -8119,15 +7087,15 @@
             1
         ],
         [
-            "Atari",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
         [
-            "Zoom",
+            "Coca-Cola",
+            1
+        ],
+        [
+            "Atari",
             1
         ],
         [
@@ -8135,7 +7103,7 @@
             1
         ],
         [
-            "Coca-Cola",
+            "Zoom",
             1
         ],
         [
@@ -8189,10 +7157,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Sessions",
             1
         ],
@@ -8205,7 +7169,7 @@
             1
         ],
         [
-            "NFL",
+            "Enron",
             1
         ],
         [
@@ -8213,24 +7177,24 @@
             1
         ],
         [
-            "Hermes",
-            2
+            "Peloton",
+            1
         ],
         [
             "Nike",
             2
         ],
         [
-            "Enron",
-            1
-        ],
-        [
-            "Peloton",
-            1
-        ],
-        [
             "NBA",
             1
+        ],
+        [
+            "NFL",
+            1
+        ],
+        [
+            "Hermes",
+            2
         ],
         [
             "IKEA",
@@ -8287,19 +7251,11 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Epic Games",
             1
         ],
         [
             "Electronic Arts",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -8332,6 +7288,10 @@
         ],
         [
             "Nike",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -8397,10 +7357,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Epic Games",
             2
         ],
@@ -8417,39 +7373,15 @@
             1
         ],
         [
-            "Tencent",
+            "Android",
             1
-        ],
-        [
-            "Zoom",
-            1
-        ],
-        [
-            "TikTok",
-            2
         ],
         [
             "Instagram",
             1
         ],
         [
-            "Pixar",
-            1
-        ],
-        [
-            "Overture",
-            1
-        ],
-        [
-            "YouTube",
-            1
-        ],
-        [
-            "Android",
-            1
-        ],
-        [
-            "Oprah",
+            "Tencent",
             1
         ],
         [
@@ -8457,11 +7389,39 @@
             1
         ],
         [
+            "Uber",
+            1
+        ],
+        [
+            "YouTube",
+            1
+        ],
+        [
             "Shopify",
             1
         ],
         [
+            "Oprah",
+            1
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
             "Meituan",
+            1
+        ],
+        [
+            "Overture",
+            1
+        ],
+        [
+            "TikTok",
+            2
+        ],
+        [
+            "Pixar",
             1
         ]
     ],
@@ -8491,7 +7451,7 @@
             1
         ],
         [
-            "Uber",
+            "Didi Chuxing Merger",
             1
         ],
         [
@@ -8573,11 +7533,19 @@
             1
         ],
         [
+            "Skype",
+            1
+        ],
+        [
+            "Oprah",
+            1
+        ],
+        [
             "NFL",
             1
         ],
         [
-            "Virgin America",
+            "Instagram",
             1
         ],
         [
@@ -8589,23 +7557,15 @@
             1
         ],
         [
-            "Skype",
-            1
-        ],
-        [
             "NBA",
             2
         ],
         [
+            "Virgin America",
+            1
+        ],
+        [
             "Slack",
-            1
-        ],
-        [
-            "Oprah",
-            1
-        ],
-        [
-            "Instagram",
             1
         ]
     ],
@@ -8639,10 +7599,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -8663,7 +7619,15 @@
             1
         ],
         [
-            "Hermes",
+            "YouTube",
+            1
+        ],
+        [
+            "Android",
+            1
+        ],
+        [
+            "Walmart",
             1
         ],
         [
@@ -8679,19 +7643,11 @@
             1
         ],
         [
-            "YouTube",
-            1
-        ],
-        [
-            "Android",
-            1
-        ],
-        [
             "Tesla",
             1
         ],
         [
-            "Walmart",
+            "Hermes",
             1
         ],
         [
@@ -8815,7 +7771,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -9035,11 +7991,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -9055,19 +8007,19 @@
             1
         ],
         [
-            "Instagram",
-            1
-        ],
-        [
-            "CAA",
-            1
-        ],
-        [
             "Android",
             1
         ],
         [
+            "Instagram",
+            1
+        ],
+        [
             "Slack",
+            1
+        ],
+        [
+            "CAA",
             1
         ],
         [
@@ -9137,6 +8089,284 @@
             1
         ]
     ],
+    "Uber": [
+        [
+            "DoorDash",
+            2
+        ],
+        [
+            "Inside the M&A Press",
+            1
+        ],
+        [
+            "Complexity Investing & Semiconductors",
+            1
+        ],
+        [
+            "Super Pumped",
+            1
+        ],
+        [
+            "Amazon",
+            3
+        ],
+        [
+            "Jet",
+            1
+        ],
+        [
+            "Spotify",
+            1
+        ],
+        [
+            "Sequoia Capital",
+            1
+        ],
+        [
+            "Superhuman",
+            1
+        ],
+        [
+            "Benchmark\u2019s Mitch Lasky",
+            1
+        ],
+        [
+            "Novo Nordisk",
+            1
+        ],
+        [
+            "Amazon Web Services",
+            1
+        ],
+        [
+            "Berkshire Hathaway",
+            2
+        ],
+        [
+            "Waze",
+            1
+        ],
+        [
+            "Twitter",
+            2
+        ],
+        [
+            "PayPal",
+            1
+        ],
+        [
+            "Taylor Swift",
+            1
+        ],
+        [
+            "WeWork \u201c",
+            1
+        ],
+        [
+            "Kevin Rose from Web 2.0 to Web3",
+            1
+        ],
+        [
+            "Benchmark",
+            4
+        ],
+        [
+            "BAMTech, Disney",
+            1
+        ],
+        [
+            "Microsoft",
+            1
+        ],
+        [
+            "SoundJam",
+            1
+        ],
+        [
+            "ESPN",
+            1
+        ],
+        [
+            "Facebook",
+            2
+        ],
+        [
+            "Airbnb",
+            2
+        ],
+        [
+            "SpaceX",
+            1
+        ],
+        [
+            "Oculus",
+            1
+        ],
+        [
+            "Ethereum",
+            1
+        ],
+        [
+            "Blue Bottle Coffee",
+            1
+        ],
+        [
+            "Didi Chuxing Merger",
+            1
+        ],
+        [
+            "Epic Games",
+            1
+        ],
+        [
+            "Electronic Arts",
+            1
+        ],
+        [
+            "Stratechery",
+            1
+        ],
+        [
+            "Convoy",
+            1
+        ],
+        [
+            "Pinterest",
+            1
+        ],
+        [
+            "Meta",
+            1
+        ],
+        [
+            "Time Warner",
+            1
+        ],
+        [
+            "ACQ Sessions",
+            1
+        ],
+        [
+            "Andreessen Horowitz",
+            2
+        ],
+        [
+            "TSMC",
+            2
+        ],
+        [
+            "Standard Oil",
+            2
+        ],
+        [
+            "AI Company",
+            1
+        ],
+        [
+            "WhatsApp",
+            1
+        ],
+        [
+            "Charlie Munger",
+            1
+        ],
+        [
+            "Atari",
+            1
+        ],
+        [
+            "Pinduoduo",
+            1
+        ],
+        [
+            "Lyft",
+            2
+        ],
+        [
+            "Slack",
+            2
+        ],
+        [
+            "Overture",
+            1
+        ],
+        [
+            "Instagram",
+            1
+        ],
+        [
+            "Netflix",
+            1
+        ],
+        [
+            "Booking",
+            2
+        ],
+        [
+            "Zillow",
+            1
+        ],
+        [
+            "Android",
+            1
+        ],
+        [
+            "Whole Foods Market",
+            1
+        ],
+        [
+            "FTX",
+            1
+        ],
+        [
+            "Starbucks",
+            1
+        ],
+        [
+            "NBA",
+            1
+        ],
+        [
+            "Shopify",
+            1
+        ],
+        [
+            "Eventbrite",
+            1
+        ],
+        [
+            "Alphabet",
+            1
+        ],
+        [
+            "Google Maps",
+            1
+        ],
+        [
+            "Slack DPO",
+            1
+        ],
+        [
+            "New York Times Company",
+            1
+        ],
+        [
+            "Zoom",
+            1
+        ],
+        [
+            "Not Boring",
+            1
+        ],
+        [
+            "Opsware",
+            1
+        ],
+        [
+            "Nike",
+            1
+        ]
+    ],
     "Siri": [
         [
             "Waze",
@@ -9197,19 +8427,11 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
             "Pinduoduo",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -9217,11 +8439,11 @@
             1
         ],
         [
-            "Instagram",
+            "Android",
             1
         ],
         [
-            "Android",
+            "Instagram",
             1
         ],
         [
@@ -9244,10 +8466,6 @@
     "Zappos": [
         [
             "DoorDash",
-            1
-        ],
-        [
-            "Amazon Unbound",
             1
         ],
         [
@@ -9305,10 +8523,6 @@
             2
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "P.A. Semi",
             1
         ],
@@ -9337,15 +8551,19 @@
             1
         ],
         [
-            "Tesla",
-            1
-        ],
-        [
             "NVIDIA",
             1
         ],
         [
             "Slack",
+            1
+        ],
+        [
+            "Tesla",
+            1
+        ],
+        [
+            "Broadcom",
             1
         ],
         [
@@ -9371,10 +8589,6 @@
     ],
     "Zillow": [
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Twitter",
             1
         ],
@@ -9399,15 +8613,11 @@
             1
         ],
         [
-            "Uber",
-            2
-        ],
-        [
-            "Stratechery",
+            "Didi Chuxing Merger",
             1
         ],
         [
-            "Apple",
+            "Stratechery",
             1
         ],
         [
@@ -9419,19 +8629,7 @@
             1
         ],
         [
-            "Pixar",
-            1
-        ],
-        [
-            "ExactTarget",
-            1
-        ],
-        [
-            "Nike",
-            1
-        ],
-        [
-            "Instagram",
+            "Uber",
             1
         ],
         [
@@ -9439,8 +8637,24 @@
             1
         ],
         [
+            "Instagram",
+            1
+        ],
+        [
             "Marvel",
             2
+        ],
+        [
+            "Nike",
+            1
+        ],
+        [
+            "Pixar",
+            1
+        ],
+        [
+            "ExactTarget",
+            1
         ],
         [
             "Booking",
@@ -9509,10 +8723,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Epic Games",
             1
         ],
@@ -9521,7 +8731,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -9538,6 +8748,10 @@
         ],
         [
             "IKEA",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -9675,10 +8889,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Nvidia",
             2
         ],
@@ -9699,7 +8909,7 @@
             1
         ],
         [
-            "Apple",
+            "Beats",
             1
         ],
         [
@@ -9711,7 +8921,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -9743,6 +8953,10 @@
             1
         ],
         [
+            "Uber",
+            1
+        ],
+        [
             "Siri",
             1
         ],
@@ -9759,11 +8973,23 @@
             1
         ],
         [
+            "Instagram",
+            1
+        ],
+        [
+            "Google Maps",
+            2
+        ],
+        [
             "Slack",
             2
         ],
         [
-            "Instagram",
+            "T-Mobile",
+            1
+        ],
+        [
+            "Lyft",
             1
         ],
         [
@@ -9772,18 +8998,6 @@
         ],
         [
             "Lucasfilm",
-            1
-        ],
-        [
-            "Google Maps",
-            2
-        ],
-        [
-            "Lyft",
-            1
-        ],
-        [
-            "T-Mobile",
             1
         ],
         [
@@ -9877,10 +9091,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Visa",
             1
         ],
@@ -9905,7 +9115,7 @@
             1
         ],
         [
-            "Tesla",
+            "Venmo",
             1
         ],
         [
@@ -9913,7 +9123,7 @@
             1
         ],
         [
-            "Venmo",
+            "Tesla",
             1
         ],
         [
@@ -9934,10 +9144,6 @@
         ]
     ],
     "Whole Foods Market": [
-        [
-            "Amazon Unbound",
-            1
-        ],
         [
             "Amazon",
             1
@@ -9979,15 +9185,11 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "NeXT",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -9995,11 +9197,19 @@
             1
         ],
         [
-            "Slack",
+            "Instagram",
             1
         ],
         [
-            "Instagram",
+            "Midroll",
+            1
+        ],
+        [
+            "Walmart",
+            1
+        ],
+        [
+            "Slack",
             1
         ],
         [
@@ -10011,25 +9221,13 @@
             1
         ],
         [
-            "Midroll",
-            1
-        ],
-        [
             "Lyft",
-            1
-        ],
-        [
-            "Walmart",
             1
         ]
     ],
     "Walmart": [
         [
             "DoorDash",
-            1
-        ],
-        [
-            "Amazon Unbound",
             1
         ],
         [
@@ -10046,10 +9244,6 @@
         ],
         [
             "Howard Marks & Andrew Marks",
-            1
-        ],
-        [
-            "Arena Show",
             1
         ],
         [
@@ -10074,10 +9268,6 @@
         ],
         [
             "Blue Bottle Coffee",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -10167,10 +9357,6 @@
             1
         ],
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Twitter",
             1
         ],
@@ -10191,10 +9377,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Solana",
             1
         ],
@@ -10203,15 +9385,19 @@
             1
         ],
         [
+            "Uber",
+            1
+        ],
+        [
             "Bitcoin",
             1
         ],
         [
-            "Tesla",
+            "Instagram",
             1
         ],
         [
-            "Instagram",
+            "Tesla",
             1
         ],
         [
@@ -10255,10 +9441,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "TSMC",
             1
         ],
@@ -10287,15 +9469,15 @@
             1
         ],
         [
+            "Instagram",
+            1
+        ],
+        [
             "Porsche",
             2
         ],
         [
-            "NFL",
-            1
-        ],
-        [
-            "Tesla",
+            "Nike",
             1
         ],
         [
@@ -10303,15 +9485,15 @@
             1
         ],
         [
-            "Nike",
-            1
-        ],
-        [
-            "Instagram",
+            "NFL",
             1
         ],
         [
             "Slack",
+            1
+        ],
+        [
+            "Tesla",
             1
         ],
         [
@@ -10369,23 +9551,11 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Convoy",
             1
         ],
         [
-            "Apple",
-            2
-        ],
-        [
             "Visa",
-            1
-        ],
-        [
-            "AOL",
             1
         ],
         [
@@ -10402,6 +9572,10 @@
         ],
         [
             "LA Clippers",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -10429,15 +9603,15 @@
             1
         ],
         [
-            "Hermes",
-            1
-        ],
-        [
             "Coca-Cola",
             2
         ],
         [
             "LinkedIn",
+            1
+        ],
+        [
+            "Hermes",
             1
         ]
     ],
@@ -10483,10 +9657,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Electronic Arts",
             1
         ],
@@ -10507,6 +9677,10 @@
             2
         ],
         [
+            "Uber",
+            1
+        ],
+        [
             "Netflix",
             1
         ],
@@ -10519,14 +9693,6 @@
             1
         ],
         [
-            "TikTok",
-            2
-        ],
-        [
-            "Slack",
-            1
-        ],
-        [
             "Instagram",
             1
         ],
@@ -10535,20 +9701,28 @@
             2
         ],
         [
+            "Slack",
+            1
+        ],
+        [
             "Twitch",
             1
+        ],
+        [
+            "Indian Premier League Cricket",
+            2
         ],
         [
             "Nike",
             2
         ],
         [
-            "CAA",
-            1
+            "TikTok",
+            2
         ],
         [
-            "Indian Premier League Cricket",
-            2
+            "CAA",
+            1
         ],
         [
             "Disney, Plus",
@@ -10573,7 +9747,7 @@
             1
         ],
         [
-            "Apple",
+            "Beats",
             1
         ],
         [
@@ -10589,19 +9763,19 @@
             1
         ],
         [
-            "Push Pop Press",
-            1
-        ],
-        [
             "LinkedIn",
             1
         ],
         [
-            "Slack",
+            "Push Pop Press",
             1
         ],
         [
             "Instagram",
+            1
+        ],
+        [
+            "Slack",
             1
         ]
     ],
@@ -10627,10 +9801,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
@@ -10647,15 +9817,15 @@
             1
         ],
         [
+            "Instagram",
+            1
+        ],
+        [
             "Nest",
             1
         ],
         [
             "Recode",
-            1
-        ],
-        [
-            "Instagram",
             1
         ]
     ],
@@ -10689,8 +9859,8 @@
             1
         ],
         [
-            "Uber",
-            3
+            "Didi Chuxing Merger",
+            1
         ],
         [
             "Electronic Arts",
@@ -10707,6 +9877,10 @@
         [
             "AI Company",
             1
+        ],
+        [
+            "Uber",
+            2
         ],
         [
             "Android",
@@ -10807,7 +9981,7 @@
             1
         ],
         [
-            "Uber",
+            "Didi Chuxing Merger",
             1
         ],
         [
@@ -11027,10 +10201,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -11071,11 +10241,11 @@
             1
         ],
         [
-            "Pixar",
+            "Behance",
             1
         ],
         [
-            "Behance",
+            "Instagram",
             1
         ],
         [
@@ -11087,7 +10257,7 @@
             2
         ],
         [
-            "Instagram",
+            "Pixar",
             1
         ],
         [
@@ -11229,10 +10399,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Nvidia",
             2
         ],
@@ -11249,7 +10415,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -11290,6 +10456,10 @@
         ],
         [
             "NeXT",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -11419,10 +10589,6 @@
             1
         ],
         [
-            "Amazon Unbound",
-            1
-        ],
-        [
             "Amazon",
             2
         ],
@@ -11451,19 +10617,11 @@
             2
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Stratechery",
             1
         ],
         [
             "Pinterest",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -11480,6 +10638,10 @@
         ],
         [
             "Pinduoduo",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -11553,12 +10715,8 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
+            "Time Warner",
+            2
         ],
         [
             "Andreessen Horowitz",
@@ -11655,6 +10813,10 @@
             1
         ],
         [
+            "Beats",
+            1
+        ],
+        [
             "Sessions",
             1
         ],
@@ -11663,7 +10825,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -11727,20 +10889,20 @@
             2
         ],
         [
-            "CAA",
-            2
-        ],
-        [
             "TikTok",
-            1
-        ],
-        [
-            "Lucasfilm",
             1
         ],
         [
             "Marvel",
             2
+        ],
+        [
+            "CAA",
+            2
+        ],
+        [
+            "Lucasfilm",
+            1
         ],
         [
             "Hermes",
@@ -11797,10 +10959,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Lockheed Martin",
             1
         ],
@@ -11825,16 +10983,16 @@
             1
         ],
         [
-            "Hermes",
-            2
+            "Slack",
+            1
         ],
         [
             "Nike",
             2
         ],
         [
-            "Slack",
-            1
+            "Hermes",
+            2
         ],
         [
             "Indian Premier League Cricket",
@@ -11848,10 +11006,6 @@
         ],
         [
             "Jet",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -11881,7 +11035,7 @@
             1
         ],
         [
-            "NVIDIA",
+            "Slack",
             1
         ],
         [
@@ -11889,7 +11043,7 @@
             1
         ],
         [
-            "Slack",
+            "NVIDIA",
             1
         ]
     ],
@@ -11923,10 +11077,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "YouTube",
             1
         ],
@@ -11943,11 +11093,11 @@
             1
         ],
         [
-            "Zoom",
+            "Twitch",
             1
         ],
         [
-            "Twitch",
+            "Zoom",
             1
         ],
         [
@@ -11991,10 +11141,6 @@
         [
             "Microsoft",
             2
-        ],
-        [
-            "Apple",
-            1
         ],
         [
             "Meta",
@@ -12045,15 +11191,7 @@
             2
         ],
         [
-            "TikTok",
-            1
-        ],
-        [
             "Slack",
-            1
-        ],
-        [
-            "Pixar",
             1
         ],
         [
@@ -12063,6 +11201,14 @@
         [
             "Nike",
             2
+        ],
+        [
+            "TikTok",
+            1
+        ],
+        [
+            "Pixar",
+            1
         ],
         [
             "CAA",
@@ -12133,20 +11279,12 @@
             2
         ],
         [
-            "Uber",
-            2
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
             "NeXT",
             1
+        ],
+        [
+            "Uber",
+            2
         ],
         [
             "Overture",
@@ -12183,10 +11321,6 @@
             1
         ],
         [
-            "AOL",
-            1
-        ],
-        [
             "TSMC",
             1
         ],
@@ -12203,19 +11337,19 @@
             1
         ],
         [
-            "NVIDIA",
-            1
-        ],
-        [
             "Nike",
             1
         ],
         [
-            "CAA",
+            "NVIDIA",
             1
         ],
         [
             "Slack",
+            1
+        ],
+        [
+            "CAA",
             1
         ]
     ],
@@ -12271,10 +11405,6 @@
         [
             "Convoy",
             2
-        ],
-        [
-            "Apple",
-            1
         ],
         [
             "Meta",
@@ -12367,10 +11497,6 @@
             2
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Epic Games",
             1
         ],
@@ -12387,15 +11513,15 @@
             1
         ],
         [
-            "AOL",
-            1
-        ],
-        [
             "Andreessen Horowitz",
             1
         ],
         [
             "YouTube",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -12453,19 +11579,7 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
-            1
-        ],
-        [
-            "AOL",
             1
         ],
         [
@@ -12482,6 +11596,10 @@
         ],
         [
             "GitHub",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -12521,7 +11639,19 @@
             1
         ],
         [
+            "Atlassian",
+            1
+        ],
+        [
             "Writely",
+            1
+        ],
+        [
+            "Broadcom",
+            1
+        ],
+        [
+            "Google Maps",
             1
         ],
         [
@@ -12530,14 +11660,6 @@
         ],
         [
             "Lucasfilm",
-            1
-        ],
-        [
-            "Google Maps",
-            1
-        ],
-        [
-            "Atlassian",
             1
         ],
         [
@@ -12591,19 +11713,15 @@
             1
         ],
         [
-            "Uber",
-            2
+            "Didi Chuxing Merger",
+            1
         ],
         [
             "Nvidia",
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -12624,6 +11742,10 @@
         ],
         [
             "YouTube",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -12689,10 +11811,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -12741,11 +11859,11 @@
             1
         ],
         [
-            "Slack",
+            "Atlassian",
             1
         ],
         [
-            "Coca-Cola",
+            "Slack",
             1
         ],
         [
@@ -12753,7 +11871,7 @@
             1
         ],
         [
-            "Atlassian",
+            "Coca-Cola",
             1
         ]
     ],
@@ -12795,15 +11913,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
-            1
-        ],
-        [
-            "AOL",
             1
         ],
         [
@@ -12885,19 +11995,15 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
         [
             "Andreessen Horowitz",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -12917,11 +12023,7 @@
             1
         ],
         [
-            "Zoom",
-            1
-        ],
-        [
-            "Slack",
+            "Atlassian",
             1
         ],
         [
@@ -12929,7 +12031,11 @@
             1
         ],
         [
-            "Atlassian",
+            "Zoom",
+            1
+        ],
+        [
+            "Slack",
             1
         ]
     ],
@@ -12967,10 +12073,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Tencent",
             1
         ],
@@ -12987,10 +12089,6 @@
             1
         ],
         [
-            "Pixar",
-            1
-        ],
-        [
             "Enron",
             1
         ],
@@ -13000,6 +12098,10 @@
         ],
         [
             "Slack",
+            1
+        ],
+        [
+            "Pixar",
             1
         ],
         [
@@ -13137,6 +12239,10 @@
             1
         ],
         [
+            "Time Warner",
+            1
+        ],
+        [
             "Console Wars",
             1
         ],
@@ -13173,7 +12279,7 @@
             1
         ],
         [
-            "Pixar",
+            "Twitch",
             1
         ],
         [
@@ -13181,7 +12287,7 @@
             1
         ],
         [
-            "Twitch",
+            "Pixar",
             1
         ],
         [
@@ -13204,10 +12310,6 @@
         ],
         [
             "Superhuman",
-            1
-        ],
-        [
-            "Arena Show",
             1
         ],
         [
@@ -13269,10 +12371,6 @@
             1
         ],
         [
-            "Amazon Unbound",
-            1
-        ],
-        [
             "Amazon",
             2
         ],
@@ -13298,10 +12396,6 @@
         ],
         [
             "Howard Marks & Andrew Marks",
-            1
-        ],
-        [
-            "Arena Show",
             1
         ],
         [
@@ -13385,8 +12479,8 @@
             1
         ],
         [
-            "Uber",
-            3
+            "Didi Chuxing Merger",
+            1
         ],
         [
             "Nvidia",
@@ -13409,10 +12503,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -13421,7 +12511,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -13491,6 +12581,10 @@
         [
             "PowerPoint",
             1
+        ],
+        [
+            "Uber",
+            2
         ],
         [
             "Overture",
@@ -13649,6 +12743,28 @@
             1
         ]
     ],
+    "Broadcom": [
+        [
+            "Complexity Investing & Semiconductors",
+            1
+        ],
+        [
+            "Nvidia",
+            1
+        ],
+        [
+            "TSMC",
+            3
+        ],
+        [
+            "Qualcomm",
+            1
+        ],
+        [
+            "Alphabet",
+            1
+        ]
+    ],
     "Disney, Plus": [
         [
             "Twitter",
@@ -13671,11 +12787,7 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -13707,11 +12819,11 @@
             1
         ],
         [
-            "Pixar",
+            "CAA",
             1
         ],
         [
-            "CAA",
+            "Pixar",
             1
         ]
     ],
@@ -13726,10 +12838,6 @@
         ],
         [
             "Facebook",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -13791,10 +12899,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meta",
             1
         ],
@@ -13834,10 +12938,6 @@
         ],
         [
             "Benchmark",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -13915,23 +13015,15 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
-            "AOL",
-            1
-        ],
-        [
             "Standard Oil",
             1
         ],
         [
             "YouTube",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -13990,10 +13082,6 @@
         ],
         [
             "Nvidia",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -14121,10 +13209,6 @@
     ],
     "Oprah": [
         [
-            "Amazon Unbound",
-            1
-        ],
-        [
             "Amazon",
             1
         ],
@@ -14151,10 +13235,6 @@
         [
             "Playbook",
             2
-        ],
-        [
-            "Apple",
-            1
         ],
         [
             "Epic Systems",
@@ -14198,10 +13278,6 @@
         ]
     ],
     "Pixar": [
-        [
-            "Arena Show",
-            1
-        ],
         [
             "Nintendo",
             1
@@ -14303,10 +13379,6 @@
             1
         ],
         [
-            "Apple",
-            1
-        ],
-        [
             "Meituan",
             1
         ],
@@ -14351,10 +13423,6 @@
             1
         ],
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Costco",
             1
         ],
@@ -14387,10 +13455,6 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
             "Nvidia",
             2
         ],
@@ -14404,10 +13468,6 @@
         ],
         [
             "Solana",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -14448,6 +13508,10 @@
         ],
         [
             "Pinduoduo",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -14539,7 +13603,7 @@
             1
         ],
         [
-            "AOL",
+            "Time Warner",
             1
         ],
         [
@@ -14635,10 +13699,6 @@
             1
         ],
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Berkshire Hathaway",
             1
         ],
@@ -14659,19 +13719,15 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
-            1
-        ],
-        [
             "Standard Oil",
             1
         ],
         [
             "Tencent",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -14725,11 +13781,7 @@
             1
         ],
         [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
+            "Beats",
             1
         ],
         [
@@ -14738,6 +13790,10 @@
         ],
         [
             "GitHub",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -14768,10 +13824,6 @@
         ],
         [
             "Pinterest",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -14865,10 +13917,6 @@
             1
         ],
         [
-            "Arena Show",
-            1
-        ],
-        [
             "Costco",
             1
         ],
@@ -14878,14 +13926,6 @@
         ],
         [
             "ESPN",
-            1
-        ],
-        [
-            "Uber",
-            1
-        ],
-        [
-            "Apple",
             1
         ],
         [
@@ -14918,6 +13958,10 @@
         ],
         [
             "Atari",
+            1
+        ],
+        [
+            "Uber",
             1
         ],
         [
@@ -15031,10 +14075,6 @@
         [
             "Nvidia",
             4
-        ],
-        [
-            "Apple",
-            1
         ],
         [
             "Visa",
