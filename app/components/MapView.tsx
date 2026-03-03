@@ -53,15 +53,18 @@ export default function MapView({
   useEffect(() => {
     if (!mapContainer.current || mapRef.current) return;
 
+    // cancelled flag: if the component unmounts before the async resolves,
+    // we skip all post-await setup so no stale closures fire setState on a
+    // dead component instance.
+    let cancelled = false;
     let map: any;
 
     (async () => {
       const maplibregl = (await import("maplibre-gl")).default;
-      // Optionally import CSS here if not globally loaded
-      // await import("maplibre-gl/dist/maplibre-gl.css");
+      if (cancelled || !mapContainer.current) return;
 
       map = new maplibregl.Map({
-        container: mapContainer.current!,
+        container: mapContainer.current,
         style: mapStyleUrl,
         center,
         zoom,
@@ -81,6 +84,7 @@ export default function MapView({
       projectRef.current = stableProject;
 
       const handleMove = () => {
+        if (cancelled) return;
         projectRef.current = stableProject;
         setMapRenderTick(t => t + 1);
       };
@@ -89,6 +93,7 @@ export default function MapView({
       map.on("resize", handleMove);
 
       map.on("load", () => {
+        if (cancelled) return;
         projectRef.current = stableProject;
         setMapRenderTick(t => t + 1);
       });
@@ -99,8 +104,10 @@ export default function MapView({
     })();
 
     return () => {
+      cancelled = true;
       if (map) map.remove();
       mapRef.current = null;
+      projectRef.current = null;
     };
   }, []);
 
