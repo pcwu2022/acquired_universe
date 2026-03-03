@@ -1,5 +1,1005 @@
 [
   {
+    "name": "London",
+    "lat": 51.5074,
+    "lng": -0.1278
+  },
+  {
+    "name": "Berlin",
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  {
+    "name": "Madrid",
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  {
+    "name": "Rome",
+    "lat": 41.9028,
+    "lng": 12.4964
+  },
+  {
+    "name": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522
+  },
+  {
+    "name": "Bucharest",
+    "lat": 44.4268,
+    "lng": 26.1025
+  },
+  {
+    "name": "Vienna",
+    "lat": 48.2082,
+    "lng": 16.3738
+  },
+  {
+    "name": "Hamburg",
+    "lat": 53.5511,
+    "lng": 9.9937
+  },
+  {
+    "name": "Warsaw",
+    "lat": 52.2297,
+    "lng": 21.0122
+  },
+  {
+    "name": "Budapest",
+    "lat": 47.4979,
+    "lng": 19.0402
+  },
+  {
+    "name": "Barcelona",
+    "lat": 41.3851,
+    "lng": 2.1734
+  },
+  {
+    "name": "Munich",
+    "lat": 48.1351,
+    "lng": 11.582
+  },
+  {
+    "name": "Milan",
+    "lat": 45.4642,
+    "lng": 9.19
+  },
+  {
+    "name": "Prague",
+    "lat": 50.0755,
+    "lng": 14.4378
+  },
+  {
+    "name": "Sofia",
+    "lat": 42.6977,
+    "lng": 23.3219
+  },
+  {
+    "name": "Brussels",
+    "lat": 50.8503,
+    "lng": 4.3517
+  },
+  {
+    "name": "Birmingham",
+    "lat": 52.4862,
+    "lng": -1.8904
+  },
+  {
+    "name": "Cologne",
+    "lat": 50.9375,
+    "lng": 6.9603
+  },
+  {
+    "name": "Naples",
+    "lat": 40.8518,
+    "lng": 14.2681
+  },
+  {
+    "name": "Stockholm",
+    "lat": 59.3293,
+    "lng": 18.0686
+  },
+  {
+    "name": "Turin",
+    "lat": 45.0703,
+    "lng": 7.6869
+  },
+  {
+    "name": "Marseille",
+    "lat": 43.2965,
+    "lng": 5.3698
+  },
+  {
+    "name": "Amsterdam",
+    "lat": 52.3676,
+    "lng": 4.9041
+  },
+  {
+    "name": "Zagreb",
+    "lat": 45.815,
+    "lng": 15.9819
+  },
+  {
+    "name": "Valencia",
+    "lat": 39.4699,
+    "lng": -0.3763
+  },
+  {
+    "name": "Krakow",
+    "lat": 50.0647,
+    "lng": 19.945
+  },
+  {
+    "name": "Frankfurt",
+    "lat": 50.1109,
+    "lng": 8.6821
+  },
+  {
+    "name": "Oslo",
+    "lat": 59.9139,
+    "lng": 10.7522
+  },
+  {
+    "name": "Seville",
+    "lat": 37.3891,
+    "lng": -5.9845
+  },
+  {
+    "name": "Zaragoza",
+    "lat": 41.6488,
+    "lng": -0.8891
+  },
+  {
+    "name": "Athens",
+    "lat": 37.9838,
+    "lng": 23.7275
+  },
+  {
+    "name": "Palermo",
+    "lat": 38.1157,
+    "lng": 13.3615
+  },
+  {
+    "name": "Helsinki",
+    "lat": 60.1695,
+    "lng": 24.9354
+  },
+  {
+    "name": "Rotterdam",
+    "lat": 51.9225,
+    "lng": 4.4792
+  },
+  {
+    "name": "Stuttgart",
+    "lat": 48.7758,
+    "lng": 9.1829
+  },
+  {
+    "name": "Riga",
+    "lat": 56.9496,
+    "lng": 24.1052
+  },
+  {
+    "name": "Dusseldorf",
+    "lat": 51.2277,
+    "lng": 6.7735
+  },
+  {
+    "name": "Copenhagen",
+    "lat": 55.6761,
+    "lng": 12.5683
+  },
+  {
+    "name": "Vilnius",
+    "lat": 54.6872,
+    "lng": 25.2797
+  },
+  {
+    "name": "Leipzig",
+    "lat": 51.3397,
+    "lng": 12.3731
+  },
+  {
+    "name": "Dortmund",
+    "lat": 51.5136,
+    "lng": 7.4653
+  },
+  {
+    "name": "Essen",
+    "lat": 51.4556,
+    "lng": 7.0116
+  },
+  {
+    "name": "Gothenburg",
+    "lat": 57.7089,
+    "lng": 11.9746
+  },
+  {
+    "name": "Genoa",
+    "lat": 44.4056,
+    "lng": 8.9463
+  },
+  {
+    "name": "Malaga",
+    "lat": 36.7213,
+    "lng": -4.4214
+  },
+  {
+    "name": "Bremen",
+    "lat": 53.0793,
+    "lng": 8.8017
+  },
+  {
+    "name": "Lisbon",
+    "lat": 38.7223,
+    "lng": -9.1393
+  },
+  {
+    "name": "Vilnius",
+    "lat": 54.6872,
+    "lng": 25.2797
+  },
+  {
+    "name": "Dublin",
+    "lat": 53.3498,
+    "lng": -6.2603
+  },
+  {
+    "name": "Dresden",
+    "lat": 51.0504,
+    "lng": 13.7373
+  },
+  {
+    "name": "Nuremberg",
+    "lat": 49.4521,
+    "lng": 11.0767
+  },
+  {
+    "name": "Antwerp",
+    "lat": 51.2194,
+    "lng": 4.4025
+  },
+  {
+    "name": "Lyon",
+    "lat": 45.764,
+    "lng": 4.8357
+  },
+  {
+    "name": "Toulouse",
+    "lat": 43.6047,
+    "lng": 1.4442
+  },
+  {
+    "name": "Bratislava",
+    "lat": 48.1486,
+    "lng": 17.1077
+  },
+  {
+    "name": "Gdansk",
+    "lat": 54.352,
+    "lng": 18.6466
+  },
+  {
+    "name": "Murcia",
+    "lat": 37.9922,
+    "lng": -1.1307
+  },
+  {
+    "name": "Tallinn",
+    "lat": 59.437,
+    "lng": 24.7536
+  },
+  {
+    "name": "Palma",
+    "lat": 39.5696,
+    "lng": 2.6502
+  },
+  {
+    "name": "Bologna",
+    "lat": 44.4949,
+    "lng": 11.3426
+  },
+  {
+    "name": "Brno",
+    "lat": 49.1951,
+    "lng": 16.6068
+  },
+  {
+    "name": "Florence",
+    "lat": 43.7696,
+    "lng": 11.2558
+  },
+  {
+    "name": "The Hague",
+    "lat": 52.0705,
+    "lng": 4.3007
+  },
+  {
+    "name": "Nice",
+    "lat": 43.7102,
+    "lng": 7.262
+  },
+  {
+    "name": "Bari",
+    "lat": 41.1171,
+    "lng": 16.8719
+  },
+  {
+    "name": "Bilbao",
+    "lat": 43.263,
+    "lng": -2.935
+  },
+  {
+    "name": "Thessaloniki",
+    "lat": 40.6401,
+    "lng": 22.9444
+  },
+  {
+    "name": "Cardiff",
+    "lat": 51.4816,
+    "lng": -3.1791
+  },
+  {
+    "name": "Alicante",
+    "lat": 38.3452,
+    "lng": -0.481
+  },
+  {
+    "name": "Belfast",
+    "lat": 54.5973,
+    "lng": -5.9301
+  },
+  {
+    "name": "Ljubljana",
+    "lat": 46.0569,
+    "lng": 14.5058
+  },
+  {
+    "name": "Utrecht",
+    "lat": 52.0907,
+    "lng": 5.1214
+  },
+  {
+    "name": "Bordeaux",
+    "lat": 44.8378,
+    "lng": -0.5792
+  },
+  {
+    "name": "Porto",
+    "lat": 41.1579,
+    "lng": -8.6291
+  },
+  {
+    "name": "Edinburgh",
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
+  {
+    "name": "Glasgow",
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  {
+    "name": "Manchester",
+    "lat": 53.4808,
+    "lng": -2.2426
+  },
+  {
+    "name": "Sheffield",
+    "lat": 53.3811,
+    "lng": -1.4701
+  },
+  {
+    "name": "Liverpool",
+    "lat": 53.4084,
+    "lng": -2.9916
+  },
+  {
+    "name": "Bristol",
+    "lat": 51.4545,
+    "lng": -2.5879
+  },
+  {
+    "name": "Leicester",
+    "lat": 52.6369,
+    "lng": -1.1398
+  },
+  {
+    "name": "Verona",
+    "lat": 45.4384,
+    "lng": 10.9916
+  },
+  {
+    "name": "Venice",
+    "lat": 45.4408,
+    "lng": 12.3155
+  },
+  {
+    "name": "Catania",
+    "lat": 37.5079,
+    "lng": 15.083
+  },
+  {
+    "name": "Ghent",
+    "lat": 51.0543,
+    "lng": 3.7174
+  },
+  {
+    "name": "Charleroi",
+    "lat": 50.4108,
+    "lng": 4.4446
+  },
+  {
+    "name": "Liege",
+    "lat": 50.6326,
+    "lng": 5.5797
+  },
+  {
+    "name": "Plovdiv",
+    "lat": 42.1354,
+    "lng": 24.7453
+  },
+  {
+    "name": "Varna",
+    "lat": 43.2141,
+    "lng": 27.9147
+  },
+  {
+    "name": "Split",
+    "lat": 43.5081,
+    "lng": 16.4402
+  },
+  {
+    "name": "Limassol",
+    "lat": 34.6786,
+    "lng": 33.0413
+  },
+  {
+    "name": "Aarhus",
+    "lat": 56.1567,
+    "lng": 10.2108
+  },
+  {
+    "name": "Turku",
+    "lat": 60.4518,
+    "lng": 22.2666
+  },
+  {
+    "name": "Nantes",
+    "lat": 47.2184,
+    "lng": -1.5536
+  },
+  {
+    "name": "Strasbourg",
+    "lat": 48.5734,
+    "lng": 7.7521
+  },
+  {
+    "name": "Montpellier",
+    "lat": 43.6108,
+    "lng": 3.8767
+  },
+  {
+    "name": "Hanover",
+    "lat": 52.3759,
+    "lng": 9.732
+  },
+  {
+    "name": "Bonn",
+    "lat": 50.7337,
+    "lng": 7.0982
+  },
+  {
+    "name": "Luxembourg City",
+    "lat": 49.6116,
+    "lng": 6.1319
+  },
+  {
+    "name": "Reykjavik",
+    "lat": 64.1265,
+    "lng": -21.8174
+  },
+  {
+    "name": "Minsk",
+    "lat": 53.9006,
+    "lng": 27.559
+  },
+  {
+    "name": "Belgrade",
+    "lat": 44.7866,
+    "lng": 20.4489
+  },
+  {
+    "name": "Lyon",
+    "lat": 45.764,
+    "lng": 4.8357
+  },
+  {
+    "name": "Tbilisi",
+    "lat": 41.7151,
+    "lng": 44.8271
+  },
+  {
+    "name": "Yerevan",
+    "lat": 40.1792,
+    "lng": 44.5152
+  },
+  {
+    "name": "Sarajevo",
+    "lat": 43.8563,
+    "lng": 18.4131
+  },
+  {
+    "name": "Tirana",
+    "lat": 41.3275,
+    "lng": 19.8187
+  },
+  {
+    "name": "Skopje",
+    "lat": 41.9973,
+    "lng": 21.428
+  },
+  {
+    "name": "Chisinau",
+    "lat": 47.0105,
+    "lng": 28.8638
+  },
+  {
+    "name": "Baku",
+    "lat": 40.4093,
+    "lng": 49.8671
+  },
+  {
+    "name": "Lille",
+    "lat": 50.6292,
+    "lng": 3.0573
+  },
+  {
+    "name": "Malmo",
+    "lat": 55.605,
+    "lng": 13.0038
+  },
+  {
+    "name": "Geneva",
+    "lat": 46.2044,
+    "lng": 6.1432
+  },
+  {
+    "name": "Zurich",
+    "lat": 47.3769,
+    "lng": 8.5417
+  },
+  {
+    "name": "Basel",
+    "lat": 47.5596,
+    "lng": 7.5886
+  },
+  {
+    "name": "Bern",
+    "lat": 46.948,
+    "lng": 7.4474
+  },
+  {
+    "name": "Lausanne",
+    "lat": 46.5197,
+    "lng": 6.6323
+  },
+  {
+    "name": "Reykjavik",
+    "lat": 64.1265,
+    "lng": -21.8174
+  },
+  {
+    "name": "Cork",
+    "lat": 51.8985,
+    "lng": -8.4756
+  },
+  {
+    "name": "Galway",
+    "lat": 53.2707,
+    "lng": -9.0568
+  },
+  {
+    "name": "Limerick",
+    "lat": 52.6638,
+    "lng": -8.6267
+  },
+  {
+    "name": "Aberdeen",
+    "lat": 57.1497,
+    "lng": -2.0943
+  },
+  {
+    "name": "Dundee",
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  {
+    "name": "Newcastle",
+    "lat": 54.9783,
+    "lng": -1.6178
+  },
+  {
+    "name": "Leeds",
+    "lat": 53.8008,
+    "lng": -1.5491
+  },
+  {
+    "name": "Nottingham",
+    "lat": 52.9548,
+    "lng": -1.1581
+  },
+  {
+    "name": "Southampton",
+    "lat": 50.9097,
+    "lng": -1.4044
+  },
+  {
+    "name": "Portsmouth",
+    "lat": 50.8198,
+    "lng": -1.088
+  },
+  {
+    "name": "Plymouth",
+    "lat": 50.3755,
+    "lng": -4.1427
+  },
+  {
+    "name": "Rennes",
+    "lat": 48.1173,
+    "lng": -1.6778
+  },
+  {
+    "name": "Reims",
+    "lat": 49.2583,
+    "lng": 4.0317
+  },
+  {
+    "name": "Le Havre",
+    "lat": 49.4944,
+    "lng": 0.1079
+  },
+  {
+    "name": "Saint-Etienne",
+    "lat": 45.4397,
+    "lng": 4.3872
+  },
+  {
+    "name": "Toulon",
+    "lat": 43.1242,
+    "lng": 5.928
+  },
+  {
+    "name": "Grenoble",
+    "lat": 45.1885,
+    "lng": 5.7245
+  },
+  {
+    "name": "Dijon",
+    "lat": 47.322,
+    "lng": 5.0415
+  },
+  {
+    "name": "Angers",
+    "lat": 47.4784,
+    "lng": -0.5632
+  },
+  {
+    "name": "Le Mans",
+    "lat": 48.0061,
+    "lng": 0.1996
+  },
+  {
+    "name": "Brest",
+    "lat": 48.3904,
+    "lng": -4.4861
+  },
+  {
+    "name": "Valladolid",
+    "lat": 41.6523,
+    "lng": -4.7245
+  },
+  {
+    "name": "Vigo",
+    "lat": 42.2406,
+    "lng": -8.7207
+  },
+  {
+    "name": "Gijon",
+    "lat": 43.5322,
+    "lng": -5.6611
+  },
+  {
+    "name": "A Coruna",
+    "lat": 43.3623,
+    "lng": -8.4115
+  },
+  {
+    "name": "Granada",
+    "lat": 37.1773,
+    "lng": -3.5985
+  },
+  {
+    "name": "Cordoba",
+    "lat": 37.8882,
+    "lng": -4.7794
+  },
+  {
+    "name": "Alicante",
+    "lat": 38.3452,
+    "lng": -0.481
+  },
+  {
+    "name": "Oviedo",
+    "lat": 43.3603,
+    "lng": -5.8448
+  },
+  {
+    "name": "Santander",
+    "lat": 43.4623,
+    "lng": -3.8099
+  },
+  {
+    "name": "San Sebastian",
+    "lat": 43.3183,
+    "lng": -1.9812
+  },
+  {
+    "name": "Pamplona",
+    "lat": 42.8125,
+    "lng": -1.6458
+  },
+  {
+    "name": "Brescia",
+    "lat": 45.5416,
+    "lng": 10.2118
+  },
+  {
+    "name": "Prato",
+    "lat": 43.8777,
+    "lng": 11.1022
+  },
+  {
+    "name": "Modena",
+    "lat": 44.6471,
+    "lng": 10.9252
+  },
+  {
+    "name": "Reggio Emilia",
+    "lat": 44.6982,
+    "lng": 10.6312
+  },
+  {
+    "name": "Perugia",
+    "lat": 43.1107,
+    "lng": 12.3908
+  },
+  {
+    "name": "Livorno",
+    "lat": 43.5485,
+    "lng": 10.3106
+  },
+  {
+    "name": "Cagliari",
+    "lat": 39.2238,
+    "lng": 9.1217
+  },
+  {
+    "name": "Foggia",
+    "lat": 41.4622,
+    "lng": 15.5446
+  },
+  {
+    "name": "Salerno",
+    "lat": 40.6779,
+    "lng": 14.7658
+  },
+  {
+    "name": "Innsbruck",
+    "lat": 47.2692,
+    "lng": 11.4041
+  },
+  {
+    "name": "Salzburg",
+    "lat": 47.8095,
+    "lng": 13.055
+  },
+  {
+    "name": "Linz",
+    "lat": 48.3069,
+    "lng": 14.2858
+  },
+  {
+    "name": "Graz",
+    "lat": 47.0707,
+    "lng": 15.4395
+  },
+  {
+    "name": "Klagenfurt",
+    "lat": 46.6247,
+    "lng": 14.3053
+  },
+  {
+    "name": "Debrecen",
+    "lat": 47.5316,
+    "lng": 21.6273
+  },
+  {
+    "name": "Szeged",
+    "lat": 46.253,
+    "lng": 20.1414
+  },
+  {
+    "name": "Miskolc",
+    "lat": 48.1035,
+    "lng": 20.7784
+  },
+  {
+    "name": "Pecs",
+    "lat": 46.0727,
+    "lng": 18.2323
+  },
+  {
+    "name": "Gyor",
+    "lat": 47.6875,
+    "lng": 17.6504
+  },
+  {
+    "name": "Wroclaw",
+    "lat": 51.1079,
+    "lng": 17.0385
+  },
+  {
+    "name": "Poznan",
+    "lat": 52.4064,
+    "lng": 16.9252
+  },
+  {
+    "name": "Lodz",
+    "lat": 51.7592,
+    "lng": 19.456
+  },
+  {
+    "name": "Szczecin",
+    "lat": 53.4285,
+    "lng": 14.5528
+  },
+  {
+    "name": "Bydgoszcz",
+    "lat": 53.1235,
+    "lng": 18.0084
+  },
+  {
+    "name": "Lublin",
+    "lat": 51.2465,
+    "lng": 22.5684
+  },
+  {
+    "name": "Katowice",
+    "lat": 50.2649,
+    "lng": 19.0238
+  },
+  {
+    "name": "Cluj-Napoca",
+    "lat": 46.7712,
+    "lng": 23.6236
+  },
+  {
+    "name": "Timisoara",
+    "lat": 45.7489,
+    "lng": 21.2087
+  },
+  {
+    "name": "Iasi",
+    "lat": 47.1585,
+    "lng": 27.6014
+  },
+  {
+    "name": "Constanta",
+    "lat": 44.1733,
+    "lng": 28.6383
+  },
+  {
+    "name": "Craiova",
+    "lat": 44.3333,
+    "lng": 23.8167
+  },
+  {
+    "name": "Brasov",
+    "lat": 45.658,
+    "lng": 25.6012
+  },
+  {
+    "name": "Kaunas",
+    "lat": 54.8985,
+    "lng": 23.9036
+  },
+  {
+    "name": "Klaipeda",
+    "lat": 55.7033,
+    "lng": 21.1443
+  },
+  {
+    "name": "Tartu",
+    "lat": 58.378,
+    "lng": 26.7285
+  },
+  {
+    "name": "Daugavpils",
+    "lat": 55.8747,
+    "lng": 26.5362
+  },
+  {
+    "name": "Uppsala",
+    "lat": 59.8588,
+    "lng": 17.6389
+  },
+  {
+    "name": "Vasteras",
+    "lat": 59.6099,
+    "lng": 16.5448
+  },
+  {
+    "name": "Orebro",
+    "lat": 59.2753,
+    "lng": 15.2134
+  },
+  {
+    "name": "Espoo",
+    "lat": 60.2055,
+    "lng": 24.6559
+  },
+  {
+    "name": "Tampere",
+    "lat": 61.4978,
+    "lng": 23.761
+  },
+  {
+    "name": "Vantaa",
+    "lat": 60.2934,
+    "lng": 25.0378
+  },
+  {
+    "name": "Bergen",
+    "lat": 60.3913,
+    "lng": 5.3221
+  },
+  {
+    "name": "Trondheim",
+    "lat": 63.4305,
+    "lng": 10.3951
+  },
+  {
+    "name": "Stavanger",
+    "lat": 58.969,
+    "lng": 5.7331
+  },
+  {
+    "name": "Drammen",
+    "lat": 59.7441,
+    "lng": 10.2045
+  },
+  {
+    "name": "Odense",
+    "lat": 55.4038,
+    "lng": 10.4024
+  },
+  {
+    "name": "Aalborg",
+    "lat": 57.0488,
+    "lng": 9.9217
+  },
+  {
+    "name": "Pristina",
+    "lat": 42.6629,
+    "lng": 21.1655
+  },
+  {
+    "name": "Podgorica",
+    "lat": 42.4304,
+    "lng": 19.2594
+  },
+  {
     "name": "Shanghai",
     "lat": 31.22222,
     "lng": 121.45806
@@ -138,11 +1138,6 @@
     "name": "City of London",
     "lat": 51.51279,
     "lng": -0.09184
-  },
-  {
-    "name": "London",
-    "lat": 51.50853,
-    "lng": -0.12574
   },
   {
     "name": "Chongqing",
@@ -415,11 +1410,6 @@
     "lng": 112.56028
   },
   {
-    "name": "Berlin",
-    "lat": 52.52437,
-    "lng": 13.41053
-  },
-  {
     "name": "Tangshan",
     "lat": 39.63333,
     "lng": 118.18333
@@ -433,11 +1423,6 @@
     "name": "Montreal",
     "lat": 45.50884,
     "lng": -73.58781
-  },
-  {
-    "name": "Madrid",
-    "lat": 40.4165,
-    "lng": -3.70256
   },
   {
     "name": "Pyongyang",
@@ -655,11 +1640,6 @@
     "lng": -17.45472
   },
   {
-    "name": "Rome",
-    "lat": 41.89193,
-    "lng": 12.51133
-  },
-  {
     "name": "Mashhad",
     "lat": 36.31559,
     "lng": 59.56796
@@ -708,11 +1688,6 @@
     "name": "Havana",
     "lat": 23.13302,
     "lng": -82.38304
-  },
-  {
-    "name": "Paris",
-    "lat": 48.85341,
-    "lng": 2.3488
   },
   {
     "name": "Houston",
@@ -805,11 +1780,6 @@
     "lng": 126.56028
   },
   {
-    "name": "Bucharest",
-    "lat": 44.43225,
-    "lng": 26.10626
-  },
-  {
     "name": "Camayenne",
     "lat": 9.535,
     "lng": -13.68778
@@ -855,34 +1825,14 @@
     "lng": 73.0679
   },
   {
-    "name": "Minsk",
-    "lat": 53.9,
-    "lng": 27.56667
-  },
-  {
-    "name": "Budapest",
-    "lat": 47.49801,
-    "lng": 19.03991
-  },
-  {
     "name": "Mosul",
     "lat": 36.335,
     "lng": 43.11889
   },
   {
-    "name": "Hamburg",
-    "lat": 53.57532,
-    "lng": 10.01534
-  },
-  {
     "name": "Curitiba",
     "lat": -25.42778,
     "lng": -49.27306
-  },
-  {
-    "name": "Warsaw",
-    "lat": 52.22977,
-    "lng": 21.01178
   },
   {
     "name": "Bandung",
@@ -895,11 +1845,6 @@
     "lng": 27.85849
   },
   {
-    "name": "Vienna",
-    "lat": 48.20849,
-    "lng": 16.37208
-  },
-  {
     "name": "Rabat",
     "lat": 34.01325,
     "lng": -6.83255
@@ -908,11 +1853,6 @@
     "name": "Guadalajara",
     "lat": 20.66682,
     "lng": -103.39182
-  },
-  {
-    "name": "Barcelona",
-    "lat": 41.38879,
-    "lng": 2.15899
   },
   {
     "name": "Pretoria",
@@ -1085,11 +2025,6 @@
     "lng": 78.01667
   },
   {
-    "name": "Cordoba",
-    "lat": -31.4135,
-    "lng": -64.18105
-  },
-  {
     "name": "Tabriz",
     "lat": 38.08,
     "lng": 46.2919
@@ -1148,11 +2083,6 @@
     "name": "The Bronx",
     "lat": 40.84985,
     "lng": -73.86641
-  },
-  {
-    "name": "Valencia",
-    "lat": 10.16202,
-    "lng": -68.00765
   },
   {
     "name": "Gujranwala",
@@ -1305,11 +2235,6 @@
     "lng": 124.43972
   },
   {
-    "name": "Belgrade",
-    "lat": 44.80401,
-    "lng": 20.46513
-  },
-  {
     "name": "Montevideo",
     "lat": -34.90328,
     "lng": -56.18816
@@ -1328,16 +2253,6 @@
     "name": "Thane",
     "lat": 19.19704,
     "lng": 72.96355
-  },
-  {
-    "name": "Munich",
-    "lat": 48.13743,
-    "lng": 11.57549
-  },
-  {
-    "name": "Stockholm",
-    "lat": 59.33258,
-    "lng": 18.0649
   },
   {
     "name": "Ra's Bayrut",
@@ -1500,24 +2415,14 @@
     "lng": -46.53333
   },
   {
-    "name": "Prague",
-    "lat": 50.08804,
-    "lng": 14.42076
+    "name": "Monaco",
+    "lat": 43.7384,
+    "lng": 7.4246
   },
   {
     "name": "Varanasi",
     "lat": 25.31668,
     "lng": 83.01041
-  },
-  {
-    "name": "Copenhagen",
-    "lat": 55.67594,
-    "lng": 12.56553
-  },
-  {
-    "name": "Sofia",
-    "lat": 42.69751,
-    "lng": 23.32415
   },
   {
     "name": "Tripoli",
@@ -1570,11 +2475,6 @@
     "lng": 124.475
   },
   {
-    "name": "Baku",
-    "lat": 40.37767,
-    "lng": 49.89201
-  },
-  {
     "name": "Leon",
     "lat": 21.13052,
     "lng": -101.671
@@ -1588,11 +2488,6 @@
     "name": "Kazan",
     "lat": 55.78874,
     "lng": 49.12214
-  },
-  {
-    "name": "Yerevan",
-    "lat": 40.18111,
-    "lng": 44.51361
   },
   {
     "name": "Amritsar",
@@ -1655,11 +2550,6 @@
     "lng": 113.29139
   },
   {
-    "name": "Tbilisi",
-    "lat": 41.69411,
-    "lng": 44.83368
-  },
-  {
     "name": "Changshu City",
     "lat": 31.64615,
     "lng": 120.74221
@@ -1720,19 +2610,9 @@
     "lng": 37.80224
   },
   {
-    "name": "Dublin",
-    "lat": 53.33306,
-    "lng": -6.24889
-  },
-  {
     "name": "Calgary",
     "lat": 51.05011,
     "lng": -114.08529
-  },
-  {
-    "name": "Brussels",
-    "lat": 50.85045,
-    "lng": 4.34878
   },
   {
     "name": "Aurangabad",
@@ -1798,11 +2678,6 @@
     "name": "Zapopan",
     "lat": 20.72356,
     "lng": -103.38479
-  },
-  {
-    "name": "Birmingham",
-    "lat": 52.48142,
-    "lng": -1.89983
   },
   {
     "name": "Perm",
@@ -2025,11 +2900,6 @@
     "lng": -17.39071
   },
   {
-    "name": "Turin",
-    "lat": 45.07049,
-    "lng": 7.68682
-  },
-  {
     "name": "Mysore",
     "lat": 12.29791,
     "lng": 76.63925
@@ -2220,11 +3090,6 @@
     "lng": 35.19031
   },
   {
-    "name": "Marseille",
-    "lat": 43.29695,
-    "lng": 5.38107
-  },
-  {
     "name": "Zarqa",
     "lat": 32.07275,
     "lng": 36.08796
@@ -2310,11 +3175,6 @@
     "lng": 120.87111
   },
   {
-    "name": "Lodz",
-    "lat": 51.75,
-    "lng": 19.46667
-  },
-  {
     "name": "Dammam",
     "lat": 26.43442,
     "lng": 50.10326
@@ -2358,11 +3218,6 @@
     "name": "Antalya",
     "lat": 36.90812,
     "lng": 30.69556
-  },
-  {
-    "name": "Krakow",
-    "lat": 50.06143,
-    "lng": 19.93658
   },
   {
     "name": "Aligarh",
@@ -2428,16 +3283,6 @@
     "name": "Hegang",
     "lat": 47.35118,
     "lng": 130.30012
-  },
-  {
-    "name": "Riga",
-    "lat": 56.946,
-    "lng": 24.10589
-  },
-  {
-    "name": "Amsterdam",
-    "lat": 52.37403,
-    "lng": 4.88969
   },
   {
     "name": "Fort Worth",
@@ -2620,19 +3465,9 @@
     "lng": 28.58333
   },
   {
-    "name": "Zagreb",
-    "lat": 45.81444,
-    "lng": 15.97798
-  },
-  {
     "name": "Agadir",
     "lat": 30.42018,
     "lng": -9.59815
-  },
-  {
-    "name": "Sarajevo",
-    "lat": 43.84864,
-    "lng": 18.35644
   },
   {
     "name": "La Plata",
@@ -2725,11 +3560,6 @@
     "lng": -107.38782
   },
   {
-    "name": "Zaragoza",
-    "lat": 41.65606,
-    "lng": -0.87734
-  },
-  {
     "name": "Xiangtan",
     "lat": 27.85,
     "lng": 112.9
@@ -2758,11 +3588,6 @@
     "name": "Mudanjiang",
     "lat": 44.58333,
     "lng": 129.6
-  },
-  {
-    "name": "Athens",
-    "lat": 37.97945,
-    "lng": 23.71622
   },
   {
     "name": "Santo Andre",
@@ -2828,11 +3653,6 @@
     "name": "El Paso",
     "lat": 31.75872,
     "lng": -106.48693
-  },
-  {
-    "name": "Palermo",
-    "lat": 38.13205,
-    "lng": 13.33561
   },
   {
     "name": "Colombo",
@@ -2903,16 +3723,6 @@
     "name": "North York",
     "lat": 43.76681,
     "lng": -79.4163
-  },
-  {
-    "name": "Chisinau",
-    "lat": 47.00556,
-    "lng": 28.8575
-  },
-  {
-    "name": "Wroclaw",
-    "lat": 51.1,
-    "lng": 17.03333
   },
   {
     "name": "Cheongju-si",
@@ -3160,11 +3970,6 @@
     "lng": 83.76361
   },
   {
-    "name": "Rotterdam",
-    "lat": 51.9225,
-    "lng": 4.47917
-  },
-  {
     "name": "Luancheng",
     "lat": 37.87917,
     "lng": 114.65167
@@ -3193,11 +3998,6 @@
     "name": "Abeokuta",
     "lat": 7.15571,
     "lng": 3.34509
-  },
-  {
-    "name": "Essen",
-    "lat": 51.45657,
-    "lng": 7.01228
   },
   {
     "name": "Kayseri",
@@ -3230,16 +4030,6 @@
     "lng": 117.65556
   },
   {
-    "name": "Stuttgart",
-    "lat": 48.78232,
-    "lng": 9.17702
-  },
-  {
-    "name": "Dortmund",
-    "lat": 51.51494,
-    "lng": 7.466
-  },
-  {
     "name": "Vladivostok",
     "lat": 43.10562,
     "lng": 131.87353
@@ -3270,19 +4060,9 @@
     "lng": 29.02369
   },
   {
-    "name": "Genoa",
-    "lat": 44.4264,
-    "lng": 8.91519
-  },
-  {
     "name": "Cuttack",
     "lat": 20.46497,
     "lng": 85.87927
-  },
-  {
-    "name": "Oslo",
-    "lat": 59.91273,
-    "lng": 10.74609
   },
   {
     "name": "Oklahoma City",
@@ -3345,11 +4125,6 @@
     "lng": 29.12476
   },
   {
-    "name": "Dusseldorf",
-    "lat": 51.22172,
-    "lng": 6.77616
-  },
-  {
     "name": "Banjarmasin",
     "lat": -3.31987,
     "lng": 114.59075
@@ -3375,19 +4150,9 @@
     "lng": 110.33333
   },
   {
-    "name": "Poznan",
-    "lat": 52.40692,
-    "lng": 16.92993
-  },
-  {
     "name": "Veracruz",
     "lat": 19.18095,
     "lng": -96.1429
-  },
-  {
-    "name": "Malaga",
-    "lat": 36.72016,
-    "lng": -4.42034
   },
   {
     "name": "Bouake",
@@ -3428,11 +4193,6 @@
     "name": "Sorocaba",
     "lat": -23.50167,
     "lng": -47.45806
-  },
-  {
-    "name": "Helsinki",
-    "lat": 60.16952,
-    "lng": 24.93545
   },
   {
     "name": "Warangal",
@@ -3505,11 +4265,6 @@
     "lng": 128.68111
   },
   {
-    "name": "Pristina",
-    "lat": 42.67272,
-    "lng": 21.16688
-  },
-  {
     "name": "Jiamusi",
     "lat": 46.79927,
     "lng": 130.31633
@@ -3523,11 +4278,6 @@
     "name": "Neijiang",
     "lat": 29.58354,
     "lng": 105.06216
-  },
-  {
-    "name": "Bremen",
-    "lat": 53.07516,
-    "lng": 8.80777
   },
   {
     "name": "Albuquerque",
@@ -3558,11 +4308,6 @@
     "name": "Bangui",
     "lat": 4.36122,
     "lng": 18.55496
-  },
-  {
-    "name": "Vilnius",
-    "lat": 54.68916,
-    "lng": 25.2798
   },
   {
     "name": "Cancun",
@@ -3750,11 +4495,6 @@
     "lng": 74.64116
   },
   {
-    "name": "Lisbon",
-    "lat": 38.71667,
-    "lng": -9.13333
-  },
-  {
     "name": "Changde",
     "lat": 29.04638,
     "lng": 111.6783
@@ -3865,11 +4605,6 @@
     "lng": 77.19072
   },
   {
-    "name": "Leipzig",
-    "lat": 51.33962,
-    "lng": 12.37129
-  },
-  {
     "name": "Kalininskiy",
     "lat": 59.99675,
     "lng": 30.3899
@@ -3978,11 +4713,6 @@
     "name": "Suez",
     "lat": 29.97371,
     "lng": 32.52627
-  },
-  {
-    "name": "Dresden",
-    "lat": 51.05089,
-    "lng": 13.73832
   },
   {
     "name": "Tomsk",
@@ -4100,29 +4830,14 @@
     "lng": 106.27306
   },
   {
-    "name": "Skopje",
-    "lat": 41.99646,
-    "lng": 21.43141
-  },
-  {
     "name": "Vereeniging",
     "lat": -26.67313,
     "lng": 27.92615
   },
   {
-    "name": "The Hague",
-    "lat": 52.07667,
-    "lng": 4.29861
-  },
-  {
     "name": "Mixco",
     "lat": 14.63333,
     "lng": -90.60639
-  },
-  {
-    "name": "Lyon",
-    "lat": 45.74846,
-    "lng": 4.84671
   },
   {
     "name": "Londrina",
@@ -4143,11 +4858,6 @@
     "name": "Juiz de Fora",
     "lat": -21.76417,
     "lng": -43.35028
-  },
-  {
-    "name": "Liverpool",
-    "lat": 53.41058,
-    "lng": -2.97794
   },
   {
     "name": "Nishinomiya-hama",
@@ -4218,11 +4928,6 @@
     "name": "Long Beach",
     "lat": 33.76696,
     "lng": -118.18923
-  },
-  {
-    "name": "Gdansk",
-    "lat": 54.35205,
-    "lng": 18.64637
   },
   {
     "name": "Calabar",
@@ -4308,11 +5013,6 @@
     "name": "Pontianak",
     "lat": -0.03109,
     "lng": 109.32199
-  },
-  {
-    "name": "Leeds",
-    "lat": 53.79648,
-    "lng": -1.54785
   },
   {
     "name": "Namp'o",
@@ -4410,11 +5110,6 @@
     "lng": -68.53639
   },
   {
-    "name": "Sheffield",
-    "lat": 53.38297,
-    "lng": -1.4659
-  },
-  {
     "name": "Cheboksary",
     "lat": 56.13222,
     "lng": 47.25194
@@ -4510,11 +5205,6 @@
     "lng": 13.39771
   },
   {
-    "name": "Murcia",
-    "lat": 37.98704,
-    "lng": -1.13004
-  },
-  {
     "name": "Mwanza",
     "lat": -2.51667,
     "lng": 32.9
@@ -4570,11 +5260,6 @@
     "lng": -79.76633
   },
   {
-    "name": "Toulouse",
-    "lat": 43.60426,
-    "lng": 1.44367
-  },
-  {
     "name": "Namangan",
     "lat": 40.9983,
     "lng": 71.67257
@@ -4598,11 +5283,6 @@
     "name": "Al Mahallah al Kubra",
     "lat": 30.97063,
     "lng": 31.1669
-  },
-  {
-    "name": "Bristol",
-    "lat": 51.45523,
-    "lng": -2.59665
   },
   {
     "name": "Jalgaon",
@@ -4663,11 +5343,6 @@
     "name": "Ado-Ekiti",
     "lat": 7.62329,
     "lng": 5.22087
-  },
-  {
-    "name": "Bratislava",
-    "lat": 48.14816,
-    "lng": 17.10674
   },
   {
     "name": "Gaya",
@@ -4860,11 +5535,6 @@
     "lng": -79.51973
   },
   {
-    "name": "Szczecin",
-    "lat": 53.42894,
-    "lng": 14.55302
-  },
-  {
     "name": "Bien Hoa",
     "lat": 10.94469,
     "lng": 106.82432
@@ -4898,11 +5568,6 @@
     "name": "Tanda",
     "lat": 30.78847,
     "lng": 31.00192
-  },
-  {
-    "name": "Newcastle",
-    "lat": -27.75796,
-    "lng": 29.9318
   },
   {
     "name": "Xochimilco",
@@ -4948,11 +5613,6 @@
     "name": "Kassala",
     "lat": 15.45099,
     "lng": 36.39998
-  },
-  {
-    "name": "Palma",
-    "lat": 39.56939,
-    "lng": 2.65024
   },
   {
     "name": "Kitwe",
@@ -6015,11 +6675,6 @@
     "lng": -92.4801989
   },
   {
-    "name": "Manchester",
-    "lat": 42.9956397,
-    "lng": -71.4547891
-  },
-  {
     "name": "Elgin",
     "lat": 42.0354084,
     "lng": -88.2825668
@@ -6323,11 +6978,6 @@
     "name": "Mission Viejo",
     "lat": 33.6000232,
     "lng": -117.6719953
-  },
-  {
-    "name": "Portsmouth",
-    "lat": 36.8354258,
-    "lng": -76.2982742
   },
   {
     "name": "Dearborn",
@@ -7033,11 +7683,6 @@
     "name": "Lake Charles",
     "lat": 30.2265949,
     "lng": -93.2173758
-  },
-  {
-    "name": "Plymouth",
-    "lat": 45.0105194,
-    "lng": -93.4555093
   },
   {
     "name": "Bolingbrook",
@@ -9363,6 +10008,26 @@
     "name": "Bentonville",
     "lat": 36.3728538,
     "lng": -94.2088172
+  },
+  {
+    "name": "Dubrovnik",
+    "lat": 42.6507,
+    "lng": 18.0944
+  },
+  {
+    "name": "Bruges",
+    "lat": 51.2093,
+    "lng": 3.2247
+  },
+  {
+    "name": "Oxford",
+    "lat": 51.752,
+    "lng": -1.2577
+  },
+  {
+    "name": "Cambridge",
+    "lat": 52.2053,
+    "lng": 0.1218
   },
   {
     "name": "Florence (Alabama)",
