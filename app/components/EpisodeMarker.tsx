@@ -13,12 +13,14 @@ type EpisodeMarkerProps = {
   scale: number; // 1 = normal, >1 = recently aired
   x: number;
   y: number;
+  isNewest?: boolean;      // newest in current filtered view → pulsing ring
+  isGlobalLatest?: boolean; // last episode in the full dataset → LATEST EP badge
 };
 
 const FALLBACK_STICKER =
   "acquired_universe.png";
 
-export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, y }: EpisodeMarkerProps) {
+export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, y, isNewest, isGlobalLatest }: EpisodeMarkerProps) {
   const [isHovered, setIsHovered] = useState(false);
   const colors = CATEGORY_COLORS[episode.category] ?? CATEGORY_COLORS["_default"];
   const finalScale = scale * (isHovered ? 1.3 : 1);
@@ -34,7 +36,7 @@ export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, 
         height: 32,
         marginLeft: -16,
         marginTop: -16,
-        zIndex: isSelected ? 10 : isHovered ? 9 : 1,
+        zIndex: isSelected ? 10 : isHovered ? 9 : (isNewest || isGlobalLatest) ? 8 : 1,
       }}
       // initial fires only when this marker first mounts (new episode appears on the timeline).
       // Existing markers never re-mount because MapOverlayContent is defined at module scope.
@@ -45,6 +47,47 @@ export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, 
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
+      {/* Newest episode: pulsing ring */}
+      {isNewest && (
+        <motion.div
+          className="absolute inset-0 rounded-full pointer-events-none"
+          style={{ border: "2px solid #facc15" }}
+          animate={{ scale: [1, 1.7, 1], opacity: [0.9, 0, 0.9] }}
+          transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
+        />
+      )}
+
+      {/* Global latest episode: persistent callout label */}
+      {isGlobalLatest && (
+        <div
+          className="absolute pointer-events-none"
+          style={{
+            bottom: "calc(100% + 8px)",
+            left: "50%",
+            transform: "translateX(-50%)",
+            whiteSpace: "nowrap",
+            zIndex: 30,
+          }}
+        >
+          <div
+            className="flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold tracking-wide shadow-lg"
+            style={{
+              background: "linear-gradient(90deg, #facc15, #f97316)",
+              color: "#000",
+              boxShadow: "0 0 8px 2px rgba(250,204,21,0.5)",
+            }}
+          >
+            <span>★</span>
+            <span>LATEST EP</span>
+          </div>
+          {/* Arrow */}
+          <div
+            className="w-2 h-2 mx-auto -mt-px rotate-45"
+            style={{ background: "#f97316" }}
+          />
+        </div>
+      )}
+
       {/* Marker circle */}
       <div
         className="w-full h-full rounded-full shadow-lg border-2 flex items-center justify-center overflow-hidden"

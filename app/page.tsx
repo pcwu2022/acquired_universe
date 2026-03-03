@@ -127,27 +127,33 @@ function MapOverlayContent({
   const showListeners = activeLayers === "listeners" || activeLayers === "both";
   return (
     <>
-      {showEpisodes && filteredEpisodes.map((ep) => {
-        const xy = project([ep.hq.lng, ep.hq.lat]);
-        if (!xy) return null;
-        const [x, y] = xy;
-        return (
-          <EpisodeMarker
-            key={ep.company}
-            episode={ep}
-            isSelected={panelEpisode?.company === ep.company}
-            onClick={() => setPanelEpisode(ep)}
-            scale={(() => {
-              const monthsAgo = timeline.indexOf(selected) - timeline.indexOf(ep.release_date);
-              if (monthsAgo <= 0) return 1.5;
-              if (monthsAgo >= 12) return 1.0;
-              return 1.5 - (monthsAgo / 12) * 0.5;
-            })()}
-            x={x}
-            y={y}
-          />
-        );
-      })}
+      {showEpisodes && (() => {
+        const maxDate = filteredEpisodes.reduce((a, b) => (a.release_date > b.release_date ? a : b), filteredEpisodes[0])?.release_date ?? "";
+        const globalLatestCompany = (episodesData as Episode[])[episodesData.length - 1]?.company;
+        return filteredEpisodes.map((ep) => {
+          const xy = project([ep.hq.lng, ep.hq.lat]);
+          if (!xy) return null;
+          const [x, y] = xy;
+          return (
+            <EpisodeMarker
+              key={ep.company}
+              episode={ep}
+              isSelected={panelEpisode?.company === ep.company}
+              onClick={() => setPanelEpisode(ep)}
+              scale={(() => {
+                const monthsAgo = timeline.indexOf(selected) - timeline.indexOf(ep.release_date);
+                if (monthsAgo <= 0) return 1.5;
+                if (monthsAgo >= 12) return 1.0;
+                return 1.5 - (monthsAgo / 12) * 0.5;
+              })()}
+              x={x}
+              y={y}
+              isNewest={ep.release_date === maxDate}
+              isGlobalLatest={ep.company === globalLatestCompany}
+            />
+          );
+        });
+      })()}
       {showListeners && Object.entries(listenerAgg).map(([city, { lat, lng, count }]) => {
         const xy = project([lng, lat]);
         if (!xy) return null;
