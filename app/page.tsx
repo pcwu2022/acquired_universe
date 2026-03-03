@@ -503,7 +503,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4">
           <Image
             src="/acquired_universe.png"
-            alt="Acquired Universe"
+            alt="The Acquired Universe"
             width={96}
             height={96}
             className="rounded-full"

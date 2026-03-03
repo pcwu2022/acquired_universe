@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Acquired Universe",
-  description: "A map of the companies covered and the listeners of the Acquired podcast.",
+  title: "The Acquired Universe",
+  description: "A constellation of the companies covered and the listeners of the Acquired podcast.",
 };
 
 export default function RootLayout({

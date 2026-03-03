@@ -622,7 +622,7 @@ export default function GraphPage() {
         <div className="flex flex-col items-center gap-3">
           <Image
             src="/acquired_universe.png"
-            alt="Acquired Universe"
+            alt="The Acquired Universe"
             width={64}
             height={64}
             className="rounded-full"
