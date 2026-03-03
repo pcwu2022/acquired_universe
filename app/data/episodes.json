@@ -2530,5 +2530,17 @@
     "category": "Sports",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-nfl"
+  },
+  {
+    "company": "Forumla 1",
+    "release_date": "2026-03",
+    "hq": {
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "sticker": "https://cdn.prod.website-files.com/5c29380b1110ec92a203aa84/69a52285db88be2ee2697e1a_size%3Dcurrent-web_optimized.jpg",
+    "category": "Sports",
+    "description": "",
+    "episode_url": "https://www.acquired.fm/episodes/formula-1"
   }
 ]
