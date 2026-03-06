@@ -2,10 +2,11 @@
 
 import React, { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import PageFooter from "../components/PageFooter";
 import episodesData from "../data/episodes.json";
 import timelineData from "../data/timeline.json";
+import worldEventsData from "../data/world_events.json";
 import type { Episode } from "../../types/data";
 import { CATEGORY_COLORS } from "../utils/categories";
 import SidePanel from "../components/SidePanel";
@@ -48,6 +49,7 @@ function formatMonthLabel(yyyyMM: string): string {
 // ── Layout constants ──────────────────────────────────────────────────────────
 
 const LEFT_PANEL_W = 220;
+const WORLD_ROW_HEIGHT = 72;   // slightly shorter — world events have no sticker
 const DEFAULT_PX_PER_MONTH = 22;
 const ZOOM_STEP = 3;
 const ZOOM_MIN = 1;
@@ -109,6 +111,142 @@ function Tooltip({ state }: { state: TooltipState | null }) {
   );
 }
 
+// ── World Events Row ──────────────────────────────────────────────────────────
+
+const WORLD_COLOR = "#a78bfa"; // violet-400 — neutral, distinct from category colors
+const WORLD_LINE_Y = 28;       // slightly above center to leave room for labels below
+
+type WorldEvent = { month: string; title: string; description: string; emoji: string };
+
+function WorldEventsRow({
+  events,
+  globalMinIdx,
+  totalMonths,
+  pxPerMonth,
+  onMarkerClick,
+  activeMarker,
+  setActiveMarker,
+}: {
+  events: WorldEvent[];
+  globalMinIdx: number;
+  totalMonths: number;
+  pxPerMonth: number;
+  onMarkerClick: (key: string, state: TooltipState) => void;
+  activeMarker: string | null;
+  setActiveMarker: (k: string | null) => void;
+}) {
+  const lineWidth = totalMonths * pxPerMonth;
+  const [hoveredMarker, setHoveredMarker] = useState<string | null>(null);
+
+  return (
+    <div
+      className="flex border-b"
+      style={{ height: WORLD_ROW_HEIGHT, borderColor: "rgba(167,139,250,0.12)" }}
+    >
+      {/* Left panel */}
+      <div
+        className="sticky left-0 z-10 flex flex-col items-center justify-center gap-0.5 shrink-0 border-r"
+        style={{
+          width: LEFT_PANEL_W,
+          background: "rgb(9,9,11)",
+          borderColor: "rgba(255,255,255,0.05)",
+        }}
+      >
+        <span className="text-base">🌍</span>
+        <span
+          className="text-[10px] font-semibold tracking-wider uppercase"
+          style={{ color: WORLD_COLOR }}
+        >
+          World Events
+        </span>
+      </div>
+
+      {/* Timeline track */}
+      <div className="relative flex-1">
+        {/* Full-width dim line */}
+        <div
+          className="absolute"
+          style={{
+            top: WORLD_LINE_Y,
+            left: 0,
+            width: lineWidth,
+            height: 1,
+            background: `${WORLD_COLOR}22`,
+          }}
+        />
+
+        {/* Event markers */}
+        {events.map((ev, i) => {
+          const x = (monthIndex(ev.month) - globalMinIdx) * pxPerMonth;
+          const key = `world__${i}`;
+          const isActive = activeMarker === key;
+          const isPopOut = isActive || hoveredMarker === key;
+          const emoji = parseEmoji(ev.emoji);
+
+          return (
+            <div
+              key={key}
+              className="absolute flex flex-col items-center"
+              style={{
+                left: x,
+                top: WORLD_LINE_Y - 12,
+                transform: "translateX(-50%)",
+                width: 84,
+              }}
+            >
+              <button
+                className="w-6 h-6 rounded-full border flex items-center justify-center transition-all cursor-pointer relative z-10 select-none"
+                style={{
+                  borderColor: isPopOut ? WORLD_COLOR : WORLD_COLOR + "66",
+                  background: "rgb(9,9,11)",
+                  boxShadow: isPopOut ? `0 0 10px 2px ${WORLD_COLOR}55` : "none",
+                  transform: isPopOut ? "scale(1.25)" : "scale(1)",
+                  fontSize: "0.7rem",
+                }}
+                onMouseEnter={() => setHoveredMarker(key)}
+                onMouseLeave={() => setHoveredMarker(null)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  if (isActive) { setActiveMarker(null); return; }
+                  const rect = e.currentTarget.getBoundingClientRect();
+                  onMarkerClick(key, {
+                    anchorX: rect.left + rect.width / 2,
+                    anchorY: rect.top,
+                    month: ev.month,
+                    title: ev.title,
+                    description: ev.description,
+                    color: WORLD_COLOR,
+                  });
+                  setActiveMarker(key);
+                }}
+                title={ev.title}
+                aria-label={ev.title}
+              >
+                {emoji}
+              </button>
+
+              <span
+                className="mt-0.5 text-[8px] leading-tight text-center block"
+                style={{
+                  color: WORLD_COLOR + "99",
+                  display: "-webkit-box",
+                  WebkitLineClamp: 2,
+                  WebkitBoxOrient: "vertical",
+                  overflow: "hidden",
+                  maxWidth: 82,
+                  lineHeight: "1.25",
+                } as React.CSSProperties}
+              >
+                {ev.title}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 // ── Timeline row ──────────────────────────────────────────────────────────────
 
 function TimelineRow({
@@ -141,6 +279,8 @@ function TimelineRow({
   const primaryEp = relatedEps[0];
   const category = primaryEp?.category ?? "";
   const colors = CATEGORY_COLORS[category] ?? CATEGORY_COLORS["_default"];
+
+  const [hoveredMarker, setHoveredMarker] = useState<string | null>(null);
 
   const firstMonthIdx = monthIndex(entry.timestamps[0].month);
   const lastMonthIdx = monthIndex(entry.timestamps[entry.timestamps.length - 1].month);
@@ -239,6 +379,8 @@ function TimelineRow({
           const x = (monthIndex(ts.month) - globalMinIdx) * pxPerMonth;
           const key = `${entry.company}__${i}`;
           const isActive = activeMarker === key;
+          const isHovered = hoveredMarker === key;
+          const isPopOut = isActive || isHovered;
           const emoji = parseEmoji(ts.emoji);
 
           return (
@@ -256,12 +398,14 @@ function TimelineRow({
               <button
                 className="w-7 h-7 rounded-full border-2 flex items-center justify-center text-sm transition-all cursor-pointer relative z-10 select-none"
                 style={{
-                  borderColor: colors.ring,
-                  background: isActive ? colors.ring + "33" : "rgb(9,9,11)",
-                  boxShadow: isActive ? `0 0 12px 3px ${colors.ring}44` : "none",
-                  transform: isActive ? "scale(1.2)" : "scale(1)",
+                  borderColor: isPopOut ? colors.ring : colors.ring + "99",
+                  background: "rgb(9,9,11)",
+                  boxShadow: isPopOut ? `0 0 12px 3px ${colors.ring}55` : "none",
+                  transform: isPopOut ? "scale(1.25)" : "scale(1)",
                   fontSize: "0.85rem",
                 }}
+                onMouseEnter={() => setHoveredMarker(key)}
+                onMouseLeave={() => setHoveredMarker(null)}
                 onClick={(e) => {
                   e.stopPropagation();
                   if (isActive) {
@@ -383,10 +527,22 @@ export default function ChroniclesPage() {
   const [activeMarker, setActiveMarker] = useState<string | null>(null);
   const [pxPerMonth, setPxPerMonth] = useState(DEFAULT_PX_PER_MONTH);
   const scrollRef = useRef<HTMLDivElement>(null);
+  // Stores the fractional month (offset from globalMinIdx) that was at the
+  // viewport's horizontal center just before a zoom, so we can restore it after.
+  const zoomAnchorRef = useRef<{ monthOffset: number; viewportCenter: number } | null>(null);
 
   const zoom = useCallback((delta: number) => {
+    if (scrollRef.current) {
+      const el = scrollRef.current;
+      const viewportCenter = el.clientWidth / 2;
+      const contentCenterX = el.scrollLeft + viewportCenter - LEFT_PANEL_W;
+      zoomAnchorRef.current = {
+        monthOffset: contentCenterX / pxPerMonth,
+        viewportCenter,
+      };
+    }
     setPxPerMonth((prev) => Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, prev + delta)));
-  }, []);
+  }, [pxPerMonth]);
 
   const episodes = episodesData as Episode[];
 
@@ -420,12 +576,28 @@ export default function ChroniclesPage() {
 
   const totalWidth = totalMonths * pxPerMonth;
 
-  // ── Scroll to show a relevant region (center of timeline) on mount ──
+  // ── Scroll to current date on mount ──
   useEffect(() => {
     if (!scrollRef.current) return;
-    // Scroll to the beginning of the timeline data (after padding)
-    scrollRef.current.scrollLeft = LEFT_PANEL_W + PAD_MONTHS_BEFORE * DEFAULT_PX_PER_MONTH - 20;
-  }, []);
+    const now = new Date();
+    const currentMonthIdx = now.getFullYear() * 12 + now.getMonth();
+    const offsetMonths = currentMonthIdx - globalMinIdx;
+    const el = scrollRef.current;
+    const viewportWidth = el.clientWidth;
+    el.scrollLeft =
+      LEFT_PANEL_W +
+      offsetMonths * DEFAULT_PX_PER_MONTH -
+      (viewportWidth - LEFT_PANEL_W) / 2;
+  }, [globalMinIdx]);
+
+  // ── Restore scroll position after zoom ──
+  useEffect(() => {
+    if (!scrollRef.current || !zoomAnchorRef.current) return;
+    const el = scrollRef.current;
+    const { monthOffset, viewportCenter } = zoomAnchorRef.current;
+    el.scrollLeft = monthOffset * pxPerMonth + LEFT_PANEL_W - viewportCenter;
+    zoomAnchorRef.current = null;
+  }, [pxPerMonth]);
 
   // ── Dismiss tooltip on outside click ──
   useEffect(() => {
@@ -551,6 +723,17 @@ export default function ChroniclesPage() {
           {/* Year axis */}
           <YearAxis globalMinIdx={globalMinIdx} totalMonths={totalMonths} pxPerMonth={pxPerMonth} />
 
+          {/* World Events row */}
+          <WorldEventsRow
+            events={worldEventsData as WorldEvent[]}
+            globalMinIdx={globalMinIdx}
+            totalMonths={totalMonths}
+            pxPerMonth={pxPerMonth}
+            onMarkerClick={handleMarkerClick}
+            activeMarker={activeMarker}
+            setActiveMarker={handleSetActiveMarker}
+          />
+
           {/* Timeline rows */}
           {sortedEntries.map((entry) => (
             <TimelineRow
@@ -572,30 +755,7 @@ export default function ChroniclesPage() {
       </div>
 
       {/* ── Footer ── */}
-      <footer className="py-6 text-center bg-zinc-900 border-t border-zinc-800 shrink-0">
-        <div className="flex flex-col items-center gap-3">
-          <Image
-            src="/acquired_universe.png"
-            alt="The Acquired Universe"
-            width={64}
-            height={64}
-            className="rounded-full"
-            style={{ border: "2px solid rgba(57,249,205,0.25)" }}
-          />
-          <p className="text-zinc-500 text-xs tracking-widest uppercase">
-            Created by{" "}
-            <a
-              href="https://pcwu2022.github.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-zinc-300 transition underline underline-offset-2"
-            >
-              Po-Chun Wu
-            </a>{" "}
-            🇹🇼
-          </p>
-        </div>
-      </footer>
+      <PageFooter page="chronicles" />
 
       {/* ── Tooltip ── */}
       <Tooltip state={tooltip} />

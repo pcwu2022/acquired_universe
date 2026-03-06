@@ -78,5 +78,165 @@
         {"month": "2025-03", "title": "Gemini 2.5 Pro", "description": "Google launches Gemini 2.5 Pro, advancing multimodal AI performance and user adoption.", "emoji": ":rocket:"}
     
     ]
+},
+{
+	"episode_ids": [208],
+	"company": "Coca-Cola",
+	"timestamps": [
+		{
+			"month": "1886-04",
+			"title": "Coca-Cola Invented",
+			"description": "Dr. John Pemberton creates the original formula for Coca-Cola in Atlanta.",
+			"emoji": ":office:"
+		},
+		{
+			"month": "1887-06",
+			"title": "Brand Named",
+			"description": "Frank Robinson names the drink Coca-Cola and designs the iconic script logo.",
+			"emoji": ":memo:"
+		},
+		{
+			"month": "1888-06",
+			"title": "Ownership Consolidated",
+			"description": "Asa Candler acquires full rights to the Coca-Cola formula and brand.",
+			"emoji": ":handshake:"
+		},
+		{
+			"month": "1892-06",
+			"title": "Company Incorporated",
+			"description": "The Coca-Cola Company is officially incorporated by Asa Candler.",
+			"emoji": ":office:"
+		},
+		{
+			"month": "1895-06",
+			"title": "National Expansion",
+			"description": "Coca-Cola is sold in every U.S. state and territory.",
+			"emoji": ":rocket:"
+		},
+		{
+			"month": "1899-07",
+			"title": "Bottling Rights Granted",
+			"description": "Exclusive bottling rights are granted to Thomas and Whitehead, enabling mass distribution.",
+			"emoji": ":package:"
+		},
+		{
+			"month": "1905-06",
+			"title": "Trademark Protection",
+			"description": "Federal Trademark Act is passed and Coca-Cola registers its trademark federally.",
+			"emoji": ":label:"
+		},
+		{
+			"month": "1916-06",
+			"title": "Contour Bottle Introduced",
+			"description": "The iconic Coca-Cola contour bottle is introduced to distinguish the brand.",
+			"emoji": ":bottle_with_popping_cork:"
+		},
+		{
+			"month": "1925-06",
+			"title": "Bottler Network Grows",
+			"description": "Coca-Cola bottler network expands to over 1,200 operations across the U.S.",
+			"emoji": ":factory:"
+		},
+		{
+			"month": "1941-06",
+			"title": "Global Expansion",
+			"description": "Coca-Cola begins global expansion during World War II, supplying U.S. troops abroad.",
+			"emoji": ":earth_americas:"
+		},
+		{
+			"month": "1982-06",
+			"title": "Diet Coke Launch",
+			"description": "Coca-Cola launches Diet Coke, its first major new brand since the original.",
+			"emoji": ":rocket:"
+		},
+		{
+			"month": "2012-06",
+			"title": "Brand Value Milestone",
+			"description": "Coca-Cola is recognized as one of the world’s most valuable brands.",
+			"emoji": ":star:"
+		}
+	]
+},
+{
+    "episode_ids": [200],
+    "company": "Epic Systems",
+    "timestamps": [
+        {"month": "1979-06", "title": "Epic Founded", "description": "Judith Faulkner founds Human Services Computing, later renamed Epic Systems, in Madison, Wisconsin.", "emoji": ":office:"},
+        {"month": "1983-06", "title": "Rename Epic", "description": "The company changes its name from Human Services Computing to Epic Systems.", "emoji": ":office:"},
+        {"month": "1987-06", "title": "Launch Resolute", "description": "Epic launches its billing module, integrating clinical and billing systems.", "emoji": ":gear:"},
+        {"month": "1992-06", "title": "EpicCare Debuts", "description": "Epic releases EpicCare, the first graphical EMR application for ambulatory care.", "emoji": ":rocket:"},
+        {"month": "2000-06", "title": "Launch MyChart", "description": "Epic launches MyChart, the first integrated patient portal for accessing medical records online.", "emoji": ":rocket:"},
+        {"month": "2001-06", "title": "EpicCare Inpatient", "description": "Epic releases the inpatient version of EpicCare, covering overnight hospital stays.", "emoji": ":gear:"},
+        {"month": "2003-06", "title": "Kaiser Deal", "description": "Epic wins a transformative contract with Kaiser Permanente, becoming the industry standard.", "emoji": ":handshake:"},
+        {"month": "2007-06", "title": "Verona Campus Opens", "description": "Epic opens its whimsical, large-scale campus in Verona, Wisconsin.", "emoji": ":office:"},
+        {"month": "2009-06", "title": "HITECH Act Boost", "description": "The HITECH Act accelerates EMR adoption, propelling Epic’s growth.", "emoji": ":chart_with_upwards_trend:"},
+        {"month": "2011-06", "title": "Hit $1B Revenue", "description": "Epic reaches $1 billion in annual revenue.", "emoji": ":chart_with_upwards_trend:"},
+        {"month": "2018-06", "title": "Cosmos Launch", "description": "Epic launches Cosmos, an anonymized database with hundreds of millions of patient records.", "emoji": ":gear:"},
+        {"month": "2021-12", "title": "Cerner Acquired", "description": "Oracle acquires Cerner, Epic’s main competitor, reinforcing Epic’s market leadership.", "emoji": ":handshake:"},
+        {"month": "2024-06", "title": "Record Revenue", "description": "Epic achieves $5.7 billion in annual revenue and serves nearly all major US hospitals.", "emoji": ":chart_with_upwards_trend:"}
+    ]
+},
+{
+    "episode_ids": [199],
+    "company": "Indian Premier League (IPL)",
+    "timestamps": [
+        {"month": "1991-06", "title": "Broadcast Rights Discovered", "description": "BCCI realizes the value of cricket broadcast rights after negotiating with South Africa.", "emoji": ":tv:"},
+        {"month": "2001-06", "title": "Player Contracts Centralized", "description": "BCCI introduces central contracts and pensions for Indian players, setting up control over talent.", "emoji": ":memo:"},
+        {"month": "2005-06", "title": "Lalit Modi Joins BCCI", "description": "Lalit Modi is appointed to the BCCI board and begins commercializing Indian cricket.", "emoji": ":bust_in_silhouette:"},
+        {"month": "2006-06", "title": "TV Rights Auctioned", "description": "BCCI auctions TV rights for international cricket, securing a $620 million deal with Nimbus.", "emoji": ":moneybag:"},
+        {"month": "2007-09", "title": "India Wins T20 World Cup", "description": "India wins the inaugural T20 World Cup, igniting national excitement for the new format.", "emoji": ":trophy:"},
+        {"month": "2008-01", "title": "IPL Franchise Auction", "description": "First IPL franchise auction is held, selling eight teams for $724 million.", "emoji": ":hammer:"},
+        {"month": "2008-04", "title": "IPL Launches", "description": "The inaugural IPL season begins, revolutionizing cricket with city-based teams and primetime matches.", "emoji": ":rocket:"},
+        {"month": "2009-04", "title": "IPL Moves to South Africa", "description": "IPL season is relocated to South Africa due to Indian general elections and security concerns.", "emoji": ":airplane:"},
+        {"month": "2010-06", "title": "Modi Ousted from BCCI", "description": "Lalit Modi is suspended from BCCI amid allegations of corruption and bid rigging.", "emoji": ":no_entry:"},
+        {"month": "2013-06", "title": "Spot Fixing Scandal", "description": "Indian police bust spot fixing involving Rajasthan Royals and Chennai Super Kings, prompting reforms.", "emoji": ":police_car:"},
+        {"month": "2015-06", "title": "Supreme Court Reforms BCCI", "description": "Indian Supreme Court restructures BCCI and IPL governance after corruption scandals.", "emoji": ":scales:"},
+        {"month": "2017-06", "title": "Star Secures Media Rights", "description": "Star India acquires IPL media rights for $2.5 billion over five years.", "emoji": ":tv:"},
+        {"month": "2021-06", "title": "New Teams Auctioned", "description": "Gujarat Titans and Lucknow Super Giants are auctioned for $750M and $950M, respectively.", "emoji": ":hammer:"},
+        {"month": "2022-06", "title": "Record Media Rights Deal", "description": "BCCI signs $6.2 billion media rights deals for TV and streaming, split between Star and Viacom18.", "emoji": ":moneybag:"},
+        {"month": "2024-01", "title": "Tata Secures Sponsorship", "description": "Tata acquires IPL presenting sponsorship for $60 million per year.", "emoji": ":handshake:"}
+    ]
+},
+{
+    "episode_ids": [198],
+    "company": "Rolex",
+    "timestamps": [
+        {"month": "1905-06", "title": "Company Founded", "description": "Hans Wilsdorf and Alfred Davis establish Wilsdorf & Davis in London.", "emoji": ":office:"},
+        {"month": "1908-06", "title": "Rolex Brand Created", "description": "Wilsdorf invents the name 'Rolex' for his wristwatches.", "emoji": ":gear:"},
+        {"month": "1910-06", "title": "First Chronometer", "description": "Rolex receives the first wristwatch chronometer certification.", "emoji": ":medal:"},
+        {"month": "1915-06", "title": "Renamed Rolex", "description": "Company officially becomes Rolex Watch Company Limited.", "emoji": ":office:"},
+        {"month": "1919-06", "title": "Move to Geneva", "description": "Rolex relocates headquarters to Geneva, Switzerland.", "emoji": ":cityscape:"},
+        {"month": "1926-07", "title": "Launch Oyster", "description": "Rolex introduces the first waterproof wristwatch, the Oyster.", "emoji": ":droplet:"},
+        {"month": "1927-10", "title": "Channel Swim Stunt", "description": "Mercedes Gleitze wears Rolex Oyster during English Channel swim.", "emoji": ":swimmer:"},
+        {"month": "1931-06", "title": "Oyster Perpetual", "description": "Rolex patents the self-winding perpetual rotor system.", "emoji": ":recycle:"},
+        {"month": "1944-06", "title": "Foundation Created", "description": "Hans Wilsdorf establishes Rolex’s charitable foundation.", "emoji": ":heart:"},
+        {"month": "1945-06", "title": "Launch Datejust", "description": "Rolex debuts the Datejust, the first watch with a date window.", "emoji": ":calendar:"},
+        {"month": "1953-06", "title": "Explorer Released", "description": "Rolex launches the Explorer, inspired by Everest summit.", "emoji": ":mountain:"},
+        {"month": "1954-06", "title": "Submariner Debut", "description": "Rolex introduces the Submariner dive watch.", "emoji": ":ocean:"},
+        {"month": "1955-06", "title": "GMT-Master Launch", "description": "Rolex releases the GMT-Master for pilots.", "emoji": ":airplane:"},
+        {"month": "1963-06", "title": "Daytona Introduced", "description": "Rolex launches the Daytona chronograph.", "emoji": ":race_car:"},
+        {"month": "1986-06", "title": "Paul Newman Craze", "description": "Italian collectors spark global demand for Daytona.", "emoji": ":moneybag:"},
+        {"month": "2004-06", "title": "Aegler Acquisition", "description": "Rolex acquires movement maker Aegler.", "emoji": ":handshake:"},
+        {"month": "2023-08", "title": "Bucherer Acquisition", "description": "Rolex acquires Bucherer retail chain.", "emoji": ":store:"}
+    ]
+},
+{
+    "episode_ids": [133],
+    "company": "TSMC",
+    "timestamps": [
+        {"month": "1987-06", "title": "TSMC Founded", "description": "Morris Chang founds TSMC as the world’s first pure-play semiconductor foundry in Taiwan.", "emoji": ":office:"},
+        {"month": "1994-06", "title": "IPO Taiwan", "description": "TSMC goes public on the Taiwan Stock Exchange, marking its first major financial milestone.", "emoji": ":chart_with_upwards_trend:"},
+        {"month": "1997-06", "title": "IPO NYSE", "description": "TSMC lists on the New York Stock Exchange, expanding its global investor base.", "emoji": ":chart_with_upwards_trend:"},
+        {"month": "2005-06", "title": "Chang Retires", "description": "Morris Chang retires as CEO after leading TSMC to global prominence.", "emoji": ":bust_in_silhouette:"},
+        {"month": "2009-06", "title": "Chang Returns", "description": "Morris Chang returns as CEO to guide TSMC through the mobile and cloud era.", "emoji": ":bust_in_silhouette:"},
+        {"month": "2012-06", "title": "Apple Partnership", "description": "TSMC secures a major deal to manufacture Apple’s custom chips, investing $9 billion in dedicated capacity.", "emoji": ":handshake:"},
+        {"month": "2014-06", "title": "iPhone 6 Chips", "description": "TSMC becomes sole supplier for Apple’s iPhone 6 chips, cementing its role in consumer electronics.", "emoji": ":rocket:"},
+        {"month": "2018-06", "title": "Chang Final Exit", "description": "Morris Chang retires for the last time, stepping down as chairman.", "emoji": ":bust_in_silhouette:"},
+        {"month": "2020-06", "title": "5nm Process", "description": "TSMC launches the world’s first 5-nanometer chip manufacturing process, leading the industry.", "emoji": ":gear:"},
+        {"month": "2021-04", "title": "CapEx Surge", "description": "TSMC announces $100 billion investment in new fabs over three years to maintain technological leadership.", "emoji": ":moneybag:"},
+        {"month": "2025-06", "title": "AI Era Leadership", "description": "TSMC becomes the manufacturing superpower behind the global AI wave, powering leading-edge chips.", "emoji": ":robot_face:"}
+    ]
 }
+
+
 ] 

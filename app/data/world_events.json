@@ -1,0 +1,194 @@
+[
+    {
+        "month": "1804-12",
+        "title": "Napoleon becomes Emperor of France",
+        "description": "Napoleon Bonaparte crowns himself emperor, reshaping European politics and influencing global trade and industrial development.",
+        "emoji": ":crown:"
+    },
+    {
+        "month": "1815-06",
+        "title": "Congress of Vienna reshapes Europe",
+        "description": "European powers redraw borders after the Napoleonic Wars, establishing a political balance that influences global trade and diplomacy for decades.",
+        "emoji": ":world_map:"
+    },
+    {
+        "month": "1825-09",
+        "title": "First modern railway opens",
+        "description": "The Stockton and Darlington Railway begins operation in England, marking the start of the railway age and accelerating industrialization.",
+        "emoji": ":steam_locomotive:"
+    },
+    {
+        "month": "1848-02",
+        "title": "Revolutions of 1848",
+        "description": "Widespread political uprisings across Europe challenge monarchies and accelerate social and economic reforms.",
+        "emoji": ":fire:"
+    },
+    {
+        "month": "1861-04",
+        "title": "American Civil War begins",
+        "description": "A major conflict in the United States disrupts global cotton markets and accelerates industrial and financial transformation.",
+        "emoji": ":crossed_swords:"
+    },
+    {
+        "month": "1869-11",
+        "title": "Suez Canal opens",
+        "description": "The canal connects the Mediterranean Sea to the Red Sea, dramatically shortening global shipping routes between Europe and Asia.",
+        "emoji": ":ship:"
+    },
+    {
+        "month": "1870-01",
+        "title": "Second Industrial Revolution accelerates",
+        "description": "Advances in steel, electricity, chemicals, and telecommunications drive rapid industrial expansion across Europe and the United States.",
+        "emoji": ":factory:"
+    },
+    {
+        "month": "1896-04",
+        "title": "Modern Olympic Games begin",
+        "description": "The first modern Olympics are held in Athens, symbolizing growing international cooperation and global cultural exchange.",
+        "emoji": ":medal_sports:"
+    },
+    {
+        "month": "1914-07",
+        "title": "World War I begins",
+        "description": "The assassination of Archduke Franz Ferdinand triggers World War I, mobilizing global industry and transforming geopolitics.",
+        "emoji": ":crossed_swords:"
+    },
+    {
+        "month": "1918-11",
+        "title": "World War I ends",
+        "description": "The armistice ends the war, leaving Europe economically devastated and reshaping global political power.",
+        "emoji": ":dove:"
+    },
+    {
+        "month": "1929-10",
+        "title": "Wall Street Crash",
+        "description": "A dramatic collapse in U.S. stock markets triggers a global financial panic and begins the Great Depression.",
+        "emoji": ":chart_with_downwards_trend:"
+    },
+    {
+        "month": "1929-10",
+        "title": "Great Depression begins",
+        "description": "A prolonged global economic downturn leads to massive unemployment, banking failures, and new government economic policies.",
+        "emoji": ":bank:"
+    },
+    {
+        "month": "1939-09",
+        "title": "World War II begins",
+        "description": "Germany invades Poland, starting a global war that mobilizes entire national economies and accelerates technological innovation.",
+        "emoji": ":military_helmet:"
+    },
+    {
+        "month": "1944-07",
+        "title": "Bretton Woods Agreement",
+        "description": "Allied nations create a new global financial system, establishing institutions such as the IMF and World Bank.",
+        "emoji": ":money_with_wings:"
+    },
+    {
+        "month": "1945-08",
+        "title": "World War II ends",
+        "description": "The Allied victory ends the war and marks the beginning of U.S. economic and technological dominance.",
+        "emoji": ":dove_of_peace:"
+    },
+    {
+        "month": "1947-03",
+        "title": "Cold War begins",
+        "description": "Rivalry between the United States and the Soviet Union divides the world into competing economic and political blocs.",
+        "emoji": ":globe_with_meridians:"
+    },
+    {
+        "month": "1957-10",
+        "title": "Space Age begins",
+        "description": "The launch of Sputnik starts the global space race and accelerates investments in science, engineering, and computing.",
+        "emoji": ":satellite:"
+    },
+    {
+        "month": "1971-08",
+        "title": "Nixon ends the gold standard",
+        "description": "The United States suspends dollar convertibility to gold, effectively ending the Bretton Woods monetary system.",
+        "emoji": ":dollar:"
+    },
+    {
+        "month": "1973-10",
+        "title": "1973 Oil Crisis",
+        "description": "OPEC's oil embargo causes energy shortages, inflation, and economic recession across industrialized countries.",
+        "emoji": ":oil_drum:"
+    },
+    {
+        "month": "1989-11",
+        "title": "Fall of the Berlin Wall",
+        "description": "The collapse of the Berlin Wall symbolizes the end of Cold War divisions and opens Eastern Europe to global markets.",
+        "emoji": ":bricks:"
+    },
+    {
+        "month": "1991-12",
+        "title": "Dissolution of the Soviet Union",
+        "description": "The Soviet Union collapses, accelerating globalization and expanding global capitalist markets.",
+        "emoji": ":boom:"
+    },
+    {
+        "month": "1995-08",
+        "title": "Commercial Internet expansion",
+        "description": "The internet becomes widely commercialized, enabling the rise of web companies and the digital economy.",
+        "emoji": ":globe_with_meridians:"
+    },
+    {
+        "month": "2000-03",
+        "title": "Dot-com bubble bursts",
+        "description": "Technology stock valuations collapse after years of speculation in internet startups.",
+        "emoji": ":computer:"
+    },
+    {
+        "month": "2001-09",
+        "title": "September 11 attacks",
+        "description": "Terrorist attacks in the United States reshape global security policies, aviation, and geopolitics.",
+        "emoji": ":airplane:"
+    },
+    {
+        "month": "2008-09",
+        "title": "Global Financial Crisis",
+        "description": "The collapse of Lehman Brothers triggers a worldwide financial crisis and severe global recession.",
+        "emoji": ":bank:"
+    },
+    {
+        "month": "2010-01",
+        "title": "Smartphone and app economy boom",
+        "description": "Smartphones and mobile app ecosystems create new industries and reshape media, commerce, and software.",
+        "emoji": ":iphone:"
+    },
+    {
+        "month": "2016-06",
+        "title": "Brexit referendum",
+        "description": "The United Kingdom votes to leave the European Union, creating economic uncertainty and regulatory shifts.",
+        "emoji": ":ballot_box:"
+    },
+    {
+        "month": "2018-03",
+        "title": "US–China trade war begins",
+        "description": "Tariffs and trade restrictions between the United States and China disrupt global supply chains and technology markets.",
+        "emoji": ":balance_scale:"
+    },
+    {
+        "month": "2020-03",
+        "title": "COVID-19 pandemic declared",
+        "description": "A global pandemic disrupts economies, supply chains, travel, and accelerates digital transformation and remote work.",
+        "emoji": ":microbe:"
+    },
+    {
+        "month": "2021-01",
+        "title": "Global supply chain crisis",
+        "description": "Pandemic disruptions cause shortages in semiconductors, shipping capacity, and manufacturing components worldwide.",
+        "emoji": ":package:"
+    },
+    {
+        "month": "2022-02",
+        "title": "Russia invades Ukraine",
+        "description": "The invasion triggers global sanctions, energy price shocks, and geopolitical realignments.",
+        "emoji": ":tank:"
+    },
+    {
+        "month": "2023-01",
+        "title": "Generative AI boom",
+        "description": "Rapid adoption of large language models and generative AI tools triggers massive investment and industry transformation.",
+        "emoji": ":robot:"
+    }
+]

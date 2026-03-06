@@ -3,8 +3,8 @@
 import React, { useCallback, useEffect, useRef, useState, useMemo } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import PageFooter from "../components/PageFooter";
 import { buildGraphData, type GraphNode, type GraphLink } from "../utils/graphData";
 import type { Episode } from "../../types/data";
 import { CATEGORY_COLORS } from "../utils/categories";
@@ -624,30 +624,7 @@ export default function GraphPage() {
       </div>
 
       {/* ── Footer ── */}
-      <footer className="py-6 text-center bg-zinc-900 border-t border-zinc-800 shrink-0">
-        <div className="flex flex-col items-center gap-3">
-          <Image
-            src="/acquired_universe.png"
-            alt="The Acquired Universe"
-            width={64}
-            height={64}
-            className="rounded-full"
-            style={{ border: "2px solid rgba(57,249,205,0.25)" }}
-          />
-          <p className="text-zinc-500 text-xs tracking-widest uppercase">
-            Created by{" "}
-            <a
-              href="https://pcwu2022.github.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-zinc-300 transition underline underline-offset-2"
-            >
-              Po-Chun Wu
-            </a>{" "}
-            🇹🇼
-          </p>
-        </div>
-      </footer>
+      <PageFooter page="graph" />
 
       {/* ── Node panel ── */}
       <NodePanel
