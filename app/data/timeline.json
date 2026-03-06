@@ -1,122 +1,28 @@
 [
-    {
-        "episode_ids": [202, 204, 205],
-        "company": "Google",
-        "timestamps": [
-            {
-                "month": "1997-09",
-                "title": "google.com",
-                "description": "Larry Page and Sergey Brin bought the domain 'google.com'",
-                "emoji": ":globe_with_meridians:"
-            },
-            {
-                "month": "1998-09",
-                "title": "Google Inc.",
-                "description": "Larry Page and Sergey Brin officially incorporated Google Inc.",
-                "emoji": ":office:"
-            },
-            {
-                "month": "2004-08",
-                "title": "Go Public",
-                "description": "Google held its initial public offering (IPO) and became a publicly traded company.",
-                "emoji": ":chart_with_upwards_trend:"
-            }
-        ]
-    },
-    {
-        "episode_ids": [23, 193],
-        "company": "Meta",
-        "timestamps": [
-            {
-                "month": "2004-02",
-                "title": "The Facebook",
-                "description": "Mark Zuckerberg launched 'The Facebook' from his dorm room at Harvard University.",
-                "emoji": ":bust_in_silhouette:"
-            },
-            {
-                "month": "2005-05",
-                "title": "Facebook Inc.",
-                "description": "Facebook was officially incorporated as Facebook Inc.",
-                "emoji": ":office:"
-            },
-            {
-                "month": "2012-05",
-                "title": "Go Public",
-                "description": "Facebook held its initial public offering (IPO) and became a publicly traded company.",
-                "emoji": ":chart_with_upwards_trend:"
-            }
-        ]
-    },
-    {
-        "episode_ids": [11],
-        "company": "Snapchat",
-        "timestamps": [
-            {
-                "month": "2011-09",
-                "title": "Snapchat Launched",
-                "description": "Evan Spiegel, Bobby Murphy, and Reggie Brown launched Snapchat, a multimedia messaging app.",
-                "emoji": ":ghost:"
-            },
-            {
-                "month": "2013-10",
-                "title": "Rebranding to Snap Inc.",
-                "description": "Snapchat rebranded itself as Snap Inc. to reflect its expansion beyond just the Snapchat app.",
-                "emoji": ":sparkles:"
-            },
-            {
-                "month": "2017-03",
-                "title": "Go Public",
-                "description": "Snap Inc. held its initial public offering (IPO) and became a publicly traded company.",
-                "emoji": ":chart_with_upwards_trend:"
-            }
-        ]
-    },
-    {
-        "episode_ids": [12],
-        "company": "Twitter",
-        "timestamps": [
-            {
-                "month": "2006-03",
-                "title": "Twitter Launched",
-                "description": "Jack Dorsey, Biz Stone, and Evan Williams launched Twitter, a microblogging platform.",
-                "emoji": ":bird:"
-            },
-            {
-                "month": "2007-10",
-                "title": "Twitter Inc.",
-                "description": "Twitter was officially incorporated as Twitter Inc.",
-                "emoji": ":office:"
-            },
-            {
-                "month": "2013-11",
-                "title": "Go Public",
-                "description": "Twitter held its initial public offering (IPO) and became a publicly traded company.",
-                "emoji": ":chart_with_upwards_trend:"
-            }
-        ]
-    },
-    {
-        "episode_ids": [26],
-        "company": "Uber",
-        "timestamps": [
-            {
-                "month": "2009-03",
-                "title": "Uber Launched",
-                "description": "Garrett Camp and Travis Kalanick launched Uber, a ride-hailing service.",
-                "emoji": ":car:"
-            },
-            {
-                "month": "2010-06",
-                "title": "Uber Inc.",
-                "description": "Uber was officially incorporated as Uber Inc.",
-                "emoji": ":office:"
-            },
-            {
-                "month": "2019-05",
-                "title": "Go Public",
-                "description": "Uber held its initial public offering (IPO) and became a publicly traded company.",
-                "emoji": ":chart_with_upwards_trend:"
-            }
-        ]
-    }
-]
+{
+	"episode_ids": [189],
+	"company": "Starbucks",
+	"timestamps": [
+		{"month": "1971-06", "title": "Starbucks Founded", "description": "Starbucks opens its first store in Pike Place Market, Seattle, selling beans using Peet's coffee.", "emoji": ":office:"},
+		{"month": "1982-09", "title": "Schultz Joins", "description": "Howard Schultz joins Starbucks as head of marketing, marking a pivotal leadership shift.", "emoji": ":bust_in_silhouette:"},
+		{"month": "1983-06", "title": "Italy Inspiration", "description": "Schultz visits Milan and is inspired by Italian coffee bars, sparking the vision for Starbucks cafes.", "emoji": ":rocket:"},
+		{"month": "1984-06", "title": "First Coffee Bar", "description": "Starbucks opens its first coffee bar in Seattle, introducing espresso drinks to the U.S. market.", "emoji": ":coffee:"},
+		{"month": "1987-08", "title": "Schultz Acquires Starbucks", "description": "Howard Schultz acquires Starbucks, merging it with Il Giornale and begins rapid expansion.", "emoji": ":handshake:"},
+		{"month": "1988-06", "title": "Health Benefits", "description": "Starbucks offers health benefits to part-time employees, pioneering employee welfare in retail.", "emoji": ":heart:"},
+		{"month": "1991-06", "title": "Beans Stock Program", "description": "Starbucks launches stock options for employees, making all staff 'partners.'", "emoji": ":moneybag:"},
+		{"month": "1992-06", "title": "IPO", "description": "Starbucks goes public, becoming the first major coffee company to list on NASDAQ.", "emoji": ":chart_with_upwards_trend:"},
+		{"month": "1994-06", "title": "Boston Acquisition", "description": "Starbucks acquires Coffee Connection, gaining the Frappuccino trademark and expanding in Boston.", "emoji": ":handshake:"},
+		{"month": "1995-06", "title": "Frappuccino Launch", "description": "Starbucks launches Frappuccino, its first cold blended drink, driving new revenue streams.", "emoji": ":tropical_drink:"},
+		{"month": "1996-08", "title": "Japan Entry", "description": "Starbucks opens its first international store in Tokyo, marking global expansion.", "emoji": ":earth_asia:"},
+		{"month": "1999-06", "title": "China Entry", "description": "Starbucks opens its first store in Beijing, entering the Chinese market.", "emoji": ":earth_asia:"},
+		{"month": "2000-06", "title": "Schultz Steps Down", "description": "Howard Schultz steps down as CEO, becoming Executive Chairman as Starbucks reaches 3,500 stores.", "emoji": ":bust_in_silhouette:"},
+		{"month": "2008-01", "title": "Schultz Returns CEO", "description": "Howard Schultz returns as CEO amid financial crisis, leading a major turnaround.", "emoji": ":repeat:"},
+		{"month": "2009-06", "title": "Mobile App Launch", "description": "Starbucks launches its mobile app, pioneering mobile order and pay in retail.", "emoji": ":iphone:"},
+		{"month": "2011-06", "title": "China Growth", "description": "Starbucks reaches 500 stores in China, marking rapid expansion in Asia.", "emoji": ":chart_with_upwards_trend:"},
+		{"month": "2014-06", "title": "Roastery Launch", "description": "Starbucks opens its first Reserve Roastery in Seattle, elevating the brand experience.", "emoji": ":factory:"},
+		{"month": "2017-06", "title": "Johnson CEO", "description": "Kevin Johnson becomes CEO, succeeding Schultz and continuing global growth.", "emoji": ":bust_in_silhouette:"},
+		{"month": "2022-04", "title": "Schultz Interim CEO", "description": "Howard Schultz returns as interim CEO to guide Starbucks through post-pandemic challenges.", "emoji": ":repeat:"},
+		{"month": "2023-06", "title": "Laxman CEO", "description": "Laxman Narasimhan becomes CEO, marking a new leadership era for Starbucks.", "emoji": ":bust_in_silhouette:"}
+	]
+}
+] 

@@ -9,6 +9,7 @@ import timelineData from "../data/timeline.json";
 import type { Episode } from "../../types/data";
 import { CATEGORY_COLORS } from "../utils/categories";
 import SidePanel from "../components/SidePanel";
+import { EMOJI_MAP } from "../utils/EMOJI_MAP";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -23,117 +24,6 @@ type TimelineEntry = {
   episode_ids: number[];
   company: string;
   timestamps: TimelineTimestamp[];
-};
-
-// ── Emoji mapping ─────────────────────────────────────────────────────────────
-
-const EMOJI_MAP: Record<string, string> = {
-  globe_with_meridians: "🌐",
-  office: "🏢",
-  chart_with_upwards_trend: "📈",
-  chart_with_downwards_trend: "📉",
-  bust_in_silhouette: "👤",
-  busts_in_silhouette: "👥",
-  money_bag: "💰",
-  dollar: "💵",
-  moneybag: "💰",
-  rocket: "🚀",
-  star: "⭐",
-  star2: "🌟",
-  fire: "🔥",
-  zap: "⚡",
-  lightning: "⚡",
-  trophy: "🏆",
-  first_place_medal: "🥇",
-  medal: "🏅",
-  bulb: "💡",
-  computer: "💻",
-  iphone: "📱",
-  camera: "📷",
-  microphone: "🎤",
-  headphones: "🎧",
-  musical_note: "🎵",
-  notes: "🎶",
-  tv: "📺",
-  film_projector: "📽️",
-  clapper: "🎬",
-  video_game: "🎮",
-  joystick: "🕹️",
-  handshake: "🤝",
-  key: "🔑",
-  lock: "🔒",
-  unlock: "🔓",
-  tools: "🛠️",
-  hammer: "🔨",
-  wrench: "🔧",
-  gear: "⚙️",
-  tada: "🎉",
-  balloon: "🎈",
-  gift: "🎁",
-  crown: "👑",
-  gem: "💎",
-  ring: "💍",
-  bank: "🏦",
-  bar_chart: "📊",
-  newspaper: "📰",
-  memo: "📝",
-  pencil: "✏️",
-  envelope: "✉️",
-  calendar: "📅",
-  clock3: "🕒",
-  alarm_clock: "⏰",
-  hourglass: "⌛",
-  world_map: "🗺️",
-  satellite: "🛰️",
-  airplane: "✈️",
-  car: "🚗",
-  bus: "🚌",
-  ship: "🚢",
-  train: "🚆",
-  shopping_cart: "🛒",
-  seedling: "🌱",
-  tree: "🌳",
-  sun: "☀️",
-  lightning_bolt: "⚡",
-  spider_web: "🕸️",
-  link: "🔗",
-  checkered_flag: "🏁",
-  triangular_flag_on_post: "🚩",
-  arrows_counterclockwise: "🔄",
-  arrow_right: "➡️",
-  arrow_up: "⬆️",
-  scales: "⚖️",
-  briefcase: "💼",
-  clipboard: "📋",
-  scroll: "📜",
-  books: "📚",
-  book: "📖",
-  ledger: "📒",
-  notebook: "📓",
-  mag: "🔍",
-  microscope: "🔬",
-  dna: "🧬",
-  pill: "💊",
-  test_tube: "🧪",
-  atom_symbol: "⚛️",
-  warning: "⚠️",
-  x: "❌",
-  heavy_check_mark: "✔️",
-  white_check_mark: "✅",
-  no_entry: "⛔",
-  red_circle: "🔴",
-  green_circle: "🟢",
-  blue_circle: "🔵",
-  building_construction: "🏗️",
-  classical_building: "🏛️",
-  house: "🏠",
-  factory: "🏭",
-  chart_increasing: "📈",
-  chart_decreasing: "📉",
-  recycle: "♻️",
-  infinity: "♾️",
-  satellite_antenna: "📡",
-  handshaking: "🤝",
 };
 
 function parseEmoji(raw: string): string {
@@ -158,9 +48,12 @@ function formatMonthLabel(yyyyMM: string): string {
 // ── Layout constants ──────────────────────────────────────────────────────────
 
 const LEFT_PANEL_W = 220;
-const PX_PER_MONTH = 22;
-const ROW_HEIGHT = 130;
-const LINE_Y = 52;         // px from top of row to the center of the timeline line
+const DEFAULT_PX_PER_MONTH = 22;
+const ZOOM_STEP = 3;
+const ZOOM_MIN = 1;
+const ZOOM_MAX = 100;
+const ROW_HEIGHT = 88;
+const LINE_Y = 36;         // px from top of row to the center of the timeline line
 const FADE_PX = 90;        // width of the trailing fade after last event
 const PAD_MONTHS_BEFORE = 4;
 const PAD_MONTHS_AFTER = 10;
@@ -222,6 +115,7 @@ function TimelineRow({
   entry,
   episodes,
   globalMinIdx,
+  pxPerMonth,
   onMarkerClick,
   onStickerClick,
   activeMarker,
@@ -230,6 +124,7 @@ function TimelineRow({
   entry: TimelineEntry;
   episodes: Episode[];
   globalMinIdx: number;
+  pxPerMonth: number;
   onMarkerClick: (key: string, state: TooltipState) => void;
   onStickerClick: (ep: Episode) => void;
   activeMarker: string | null;
@@ -250,8 +145,8 @@ function TimelineRow({
   const firstMonthIdx = monthIndex(entry.timestamps[0].month);
   const lastMonthIdx = monthIndex(entry.timestamps[entry.timestamps.length - 1].month);
 
-  const startX = (firstMonthIdx - globalMinIdx) * PX_PER_MONTH;
-  const endX = (lastMonthIdx - globalMinIdx) * PX_PER_MONTH;
+  const startX = (firstMonthIdx - globalMinIdx) * pxPerMonth;
+  const endX = (lastMonthIdx - globalMinIdx) * pxPerMonth;
   const lineWidth = endX - startX;
 
   return (
@@ -341,7 +236,7 @@ function TimelineRow({
 
         {/* Timestamp markers */}
         {entry.timestamps.map((ts, i) => {
-          const x = (monthIndex(ts.month) - globalMinIdx) * PX_PER_MONTH;
+          const x = (monthIndex(ts.month) - globalMinIdx) * pxPerMonth;
           const key = `${entry.company}__${i}`;
           const isActive = activeMarker === key;
           const emoji = parseEmoji(ts.emoji);
@@ -417,9 +312,11 @@ function TimelineRow({
 function YearAxis({
   globalMinIdx,
   totalMonths,
+  pxPerMonth,
 }: {
   globalMinIdx: number;
   totalMonths: number;
+  pxPerMonth: number;
 }) {
   const ticks: { x: number; label: string }[] = [];
   for (let i = 0; i < totalMonths; i++) {
@@ -427,7 +324,7 @@ function YearAxis({
     const month = (absIdx % 12) + 1;
     if (month === 1) {
       const year = Math.floor(absIdx / 12);
-      ticks.push({ x: i * PX_PER_MONTH, label: String(year) });
+      ticks.push({ x: i * pxPerMonth, label: String(year) });
     }
   }
 
@@ -454,7 +351,7 @@ function YearAxis({
       <div
         className="relative border-b"
         style={{
-          width: totalMonths * PX_PER_MONTH,
+          width: totalMonths * pxPerMonth,
           borderColor: "rgba(255,255,255,0.06)",
         }}
       >
@@ -484,7 +381,12 @@ export default function ChroniclesPage() {
   const [panelEpisode, setPanelEpisode] = useState<Episode | null>(null);
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   const [activeMarker, setActiveMarker] = useState<string | null>(null);
+  const [pxPerMonth, setPxPerMonth] = useState(DEFAULT_PX_PER_MONTH);
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  const zoom = useCallback((delta: number) => {
+    setPxPerMonth((prev) => Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, prev + delta)));
+  }, []);
 
   const episodes = episodesData as Episode[];
 
@@ -516,13 +418,13 @@ export default function ChroniclesPage() {
     };
   }, [sortedEntries]);
 
-  const totalWidth = totalMonths * PX_PER_MONTH;
+  const totalWidth = totalMonths * pxPerMonth;
 
   // ── Scroll to show a relevant region (center of timeline) on mount ──
   useEffect(() => {
     if (!scrollRef.current) return;
     // Scroll to the beginning of the timeline data (after padding)
-    scrollRef.current.scrollLeft = LEFT_PANEL_W + PAD_MONTHS_BEFORE * PX_PER_MONTH - 20;
+    scrollRef.current.scrollLeft = LEFT_PANEL_W + PAD_MONTHS_BEFORE * DEFAULT_PX_PER_MONTH - 20;
   }, []);
 
   // ── Dismiss tooltip on outside click ──
@@ -586,25 +488,59 @@ export default function ChroniclesPage() {
         </nav>
       </header>
 
-      {/* ── Intro blurb ── */}
-      <div className="w-full max-w-5xl mx-auto px-6 pt-4 pb-2 text-sm text-zinc-400 leading-relaxed shrink-0">
-        The Chronicles — every pivotal chapter in the companies that shaped the{" "}
-        <a
-          href="https://www.acquired.fm"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold hover:underline"
-          style={{ color: "#39F9CD" }}
-        >
-          Acquired
-        </a>{" "}
-        universe. Click any marker to read its story. Click a sticker to explore the episode.
+      {/* ── Intro blurb + zoom controls ── */}
+      <div className="w-full px-6 pt-3 pb-2 flex items-center justify-between gap-4 shrink-0">
+        <p className="text-sm text-zinc-400 leading-relaxed">
+          The Chronicles — every pivotal chapter in the companies that shaped the{" "}
+          <a
+            href="https://www.acquired.fm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold hover:underline"
+            style={{ color: "#39F9CD" }}
+          >
+            Acquired
+          </a>{" "}
+          universe. Click any marker to read its story.
+        </p>
+
+        {/* Zoom controls */}
+        <div className="flex items-center gap-1 shrink-0 bg-zinc-900 border border-zinc-700 rounded-lg px-1.5 py-1">
+          <button
+            className="w-6 h-6 flex items-center justify-center rounded text-zinc-400 hover:text-white hover:bg-zinc-700 transition text-sm font-bold cursor-pointer disabled:opacity-30"
+            onClick={() => zoom(-ZOOM_STEP)}
+            disabled={pxPerMonth <= ZOOM_MIN}
+            title="Zoom out"
+            aria-label="Zoom out"
+          >
+            −
+          </button>
+          <span className="text-[10px] text-zinc-500 w-9 text-center tabular-nums select-none">
+            {Math.round((pxPerMonth / DEFAULT_PX_PER_MONTH) * 100)}%
+          </span>
+          <button
+            className="w-6 h-6 flex items-center justify-center rounded text-zinc-400 hover:text-white hover:bg-zinc-700 transition text-sm font-bold cursor-pointer disabled:opacity-30"
+            onClick={() => zoom(ZOOM_STEP)}
+            disabled={pxPerMonth >= ZOOM_MAX}
+            title="Zoom in"
+            aria-label="Zoom in"
+          >
+            +
+          </button>
+        </div>
       </div>
 
       {/* ── Timeline container ── */}
+      <style>{`
+        .chronicles-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
+        .chronicles-scroll::-webkit-scrollbar-track { background: rgb(9,9,11); }
+        .chronicles-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 3px; }
+        .chronicles-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.16); }
+        .chronicles-scroll::-webkit-scrollbar-corner { background: rgb(9,9,11); }
+      `}</style>
       <div
         ref={scrollRef}
-        className="flex-1 overflow-x-auto overflow-y-auto relative"
+        className="flex-1 overflow-x-auto overflow-y-auto relative chronicles-scroll"
         style={{ background: "rgb(9,9,11)" }}
         onClick={() => {
           setTooltip(null);
@@ -613,7 +549,7 @@ export default function ChroniclesPage() {
       >
         <div style={{ minWidth: LEFT_PANEL_W + totalWidth, display: "flex", flexDirection: "column" }}>
           {/* Year axis */}
-          <YearAxis globalMinIdx={globalMinIdx} totalMonths={totalMonths} />
+          <YearAxis globalMinIdx={globalMinIdx} totalMonths={totalMonths} pxPerMonth={pxPerMonth} />
 
           {/* Timeline rows */}
           {sortedEntries.map((entry) => (
@@ -622,6 +558,7 @@ export default function ChroniclesPage() {
               entry={entry}
               episodes={episodes}
               globalMinIdx={globalMinIdx}
+              pxPerMonth={pxPerMonth}
               onMarkerClick={handleMarkerClick}
               onStickerClick={(ep) => setPanelEpisode(ep)}
               activeMarker={activeMarker}
