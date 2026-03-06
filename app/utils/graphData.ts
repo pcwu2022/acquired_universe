@@ -3,34 +3,30 @@
 
 import episodesRaw from "../data/episodes.json";
 import relationsRaw from "../data/company_relations.json";
+import idToCompanyRaw from "../data/id_to_company.json";
 import type { Episode } from "../../types/data";
 import { CATEGORY_COLORS } from "./categories";
 
 const episodes = episodesRaw as Episode[];
 const relations = relationsRaw as unknown as Record<string, [string, number][]>;
+const idToCompany = idToCompanyRaw as ([string, string] | null)[];
+
+// Build a direct map from constellation company name → Episode using the id bridge.
+const _episodeById = new Map<number, Episode>(episodes.map((ep) => [ep.id, ep]));
+const _constellationToEpisode = new Map<string, Episode>();
+for (let id = 0; id < idToCompany.length; id++) {
+  const entry = idToCompany[id];
+  if (entry === null) continue;
+  const ep = _episodeById.get(id);
+  if (ep) _constellationToEpisode.set(entry[0], ep);
+}
 
 /**
- * Find the best episode match for a company name from the relations graph.
- * Strategy: the relations key (e.g. "Google") is a substring of the episode
- * company name (e.g. "Google Part II"). Match is case-insensitive.
- * If multiple episodes match, pick the one whose company name is shortest
- * (closest match). Falls back to undefined if no match found.
+ * Find the episode for a constellation-view company name.
+ * Uses the id_to_company.json mapping for a direct, unambiguous lookup.
  */
 export function findEpisodeForCompany(name: string): Episode | undefined {
-  const lower = name.toLowerCase();
-  let best: Episode | undefined;
-  let bestLen = Infinity;
-
-  for (const ep of episodes) {
-    const epLower = ep.company.toLowerCase();
-    if (epLower.includes(lower) || lower.includes(epLower)) {
-      if (ep.company.length < bestLen) {
-        best = ep;
-        bestLen = ep.company.length;
-      }
-    }
-  }
-  return best;
+  return _constellationToEpisode.get(name);
 }
 
 export type GraphNode = {

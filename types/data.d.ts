@@ -1,4 +1,5 @@
 export type Episode = {
+  id: number;
   company: string;
   release_date: string; // YYYY-MM
   hq: { lat: number; lng: number };
