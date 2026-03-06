@@ -463,19 +463,25 @@ function YearAxis({
   pxPerMonth: number;
 }) {
   const ticks: { x: number; label: string }[] = [];
+
+  // Adaptive tick interval: decade when very zoomed out, 5yr mid, 1yr when zoomed in
+  const yearsPerTick = pxPerMonth < 5 ? 10 : pxPerMonth < 12 ? 5 : 1;
+
   for (let i = 0; i < totalMonths; i++) {
     const absIdx = globalMinIdx + i;
     const month = (absIdx % 12) + 1;
     if (month === 1) {
       const year = Math.floor(absIdx / 12);
-      ticks.push({ x: i * pxPerMonth, label: String(year) });
+      if (year % yearsPerTick === 0) {
+        ticks.push({ x: i * pxPerMonth, label: String(year) });
+      }
     }
   }
 
   return (
     <div
-      className="sticky left-0 flex shrink-0"
-      style={{ height: 32, zIndex: 20 }}
+      className="sticky top-0 flex shrink-0"
+      style={{ height: 32, zIndex: 30, background: "rgb(9,9,11)" }}
     >
       {/* Filler for the left panel */}
       <div
