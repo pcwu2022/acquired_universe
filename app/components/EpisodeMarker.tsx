@@ -101,7 +101,7 @@ export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, 
       >
         <img
           src={episode.sticker || FALLBACK_STICKER}
-          alt={episode.company}
+          alt={episode.episode}
           className="w-full h-full object-contain p-1"
           draggable={false}
           onError={(e) => {
@@ -130,7 +130,7 @@ export default function EpisodeMarker({ episode, isSelected, onClick, scale, x, 
                   WebkitBoxOrient: "vertical",
                   overflow: "hidden",
                 }}
-              >{episode.company}</div>
+              >{episode.episode}</div>
               <div className="text-zinc-500 mt-0.5">{episode.release_date}</div>
               <div className="flex items-center gap-1.5 mt-1.5">
                 <span

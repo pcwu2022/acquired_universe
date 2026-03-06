@@ -47,7 +47,7 @@ export default function SidePanel({ episode, onClose }: SidePanelProps) {
             >
               <img
                 src={episode.sticker}
-                alt={episode.company}
+                alt={episode.episode}
                 className="absolute inset-0 w-full h-full object-contain"
                 draggable={false}
               />
@@ -57,7 +57,7 @@ export default function SidePanel({ episode, onClose }: SidePanelProps) {
             <div className="flex flex-col gap-3 px-6 pt-5 pb-8">
               {/* Title */}
               <h2 className="text-2xl font-bold text-white tracking-tight leading-snug">
-                {episode.company}
+                {episode.episode}
               </h2>
 
               {/* Meta: release date + category */}

@@ -3,27 +3,21 @@
 
 import episodesRaw from "../data/episodes.json";
 import relationsRaw from "../data/company_relations.json";
-import idToCompanyRaw from "../data/id_to_company.json";
 import type { Episode } from "../../types/data";
 import { CATEGORY_COLORS } from "./categories";
 
 const episodes = episodesRaw as Episode[];
 const relations = relationsRaw as unknown as Record<string, [string, number][]>;
-const idToCompany = idToCompanyRaw as ([string, string] | null)[];
 
-// Build a direct map from constellation company name → Episode using the id bridge.
-const _episodeById = new Map<number, Episode>(episodes.map((ep) => [ep.id, ep]));
+// Build a direct map from constellation company name → Episode using ep.company.
 const _constellationToEpisode = new Map<string, Episode>();
-for (let id = 0; id < idToCompany.length; id++) {
-  const entry = idToCompany[id];
-  if (entry === null) continue;
-  const ep = _episodeById.get(id);
-  if (ep) _constellationToEpisode.set(entry[0], ep);
+for (const ep of episodes) {
+  if (ep.company) _constellationToEpisode.set(ep.company, ep);
 }
 
 /**
  * Find the episode for a constellation-view company name.
- * Uses the id_to_company.json mapping for a direct, unambiguous lookup.
+ * Uses the company field in episodes.json for a direct lookup.
  */
 export function findEpisodeForCompany(name: string): Episode | undefined {
   return _constellationToEpisode.get(name);

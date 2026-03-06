@@ -155,16 +155,16 @@ function MapOverlayContent({
     <>
       {showEpisodes && (() => {
         const maxDate = filteredEpisodes.reduce((a, b) => (a.release_date > b.release_date ? a : b), filteredEpisodes[0])?.release_date ?? "";
-        const globalLatestCompany = (episodesData as Episode[])[episodesData.length - 1]?.company;
+        const globalLatestCompany = (episodesData as Episode[])[episodesData.length - 1]?.episode;
         return filteredEpisodes.map((ep) => {
           const xy = project([ep.hq.lng, ep.hq.lat]);
           if (!xy) return null;
           const [x, y] = xy;
           return (
             <EpisodeMarker
-              key={ep.company}
+              key={ep.episode}
               episode={ep}
-              isSelected={panelEpisode?.company === ep.company}
+              isSelected={panelEpisode?.episode === ep.episode}
               onClick={() => setPanelEpisode(ep)}
               scale={(() => {
                 const monthsAgo = timeline.indexOf(selected) - timeline.indexOf(ep.release_date);
@@ -175,7 +175,7 @@ function MapOverlayContent({
               x={x}
               y={y}
               isNewest={ep.release_date === maxDate}
-              isGlobalLatest={ep.company === globalLatestCompany}
+              isGlobalLatest={ep.episode === globalLatestCompany}
             />
           );
         });

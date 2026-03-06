@@ -17,7 +17,7 @@ export default function QuestionRenderer({ question, value, onChange }: Question
     const q = episodeQuery.toLowerCase();
     const all = episodesData as { company: string; release_date: string }[];
     if (!q) return all.slice(0, 8);
-    return all.filter((e: { company: string }) => e.company.toLowerCase().includes(q)).slice(0, 8);
+    return all.filter((e: { company: string }) => e.episode.toLowerCase().includes(q)).slice(0, 8);
   }, [question.type, episodeQuery]);
 
   if (question.type === "text") {
@@ -62,16 +62,16 @@ export default function QuestionRenderer({ question, value, onChange }: Question
           >
             {episodeOptions.map(ep => (
               <li
-                key={ep.company}
+                key={ep.episode}
                 className="px-4 py-2 text-sm cursor-pointer transition hover:bg-white/10"
                 style={{ color: "#e4e4e7" }}
                 onClick={() => {
                   const ep2 = ep as { company: string; release_date: string };
-                  onChange(ep2.company);
-                  setEpisodeQuery(ep2.company);
+                  onChange(ep2.episode);
+                  setEpisodeQuery(ep2.episode);
                 }}
               >
-                <span className="font-medium">{ep.company}</span>
+                <span className="font-medium">{ep.episode}</span>
                 <span className="ml-2 text-xs text-zinc-500">{ep.release_date}</span>
               </li>
             ))}

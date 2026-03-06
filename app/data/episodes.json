@@ -1,6 +1,6 @@
 [
   {
-    "company": "Instagram",
+    "episode": "Instagram",
     "release_date": "2015-10",
     "hq": {
       "lat": 37.4848,
@@ -10,10 +10,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-2-instagram",
-    "id": 0
+    "id": 0,
+    "company": "Instagram"
   },
   {
-    "company": "Pixar",
+    "episode": "Pixar",
     "release_date": "2015-10",
     "hq": {
       "lat": 37.8324,
@@ -23,10 +24,11 @@
     "category": "Entertainment",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-1-pixar",
-    "id": 1
+    "id": 1,
+    "company": "Pixar"
   },
   {
-    "company": "Bungie (with Xbox Co-Founder Ed Fries)",
+    "episode": "Bungie (with Xbox Co-Founder Ed Fries)",
     "release_date": "2015-11",
     "hq": {
       "lat": 47.6145,
@@ -36,10 +38,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-4-bungie",
-    "id": 2
+    "id": 2,
+    "company": "Bungie"
   },
   {
-    "company": "Twitch",
+    "episode": "Twitch",
     "release_date": "2015-11",
     "hq": {
       "lat": 37.7543,
@@ -49,10 +52,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-3-twitch",
-    "id": 3
+    "id": 3,
+    "company": "Twitch"
   },
   {
-    "company": "Siri",
+    "episode": "Siri",
     "release_date": "2015-12",
     "hq": {
       "lat": 37.3349,
@@ -62,10 +66,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-5-siri",
-    "id": 4
+    "id": 4,
+    "company": "Siri"
   },
   {
-    "company": "Lucasfilm",
+    "episode": "Lucasfilm",
     "release_date": "2016-01",
     "hq": {
       "lat": 37.8016,
@@ -75,10 +80,11 @@
     "category": "Entertainment",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-6-lucasfilm",
-    "id": 5
+    "id": 5,
+    "company": "Lucasfilm"
   },
   {
-    "company": "Acompli, Sunrise, and Wunderlist (w/ Kurt DelBene)",
+    "episode": "Acompli, Sunrise, and Wunderlist (w/ Kurt DelBene)",
     "release_date": "2016-02",
     "hq": {
       "lat": 47.6397,
@@ -88,10 +94,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-8-acompli-sunrise-and-wunderlist",
-    "id": 6
+    "id": 6,
+    "company": "Acompli, Sunrise,"
   },
   {
-    "company": "YouTube",
+    "episode": "YouTube",
     "release_date": "2016-02",
     "hq": {
       "lat": 37.6279,
@@ -101,10 +108,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-7-youtube",
-    "id": 7
+    "id": 7,
+    "company": "YouTube"
   },
   {
-    "company": "Writely (Google Docs)",
+    "episode": "Writely (Google Docs)",
     "release_date": "2016-03",
     "hq": {
       "lat": 37.4221,
@@ -114,10 +122,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-9-writely-google-docs",
-    "id": 8
+    "id": 8,
+    "company": "Writely"
   },
   {
-    "company": "Virgin America",
+    "episode": "Virgin America",
     "release_date": "2016-04",
     "hq": {
       "lat": 37.5401,
@@ -127,10 +136,11 @@
     "category": "Aviation",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-10-virgin-america",
-    "id": 9
+    "id": 9,
+    "company": "Virgin America"
   },
   {
-    "company": "PayPal",
+    "episode": "PayPal",
     "release_date": "2016-05",
     "hq": {
       "lat": 37.2952,
@@ -140,10 +150,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-11-paypal",
-    "id": 10
+    "id": 10,
+    "company": "PayPal"
   },
   {
-    "company": "Snapchat (?!)",
+    "episode": "Snapchat (?!)",
     "release_date": "2016-05",
     "hq": {
       "lat": 34.0195,
@@ -153,10 +164,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-12-snapchat",
-    "id": 11
+    "id": 11,
+    "company": "Snapchat"
   },
   {
-    "company": "Push Pop Press (Facebook Instant Articles) with Todd Bishop",
+    "episode": "Push Pop Press (Facebook Instant Articles) with Todd Bishop",
     "release_date": "2016-06",
     "hq": {
       "lat": 37.4851,
@@ -166,10 +178,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-13-push-pop-press-facebook-instant-articles-with-todd-bishop",
-    "id": 12
+    "id": 12,
+    "company": "Push Pop Press"
   },
   {
-    "company": "LinkedIn",
+    "episode": "LinkedIn",
     "release_date": "2016-06",
     "hq": {
       "lat": 37.4233,
@@ -179,10 +192,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-14-linkedin",
-    "id": 13
+    "id": 13,
+    "company": "LinkedIn"
   },
   {
-    "company": "Midroll + Stitcher (acquired by Scripps)",
+    "episode": "Midroll + Stitcher (acquired by Scripps)",
     "release_date": "2016-07",
     "hq": {
       "lat": 34.0522,
@@ -192,10 +206,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acquired-episode-16-midroll-stitcher-acquired-by-scripps",
-    "id": 14
+    "id": 14,
+    "company": "Midroll"
   },
   {
-    "company": "ExactTarget (acquired by Salesforce) with Scott Dorsey",
+    "episode": "ExactTarget (acquired by Salesforce) with Scott Dorsey",
     "release_date": "2016-07",
     "hq": {
       "lat": 39.7719,
@@ -205,10 +220,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acquired-episode-15-exacttarget-acquired-by-salesforce-with-scott-dorsey",
-    "id": 15
+    "id": 15,
+    "company": "ExactTarget"
   },
   {
-    "company": "Jet",
+    "episode": "Jet",
     "release_date": "2016-08",
     "hq": {
       "lat": 40.7431,
@@ -218,10 +234,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-19-jet",
-    "id": 16
+    "id": 16,
+    "company": "Jet"
   },
   {
-    "company": "Waze",
+    "episode": "Waze",
     "release_date": "2016-08",
     "hq": {
       "lat": 32.0645,
@@ -231,10 +248,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acquired-episode-17-waze",
-    "id": 17
+    "id": 17,
+    "company": "Waze"
   },
   {
-    "company": "Special\u201a An Acquirer's View into M&A with Taylor Barada, head of Corp Dev at Adobe",
+    "episode": "Special\u201a An Acquirer's View into M&A with Taylor Barada, head of Corp Dev at Adobe",
     "release_date": "2016-08",
     "hq": {
       "lat": 37.331,
@@ -244,10 +262,11 @@
     "category": "",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-18-specialan-acquirers-view-into-ma-with-taylor-barada-head-of-corp-dev-at-adobe",
-    "id": 18
+    "id": 18,
+    "company": ""
   },
   {
-    "company": "Inside the M&A Press with Bloomberg's Alex Sherman",
+    "episode": "Inside the M&A Press with Bloomberg's Alex Sherman",
     "release_date": "2016-09",
     "hq": {
       "lat": 40.7619,
@@ -257,10 +276,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-21-inside-the-ma-press-with-bloombergs-alex-sherman",
-    "id": 19
+    "id": 19,
+    "company": "Inside the M&A Press"
   },
   {
-    "company": "Android",
+    "episode": "Android",
     "release_date": "2016-09",
     "hq": {
       "lat": 37.4221,
@@ -270,10 +290,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-20-android",
-    "id": 20
+    "id": 20,
+    "company": "Android"
   },
   {
-    "company": "NeXT (Live show at the GeekWire Summit)",
+    "episode": "NeXT (Live show at the GeekWire Summit)",
     "release_date": "2016-10",
     "hq": {
       "lat": 47.6119,
@@ -283,10 +304,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-23-next-live-show-at-the-geekwire-summit",
-    "id": 21
+    "id": 21,
+    "company": "NeXT"
   },
   {
-    "company": "Zillow + Trulia with Zillow Group CFO Kathleen Philips",
+    "episode": "Zillow + Trulia with Zillow Group CFO Kathleen Philips",
     "release_date": "2016-10",
     "hq": {
       "lat": 47.6074,
@@ -296,10 +318,11 @@
     "category": "Real-estate",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-22-zillow-trulia-with-zillow-group-cfo-kathleen-philips",
-    "id": 22
+    "id": 22,
+    "company": "Zillow"
   },
   {
-    "company": "The Facebook IPO",
+    "episode": "The Facebook IPO",
     "release_date": "2016-11",
     "hq": {
       "lat": 37.4851,
@@ -309,10 +332,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-25-the-facebook-ipo",
-    "id": 23
+    "id": 23,
+    "company": "Facebook"
   },
   {
-    "company": "Skype",
+    "episode": "Skype",
     "release_date": "2016-11",
     "hq": {
       "lat": 51.5173,
@@ -322,10 +346,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-24-skype",
-    "id": 24
+    "id": 24,
+    "company": "Skype"
   },
   {
-    "company": "The Amazon IPO with original Amazon Board Member Tom Alberg",
+    "episode": "The Amazon IPO with original Amazon Board Member Tom Alberg",
     "release_date": "2016-12",
     "hq": {
       "lat": 47.6089,
@@ -335,10 +360,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-28-the-amazon-ipo-with-original-amazon-board-member-tom-alberg",
-    "id": 25
+    "id": 25,
+    "company": "Amazon"
   },
   {
-    "company": "Special: Conversation with Microsoft's Head of Strategic Investments Brian Schultz",
+    "episode": "Special: Conversation with Microsoft's Head of Strategic Investments Brian Schultz",
     "release_date": "2016-12",
     "hq": {
       "lat": 47.6397,
@@ -348,10 +374,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-27-speciala-conversation-with-microsofts-head-of-strategic-investments-brian-schultz",
-    "id": 26
+    "id": 26,
+    "company": ""
   },
   {
-    "company": "Marvel",
+    "episode": "Marvel",
     "release_date": "2016-12",
     "hq": {
       "lat": 40.7601,
@@ -361,10 +388,11 @@
     "category": "Entertainment",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-25-marvel",
-    "id": 27
+    "id": 27,
+    "company": "Marvel"
   },
   {
-    "company": "P.A. Semi + AuthenTec",
+    "episode": "P.A. Semi + AuthenTec",
     "release_date": "2017-01",
     "hq": {
       "lat": 37.3541,
@@ -374,10 +402,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-30-pa-semi-authentec",
-    "id": 28
+    "id": 28,
+    "company": "P.A. Semi"
   },
   {
-    "company": "Special: 2016 Review and 2017 Predictions",
+    "episode": "Special: 2016 Review and 2017 Predictions",
     "release_date": "2017-01",
     "hq": {
       "lat": 47.6062,
@@ -387,10 +416,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-29-special2016-review-and-2017-predictions",
-    "id": 29
+    "id": 29,
+    "company": ""
   },
   {
-    "company": "The Uber - Didi Chuxing Merger with Brad Stone, author of The Upstarts & The Everything Store",
+    "episode": "The Uber - Didi Chuxing Merger with Brad Stone, author of The Upstarts & The Everything Store",
     "release_date": "2017-02",
     "hq": {
       "lat": 37.768,
@@ -400,10 +430,11 @@
     "category": "Transportation",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-31-the-uber-didi-chuxing-merger-with-brad-stone-author-of-the-upstarts-the-everything-store",
-    "id": 30
+    "id": 30,
+    "company": "Didi Chuxing Merger"
   },
   {
-    "company": "Overture (with the Internet History Podcast!)",
+    "episode": "Overture (with the Internet History Podcast!)",
     "release_date": "2017-03",
     "hq": {
       "lat": 34.1478,
@@ -413,10 +444,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-33-overture-with-the-internet-history-podcast",
-    "id": 31
+    "id": 31,
+    "company": "Overture"
   },
   {
-    "company": "The Snap Inc. IPO",
+    "episode": "The Snap Inc. IPO",
     "release_date": "2017-03",
     "hq": {
       "lat": 34.0195,
@@ -426,10 +458,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-32-the-snap-inc-ipo",
-    "id": 32
+    "id": 32,
+    "company": ""
   },
   {
-    "company": "Oculus",
+    "episode": "Oculus",
     "release_date": "2017-04",
     "hq": {
       "lat": 37.4848,
@@ -439,10 +472,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-35-oculus",
-    "id": 33
+    "id": 33,
+    "company": "Oculus"
   },
   {
-    "company": "The LA Clippers",
+    "episode": "The LA Clippers",
     "release_date": "2017-04",
     "hq": {
       "lat": 34.043,
@@ -452,10 +486,11 @@
     "category": "Sports",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-36-the-la-clippers",
-    "id": 34
+    "id": 34,
+    "company": "LA Clippers"
   },
   {
-    "company": "Starbucks IPO with Dan Levitan",
+    "episode": "Starbucks IPO with Dan Levitan",
     "release_date": "2017-04",
     "hq": {
       "lat": 47.5817,
@@ -465,10 +500,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-34-starbucks-ipo-with-dan-levitan",
-    "id": 35
+    "id": 35,
+    "company": "Starbucks"
   },
   {
-    "company": "BAMTech, Disney and \"the Biggest Media Company You've Never Heard Of\"",
+    "episode": "BAMTech, Disney and \"the Biggest Media Company You've Never Heard Of\"",
     "release_date": "2017-05",
     "hq": {
       "lat": 40.7061,
@@ -478,10 +514,11 @@
     "category": "",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-37-bamtech-disney-and-the-biggest-media-company-youve-never-heard-of",
-    "id": 36
+    "id": 36,
+    "company": "BAMTech, Disney"
   },
   {
-    "company": "SoundJam (iTunes)",
+    "episode": "SoundJam (iTunes)",
     "release_date": "2017-05",
     "hq": {
       "lat": 36.6575,
@@ -491,10 +528,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-38-soundjam-itunes",
-    "id": 37
+    "id": 37,
+    "company": "SoundJam"
   },
   {
-    "company": "Whole Foods Market",
+    "episode": "Whole Foods Market",
     "release_date": "2017-06",
     "hq": {
       "lat": 30.2707,
@@ -504,10 +542,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-39-whole-foods-market",
-    "id": 38
+    "id": 38,
+    "company": "Whole Foods Market"
   },
   {
-    "company": "Booking.com with Jetsetter & Room 77 CEO Drew Patterson",
+    "episode": "Booking.com with Jetsetter & Room 77 CEO Drew Patterson",
     "release_date": "2017-07",
     "hq": {
       "lat": 52.3702,
@@ -517,10 +556,11 @@
     "category": "Travel",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-41-bookingcom-with-jetsetter-room-77-ceo-drew-patterson",
-    "id": 39
+    "id": 39,
+    "company": "Booking"
   },
   {
-    "company": "Activision Blizzard",
+    "episode": "Activision Blizzard",
     "release_date": "2017-07",
     "hq": {
       "lat": 34.0256,
@@ -530,10 +570,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-40-activision-blizzard",
-    "id": 40
+    "id": 40,
+    "company": "Activision Blizzard"
   },
   {
-    "company": "The Square IPO",
+    "episode": "The Square IPO",
     "release_date": "2017-08",
     "hq": {
       "lat": 37.7759,
@@ -543,10 +584,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-43-the-square-ipo",
-    "id": 41
+    "id": 41,
+    "company": ""
   },
   {
-    "company": "Opsware (with special guest Michel Feaster)",
+    "episode": "Opsware (with special guest Michel Feaster)",
     "release_date": "2017-08",
     "hq": {
       "lat": 37.3861,
@@ -556,10 +598,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-42-opsware-with-special-guest-michel-feaster",
-    "id": 42
+    "id": 42,
+    "company": "Opsware"
   },
   {
-    "company": "AOL - Time Warner (with the Internet History Podcast)",
+    "episode": "AOL - Time Warner (with the Internet History Podcast)",
     "release_date": "2017-09",
     "hq": {
       "lat": 40.7299,
@@ -569,10 +612,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-44-aol-time-warner-with-the-internet-history-podcast",
-    "id": 43
+    "id": 43,
+    "company": "Time Warner"
   },
   {
-    "company": "HTC, Google and the Future of Mobile",
+    "episode": "HTC, Google and the Future of Mobile",
     "release_date": "2017-09",
     "hq": {
       "lat": 24.9854,
@@ -582,10 +626,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-45-htc-google-and-the-future-of-mobile",
-    "id": 44
+    "id": 44,
+    "company": "HTC, Google"
   },
   {
-    "company": "Blue Bottle Coffee",
+    "episode": "Blue Bottle Coffee",
     "release_date": "2017-10",
     "hq": {
       "lat": 37.8044,
@@ -595,10 +640,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-46blue-bottle-coffee",
-    "id": 45
+    "id": 45,
+    "company": "Blue Bottle Coffee"
   },
   {
-    "company": "The Atlassian IPO",
+    "episode": "The Atlassian IPO",
     "release_date": "2017-11",
     "hq": {
       "lat": -33.8688,
@@ -608,10 +654,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-47the-atlassian-ipo",
-    "id": 46
+    "id": 46,
+    "company": "Atlassian"
   },
   {
-    "company": "Qualcomm - Broadcom",
+    "episode": "Qualcomm - Broadcom",
     "release_date": "2017-11",
     "hq": {
       "lat": 32.8943,
@@ -621,10 +668,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-48qualcomm-broadcom",
-    "id": 47
+    "id": 47,
+    "company": "Broadcom"
   },
   {
-    "company": "2017 Holiday Special",
+    "episode": "2017 Holiday Special",
     "release_date": "2017-12",
     "hq": {
       "lat": 47.6062,
@@ -634,10 +682,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/ettzkg3lujvlpbh9hq397jrvip0dkx",
-    "id": 48
+    "id": 48,
+    "company": ""
   },
   {
-    "company": "Apple - Beats",
+    "episode": "Apple - Beats",
     "release_date": "2017-12",
     "hq": {
       "lat": 34.0245,
@@ -647,10 +696,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-50-apple-beats",
-    "id": 49
+    "id": 49,
+    "company": "Beats"
   },
   {
-    "company": "The Stitch Fix IPO",
+    "episode": "The Stitch Fix IPO",
     "release_date": "2017-12",
     "hq": {
       "lat": 37.7885,
@@ -660,10 +710,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/episode-49the-stitch-fix-ipo",
-    "id": 50
+    "id": 50,
+    "company": "Stitch Fix"
   },
   {
-    "company": "Zappos (with Alfred Lin)",
+    "episode": "Zappos (with Alfred Lin)",
     "release_date": "2018-01",
     "hq": {
       "lat": 36.167,
@@ -673,10 +724,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-1zappos-with-alfred-lin",
-    "id": 51
+    "id": 51,
+    "company": "Zappos"
   },
   {
-    "company": "Raising a Seed Round with Against Gravity CEO Nick Fajt",
+    "episode": "Raising a Seed Round with Against Gravity CEO Nick Fajt",
     "release_date": "2018-02",
     "hq": {
       "lat": 47.6215,
@@ -686,10 +738,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-2raising-a-seed-round-with-against-gravity-ceo-nick-fajt",
-    "id": 52
+    "id": 52,
+    "company": "Raising a Seed Round"
   },
   {
-    "company": "Nest",
+    "episode": "Nest",
     "release_date": "2018-02",
     "hq": {
       "lat": 37.3861,
@@ -699,10 +752,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-3nest",
-    "id": 53
+    "id": 53,
+    "company": "Nest"
   },
   {
-    "company": "The Dropbox IPO",
+    "episode": "The Dropbox IPO",
     "release_date": "2018-03",
     "hq": {
       "lat": 37.7711,
@@ -712,10 +766,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-5the-dropbox-ipo",
-    "id": 54
+    "id": 54,
+    "company": "Dropbox"
   },
   {
-    "company": "SoftBank, Fortress and the Vision Fund",
+    "episode": "SoftBank, Fortress and the Vision Fund",
     "release_date": "2018-03",
     "hq": {
       "lat": 35.619,
@@ -725,10 +780,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-4softbank-fortress-and-the-vision-fund",
-    "id": 55
+    "id": 55,
+    "company": "SoftBank, Fortress"
   },
   {
-    "company": "Spotify's Direct Listing",
+    "episode": "Spotify's Direct Listing",
     "release_date": "2018-04",
     "hq": {
       "lat": 59.3346,
@@ -738,10 +794,11 @@
     "category": "Music",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-6spotifys-direct-listing",
-    "id": 56
+    "id": 56,
+    "company": "Spotify"
   },
   {
-    "company": "PowerPoint",
+    "episode": "PowerPoint",
     "release_date": "2018-05",
     "hq": {
       "lat": 37.4445,
@@ -751,10 +808,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-7powerpoint",
-    "id": 57
+    "id": 57,
+    "company": "PowerPoint"
   },
   {
-    "company": "T-Mobile / Sprint",
+    "episode": "T-Mobile / Sprint",
     "release_date": "2018-05",
     "hq": {
       "lat": 47.588,
@@ -764,10 +822,11 @@
     "category": "Telecommunications",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-8t-mobile-sprint",
-    "id": 58
+    "id": 58,
+    "company": "T-Mobile"
   },
   {
-    "company": "GitHub",
+    "episode": "GitHub",
     "release_date": "2018-06",
     "hq": {
       "lat": 37.7719,
@@ -777,10 +836,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-9github",
-    "id": 59
+    "id": 59,
+    "company": "GitHub"
   },
   {
-    "company": "The Rover-DogVacay Merger (with Rover CEO Aaron Easterly)",
+    "episode": "The Rover-DogVacay Merger (with Rover CEO Aaron Easterly)",
     "release_date": "2018-06",
     "hq": {
       "lat": 47.6101,
@@ -790,10 +850,11 @@
     "category": "Services",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-2-episode-10the-rover-dogvacay-merger-with-rover-ceo-aaron-easterly",
-    "id": 60
+    "id": 60,
+    "company": "Rover-DogVacay Merger"
   },
   {
-    "company": "Tesla",
+    "episode": "Tesla",
     "release_date": "2018-07",
     "hq": {
       "lat": 30.2241,
@@ -803,10 +864,11 @@
     "category": "Automotive",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-1tesla",
-    "id": 61
+    "id": 61,
+    "company": "Tesla"
   },
   {
-    "company": "The Sonos IPO",
+    "episode": "The Sonos IPO",
     "release_date": "2018-08",
     "hq": {
       "lat": 34.4172,
@@ -816,10 +878,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-3the-sonos-ipo",
-    "id": 62
+    "id": 62,
+    "company": "Sonos"
   },
   {
-    "company": "The Xiaomi IPO",
+    "episode": "The Xiaomi IPO",
     "release_date": "2018-08",
     "hq": {
       "lat": 40.0402,
@@ -829,10 +892,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-2the-xiaomi-ipo",
-    "id": 63
+    "id": 63,
+    "company": "Xiaomi"
   },
   {
-    "company": "Alibaba",
+    "episode": "Alibaba",
     "release_date": "2018-09",
     "hq": {
       "lat": 30.1896,
@@ -842,10 +906,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-5nbspalibaba",
-    "id": 64
+    "id": 64,
+    "company": "Alibaba"
   },
   {
-    "company": "Recode (with Kara Swisher)",
+    "episode": "Recode (with Kara Swisher)",
     "release_date": "2018-09",
     "hq": {
       "lat": 38.9056,
@@ -855,10 +920,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-4recode-with-kara-swisher",
-    "id": 65
+    "id": 65,
+    "company": "Recode"
   },
   {
-    "company": "Venmo (SF live show with Andrew Kortina)",
+    "episode": "Venmo (SF live show with Andrew Kortina)",
     "release_date": "2018-10",
     "hq": {
       "lat": 40.7423,
@@ -868,10 +934,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-7-venmo-sf-live-show-with-andrew-kortina",
-    "id": 66
+    "id": 66,
+    "company": "Venmo"
   },
   {
-    "company": "Behance (with Scott Belsky)",
+    "episode": "Behance (with Scott Belsky)",
     "release_date": "2018-10",
     "hq": {
       "lat": 40.7245,
@@ -881,10 +948,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-6nbspbehance-with-scott-belsky",
-    "id": 67
+    "id": 67,
+    "company": "Behance"
   },
   {
-    "company": "Netflix (Part 2)",
+    "episode": "Netflix (Part 2)",
     "release_date": "2018-11",
     "hq": {
       "lat": 37.259,
@@ -894,10 +962,11 @@
     "category": "Entertainment",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-9nbspnetflix-part-2",
-    "id": 68
+    "id": 68,
+    "company": "Netflix"
   },
   {
-    "company": "Netflix (Part 1)",
+    "episode": "Netflix (Part 1)",
     "release_date": "2018-11",
     "hq": {
       "lat": 37.259,
@@ -907,10 +976,11 @@
     "category": "Entertainment",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-8nbspnetflix-part-1",
-    "id": 69
+    "id": 69,
+    "company": "Netflix"
   },
   {
-    "company": "Tencent",
+    "episode": "Tencent",
     "release_date": "2018-12",
     "hq": {
       "lat": 22.5408,
@@ -920,10 +990,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-3-episode-10-tencent",
-    "id": 70
+    "id": 70,
+    "company": "Tencent"
   },
   {
-    "company": "ESPN",
+    "episode": "ESPN",
     "release_date": "2019-01",
     "hq": {
       "lat": 41.6757,
@@ -933,10 +1004,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-4-episode-1-espn",
-    "id": 71
+    "id": 71,
+    "company": "ESPN"
   },
   {
-    "company": "Spotify + Gimlet/Anchor Quick Take + Worldwide Meetup Details!",
+    "episode": "Spotify + Gimlet/Anchor Quick Take + Worldwide Meetup Details!",
     "release_date": "2019-02",
     "hq": {
       "lat": 59.3346,
@@ -946,10 +1018,11 @@
     "category": "Music",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/spotify-gimlet-anchor-quick-take-worldwide-meetup-details",
-    "id": 72
+    "id": 72,
+    "company": "Spotify"
   },
   {
-    "company": "ARM & SoftBank",
+    "episode": "ARM & SoftBank",
     "release_date": "2019-02",
     "hq": {
       "lat": 35.619,
@@ -959,10 +1032,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/arm-softbank",
-    "id": 73
+    "id": 73,
+    "company": "ARM & SoftBank"
   },
   {
-    "company": "Instagram Revisited (with Emily White)",
+    "episode": "Instagram Revisited (with Emily White)",
     "release_date": "2019-02",
     "hq": {
       "lat": 37.4848,
@@ -972,10 +1046,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/instagram-revisited-with-emily-white",
-    "id": 74
+    "id": 74,
+    "company": "Instagram Revisited"
   },
   {
-    "company": "The Lyft IPO",
+    "episode": "The Lyft IPO",
     "release_date": "2019-03",
     "hq": {
       "lat": 37.7766,
@@ -985,10 +1060,11 @@
     "category": "Transportation",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-4-episode-4-the-lyft-ipo",
-    "id": 75
+    "id": 75,
+    "company": "Lyft"
   },
   {
-    "company": "The Pinterest IPO",
+    "episode": "The Pinterest IPO",
     "release_date": "2019-04",
     "hq": {
       "lat": 37.7755,
@@ -998,10 +1074,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-pinterest-ipo",
-    "id": 76
+    "id": 76,
+    "company": "Pinterest"
   },
   {
-    "company": "The Electronic Arts IPO (with Trip Hawkins)",
+    "episode": "The Electronic Arts IPO (with Trip Hawkins)",
     "release_date": "2019-05",
     "hq": {
       "lat": 37.5244,
@@ -1011,10 +1088,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-electronic-arts-ipo-with-trip-hawkins",
-    "id": 77
+    "id": 77,
+    "company": "Electronic Arts"
   },
   {
-    "company": "The Uber IPO",
+    "episode": "The Uber IPO",
     "release_date": "2019-05",
     "hq": {
       "lat": 37.768,
@@ -1024,10 +1102,11 @@
     "category": "Transportation",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-uber-ipo",
-    "id": 78
+    "id": 78,
+    "company": "Uber"
   },
   {
-    "company": "Superhuman",
+    "episode": "Superhuman",
     "release_date": "2019-06",
     "hq": {
       "lat": 37.7749,
@@ -1037,10 +1116,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/superhuman",
-    "id": 79
+    "id": 79,
+    "company": "Superhuman"
   },
   {
-    "company": "The Slack DPO",
+    "episode": "The Slack DPO",
     "release_date": "2019-06",
     "hq": {
       "lat": 37.7914,
@@ -1050,10 +1130,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-slack-dpo",
-    "id": 80
+    "id": 80,
+    "company": "Slack DPO"
   },
   {
-    "company": "The Zoom IPO (with Santi Subotovsky)",
+    "episode": "The Zoom IPO (with Santi Subotovsky)",
     "release_date": "2019-06",
     "hq": {
       "lat": 37.3337,
@@ -1063,10 +1144,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-zoom-ipo-with-santi-subotovsky",
-    "id": 81
+    "id": 81,
+    "company": "Zoom"
   },
   {
-    "company": "Huawei",
+    "episode": "Huawei",
     "release_date": "2019-07",
     "hq": {
       "lat": 22.6502,
@@ -1076,10 +1158,11 @@
     "category": "Telecommunications",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/huawei",
-    "id": 82
+    "id": 82,
+    "company": "Huawei"
   },
   {
-    "company": "The Shopify IPO",
+    "episode": "The Shopify IPO",
     "release_date": "2019-08",
     "hq": {
       "lat": 45.4208,
@@ -1089,10 +1172,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-shopify-ipo",
-    "id": 83
+    "id": 83,
+    "company": "Shopify"
   },
   {
-    "company": "Google Maps",
+    "episode": "Google Maps",
     "release_date": "2019-08",
     "hq": {
       "lat": 37.4221,
@@ -1102,10 +1186,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/google-maps",
-    "id": 84
+    "id": 84,
+    "company": "Google Maps"
   },
   {
-    "company": "Sequoia Capital (Part 1)",
+    "episode": "Sequoia Capital (Part 1)",
     "release_date": "2019-09",
     "hq": {
       "lat": 37.4439,
@@ -1115,10 +1200,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/sequoia-capital-part-1",
-    "id": 85
+    "id": 85,
+    "company": "Sequoia Capital"
   },
   {
-    "company": "The WeWork \u201cAcquisition\u201d (with Dan Primack)",
+    "episode": "The WeWork \u201cAcquisition\u201d (with Dan Primack)",
     "release_date": "2019-10",
     "hq": {
       "lat": 40.7495,
@@ -1128,10 +1214,11 @@
     "category": "Real-estate",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-wework-acquisition-with-dan-primack",
-    "id": 86
+    "id": 86,
+    "company": "WeWork \u201c"
   },
   {
-    "company": "Atari (with Nolan Bushnell)",
+    "episode": "Atari (with Nolan Bushnell)",
     "release_date": "2019-10",
     "hq": {
       "lat": 40.7512,
@@ -1141,10 +1228,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/atari-with-nolan-bushnell",
-    "id": 87
+    "id": 87,
+    "company": "Atari"
   },
   {
-    "company": "Disney, Plus",
+    "episode": "Disney, Plus",
     "release_date": "2019-11",
     "hq": {
       "lat": 34.1561,
@@ -1154,10 +1242,11 @@
     "category": "Entertainment",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/disney-plus",
-    "id": 88
+    "id": 88,
+    "company": "Disney, Plus"
   },
   {
-    "company": "The Lean Startup and the Long-Term Stock Exchange (with Eric Ries)",
+    "episode": "The Lean Startup and the Long-Term Stock Exchange (with Eric Ries)",
     "release_date": "2019-12",
     "hq": {
       "lat": 37.7918,
@@ -1167,10 +1256,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/season-5-episode-10-the-lean-startup-and-the-long-term-stock-exchange-with-eric-ries",
-    "id": 89
+    "id": 89,
+    "company": "Lean Startup"
   },
   {
-    "company": "Convoy (with CEO Dan Lewis)",
+    "episode": "Convoy (with CEO Dan Lewis)",
     "release_date": "2019-12",
     "hq": {
       "lat": 47.6062,
@@ -1180,10 +1270,11 @@
     "category": "Logistics",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/convoy-with-ceo-dan-lewis",
-    "id": 90
+    "id": 90,
+    "company": "Convoy"
   },
   {
-    "company": "TikTok",
+    "episode": "TikTok",
     "release_date": "2019-12",
     "hq": {
       "lat": 39.9702,
@@ -1193,10 +1284,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/tiktok",
-    "id": 91
+    "id": 91,
+    "company": "TikTok"
   },
   {
-    "company": "WhatsApp",
+    "episode": "WhatsApp",
     "release_date": "2020-01",
     "hq": {
       "lat": 37.4848,
@@ -1206,10 +1298,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/whatsapp",
-    "id": 92
+    "id": 92,
+    "company": "WhatsApp"
   },
   {
-    "company": "Remote Work, No-Code, and Products that Sell Themselves (w/ Zapier CEO Wade Foster)",
+    "episode": "Remote Work, No-Code, and Products that Sell Themselves (w/ Zapier CEO Wade Foster)",
     "release_date": "2020-02",
     "hq": {
       "lat": 37.7749,
@@ -1219,10 +1312,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/remote-work-no-code-and-products-that-sell-themselves-w-zapier-ceo-wade-foster",
-    "id": 93
+    "id": 93,
+    "company": "Remote Work, No-Code,"
   },
   {
-    "company": "Sequoia Capital Part II (with Doug Leone)",
+    "episode": "Sequoia Capital Part II (with Doug Leone)",
     "release_date": "2020-02",
     "hq": {
       "lat": 37.4439,
@@ -1232,10 +1326,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/sequoia-capital-part-ii-with-doug-leone",
-    "id": 94
+    "id": 94,
+    "company": "Sequoia Capital"
   },
   {
-    "company": "The Best Acquisitions of All Time",
+    "episode": "The Best Acquisitions of All Time",
     "release_date": "2020-03",
     "hq": {
       "lat": 40.7069,
@@ -1245,10 +1340,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acquired-top-ten-the-best-acquisitions-of-all-time",
-    "id": 95
+    "id": 95,
+    "company": ""
   },
   {
-    "company": "Adapting Episode 1",
+    "episode": "Adapting Episode 1",
     "release_date": "2020-03",
     "hq": {
       "lat": 37.4439,
@@ -1258,10 +1354,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/canlis",
-    "id": 96
+    "id": 96,
+    "company": ""
   },
   {
-    "company": "Adapting Episode 2",
+    "episode": "Adapting Episode 2",
     "release_date": "2020-03",
     "hq": {
       "lat": 37.423,
@@ -1271,10 +1368,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/sequoias-black-swan-memo",
-    "id": 97
+    "id": 97,
+    "company": ""
   },
   {
-    "company": "Special Episode: Jason Calacanis",
+    "episode": "Special Episode: Jason Calacanis",
     "release_date": "2020-04",
     "hq": {
       "lat": 37.7749,
@@ -1284,10 +1382,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acquired-special-episode-jason-calacanis",
-    "id": 98
+    "id": 98,
+    "company": ""
   },
   {
-    "company": "SpaceX",
+    "episode": "SpaceX",
     "release_date": "2020-05",
     "hq": {
       "lat": 33.9213,
@@ -1297,10 +1396,11 @@
     "category": "Aerospace",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/spacex",
-    "id": 99
+    "id": 99,
+    "company": "SpaceX"
   },
   {
-    "company": "Adapting Episode 3",
+    "episode": "Adapting Episode 3",
     "release_date": "2020-05",
     "hq": {
       "lat": 37.387,
@@ -1310,10 +1410,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/adapting-episode-3-intel",
-    "id": 100
+    "id": 100,
+    "company": ""
   },
   {
-    "company": "Oprah (Harpo Studios)",
+    "episode": "Oprah (Harpo Studios)",
     "release_date": "2020-06",
     "hq": {
       "lat": 41.8833,
@@ -1323,10 +1424,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/oprah-harpo-studios",
-    "id": 101
+    "id": 101,
+    "company": "Oprah"
   },
   {
-    "company": "Pinduoduo",
+    "episode": "Pinduoduo",
     "release_date": "2020-07",
     "hq": {
       "lat": 31.2215,
@@ -1336,10 +1438,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/pinduoduo",
-    "id": 102
+    "id": 102,
+    "company": "Pinduoduo"
   },
   {
-    "company": "Eventbrite",
+    "episode": "Eventbrite",
     "release_date": "2020-08",
     "hq": {
       "lat": 37.7813,
@@ -1349,10 +1452,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/eventbrite",
-    "id": 103
+    "id": 103,
+    "company": "Eventbrite"
   },
   {
-    "company": "Epic Games",
+    "episode": "Epic Games",
     "release_date": "2020-09",
     "hq": {
       "lat": 35.7564,
@@ -1362,10 +1466,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/epic-games",
-    "id": 104
+    "id": 104,
+    "company": "Epic Games"
   },
   {
-    "company": "The NBA",
+    "episode": "The NBA",
     "release_date": "2020-09",
     "hq": {
       "lat": 40.7588,
@@ -1375,10 +1480,11 @@
     "category": "Sports",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-nba",
-    "id": 105
+    "id": 105,
+    "company": "NBA"
   },
   {
-    "company": "Special: Acquired x My First Million Crossover",
+    "episode": "Special: Acquired x My First Million Crossover",
     "release_date": "2020-09",
     "hq": {
       "lat": 37.7749,
@@ -1388,10 +1494,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-acquired-x-my-first-million",
-    "id": 106
+    "id": 106,
+    "company": ""
   },
   {
-    "company": "Twitter (with Dick Costolo)",
+    "episode": "Twitter (with Dick Costolo)",
     "release_date": "2020-10",
     "hq": {
       "lat": 37.7767,
@@ -1401,10 +1508,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/twitter-with-dick-costolo",
-    "id": 107
+    "id": 107,
+    "company": "Twitter"
   },
   {
-    "company": "Special: Invest Like the Best on Acquired",
+    "episode": "Special: Invest Like the Best on Acquired",
     "release_date": "2020-10",
     "hq": {
       "lat": 40.7128,
@@ -1414,10 +1522,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-invest-like-the-best-on-acquired",
-    "id": 108
+    "id": 108,
+    "company": ""
   },
   {
-    "company": "Virgin Galactic",
+    "episode": "Virgin Galactic",
     "release_date": "2020-11",
     "hq": {
       "lat": 32.9904,
@@ -1427,10 +1536,11 @@
     "category": "Aerospace",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/virgin-galactic",
-    "id": 109
+    "id": 109,
+    "company": "Virgin Galactic"
   },
   {
-    "company": "Superhuman Part II - Designing Software to Feel like a Game (with Rahul Vohra)",
+    "episode": "Superhuman Part II - Designing Software to Feel like a Game (with Rahul Vohra)",
     "release_date": "2020-11",
     "hq": {
       "lat": 37.7749,
@@ -1440,10 +1550,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-superhuman-part-ii-designing-software-to-feel-like-a-game-with-rahul-vohra",
-    "id": 110
+    "id": 110,
+    "company": "Superhuman"
   },
   {
-    "company": "DoorDash",
+    "episode": "DoorDash",
     "release_date": "2020-12",
     "hq": {
       "lat": 37.7863,
@@ -1453,10 +1564,11 @@
     "category": "Logistics",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/doordash",
-    "id": 111
+    "id": 111,
+    "company": "DoorDash"
   },
   {
-    "company": "Airbnb",
+    "episode": "Airbnb",
     "release_date": "2020-12",
     "hq": {
       "lat": 37.7716,
@@ -1466,10 +1578,11 @@
     "category": "Travel",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/airbnb",
-    "id": 112
+    "id": 112,
+    "company": "Airbnb"
   },
   {
-    "company": "Special: Acquired x Indie Hackers",
+    "episode": "Special: Acquired x Indie Hackers",
     "release_date": "2020-12",
     "hq": {
       "lat": 37.7749,
@@ -1479,10 +1592,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-acquired-x-indie-hackers",
-    "id": 113
+    "id": 113,
+    "company": ""
   },
   {
-    "company": "Slack + Salesforce Emergency Pod with Packy McCormick of Not Boring",
+    "episode": "Slack + Salesforce Emergency Pod with Packy McCormick of Not Boring",
     "release_date": "2020-12",
     "hq": {
       "lat": 37.7914,
@@ -1492,10 +1606,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/slack-salesforce-emergency-pod-with-packy-mccormick-of-not-boring",
-    "id": 114
+    "id": 114,
+    "company": "Slack"
   },
   {
-    "company": "Special: Sequoia Capital's Investment Playbook (with Alfred Lin)",
+    "episode": "Special: Sequoia Capital's Investment Playbook (with Alfred Lin)",
     "release_date": "2021-01",
     "hq": {
       "lat": 37.4439,
@@ -1505,10 +1620,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-sequoia-capitals-investment-playbook-with-alfred-lin",
-    "id": 115
+    "id": 115,
+    "company": "Sequoia Capital"
   },
   {
-    "company": "Bitcoin",
+    "episode": "Bitcoin",
     "release_date": "2021-01",
     "hq": {
       "lat": 35.6762,
@@ -1518,10 +1634,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/bitcoin",
-    "id": 116
+    "id": 116,
+    "company": "Bitcoin"
   },
   {
-    "company": "The New York Times Company",
+    "episode": "The New York Times Company",
     "release_date": "2021-02",
     "hq": {
       "lat": 40.7562,
@@ -1531,10 +1648,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-new-york-times-company",
-    "id": 117
+    "id": 117,
+    "company": "New York Times Company"
   },
   {
-    "company": "Meituan",
+    "episode": "Meituan",
     "release_date": "2021-03",
     "hq": {
       "lat": 39.9914,
@@ -1544,10 +1662,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/meituan",
-    "id": 118
+    "id": 118,
+    "company": "Meituan"
   },
   {
-    "company": "Rec Room Part II (with CEO Nick Fajt)",
+    "episode": "Rec Room Part II (with CEO Nick Fajt)",
     "release_date": "2021-03",
     "hq": {
       "lat": 47.6215,
@@ -1557,10 +1676,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/rec-room-part-ii-with-ceo-nick-fajt",
-    "id": 119
+    "id": 119,
+    "company": "Rec Room"
   },
   {
-    "company": "Berkshire Hathaway Part I",
+    "episode": "Berkshire Hathaway Part I",
     "release_date": "2021-04",
     "hq": {
       "lat": 41.2586,
@@ -1570,10 +1690,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/berkshire-hathaway-part-i",
-    "id": 120
+    "id": 120,
+    "company": "Berkshire Hathaway"
   },
   {
-    "company": "Special: \"Why Now\" for Digital Health with Levels founder Josh Clemente",
+    "episode": "Special: \"Why Now\" for Digital Health with Levels founder Josh Clemente",
     "release_date": "2021-04",
     "hq": {
       "lat": 40.7128,
@@ -1583,10 +1704,11 @@
     "category": "",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-why-now-for-digital-health-with-levels-founder-josh-clemente",
-    "id": 121
+    "id": 121,
+    "company": "\"Why Now\" for Digital Health"
   },
   {
-    "company": "Special: Amazon Unbound (with Brad Stone)",
+    "episode": "Special: Amazon Unbound (with Brad Stone)",
     "release_date": "2021-05",
     "hq": {
       "lat": 47.6089,
@@ -1596,10 +1718,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-amazon-unbound-with-brad-stone",
-    "id": 122
+    "id": 122,
+    "company": ""
   },
   {
-    "company": "Berkshire Hathaway Part II",
+    "episode": "Berkshire Hathaway Part II",
     "release_date": "2021-05",
     "hq": {
       "lat": 41.2586,
@@ -1609,10 +1732,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/berkshire-hathaway-part-ii",
-    "id": 123
+    "id": 123,
+    "company": "Berkshire Hathaway"
   },
   {
-    "company": "Special: 2021 China Tech Trends (with Tech Buzz China)",
+    "episode": "Special: 2021 China Tech Trends (with Tech Buzz China)",
     "release_date": "2021-05",
     "hq": {
       "lat": 39.9042,
@@ -1622,10 +1746,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-2021-china-tech-trends-with-tech-buzz-china",
-    "id": 124
+    "id": 124,
+    "company": ""
   },
   {
-    "company": "Special: Ho Nam from Altos Ventures \u2014 A Different Approach to VC",
+    "episode": "Special: Ho Nam from Altos Ventures \u2014 A Different Approach to VC",
     "release_date": "2021-06",
     "hq": {
       "lat": 37.5793,
@@ -1635,10 +1760,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/special-ho-nam-from-altos-ventures-a-different-approach-to-vc",
-    "id": 125
+    "id": 125,
+    "company": "Ho Nam from Altos Ventures \u2014 A Different Approach to VC"
   },
   {
-    "company": "Berkshire Hathaway Part III",
+    "episode": "Berkshire Hathaway Part III",
     "release_date": "2021-06",
     "hq": {
       "lat": 41.2586,
@@ -1648,10 +1774,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/berkshire-hathaway-part-iii",
-    "id": 126
+    "id": 126,
+    "company": "Berkshire Hathaway"
   },
   {
-    "company": "Ethereum (with Packy McCormick)",
+    "episode": "Ethereum (with Packy McCormick)",
     "release_date": "2021-07",
     "hq": {
       "lat": 47.1662,
@@ -1661,10 +1788,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/ethereum",
-    "id": 127
+    "id": 127,
+    "company": "Ethereum"
   },
   {
-    "company": "Special: Solana (with CEO Anatoly Yakovenko)",
+    "episode": "Special: Solana (with CEO Anatoly Yakovenko)",
     "release_date": "2021-07",
     "hq": {
       "lat": 37.7749,
@@ -1674,10 +1802,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/solana-with-ceo-anatoly-yakovenko",
-    "id": 128
+    "id": 128,
+    "company": "Solana"
   },
   {
-    "company": "Andreessen Horowitz Part I",
+    "episode": "Andreessen Horowitz Part I",
     "release_date": "2021-07",
     "hq": {
       "lat": 37.4485,
@@ -1687,10 +1816,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/andreessen-horowitz-part-i",
-    "id": 129
+    "id": 129,
+    "company": "Andreessen Horowitz"
   },
   {
-    "company": "Kevin Rose from Web 2.0 to Web3",
+    "episode": "Kevin Rose from Web 2.0 to Web3",
     "release_date": "2021-08",
     "hq": {
       "lat": 37.7749,
@@ -1700,10 +1830,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/kevin-rose-from-web-2-0-to-web3",
-    "id": 130
+    "id": 130,
+    "company": "Kevin Rose from Web 2.0 to Web3"
   },
   {
-    "company": "Andreessen Horowitz Part II",
+    "episode": "Andreessen Horowitz Part II",
     "release_date": "2021-08",
     "hq": {
       "lat": 37.4485,
@@ -1713,10 +1844,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/andreessen-horowitz-part-ii",
-    "id": 131
+    "id": 131,
+    "company": "Andreessen Horowitz"
   },
   {
-    "company": "Standard Oil Part I",
+    "episode": "Standard Oil Part I",
     "release_date": "2021-09",
     "hq": {
       "lat": 40.7061,
@@ -1726,10 +1858,11 @@
     "category": "Energy",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/standard-oil-part-i",
-    "id": 132
+    "id": 132,
+    "company": "Standard Oil"
   },
   {
-    "company": "TSMC",
+    "episode": "TSMC",
     "release_date": "2021-09",
     "hq": {
       "lat": 24.7717,
@@ -1739,10 +1872,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/tsmc",
-    "id": 133
+    "id": 133,
+    "company": "TSMC"
   },
   {
-    "company": "Standard Oil Part II",
+    "episode": "Standard Oil Part II",
     "release_date": "2021-10",
     "hq": {
       "lat": 32.821,
@@ -1752,10 +1886,11 @@
     "category": "Energy",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/standard-oil-part-ii",
-    "id": 134
+    "id": 134,
+    "company": "Standard Oil"
   },
   {
-    "company": "Michael Mauboussin Master Class \u2014 Moats, Skill, Luck, Decision Making and a Whole Lot More",
+    "episode": "Michael Mauboussin Master Class \u2014 Moats, Skill, Luck, Decision Making and a Whole Lot More",
     "release_date": "2021-10",
     "hq": {
       "lat": 40.7601,
@@ -1765,10 +1900,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/michael-mauboussin-master-class-moats-skill-luck-decision-making-and-a-whole-lot-more",
-    "id": 135
+    "id": 135,
+    "company": "Michael Mauboussin Master Class \u2014 Moats, Skill, Luck, Decision Making"
   },
   {
-    "company": "Complexity Investing & Semiconductors (with NZS Capital)",
+    "episode": "Complexity Investing & Semiconductors (with NZS Capital)",
     "release_date": "2021-11",
     "hq": {
       "lat": 39.757,
@@ -1778,10 +1914,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/complexity-investing-semiconductors-with-nzs-capital",
-    "id": 136
+    "id": 136,
+    "company": "Complexity Investing & Semiconductors"
   },
   {
-    "company": "FTX (with Sam Bankman-Fried & Mario Gabriele)",
+    "episode": "FTX (with Sam Bankman-Fried & Mario Gabriele)",
     "release_date": "2021-12",
     "hq": {
       "lat": 25.0772,
@@ -1791,10 +1928,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/ftx-with-sam-bankman-fried-mario-gabriele",
-    "id": 137
+    "id": 137,
+    "company": "FTX"
   },
   {
-    "company": "7 Powers with Hamilton Helmer",
+    "episode": "7 Powers with Hamilton Helmer",
     "release_date": "2021-12",
     "hq": {
       "lat": 37.4419,
@@ -1804,10 +1942,11 @@
     "category": "Business",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/7-powers-with-hamilton-helmer",
-    "id": 138
+    "id": 138,
+    "company": ""
   },
   {
-    "company": "CAA (with Michael Ovitz)",
+    "episode": "CAA (with Michael Ovitz)",
     "release_date": "2021-12",
     "hq": {
       "lat": 34.0617,
@@ -1817,10 +1956,11 @@
     "category": "Entertainment",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/caa-with-michael-ovitz",
-    "id": 139
+    "id": 139,
+    "company": "CAA"
   },
   {
-    "company": "Not Boring (with Packy McCormick)",
+    "episode": "Not Boring (with Packy McCormick)",
     "release_date": "2021-12",
     "hq": {
       "lat": 40.7128,
@@ -1830,10 +1970,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/not-boring-with-packy-mccormick",
-    "id": 140
+    "id": 140,
+    "company": "Not Boring"
   },
   {
-    "company": "Taylor Swift (Acquired\u2019s Version)",
+    "episode": "Taylor Swift (Acquired\u2019s Version)",
     "release_date": "2022-01",
     "hq": {
       "lat": 36.1495,
@@ -1843,10 +1984,11 @@
     "category": "Music",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/taylor-swift-acquireds-version",
-    "id": 141
+    "id": 141,
+    "company": "Taylor Swift"
   },
   {
-    "company": "Super Pumped (with Brian Koppelman and Joseph Gordon-Levitt)",
+    "episode": "Super Pumped (with Brian Koppelman and Joseph Gordon-Levitt)",
     "release_date": "2022-02",
     "hq": {
       "lat": 37.768,
@@ -1856,10 +1998,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/super-pumped-with-brian-koppelman-and-joseph-gordon-levitt",
-    "id": 142
+    "id": 142,
+    "company": "Super Pumped"
   },
   {
-    "company": "Peloton",
+    "episode": "Peloton",
     "release_date": "2022-02",
     "hq": {
       "lat": 40.7516,
@@ -1869,10 +2012,11 @@
     "category": "Fitness",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/peloton",
-    "id": 143
+    "id": 143,
+    "company": "Peloton"
   },
   {
-    "company": "The Browser (with Brendan Eich, Chief Architect of Netscape + Mozilla and CEO of Brave)",
+    "episode": "The Browser (with Brendan Eich, Chief Architect of Netscape + Mozilla and CEO of Brave)",
     "release_date": "2022-02",
     "hq": {
       "lat": 37.7891,
@@ -1882,10 +2026,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-browser-with-brendan-eich-chief-architect-of-netscape-mozilla-and-ceo-of-brave",
-    "id": 144
+    "id": 144,
+    "company": ""
   },
   {
-    "company": "Altimeter (with Brad Gerstner)",
+    "episode": "Altimeter (with Brad Gerstner)",
     "release_date": "2022-03",
     "hq": {
       "lat": 37.4419,
@@ -1895,10 +2040,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/altimeter-with-brad-gerstner",
-    "id": 145
+    "id": 145,
+    "company": "Altimeter"
   },
   {
-    "company": "Nvidia Part I",
+    "episode": "Nvidia Part I",
     "release_date": "2022-03",
     "hq": {
       "lat": 37.3712,
@@ -1908,10 +2054,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/nvidia-the-gpu-company-1993-2006",
-    "id": 146
+    "id": 146,
+    "company": "Nvidia"
   },
   {
-    "company": "SONY",
+    "episode": "SONY",
     "release_date": "2022-03",
     "hq": {
       "lat": 35.6322,
@@ -1921,10 +2068,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/sony",
-    "id": 147
+    "id": 147,
+    "company": "SONY"
   },
   {
-    "company": "Nvidia Part II",
+    "episode": "Nvidia Part II",
     "release_date": "2022-04",
     "hq": {
       "lat": 37.3712,
@@ -1934,10 +2082,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/nvidia-the-machine-learning-company-2006-2022",
-    "id": 148
+    "id": 148,
+    "company": "Nvidia"
   },
   {
-    "company": "Platforms and Power (with Hamilton Helmer and Chenyi Shi)",
+    "episode": "Platforms and Power (with Hamilton Helmer and Chenyi Shi)",
     "release_date": "2022-04",
     "hq": {
       "lat": 37.4419,
@@ -1947,10 +2096,11 @@
     "category": "Business",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/platforms-and-power-with-hamilton-helmer-and-chenyi-shi",
-    "id": 149
+    "id": 149,
+    "company": ""
   },
   {
-    "company": "Arena Show Part II",
+    "episode": "Arena Show Part II",
     "release_date": "2022-05",
     "hq": {
       "lat": 47.649,
@@ -1960,10 +2110,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/arena-show-part-ii-brooks-running-with-ceo-jim-weber",
-    "id": 150
+    "id": 150,
+    "company": ""
   },
   {
-    "company": "Arena Show Part I",
+    "episode": "Arena Show Part I",
     "release_date": "2022-05",
     "hq": {
       "lat": 47.6221,
@@ -1973,10 +2124,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/arena-show-part-i-idea-dinner-yc-continuity",
-    "id": 151
+    "id": 151,
+    "company": ""
   },
   {
-    "company": "Capital-Efficient Growth (with Zoom CEO Eric Yuan & Veeva CEO Peter Gassner)",
+    "episode": "Capital-Efficient Growth (with Zoom CEO Eric Yuan & Veeva CEO Peter Gassner)",
     "release_date": "2022-05",
     "hq": {
       "lat": 37.3337,
@@ -1986,10 +2138,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/capital-efficient-growth-with-zoom-ceo-eric-yuan-veeva-ceo-peter-gassner",
-    "id": 152
+    "id": 152,
+    "company": "Capital-Efficient Growth"
   },
   {
-    "company": "The Playbook",
+    "episode": "The Playbook",
     "release_date": "2022-06",
     "hq": {
       "lat": 37.7749,
@@ -1999,10 +2152,11 @@
     "category": "Business",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-playbook-lessons-from-200-company-stories",
-    "id": 153
+    "id": 153,
+    "company": "Playbook"
   },
   {
-    "company": "Investing in American Dynamism (with Katherine Boyle)",
+    "episode": "Investing in American Dynamism (with Katherine Boyle)",
     "release_date": "2022-06",
     "hq": {
       "lat": 37.422,
@@ -2012,10 +2166,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/american-dynamism-with-katherine-boyle",
-    "id": 154
+    "id": 154,
+    "company": "Investing in American Dynamism"
   },
   {
-    "company": "Walmart",
+    "episode": "Walmart",
     "release_date": "2022-07",
     "hq": {
       "lat": 36.3729,
@@ -2025,10 +2180,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/walmart",
-    "id": 155
+    "id": 155,
+    "company": "Walmart"
   },
   {
-    "company": "Amazon.com",
+    "episode": "Amazon.com",
     "release_date": "2022-08",
     "hq": {
       "lat": 47.6089,
@@ -2038,10 +2194,11 @@
     "category": "E-commerce",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/amazon-com",
-    "id": 156
+    "id": 156,
+    "company": "Amazon"
   },
   {
-    "company": "Howard Marks & Andrew Marks",
+    "episode": "Howard Marks & Andrew Marks",
     "release_date": "2022-08",
     "hq": {
       "lat": 34.0514,
@@ -2051,10 +2208,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/howard-marks-andrew-marks-something-of-value",
-    "id": 157
+    "id": 157,
+    "company": "Howard Marks & Andrew Marks"
   },
   {
-    "company": "From NFL to Startup COO to Congressman Regulating Crypto (with Rep. Anthony Gonzalez)",
+    "episode": "From NFL to Startup COO to Congressman Regulating Crypto (with Rep. Anthony Gonzalez)",
     "release_date": "2022-08",
     "hq": {
       "lat": 38.889,
@@ -2064,10 +2222,11 @@
     "category": "Government",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/from-nfl-to-startup-coo-to-congressman-regulating-crypto-with-rep-anthony-gonzalez",
-    "id": 158
+    "id": 158,
+    "company": "From NFL to Startup COO to Congressman Regulating Crypto"
   },
   {
-    "company": "Amazon Web Services",
+    "episode": "Amazon Web Services",
     "release_date": "2022-09",
     "hq": {
       "lat": 47.6089,
@@ -2077,10 +2236,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/amazon-web-services",
-    "id": 159
+    "id": 159,
+    "company": "Amazon Web Services"
   },
   {
-    "company": "Benchmark Part I",
+    "episode": "Benchmark Part I",
     "release_date": "2022-09",
     "hq": {
       "lat": 37.4485,
@@ -2090,10 +2250,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/benchmark-capital",
-    "id": 160
+    "id": 160,
+    "company": "Benchmark"
   },
   {
-    "company": "Benchmark Part II",
+    "episode": "Benchmark Part II",
     "release_date": "2022-10",
     "hq": {
       "lat": 37.788,
@@ -2103,10 +2264,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/benchmark-part-ii-the-dinner",
-    "id": 161
+    "id": 161,
+    "company": "Benchmark"
   },
   {
-    "company": "ACQ Sessions",
+    "episode": "ACQ Sessions",
     "release_date": "2022-10",
     "hq": {
       "lat": 47.6062,
@@ -2116,10 +2278,11 @@
     "category": "Business",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acq-sessions-jason-calacanis",
-    "id": 162
+    "id": 162,
+    "company": "ACQ Sessions"
   },
   {
-    "company": "Qualcomm",
+    "episode": "Qualcomm",
     "release_date": "2022-11",
     "hq": {
       "lat": 32.8943,
@@ -2129,10 +2292,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/qualcomm",
-    "id": 163
+    "id": 163,
+    "company": "Qualcomm"
   },
   {
-    "company": "Enron",
+    "episode": "Enron",
     "release_date": "2022-11",
     "hq": {
       "lat": 29.7545,
@@ -2142,10 +2306,11 @@
     "category": "Energy",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/enron",
-    "id": 164
+    "id": 164,
+    "company": "Enron"
   },
   {
-    "company": "Stratechery (with Ben Thompson)",
+    "episode": "Stratechery (with Ben Thompson)",
     "release_date": "2022-12",
     "hq": {
       "lat": 25.033,
@@ -2155,10 +2320,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/stratechery-with-ben-thompson",
-    "id": 165
+    "id": 165,
+    "company": "Stratechery"
   },
   {
-    "company": "Holiday Special 2022",
+    "episode": "Holiday Special 2022",
     "release_date": "2022-12",
     "hq": {
       "lat": 47.6062,
@@ -2168,10 +2334,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/holiday-special-2022",
-    "id": 166
+    "id": 166,
+    "company": ""
   },
   {
-    "company": "LVMH",
+    "episode": "LVMH",
     "release_date": "2023-02",
     "hq": {
       "lat": 48.8719,
@@ -2181,10 +2348,11 @@
     "category": "Luxury",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/lvmh",
-    "id": 167
+    "id": 167,
+    "company": "LVMH"
   },
   {
-    "company": "Nintendo's Origins",
+    "episode": "Nintendo's Origins",
     "release_date": "2023-03",
     "hq": {
       "lat": 34.9698,
@@ -2194,10 +2362,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/nintendo",
-    "id": 168
+    "id": 168,
+    "company": "Nintendo"
   },
   {
-    "company": "Sessions",
+    "episode": "Sessions",
     "release_date": "2023-03",
     "hq": {
       "lat": 47.6062,
@@ -2207,10 +2376,11 @@
     "category": "Business",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/sessions-david-senra-founders-podcast",
-    "id": 169
+    "id": 169,
+    "company": "Sessions"
   },
   {
-    "company": "Short: The Death of Sega",
+    "episode": "Short: The Death of Sega",
     "release_date": "2023-04",
     "hq": {
       "lat": 35.617,
@@ -2220,10 +2390,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/short-the-death-of-sega",
-    "id": 170
+    "id": 170,
+    "company": "Death of Sega"
   },
   {
-    "company": "Benchmark\u2019s Mitch Lasky and Blake Robbins on The Art of Business in Gaming",
+    "episode": "Benchmark\u2019s Mitch Lasky and Blake Robbins on The Art of Business in Gaming",
     "release_date": "2023-04",
     "hq": {
       "lat": 37.788,
@@ -2233,10 +2404,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/benchmarks-mitch-lasky-and-blake-robbins-on-the-art-of-business-in-gaming",
-    "id": 171
+    "id": 171,
+    "company": "Benchmark\u2019s Mitch Lasky"
   },
   {
-    "company": "Nintendo",
+    "episode": "Nintendo",
     "release_date": "2023-04",
     "hq": {
       "lat": 34.9698,
@@ -2246,10 +2418,11 @@
     "category": "Gaming",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/nintendo-the-console-wars",
-    "id": 172
+    "id": 172,
+    "company": "Nintendo"
   },
   {
-    "company": "Interview",
+    "episode": "Interview",
     "release_date": "2023-04",
     "hq": {
       "lat": 37.4851,
@@ -2259,10 +2432,11 @@
     "category": "Business",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/interview-hamilton-helmer-chenyi-shi-on-how-to-build-an-aws-like-second-business",
-    "id": 173
+    "id": 173,
+    "company": ""
   },
   {
-    "company": "Spotify CEO Daniel Ek",
+    "episode": "Spotify CEO Daniel Ek",
     "release_date": "2023-05",
     "hq": {
       "lat": 59.3346,
@@ -2272,10 +2446,11 @@
     "category": "Music",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/spotify-ceo-daniel-ek",
-    "id": 174
+    "id": 174,
+    "company": "Spotify"
   },
   {
-    "company": "Lockheed Martin",
+    "episode": "Lockheed Martin",
     "release_date": "2023-05",
     "hq": {
       "lat": 39.027,
@@ -2285,10 +2460,11 @@
     "category": "Aerospace",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/lockheed-martin",
-    "id": 175
+    "id": 175,
+    "company": "Lockheed Martin"
   },
   {
-    "company": "Uber CEO Dara Khosrowshahi",
+    "episode": "Uber CEO Dara Khosrowshahi",
     "release_date": "2023-06",
     "hq": {
       "lat": 37.768,
@@ -2298,10 +2474,11 @@
     "category": "Transportation",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/uber-ceo-dara-khosrowshahi",
-    "id": 176
+    "id": 176,
+    "company": "Uber"
   },
   {
-    "company": "Porsche (with Doug DeMuro)",
+    "episode": "Porsche (with Doug DeMuro)",
     "release_date": "2023-06",
     "hq": {
       "lat": 48.8351,
@@ -2311,10 +2488,11 @@
     "category": "Automotive",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/porsche-with-doug-demuro",
-    "id": 177
+    "id": 177,
+    "company": "Porsche"
   },
   {
-    "company": "Nike",
+    "episode": "Nike",
     "release_date": "2023-07",
     "hq": {
       "lat": 45.4907,
@@ -2324,10 +2502,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/nike",
-    "id": 178
+    "id": 178,
+    "company": "Nike"
   },
   {
-    "company": "Costco",
+    "episode": "Costco",
     "release_date": "2023-08",
     "hq": {
       "lat": 47.5301,
@@ -2337,10 +2516,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/costco",
-    "id": 179
+    "id": 179,
+    "company": "Costco"
   },
   {
-    "company": "Nvidia Part III",
+    "episode": "Nvidia Part III",
     "release_date": "2023-09",
     "hq": {
       "lat": 37.3712,
@@ -2350,10 +2530,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/nvidia-the-dawn-of-the-ai-era",
-    "id": 180
+    "id": 180,
+    "company": "Nvidia"
   },
   {
-    "company": "Charlie Munger",
+    "episode": "Charlie Munger",
     "release_date": "2023-10",
     "hq": {
       "lat": 41.2586,
@@ -2363,10 +2544,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/charlie-munger",
-    "id": 181
+    "id": 181,
+    "company": "Charlie Munger"
   },
   {
-    "company": "NVIDIA CEO Jensen Huang",
+    "episode": "NVIDIA CEO Jensen Huang",
     "release_date": "2023-10",
     "hq": {
       "lat": 37.3712,
@@ -2376,10 +2558,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/jensen-huang",
-    "id": 182
+    "id": 182,
+    "company": "NVIDIA"
   },
   {
-    "company": "Visa",
+    "episode": "Visa",
     "release_date": "2023-11",
     "hq": {
       "lat": 37.5593,
@@ -2389,10 +2572,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/visa",
-    "id": 183
+    "id": 183,
+    "company": "Visa"
   },
   {
-    "company": "Holiday Special 2023",
+    "episode": "Holiday Special 2023",
     "release_date": "2023-12",
     "hq": {
       "lat": 47.6,
@@ -2402,10 +2586,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/holiday-special-2023",
-    "id": 184
+    "id": 184,
+    "company": ""
   },
   {
-    "company": "Novo Nordisk (Ozempic)",
+    "episode": "Novo Nordisk (Ozempic)",
     "release_date": "2024-01",
     "hq": {
       "lat": 55.7538,
@@ -2415,10 +2600,11 @@
     "category": "Pharmaceuticals",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/novo-nordisk-ozempic",
-    "id": 185
+    "id": 185,
+    "company": "Novo Nordisk"
   },
   {
-    "company": "Herm\u00e8s",
+    "episode": "Herm\u00e8s",
     "release_date": "2024-02",
     "hq": {
       "lat": 48.868,
@@ -2428,10 +2614,11 @@
     "category": "Luxury",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/hermes",
-    "id": 186
+    "id": 186,
+    "company": "Hermes"
   },
   {
-    "company": "Renaissance Technologies",
+    "episode": "Renaissance Technologies",
     "release_date": "2024-03",
     "hq": {
       "lat": 40.9453,
@@ -2441,10 +2628,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/renaissance-technologies",
-    "id": 187
+    "id": 187,
+    "company": "Renaissance Technologies"
   },
   {
-    "company": "Microsoft Volume I",
+    "episode": "Microsoft Volume I",
     "release_date": "2024-04",
     "hq": {
       "lat": 47.6397,
@@ -2454,10 +2642,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/microsoft",
-    "id": 188
+    "id": 188,
+    "company": "Microsoft"
   },
   {
-    "company": "Starbucks (with Howard Schultz)",
+    "episode": "Starbucks (with Howard Schultz)",
     "release_date": "2024-06",
     "hq": {
       "lat": 47.5817,
@@ -2467,10 +2656,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/starbucks-with-howard-schultz",
-    "id": 189
+    "id": 189,
+    "company": "Starbucks"
   },
   {
-    "company": "Microsoft Volume II",
+    "episode": "Microsoft Volume II",
     "release_date": "2024-07",
     "hq": {
       "lat": 47.6397,
@@ -2480,10 +2670,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/microsoft-volume-ii",
-    "id": 190
+    "id": 190,
+    "company": "Microsoft"
   },
   {
-    "company": "Acquired LIVE from Chase Center (with Daniel Ek, Emily Chang, Jensen Huang and Mark Zuckerberg)",
+    "episode": "Acquired LIVE from Chase Center (with Daniel Ek, Emily Chang, Jensen Huang and Mark Zuckerberg)",
     "release_date": "2024-09",
     "hq": {
       "lat": 37.768,
@@ -2493,10 +2684,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acquired-live-from-chase-center-with-daniel-ek-emily-chang-jensen-huang-and-mark-zuckerberg",
-    "id": 191
+    "id": 191,
+    "company": ""
   },
   {
-    "company": "The Mark Zuckerberg Interview",
+    "episode": "The Mark Zuckerberg Interview",
     "release_date": "2024-09",
     "hq": {
       "lat": 37.4851,
@@ -2506,10 +2698,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-mark-zuckerberg-interview",
-    "id": 192
+    "id": 192,
+    "company": ""
   },
   {
-    "company": "Meta",
+    "episode": "Meta",
     "release_date": "2024-10",
     "hq": {
       "lat": 37.4848,
@@ -2519,10 +2712,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/meta",
-    "id": 193
+    "id": 193,
+    "company": "Meta"
   },
   {
-    "company": "IKEA",
+    "episode": "IKEA",
     "release_date": "2024-11",
     "hq": {
       "lat": 56.5167,
@@ -2532,10 +2726,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/ikea",
-    "id": 194
+    "id": 194,
+    "company": "IKEA"
   },
   {
-    "company": "Mars Inc. (the chocolate story)",
+    "episode": "Mars Inc. (the chocolate story)",
     "release_date": "2024-12",
     "hq": {
       "lat": 38.9301,
@@ -2545,10 +2740,11 @@
     "category": "Food",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/mars-inc-the-chocolate-story",
-    "id": 195
+    "id": 195,
+    "company": "Mars"
   },
   {
-    "company": "TSMC Founder Morris Chang",
+    "episode": "TSMC Founder Morris Chang",
     "release_date": "2025-01",
     "hq": {
       "lat": 24.7717,
@@ -2558,10 +2754,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/tsmc-founder-morris-chang",
-    "id": 196
+    "id": 196,
+    "company": "TSMC"
   },
   {
-    "company": "TSMC (Remastered)",
+    "episode": "TSMC (Remastered)",
     "release_date": "2025-01",
     "hq": {
       "lat": 24.7717,
@@ -2571,10 +2768,11 @@
     "category": "Semiconductors",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/tsmc-remastered",
-    "id": 197
+    "id": 197,
+    "company": "TSMC"
   },
   {
-    "company": "Rolex",
+    "episode": "Rolex",
     "release_date": "2025-02",
     "hq": {
       "lat": 46.1927,
@@ -2584,10 +2782,11 @@
     "category": "Luxury",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/rolex",
-    "id": 198
+    "id": 198,
+    "company": "Rolex"
   },
   {
-    "company": "Indian Premier League Cricket",
+    "episode": "Indian Premier League Cricket",
     "release_date": "2025-03",
     "hq": {
       "lat": 18.9373,
@@ -2597,10 +2796,11 @@
     "category": "Sports",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/indian-premier-league-cricket",
-    "id": 199
+    "id": 199,
+    "company": "Indian Premier League Cricket"
   },
   {
-    "company": "Epic Systems (MyChart)",
+    "episode": "Epic Systems (MyChart)",
     "release_date": "2025-04",
     "hq": {
       "lat": 42.993,
@@ -2610,10 +2810,11 @@
     "category": "Healthcare",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/epic-systems-mychart",
-    "id": 200
+    "id": 200,
+    "company": "Epic Systems"
   },
   {
-    "company": "The Steve Ballmer Interview",
+    "episode": "The Steve Ballmer Interview",
     "release_date": "2025-06",
     "hq": {
       "lat": 34.043,
@@ -2623,10 +2824,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-steve-ballmer-interview",
-    "id": 201
+    "id": 201,
+    "company": ""
   },
   {
-    "company": "Google: The Origin of Search",
+    "episode": "Google: The Origin of Search",
     "release_date": "2025-06",
     "hq": {
       "lat": 37.4221,
@@ -2636,10 +2838,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/google",
-    "id": 202
+    "id": 202,
+    "company": "Origin of Search"
   },
   {
-    "company": "The Jamie Dimon Interview",
+    "episode": "The Jamie Dimon Interview",
     "release_date": "2025-07",
     "hq": {
       "lat": 40.7559,
@@ -2649,10 +2852,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-jamie-dimon-interview",
-    "id": 203
+    "id": 203,
+    "company": ""
   },
   {
-    "company": "Alphabet Inc.",
+    "episode": "Alphabet Inc.",
     "release_date": "2025-08",
     "hq": {
       "lat": 37.4221,
@@ -2662,10 +2866,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/alphabet-inc",
-    "id": 204
+    "id": 204,
+    "company": "Alphabet"
   },
   {
-    "company": "Google: The AI Company",
+    "episode": "Google: The AI Company",
     "release_date": "2025-10",
     "hq": {
       "lat": 37.4221,
@@ -2675,10 +2880,11 @@
     "category": "Technology",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/google-the-ai-company",
-    "id": 205
+    "id": 205,
+    "company": "AI Company"
   },
   {
-    "company": "Trader Joe\u2019s",
+    "episode": "Trader Joe\u2019s",
     "release_date": "2025-10",
     "hq": {
       "lat": 34.1319,
@@ -2688,10 +2894,11 @@
     "category": "Retail",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/trader-joes",
-    "id": 206
+    "id": 206,
+    "company": "Trader Joe\u2019s"
   },
   {
-    "company": "Acquired Live at Radio City Music Hall (Presented by J.P. Morgan)",
+    "episode": "Acquired Live at Radio City Music Hall (Presented by J.P. Morgan)",
     "release_date": "2025-11",
     "hq": {
       "lat": 40.76,
@@ -2701,10 +2908,11 @@
     "category": "Finance",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan",
-    "id": 207
+    "id": 207,
+    "company": ""
   },
   {
-    "company": "Coca-Cola",
+    "episode": "Coca-Cola",
     "release_date": "2025-11",
     "hq": {
       "lat": 33.771,
@@ -2714,10 +2922,11 @@
     "category": "Beverages",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/coca-cola",
-    "id": 208
+    "id": 208,
+    "company": "Coca-Cola"
   },
   {
-    "company": "10 Years of Acquired (with Michael Lewis)",
+    "episode": "10 Years of Acquired (with Michael Lewis)",
     "release_date": "2025-12",
     "hq": {
       "lat": 37.8715,
@@ -2727,10 +2936,11 @@
     "category": "Media",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/10-years-of-acquired-with-michael-lewis",
-    "id": 209
+    "id": 209,
+    "company": ""
   },
   {
-    "company": "The NFL",
+    "episode": "The NFL",
     "release_date": "2026-01",
     "hq": {
       "lat": 40.7594,
@@ -2740,10 +2950,11 @@
     "category": "Sports",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/the-nfl",
-    "id": 210
+    "id": 210,
+    "company": "NFL"
   },
   {
-    "company": "Formula 1",
+    "episode": "Formula 1",
     "release_date": "2026-03",
     "hq": {
       "lat": 51.5074,
@@ -2753,6 +2964,7 @@
     "category": "Sports",
     "description": "",
     "episode_url": "https://www.acquired.fm/episodes/formula-1",
-    "id": 211
+    "id": 211,
+    "company": "Formula 1"
   }
 ]
