@@ -15,9 +15,9 @@ export default function QuestionRenderer({ question, value, onChange }: Question
   const episodeOptions = useMemo(() => {
     if (question.type !== "episode-search") return [];
     const q = episodeQuery.toLowerCase();
-    const all = episodesData as { company: string; release_date: string }[];
+    const all = episodesData as { episode: string; release_date: string }[];
     if (!q) return all.slice(0, 8);
-    return all.filter((e: { company: string }) => e.episode.toLowerCase().includes(q)).slice(0, 8);
+    return all.filter((e: { episode: string }) => e.episode.toLowerCase().includes(q)).slice(0, 8);
   }, [question.type, episodeQuery]);
 
   if (question.type === "text") {
@@ -66,7 +66,7 @@ export default function QuestionRenderer({ question, value, onChange }: Question
                 className="px-4 py-2 text-sm cursor-pointer transition hover:bg-white/10"
                 style={{ color: "#e4e4e7" }}
                 onClick={() => {
-                  const ep2 = ep as { company: string; release_date: string };
+                  const ep2 = ep as { episode: string; release_date: string };
                   onChange(ep2.episode);
                   setEpisodeQuery(ep2.episode);
                 }}
