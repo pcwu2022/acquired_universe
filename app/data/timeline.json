@@ -1,0 +1,122 @@
+[
+    {
+        "episode_ids": [202, 204, 205],
+        "company": "Google",
+        "timestamps": [
+            {
+                "month": "1997-09",
+                "title": "google.com",
+                "description": "Larry Page and Sergey Brin bought the domain 'google.com'",
+                "emoji": ":globe_with_meridians:"
+            },
+            {
+                "month": "1998-09",
+                "title": "Google Inc.",
+                "description": "Larry Page and Sergey Brin officially incorporated Google Inc.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2004-08",
+                "title": "Go Public",
+                "description": "Google held its initial public offering (IPO) and became a publicly traded company.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [23, 193],
+        "company": "Meta",
+        "timestamps": [
+            {
+                "month": "2004-02",
+                "title": "The Facebook",
+                "description": "Mark Zuckerberg launched 'The Facebook' from his dorm room at Harvard University.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2005-05",
+                "title": "Facebook Inc.",
+                "description": "Facebook was officially incorporated as Facebook Inc.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2012-05",
+                "title": "Go Public",
+                "description": "Facebook held its initial public offering (IPO) and became a publicly traded company.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [11],
+        "company": "Snapchat",
+        "timestamps": [
+            {
+                "month": "2011-09",
+                "title": "Snapchat Launched",
+                "description": "Evan Spiegel, Bobby Murphy, and Reggie Brown launched Snapchat, a multimedia messaging app.",
+                "emoji": ":ghost:"
+            },
+            {
+                "month": "2013-10",
+                "title": "Rebranding to Snap Inc.",
+                "description": "Snapchat rebranded itself as Snap Inc. to reflect its expansion beyond just the Snapchat app.",
+                "emoji": ":sparkles:"
+            },
+            {
+                "month": "2017-03",
+                "title": "Go Public",
+                "description": "Snap Inc. held its initial public offering (IPO) and became a publicly traded company.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [12],
+        "company": "Twitter",
+        "timestamps": [
+            {
+                "month": "2006-03",
+                "title": "Twitter Launched",
+                "description": "Jack Dorsey, Biz Stone, and Evan Williams launched Twitter, a microblogging platform.",
+                "emoji": ":bird:"
+            },
+            {
+                "month": "2007-10",
+                "title": "Twitter Inc.",
+                "description": "Twitter was officially incorporated as Twitter Inc.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2013-11",
+                "title": "Go Public",
+                "description": "Twitter held its initial public offering (IPO) and became a publicly traded company.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [26],
+        "company": "Uber",
+        "timestamps": [
+            {
+                "month": "2009-03",
+                "title": "Uber Launched",
+                "description": "Garrett Camp and Travis Kalanick launched Uber, a ride-hailing service.",
+                "emoji": ":car:"
+            },
+            {
+                "month": "2010-06",
+                "title": "Uber Inc.",
+                "description": "Uber was officially incorporated as Uber Inc.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2019-05",
+                "title": "Go Public",
+                "description": "Uber held its initial public offering (IPO) and became a publicly traded company.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ]
+    }
+]

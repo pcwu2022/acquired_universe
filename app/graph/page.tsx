@@ -526,6 +526,12 @@ export default function GraphPage() {
           >
             Constellation View
           </Link>
+          <Link
+            href="/chronicles"
+            className="px-3 py-1.5 rounded text-sm font-medium text-zinc-400 hover:text-white transition"
+          >
+            Chronicles
+          </Link>
           <span className="w-px h-5 bg-zinc-700" />
           <a
             href="https://github.com/pcwu2022/acquired_universe"
