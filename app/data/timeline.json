@@ -20,12 +20,6 @@
                 "emoji": ":gear:"
             },
             {
-                "month": "1997-06",
-                "title": "BackRub Demo",
-                "description": "BackRub is demoed to search engines, but deals fall through.",
-                "emoji": ":rocket:"
-            },
-            {
                 "month": "1997-09",
                 "title": "Google Name",
                 "description": "The project is renamed Google, inspired by 'Googol'.",
@@ -92,12 +86,6 @@
                 "emoji": ":chart_with_upwards_trend:"
             },
             {
-                "month": "1998-06",
-                "title": "Google Founded",
-                "description": "Google is founded by Larry Page and Sergey Brin in Menlo Park, California.",
-                "emoji": ":office:"
-            },
-            {
                 "month": "2001-06",
                 "title": "Gmail Development",
                 "description": "Paul Buchheit begins developing Gmail, pioneering web-based email and AJAX.",
@@ -108,12 +96,6 @@
                 "title": "Gmail Launch",
                 "description": "Google launches Gmail with one gigabyte of free storage and invite-only access.",
                 "emoji": ":rocket:"
-            },
-            {
-                "month": "2004-08",
-                "title": "IPO",
-                "description": "Google goes public, raising $1.67 billion and becoming a major tech company.",
-                "emoji": ":chart_with_upwards_trend:"
             },
             {
                 "month": "2005-02",
@@ -155,12 +137,6 @@
                 "month": "2008-09",
                 "title": "Android Launch",
                 "description": "Google launches Android with the HTC Dream, beginning its dominance in mobile.",
-                "emoji": ":rocket:"
-            },
-            {
-                "month": "2009-12",
-                "title": "Droid Launch",
-                "description": "Motorola Droid launches on Verizon, propelling Android to mass adoption.",
                 "emoji": ":rocket:"
             },
             {
@@ -675,7 +651,7 @@
             {
                 "month": "1987-06",
                 "title": "TSMC Founded",
-                "description": "Morris Chang founds TSMC as the world\u2019s first pure-play semiconductor foundry in Taiwan.",
+                "description": "Morris Chang founds TSMC in Taiwan as the world’s first pure-play semiconductor foundry.",
                 "emoji": ":office:"
             },
             {
@@ -687,49 +663,55 @@
             {
                 "month": "1997-06",
                 "title": "IPO NYSE",
-                "description": "TSMC lists on the New York Stock Exchange, expanding its global investor base.",
+                "description": "TSMC becomes the first Taiwanese company to list on the New York Stock Exchange.",
                 "emoji": ":chart_with_upwards_trend:"
             },
             {
                 "month": "2005-06",
-                "title": "Chang Retires",
-                "description": "Morris Chang retires as CEO after leading TSMC to global prominence.",
+                "title": "Morris Chang Retires",
+                "description": "Founder Morris Chang retires as CEO for the first time after leading TSMC to global prominence.",
                 "emoji": ":bust_in_silhouette:"
             },
             {
                 "month": "2009-06",
-                "title": "Chang Returns",
-                "description": "Morris Chang returns as CEO to guide TSMC through the mobile and cloud era.",
+                "title": "Morris Chang Returns",
+                "description": "Morris Chang returns as CEO to steer TSMC through the global financial crisis and the mobile era.",
                 "emoji": ":bust_in_silhouette:"
             },
             {
-                "month": "2012-06",
+                "month": "2010-06",
                 "title": "Apple Partnership",
-                "description": "TSMC secures a major deal to manufacture Apple\u2019s custom chips, investing $9 billion in dedicated capacity.",
+                "description": "TSMC secures a pivotal deal with Apple to manufacture custom chips for iOS devices.",
                 "emoji": ":handshake:"
             },
             {
+                "month": "2012-06",
+                "title": "A-Series Production",
+                "description": "TSMC begins producing Apple's A-series chips, investing $9 billion in dedicated capacity.",
+                "emoji": ":gear:"
+            },
+            {
                 "month": "2014-06",
-                "title": "iPhone 6 Chips",
-                "description": "TSMC becomes sole supplier for Apple\u2019s iPhone 6 chips, cementing its role in consumer electronics.",
+                "title": "iPhone 6 Sole Supplier",
+                "description": "TSMC becomes the sole supplier for Apple’s iPhone 6 chips, cementing its role in consumer electronics.",
                 "emoji": ":rocket:"
             },
             {
                 "month": "2018-06",
-                "title": "Chang Final Exit",
-                "description": "Morris Chang retires for the last time, stepping down as chairman.",
+                "title": "Final Retirement",
+                "description": "Morris Chang retires for the last time, stepping down as chairman and ending his formal leadership.",
                 "emoji": ":bust_in_silhouette:"
             },
             {
                 "month": "2020-06",
-                "title": "5nm Process",
-                "description": "TSMC launches the world\u2019s first 5-nanometer chip manufacturing process, leading the industry.",
+                "title": "5nm Process & Growth",
+                "description": "TSMC launches the world’s first 5nm process and achieves 31% revenue growth due to high demand.",
                 "emoji": ":gear:"
             },
             {
                 "month": "2021-04",
                 "title": "CapEx Surge",
-                "description": "TSMC announces $100 billion investment in new fabs over three years to maintain technological leadership.",
+                "description": "TSMC announces a $100 billion investment over three years to expand capacity and maintain leadership.",
                 "emoji": ":moneybag:"
             },
             {
@@ -737,68 +719,8 @@
                 "title": "AI Era Leadership",
                 "description": "TSMC becomes the manufacturing superpower behind the global AI wave, powering leading-edge chips.",
                 "emoji": ":robot_face:"
-            },
-            {
-                "month": "1987-06",
-                "title": "TSMC Founded",
-                "description": "Taiwan Semiconductor Manufacturing Company was founded as the world's first pure-play foundry.",
-                "emoji": ":office:"
-            },
-            {
-                "month": "1994-06",
-                "title": "IPO in Taiwan",
-                "description": "TSMC went public on the Taiwan Stock Exchange, marking its first major financial milestone.",
-                "emoji": ":chart_with_upwards_trend:"
-            },
-            {
-                "month": "1997-06",
-                "title": "Listed on NYSE",
-                "description": "TSMC became the first Taiwanese company to list on the New York Stock Exchange.",
-                "emoji": ":chart_with_upwards_trend:"
-            },
-            {
-                "month": "2005-06",
-                "title": "Morris Chang Retires",
-                "description": "Founder Morris Chang retired as CEO for the first time.",
-                "emoji": ":bust_in_silhouette:"
-            },
-            {
-                "month": "2009-06",
-                "title": "Morris Chang Returns",
-                "description": "Morris Chang returned as CEO during the financial crisis to steer TSMC through turbulent times.",
-                "emoji": ":bust_in_silhouette:"
-            },
-            {
-                "month": "2010-06",
-                "title": "Apple Partnership",
-                "description": "TSMC secured a major deal with Apple to manufacture chips for the iPhone.",
-                "emoji": ":handshake:"
-            },
-            {
-                "month": "2012-06",
-                "title": "A-Series Chips",
-                "description": "TSMC began producing Apple's A-series chips, starting with the A4.",
-                "emoji": ":gear:"
-            },
-            {
-                "month": "2018-06",
-                "title": "Morris Chang Retires Again",
-                "description": "Morris Chang retired as chairman, marking the end of his leadership at TSMC.",
-                "emoji": ":bust_in_silhouette:"
-            },
-            {
-                "month": "2020-06",
-                "title": "Record Revenue Growth",
-                "description": "TSMC achieved 31% revenue growth, driven by demand for advanced chips.",
-                "emoji": ":chart_with_upwards_trend:"
-            },
-            {
-                "month": "2021-06",
-                "title": "Dominance in 5nm",
-                "description": "TSMC solidified its position as the leader in 5nm chip manufacturing.",
-                "emoji": ":gear:"
             }
-        ]
+            ]
     },
     {
         "timestamps": [
@@ -1576,5 +1498,401 @@
             195
         ],
         "company": "Mars"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1967-08",
+                "title": "First Trader Joe's Opens",
+                "description": "Joe Coulombe opens the first Trader Joe's store in Pasadena, California, introducing a unique grocery concept.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1970-06",
+                "title": "Largest Wine Retailer",
+                "description": "Trader Joe's becomes the largest wine retailer in California, pioneering the sale of California wines.",
+                "emoji": ":wine_glass:"
+            },
+            {
+                "month": "1979-06",
+                "title": "Company Sold to Aldi Nord",
+                "description": "Joe Coulombe sells Trader Joe's to Theo Albrecht of Aldi Nord, ensuring its financial stability.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1985-06",
+                "title": "Fearless Flyer Launched",
+                "description": "Trader Joe's introduces the Fearless Flyer, a newsletter to tell product stories and engage customers.",
+                "emoji": ":newspaper:"
+            },
+            {
+                "month": "1989-01",
+                "title": "New CEO John Shields",
+                "description": "John Shields becomes CEO and begins national expansion of Trader Joe's.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "1996-06",
+                "title": "East Coast Expansion",
+                "description": "Trader Joe's opens its first stores on the East Coast, starting in Boston.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2001-06",
+                "title": "Dan Bane Becomes CEO",
+                "description": "Dan Bane takes over as CEO, focusing on expanding product offerings and maintaining the Trader Joe's ethos.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2025-06",
+                "title": "600 Stores Nationwide",
+                "description": "Trader Joe's reaches 600 stores across the United States, maintaining its unique grocery model.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ],
+        "episode_ids": [
+            206
+        ],
+        "company": "Trader Joe\u2019s"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1869-11",
+                "title": "First Football Game",
+                "description": "Rutgers and Princeton play the first intercollegiate football game in New Jersey.",
+                "emoji": ":football:"
+            },
+            {
+                "month": "1905-06",
+                "title": "NCAA Founded",
+                "description": "Teddy Roosevelt's intervention leads to the creation of the NCAA to regulate football safety.",
+                "emoji": ":shield:"
+            },
+            {
+                "month": "1920-08",
+                "title": "NFL Founded",
+                "description": "The American Professional Football Conference, later renamed the NFL, is founded in Canton, Ohio.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1933-06",
+                "title": "NFL Playoffs Introduced",
+                "description": "The NFL introduces a playoff system to determine the league champion.",
+                "emoji": ":trophy:"
+            },
+            {
+                "month": "1946-06",
+                "title": "Integration Begins",
+                "description": "The Los Angeles Rams sign Kenny Washington, breaking the NFL's color barrier.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1959-08",
+                "title": "AFL Founded",
+                "description": "Lamar Hunt and others establish the American Football League as a rival to the NFL.",
+                "emoji": ":football:"
+            },
+            {
+                "month": "1961-06",
+                "title": "Sports Broadcasting Act",
+                "description": "Congress passes the Sports Broadcasting Act, allowing league-wide TV contracts.",
+                "emoji": ":tv:"
+            },
+            {
+                "month": "1966-06",
+                "title": "NFL-AFL Merger",
+                "description": "The NFL and AFL announce their merger, leading to the creation of the Super Bowl.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1967-01",
+                "title": "First Super Bowl",
+                "description": "The Green Bay Packers defeat the Kansas City Chiefs in the first Super Bowl.",
+                "emoji": ":trophy:"
+            },
+            {
+                "month": "1982-06",
+                "title": "NFL Players Strike",
+                "description": "A players' strike leads to the first shortened NFL season.",
+                "emoji": ":warning:"
+            },
+            {
+                "month": "2006-06",
+                "title": "Broadcast Revenue Milestone",
+                "description": "The NFL signs a record-breaking $3.7 billion annual TV deal.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2020-06",
+                "title": "COVID-19 Adjustments",
+                "description": "The NFL adapts its season to the COVID-19 pandemic with no in-person attendance.",
+                "emoji": ":mask:"
+            }
+        ],
+        "episode_ids": [
+            210
+        ],
+        "company": "NFL"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "2007-02",
+                "title": "Veeva Founded",
+                "description": "Peter Gassner founded Veeva Systems to provide software solutions for the life sciences industry.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2008-03",
+                "title": "First Funding Round",
+                "description": "Veeva raised $4 million from Emergence Capital to support its growth.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2011-06",
+                "title": "Zoom Founded",
+                "description": "Eric Yuan founded Zoom to create a better video conferencing solution.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2013-06",
+                "title": "Zoom Product Launch",
+                "description": "Zoom launched its video conferencing platform, gaining initial traction.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2013-10",
+                "title": "Veeva IPO",
+                "description": "Veeva Systems went public, raising significant capital to expand its operations.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2017-06",
+                "title": "Zoom Series D",
+                "description": "Zoom raised $100 million in a Series D funding round to accelerate growth.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2019-04",
+                "title": "Zoom IPO",
+                "description": "Zoom went public, marking a major milestone in its growth journey.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2020-03",
+                "title": "Pandemic Growth Surge",
+                "description": "Zoom experienced unprecedented growth during the COVID-19 pandemic as remote work surged.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ],
+        "episode_ids": [
+            152
+        ],
+        "company": "Capital-Efficient Growth"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "2002-03",
+                "title": "SpaceX Founded",
+                "description": "Elon Musk founded SpaceX to revolutionize space technology.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2008-09",
+                "title": "Falcon 1 Success",
+                "description": "SpaceX's Falcon 1 became the first privately developed liquid-fueled rocket to reach orbit.",
+                "emoji": ":trophy:"
+            },
+            {
+                "month": "2010-12",
+                "title": "Dragon Launched",
+                "description": "SpaceX launched its Dragon spacecraft, marking a milestone in commercial spaceflight.",
+                "emoji": ":dragon:"
+            },
+            {
+                "month": "2012-05",
+                "title": "ISS Docking",
+                "description": "Dragon became the first commercial spacecraft to dock with the International Space Station.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2015-12",
+                "title": "Falcon 9 Landing",
+                "description": "SpaceX achieved the first successful landing of its Falcon 9 rocket booster.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2018-02",
+                "title": "Falcon Heavy Launch",
+                "description": "SpaceX launched the Falcon Heavy, the most powerful operational rocket.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2020-05",
+                "title": "Crew Dragon Launch",
+                "description": "SpaceX launched NASA astronauts to the ISS aboard Crew Dragon, a first for a private company.",
+                "emoji": ":astronaut:"
+            },
+            {
+                "month": "2021-04",
+                "title": "Starship Test Flight",
+                "description": "SpaceX conducted a high-altitude test flight of its Starship prototype.",
+                "emoji": ":star:"
+            }
+        ],
+        "episode_ids": [
+            154
+        ],
+        "company": "Investing in American Dynamism"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1962-07",
+                "title": "First Walmart Opens",
+                "description": "Sam Walton opens the first Walmart store in Rogers, Arkansas.",
+                "emoji": ":department_store:"
+            },
+            {
+                "month": "1966-06",
+                "title": "Adopts Computers",
+                "description": "Sam Walton attends an IBM seminar and begins integrating computers into Walmart's operations.",
+                "emoji": ":computer:"
+            },
+            {
+                "month": "1970-10",
+                "title": "Walmart IPO",
+                "description": "Walmart goes public, raising funds to expand operations.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1974-06",
+                "title": "First Distribution Center",
+                "description": "Walmart opens its first distribution center, revolutionizing its logistics.",
+                "emoji": ":truck:"
+            },
+            {
+                "month": "1983-06",
+                "title": "Sam's Club Launch",
+                "description": "Walmart launches Sam's Club, a membership-based warehouse store.",
+                "emoji": ":shopping_cart:"
+            },
+            {
+                "month": "1987-06",
+                "title": "Satellite Network",
+                "description": "Walmart invests $24 million in a proprietary satellite network to link stores.",
+                "emoji": ":satellite:"
+            },
+            {
+                "month": "1990-06",
+                "title": "Largest U.S. Retailer",
+                "description": "Walmart surpasses Sears to become the largest retailer in the United States.",
+                "emoji": ":trophy:"
+            },
+            {
+                "month": "1991-06",
+                "title": "First International Store",
+                "description": "Walmart opens its first international store in Mexico City.",
+                "emoji": ":earth_americas:"
+            },
+            {
+                "month": "1993-06",
+                "title": "West Coast Expansion",
+                "description": "Walmart opens its first store in Washington state, completing its U.S. expansion.",
+                "emoji": ":map:"
+            },
+            {
+                "month": "2002-06",
+                "title": "Fortune 500 Leader",
+                "description": "Walmart tops the Fortune 500 list for the first time.",
+                "emoji": ":medal_sports:"
+            }
+        ],
+        "episode_ids": [
+            155
+        ],
+        "company": "Walmart"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1994-07",
+                "title": "Amazon Founded",
+                "description": "Jeff Bezos founds Amazon in Seattle, starting as an online bookstore.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1995-07",
+                "title": "Website Launch",
+                "description": "Amazon.com launches to the public, selling books online.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1997-05",
+                "title": "IPO",
+                "description": "Amazon goes public, raising $54 million at a $438 million valuation.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1998-06",
+                "title": "Music and Video",
+                "description": "Amazon expands into selling music and videos, diversifying its product offerings.",
+                "emoji": ":musical_note:"
+            },
+            {
+                "month": "1999-03",
+                "title": "Amazon Auctions",
+                "description": "Amazon launches its auction platform to compete with eBay.",
+                "emoji": ":hammer:"
+            },
+            {
+                "month": "2000-06",
+                "title": "Marketplace Launch",
+                "description": "Amazon introduces its Marketplace, allowing third-party sellers to list products.",
+                "emoji": ":shopping:"
+            },
+            {
+                "month": "2005-02",
+                "title": "Amazon Prime",
+                "description": "Amazon launches Prime, offering free two-day shipping for members.",
+                "emoji": ":package:"
+            },
+            {
+                "month": "2006-03",
+                "title": "AWS Launch",
+                "description": "Amazon Web Services (AWS) launches, providing cloud computing services.",
+                "emoji": ":cloud:"
+            },
+            {
+                "month": "2007-11",
+                "title": "Kindle Launch",
+                "description": "Amazon releases the Kindle, revolutionizing the e-book market.",
+                "emoji": ":book:"
+            },
+            {
+                "month": "2013-12",
+                "title": "Drone Delivery Plans",
+                "description": "Amazon announces plans for Prime Air, a drone delivery service.",
+                "emoji": ":airplane:"
+            },
+            {
+                "month": "2017-08",
+                "title": "Whole Foods Acquisition",
+                "description": "Amazon acquires Whole Foods Market for $13.7 billion.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2021-07",
+                "title": "Leadership Change",
+                "description": "Jeff Bezos steps down as CEO, and Andy Jassy takes over.",
+                "emoji": ":bust_in_silhouette:"
+            }
+        ],
+        "episode_ids": [
+            156
+        ],
+        "company": "Amazon"
     }
 ]

@@ -12,7 +12,6 @@ export const CATEGORY_COLORS: Record<string, CategoryColors> = {
   Retail:           { bg: "rgba(249,115,22,0.75)",   ring: "#f97316" },   // orange-500
   Media:            { bg: "rgba(236,72,153,0.75)",   ring: "#ec4899" },   // pink-500
   Entertainment:    { bg: "rgba(217,70,239,0.75)",   ring: "#d946ef" },   // fuchsia-500
-  Semiconductors:   { bg: "rgba(168,85,247,0.75)",   ring: "#a855f7" },   // purple-500
   "E-commerce":     { bg: "rgba(14,165,233,0.75)",   ring: "#0ea5e9" },   // sky-500
   Transportation:   { bg: "rgba(244,63,94,0.75)",    ring: "#f43f5e" },   // rose-500
   Luxury:           { bg: "rgba(251,146,60,0.75)",   ring: "#fb923c" },   // orange-400

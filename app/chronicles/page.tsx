@@ -25,6 +25,7 @@ type TimelineEntry = {
   episode_ids: number[];
   company: string;
   timestamps: TimelineTimestamp[];
+  _dragIndex?: number; // internal drag state
 };
 
 function parseEmoji(raw: string): string {
@@ -258,6 +259,10 @@ function TimelineRow({
   onStickerClick,
   activeMarker,
   setActiveMarker,
+  isDragging,
+  onDragStart,
+  onDragOver,
+  onDrop,
 }: {
   entry: TimelineEntry;
   episodes: Episode[];
@@ -267,6 +272,10 @@ function TimelineRow({
   onStickerClick: (ep: Episode) => void;
   activeMarker: string | null;
   setActiveMarker: (k: string | null) => void;
+  isDragging: boolean;
+  onDragStart: (e: React.DragEvent, company: string) => void;
+  onDragOver: (e: React.DragEvent) => void;
+  onDrop: (e: React.DragEvent, company: string) => void;
 }) {
   const relatedEps = useMemo(
     () =>
@@ -290,14 +299,23 @@ function TimelineRow({
   const lineWidth = endX - startX;
 
   return (
-    <div className="flex" style={{ height: ROW_HEIGHT }}>
+    <div
+      className="flex group"
+      style={{ height: ROW_HEIGHT, opacity: isDragging ? 0.5 : 1 }}
+      draggable
+      onDragStart={(e) => onDragStart(e, entry.company)}
+      onDragOver={onDragOver}
+      onDrop={(e) => onDrop(e, entry.company)}
+    >
       {/* ── Sticky left panel ── */}
       <div
-        className="sticky left-0 z-10 flex flex-col items-center justify-center gap-1.5 shrink-0 border-r"
+        className="sticky left-0 z-10 flex flex-col items-center justify-center gap-1.5 shrink-0 border-r cursor-grab active:cursor-grabbing"
         style={{
           width: LEFT_PANEL_W,
           background: "rgb(9,9,11)",
           borderColor: "rgba(255,255,255,0.05)",
+          borderLeftWidth: isDragging ? 2 : 0,
+          borderLeftColor: isDragging ? colors.ring : "transparent",
         }}
       >
         {/* Episode stickers */}
@@ -532,6 +550,9 @@ export default function ChroniclesPage() {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   const [activeMarker, setActiveMarker] = useState<string | null>(null);
   const [pxPerMonth, setPxPerMonth] = useState(DEFAULT_PX_PER_MONTH);
+  const [selectedCategories, setSelectedCategories] = useState<Set<string>>(new Set());
+  const [draggedCompany, setDraggedCompany] = useState<string | null>(null);
+  const [customOrder, setCustomOrder] = useState<string[]>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
   // Stores the fractional month (offset from globalMinIdx) that was at the
   // viewport's horizontal center just before a zoom, so we can restore it after.
@@ -561,11 +582,96 @@ export default function ChroniclesPage() {
     });
   }, []);
 
+  // ── Extract all unique categories from episodes ──
+  const availableCategories = useMemo((): string[] => {
+    const cats = new Set<string>();
+    sortedEntries.forEach((entry) => {
+      const primaryEp = episodes.find((e) => e.id === entry.episode_ids[0]);
+      if (primaryEp?.category) {
+        cats.add(primaryEp.category);
+      }
+    });
+    return Array.from(cats).sort();
+  }, [sortedEntries, episodes]);
+
+  // ── Filter entries by selected categories ──
+  const filteredEntries = useMemo((): TimelineEntry[] => {
+    if (selectedCategories.size === 0) {
+      // No filter: show all
+      return sortedEntries;
+    }
+    return sortedEntries.filter((entry) => {
+      const primaryEp = episodes.find((e) => e.id === entry.episode_ids[0]);
+      return primaryEp && selectedCategories.has(primaryEp.category || "");
+    });
+  }, [sortedEntries, selectedCategories, episodes]);
+
+  // ── Apply custom order if set ──
+  const displayEntries = useMemo((): TimelineEntry[] => {
+    if (customOrder.length === 0) {
+      return filteredEntries;
+    }
+    const entryMap = new Map(filteredEntries.map((e) => [e.company, e]));
+    return customOrder
+      .filter((company) => entryMap.has(company))
+      .map((company) => entryMap.get(company)!)
+      .concat(filteredEntries.filter((e) => !customOrder.includes(e.company)));
+  }, [filteredEntries, customOrder]);
+
+  // ── Handle category toggle ──
+  const toggleCategory = useCallback((category: string) => {
+    setSelectedCategories((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(category)) {
+        newSet.delete(category);
+      } else {
+        newSet.add(category);
+      }
+      return newSet;
+    });
+  }, []);
+
+  // ── Handle drag and drop ──
+  const handleDragStart = useCallback((e: React.DragEvent, company: string) => {
+    setDraggedCompany(company);
+    e.dataTransfer!.effectAllowed = "move";
+  }, []);
+
+  const handleDragOver = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    e.dataTransfer!.dropEffect = "move";
+  }, []);
+
+  const handleDrop = useCallback((e: React.DragEvent, targetCompany: string) => {
+    e.preventDefault();
+    if (!draggedCompany || draggedCompany === targetCompany) {
+      setDraggedCompany(null);
+      return;
+    }
+
+    // Find indices in displayed list
+    const dragIndex = displayEntries.findIndex((e) => e.company === draggedCompany);
+    const targetIndex = displayEntries.findIndex((e) => e.company === targetCompany);
+
+    if (dragIndex === -1 || targetIndex === -1) {
+      setDraggedCompany(null);
+      return;
+    }
+
+    // Create new order based on displayed entries
+    const newOrder = displayEntries.map((e) => e.company);
+    const [removed] = newOrder.splice(dragIndex, 1);
+    newOrder.splice(targetIndex, 0, removed);
+
+    setCustomOrder(newOrder);
+    setDraggedCompany(null);
+  }, [draggedCompany, displayEntries]);
+
   // ── Global date range ──
   const { globalMinIdx, totalMonths } = useMemo(() => {
     let min = Infinity;
     let max = -Infinity;
-    for (const entry of sortedEntries) {
+    for (const entry of displayEntries) {
       for (const ts of entry.timestamps) {
         const idx = monthIndex(ts.month);
         if (idx < min) min = idx;
@@ -578,7 +684,7 @@ export default function ChroniclesPage() {
       globalMinIdx: paddedMin,
       totalMonths: paddedMax - paddedMin + 1,
     };
-  }, [sortedEntries]);
+  }, [displayEntries]);
 
   const totalWidth = totalMonths * pxPerMonth;
 
@@ -666,46 +772,85 @@ export default function ChroniclesPage() {
         </nav>
       </header>
 
-      {/* ── Intro blurb + zoom controls ── */}
-      <div className="w-full px-6 pt-3 pb-2 flex items-center justify-between gap-4 shrink-0">
-        <p className="text-sm text-zinc-400 leading-relaxed">
-          The Chronicles — every pivotal chapter in the companies that shaped the{" "}
-          <a
-            href="https://www.acquired.fm"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold hover:underline"
-            style={{ color: "#39F9CD" }}
-          >
-            Acquired
-          </a>{" "}
-          universe. Click any marker to read its story.
-        </p>
+      {/* ── Intro blurb + filters + zoom controls ── */}
+      <div className="w-full px-6 pt-3 pb-2 flex flex-col gap-3 shrink-0">
+        <div className="flex items-center justify-between gap-4">
+          <p className="text-sm text-zinc-400 leading-relaxed">
+            The Chronicles — every pivotal chapter in the companies that shaped the{" "}
+            <a
+              href="https://www.acquired.fm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold hover:underline"
+              style={{ color: "#39F9CD" }}
+            >
+              Acquired
+            </a>{" "}
+            universe. Click any marker to read its story. Drag companies to reorder.
+          </p>
 
-        {/* Zoom controls */}
-        <div className="flex items-center gap-1 shrink-0 bg-zinc-900 border border-zinc-700 rounded-lg px-1.5 py-1">
-          <button
-            className="w-6 h-6 flex items-center justify-center rounded text-zinc-400 hover:text-white hover:bg-zinc-700 transition text-sm font-bold cursor-pointer disabled:opacity-30"
-            onClick={() => zoom(-ZOOM_STEP)}
-            disabled={pxPerMonth <= ZOOM_MIN}
-            title="Zoom out"
-            aria-label="Zoom out"
-          >
-            −
-          </button>
-          <span className="text-[10px] text-zinc-500 w-9 text-center tabular-nums select-none">
-            {Math.round((pxPerMonth / DEFAULT_PX_PER_MONTH) * 100)}%
-          </span>
-          <button
-            className="w-6 h-6 flex items-center justify-center rounded text-zinc-400 hover:text-white hover:bg-zinc-700 transition text-sm font-bold cursor-pointer disabled:opacity-30"
-            onClick={() => zoom(ZOOM_STEP)}
-            disabled={pxPerMonth >= ZOOM_MAX}
-            title="Zoom in"
-            aria-label="Zoom in"
-          >
-            +
-          </button>
+          {/* Zoom controls */}
+          <div className="flex items-center gap-1 shrink-0 bg-zinc-900 border border-zinc-700 rounded-lg px-1.5 py-1">
+            <button
+              className="w-6 h-6 flex items-center justify-center rounded text-zinc-400 hover:text-white hover:bg-zinc-700 transition text-sm font-bold cursor-pointer disabled:opacity-30"
+              onClick={() => zoom(-ZOOM_STEP)}
+              disabled={pxPerMonth <= ZOOM_MIN}
+              title="Zoom out"
+              aria-label="Zoom out"
+            >
+              −
+            </button>
+            <span className="text-[10px] text-zinc-500 w-9 text-center tabular-nums select-none">
+              {Math.round((pxPerMonth / DEFAULT_PX_PER_MONTH) * 100)}%
+            </span>
+            <button
+              className="w-6 h-6 flex items-center justify-center rounded text-zinc-400 hover:text-white hover:bg-zinc-700 transition text-sm font-bold cursor-pointer disabled:opacity-30"
+              onClick={() => zoom(ZOOM_STEP)}
+              disabled={pxPerMonth >= ZOOM_MAX}
+              title="Zoom in"
+              aria-label="Zoom in"
+            >
+              +
+            </button>
+          </div>
         </div>
+
+        {/* Category filter */}
+        {availableCategories.length > 0 && (
+          <div className="flex items-center gap-3 flex-wrap">
+            <span className="text-xs font-semibold text-zinc-500 uppercase tracking-wider">
+              Filter by Type:
+            </span>
+            <div className="flex items-center gap-2 flex-wrap">
+              {availableCategories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => toggleCategory(category)}
+                  className="px-3 py-1.5 rounded text-xs font-medium transition border"
+                  style={{
+                    borderColor: selectedCategories.has(category)
+                      ? "#39F9CD"
+                      : "rgba(255,255,255,0.1)",
+                    backgroundColor: selectedCategories.has(category)
+                      ? "rgba(57,249,205,0.15)"
+                      : "transparent",
+                    color: selectedCategories.has(category) ? "#39F9CD" : "#a1a1a1",
+                  }}
+                >
+                  {category}
+                </button>
+              ))}
+              {selectedCategories.size > 0 && (
+                <button
+                  onClick={() => setSelectedCategories(new Set())}
+                  className="px-3 py-1.5 rounded text-xs font-medium text-zinc-400 hover:text-white transition"
+                >
+                  Clear
+                </button>
+              )}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* ── Timeline container ── */}
@@ -741,7 +886,7 @@ export default function ChroniclesPage() {
           />
 
           {/* Timeline rows */}
-          {sortedEntries.map((entry) => (
+          {displayEntries.map((entry) => (
             <TimelineRow
               key={entry.company}
               entry={entry}
@@ -752,6 +897,10 @@ export default function ChroniclesPage() {
               onStickerClick={(ep) => setPanelEpisode(ep)}
               activeMarker={activeMarker}
               setActiveMarker={handleSetActiveMarker}
+              isDragging={draggedCompany === entry.company}
+              onDragStart={handleDragStart}
+              onDragOver={handleDragOver}
+              onDrop={handleDrop}
             />
           ))}
 
