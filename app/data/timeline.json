@@ -1,242 +1,1580 @@
 [
-{
-	"episode_ids": [189],
-	"company": "Starbucks",
-	"timestamps": [
-		{"month": "1971-06", "title": "Starbucks Founded", "description": "Starbucks opens its first store in Pike Place Market, Seattle, selling beans using Peet's coffee.", "emoji": ":office:"},
-		{"month": "1982-09", "title": "Schultz Joins", "description": "Howard Schultz joins Starbucks as head of marketing, marking a pivotal leadership shift.", "emoji": ":bust_in_silhouette:"},
-		{"month": "1983-06", "title": "Italy Inspiration", "description": "Schultz visits Milan and is inspired by Italian coffee bars, sparking the vision for Starbucks cafes.", "emoji": ":rocket:"},
-		{"month": "1984-06", "title": "First Coffee Bar", "description": "Starbucks opens its first coffee bar in Seattle, introducing espresso drinks to the U.S. market.", "emoji": ":coffee:"},
-		{"month": "1987-08", "title": "Schultz Acquires Starbucks", "description": "Howard Schultz acquires Starbucks, merging it with Il Giornale and begins rapid expansion.", "emoji": ":handshake:"},
-		{"month": "1988-06", "title": "Health Benefits", "description": "Starbucks offers health benefits to part-time employees, pioneering employee welfare in retail.", "emoji": ":heart:"},
-		{"month": "1991-06", "title": "Beans Stock Program", "description": "Starbucks launches stock options for employees, making all staff 'partners.'", "emoji": ":moneybag:"},
-		{"month": "1992-06", "title": "IPO", "description": "Starbucks goes public, becoming the first major coffee company to list on NASDAQ.", "emoji": ":chart_with_upwards_trend:"},
-		{"month": "1994-06", "title": "Boston Acquisition", "description": "Starbucks acquires Coffee Connection, gaining the Frappuccino trademark and expanding in Boston.", "emoji": ":handshake:"},
-		{"month": "1995-06", "title": "Frappuccino Launch", "description": "Starbucks launches Frappuccino, its first cold blended drink, driving new revenue streams.", "emoji": ":tropical_drink:"},
-		{"month": "1996-08", "title": "Japan Entry", "description": "Starbucks opens its first international store in Tokyo, marking global expansion.", "emoji": ":earth_asia:"},
-		{"month": "1999-06", "title": "China Entry", "description": "Starbucks opens its first store in Beijing, entering the Chinese market.", "emoji": ":earth_asia:"},
-		{"month": "2000-06", "title": "Schultz Steps Down", "description": "Howard Schultz steps down as CEO, becoming Executive Chairman as Starbucks reaches 3,500 stores.", "emoji": ":bust_in_silhouette:"},
-		{"month": "2008-01", "title": "Schultz Returns CEO", "description": "Howard Schultz returns as CEO amid financial crisis, leading a major turnaround.", "emoji": ":repeat:"},
-		{"month": "2009-06", "title": "Mobile App Launch", "description": "Starbucks launches its mobile app, pioneering mobile order and pay in retail.", "emoji": ":iphone:"},
-		{"month": "2011-06", "title": "China Growth", "description": "Starbucks reaches 500 stores in China, marking rapid expansion in Asia.", "emoji": ":chart_with_upwards_trend:"},
-		{"month": "2014-06", "title": "Roastery Launch", "description": "Starbucks opens its first Reserve Roastery in Seattle, elevating the brand experience.", "emoji": ":factory:"},
-		{"month": "2017-06", "title": "Johnson CEO", "description": "Kevin Johnson becomes CEO, succeeding Schultz and continuing global growth.", "emoji": ":bust_in_silhouette:"},
-		{"month": "2022-04", "title": "Schultz Interim CEO", "description": "Howard Schultz returns as interim CEO to guide Starbucks through post-pandemic challenges.", "emoji": ":repeat:"},
-		{"month": "2023-06", "title": "Laxman CEO", "description": "Laxman Narasimhan becomes CEO, marking a new leadership era for Starbucks.", "emoji": ":bust_in_silhouette:"}
-	]
-},
-{
-	"episode_ids": [202, 204, 205],
-	"company": "Google",
-	"timestamps": [
-		{"month": "1995-09", "title": "Stanford Meeting", "description": "Larry Page and Sergey Brin meet at Stanford, sparking their partnership.", "emoji": ":handshake:"},
-		{"month": "1996-06", "title": "BackRub Project", "description": "Larry and Sergey begin the BackRub project, developing PageRank.", "emoji": ":gear:"},
-		{"month": "1997-06", "title": "BackRub Demo", "description": "BackRub is demoed to search engines, but deals fall through.", "emoji": ":rocket:"},
-		{"month": "1997-09", "title": "Google Name", "description": "The project is renamed Google, inspired by 'Googol'.", "emoji": ":office:"},
-		{"month": "1998-06", "title": "Google Founded", "description": "Google Inc. is founded after Andy Bechtolsheim writes a $100,000 check.", "emoji": ":office:"},
-		{"month": "1998-09", "title": "Garage Office", "description": "Google moves into Susan Wojcicki’s Menlo Park garage.", "emoji": ":house:"},
-		{"month": "1999-06", "title": "Seed Funding", "description": "Google raises $1 million from investors including Jeff Bezos.", "emoji": ":moneybag:"},
-		{"month": "1999-08", "title": "Venture Capital", "description": "Google raises $25 million from Kleiner Perkins and Sequoia.", "emoji": ":moneybag:"},
-		{"month": "2000-06", "title": "Yahoo Deal", "description": "Google signs a major deal with Yahoo to power search results.", "emoji": ":handshake:"},
-		{"month": "2001-03", "title": "Eric Schmidt Joins", "description": "Eric Schmidt becomes CEO, forming a three-person leadership team.", "emoji": ":bust_in_silhouette:"},
-		{"month": "2002-01", "title": "AdWords Launch", "description": "Google launches AdWords with auction and pay-per-click model.", "emoji": ":chart_with_upwards_trend:"},
-		{"month": "2002-06", "title": "AOL Partnership", "description": "Google signs a landmark ad deal with AOL, betting the company.", "emoji": ":handshake:"},
-		{"month": "2003-02", "title": "AdSense Launch", "description": "Google launches AdSense, expanding ad revenue to publisher sites.", "emoji": ":moneybag:"},
-		{"month": "2004-08", "title": "IPO", "description": "Google goes public with a Dutch auction IPO, raising $1.7 billion.", "emoji": ":chart_with_upwards_trend:"},
-        {"month": "1998-06", "title": "Google Founded", "description": "Google is founded by Larry Page and Sergey Brin in Menlo Park, California.", "emoji": ":office:"},
-        {"month": "2001-06", "title": "Gmail Development", "description": "Paul Buchheit begins developing Gmail, pioneering web-based email and AJAX.", "emoji": ":rocket:"},
-        {"month": "2004-04", "title": "Gmail Launch", "description": "Google launches Gmail with one gigabyte of free storage and invite-only access.", "emoji": ":rocket:"},
-        {"month": "2004-08", "title": "IPO", "description": "Google goes public, raising $1.67 billion and becoming a major tech company.", "emoji": ":chart_with_upwards_trend:"},
-        {"month": "2005-02", "title": "Maps Launch", "description": "Google launches Maps, introducing dynamic web mapping and AJAX to millions.", "emoji": ":world_map:"},
-        {"month": "2005-08", "title": "Android Acquisition", "description": "Google acquires Android, setting the stage for its mobile operating system.", "emoji": ":handshake:"},
-        {"month": "2006-03", "title": "Docs Acquisition", "description": "Google acquires Writely, launching Google Docs with real-time collaboration.", "emoji": ":gear:"},
-        {"month": "2006-11", "title": "YouTube Acquisition", "description": "Google acquires YouTube for $1.65 billion, entering the online video market.", "emoji": ":handshake:"},
-        {"month": "2007-04", "title": "DoubleClick Acquisition", "description": "Google acquires DoubleClick for $3.1 billion, expanding its ad business.", "emoji": ":handshake:"},
-        {"month": "2008-09", "title": "Chrome Launch", "description": "Google launches Chrome browser, revolutionizing web speed and security.", "emoji": ":gear:"},
-        {"month": "2008-09", "title": "Android Launch", "description": "Google launches Android with the HTC Dream, beginning its dominance in mobile.", "emoji": ":rocket:"},
-        {"month": "2009-12", "title": "Droid Launch", "description": "Motorola Droid launches on Verizon, propelling Android to mass adoption.", "emoji": ":rocket:"},
-        {"month": "2011-06", "title": "Google+ Launch", "description": "Google launches Google+, its major social networking initiative.", "emoji": ":speech_balloon:"},
-        {"month": "2015-08", "title": "Alphabet Formation", "description": "Google reorganizes as Alphabet, with Sundar Pichai named CEO of Google.", "emoji": ":office:"},
-        {"month": "2017-06", "title": "Transformer Paper", "description": "Google publishes the Transformer paper, laying the foundation for modern AI.", "emoji": ":gear:"},
-        {"month": "2024-06", "title": "YouTube Revenue Milestone", "description": "YouTube ad revenue surpasses $36 billion, making it the world’s largest media platform.", "emoji": ":chart_with_upwards_trend:"},
-        {"month": "2000-06", "title": "AI Vision Stated", "description": "Larry Page declares Google's ultimate goal is artificial intelligence in a public statement.", "emoji": ":office:"},
-        {"month": "2001-06", "title": "Language Model Work", "description": "Noam Shazeer and George Herrick begin early language model research at Google, leading to 'Did You Mean'.", "emoji": ":gear:"},
-        {"month": "2003-06", "title": "AdSense Launch", "description": "Google launches AdSense, powered by PHIL language model, expanding ad revenue.", "emoji": ":rocket:"},
-        {"month": "2007-04", "title": "Deep Learning Arrival", "description": "Sebastian Thrun joins Google, bringing deep learning expertise and launching Ground Truth for Maps.", "emoji": ":bust_in_silhouette:"},
-        {"month": "2007-12", "title": "Hinton Joins Google", "description": "Geoff Hinton gives a pivotal tech talk at Google, catalyzing neural network research.", "emoji": ":bust_in_silhouette:"},
-        {"month": "2011-06", "title": "Google Brain Founded", "description": "Google launches Google Brain, its deep learning research division led by Jeff Dean, Andrew Ng, and Greg Corrado.", "emoji": ":office:"},
-        {"month": "2012-06", "title": "Cat Paper Published", "description": "Google Brain publishes the 'cat paper', proving unsupervised learning on large neural networks.", "emoji": ":cat:"},
-        {"month": "2012-08", "title": "DNN Research Acquired", "description": "Google acquires DNN Research, bringing Geoff Hinton, Ilya Sutskever, and Alex Krizhevsky into Google Brain.", "emoji": ":handshake:"},
-        {"month": "2014-01", "title": "DeepMind Acquisition", "description": "Google acquires DeepMind for $550M, adding world-class AI talent and research.", "emoji": ":handshake:"},
-        {"month": "2016-06", "title": "AlphaGo Victory", "description": "DeepMind's AlphaGo defeats world champion Lee Sedol, demonstrating AI creativity in Go.", "emoji": ":trophy:"},
-        {"month": "2017-06", "title": "Transformer Paper", "description": "Google Brain publishes 'Attention Is All You Need', introducing the Transformer architecture.", "emoji": ":gear:"},
-        {"month": "2018-06", "title": "BERT Model Released", "description": "Google releases BERT, a major Transformer-based language model for search and NLP.", "emoji": ":rocket:"},
-        {"month": "2023-05", "title": "Gemini Announced", "description": "Google announces Gemini, its unified multimodal AI model, at Google I/O.", "emoji": ":gear:"},
-        {"month": "2023-06", "title": "DeepMind-Brain Merge", "description": "Google merges DeepMind and Brain teams, forming Google DeepMind under Demis Hassabis.", "emoji": ":office:"},
-        {"month": "2023-12", "title": "Gemini Released", "description": "Google releases Gemini for public access, marking a new era in AI products.", "emoji": ":rocket:"},
-        {"month": "2024-02", "title": "Gemini 1.5 Launch", "description": "Google launches Gemini 1.5 with a 1 million token context window, expanding AI capabilities.", "emoji": ":gear:"},
-        {"month": "2025-03", "title": "Gemini 2.5 Pro", "description": "Google launches Gemini 2.5 Pro, advancing multimodal AI performance and user adoption.", "emoji": ":rocket:"}
-    
-    ]
-},
-{
-	"episode_ids": [208],
-	"company": "Coca-Cola",
-	"timestamps": [
-		{
-			"month": "1886-04",
-			"title": "Coca-Cola Invented",
-			"description": "Dr. John Pemberton creates the original formula for Coca-Cola in Atlanta.",
-			"emoji": ":office:"
-		},
-		{
-			"month": "1887-06",
-			"title": "Brand Named",
-			"description": "Frank Robinson names the drink Coca-Cola and designs the iconic script logo.",
-			"emoji": ":memo:"
-		},
-		{
-			"month": "1888-06",
-			"title": "Ownership Consolidated",
-			"description": "Asa Candler acquires full rights to the Coca-Cola formula and brand.",
-			"emoji": ":handshake:"
-		},
-		{
-			"month": "1892-06",
-			"title": "Company Incorporated",
-			"description": "The Coca-Cola Company is officially incorporated by Asa Candler.",
-			"emoji": ":office:"
-		},
-		{
-			"month": "1895-06",
-			"title": "National Expansion",
-			"description": "Coca-Cola is sold in every U.S. state and territory.",
-			"emoji": ":rocket:"
-		},
-		{
-			"month": "1899-07",
-			"title": "Bottling Rights Granted",
-			"description": "Exclusive bottling rights are granted to Thomas and Whitehead, enabling mass distribution.",
-			"emoji": ":package:"
-		},
-		{
-			"month": "1905-06",
-			"title": "Trademark Protection",
-			"description": "Federal Trademark Act is passed and Coca-Cola registers its trademark federally.",
-			"emoji": ":label:"
-		},
-		{
-			"month": "1916-06",
-			"title": "Contour Bottle Introduced",
-			"description": "The iconic Coca-Cola contour bottle is introduced to distinguish the brand.",
-			"emoji": ":bottle_with_popping_cork:"
-		},
-		{
-			"month": "1925-06",
-			"title": "Bottler Network Grows",
-			"description": "Coca-Cola bottler network expands to over 1,200 operations across the U.S.",
-			"emoji": ":factory:"
-		},
-		{
-			"month": "1941-06",
-			"title": "Global Expansion",
-			"description": "Coca-Cola begins global expansion during World War II, supplying U.S. troops abroad.",
-			"emoji": ":earth_americas:"
-		},
-		{
-			"month": "1982-06",
-			"title": "Diet Coke Launch",
-			"description": "Coca-Cola launches Diet Coke, its first major new brand since the original.",
-			"emoji": ":rocket:"
-		},
-		{
-			"month": "2012-06",
-			"title": "Brand Value Milestone",
-			"description": "Coca-Cola is recognized as one of the world’s most valuable brands.",
-			"emoji": ":star:"
-		}
-	]
-},
-{
-    "episode_ids": [200],
-    "company": "Epic Systems",
-    "timestamps": [
-        {"month": "1979-06", "title": "Epic Founded", "description": "Judith Faulkner founds Human Services Computing, later renamed Epic Systems, in Madison, Wisconsin.", "emoji": ":office:"},
-        {"month": "1983-06", "title": "Rename Epic", "description": "The company changes its name from Human Services Computing to Epic Systems.", "emoji": ":office:"},
-        {"month": "1987-06", "title": "Launch Resolute", "description": "Epic launches its billing module, integrating clinical and billing systems.", "emoji": ":gear:"},
-        {"month": "1992-06", "title": "EpicCare Debuts", "description": "Epic releases EpicCare, the first graphical EMR application for ambulatory care.", "emoji": ":rocket:"},
-        {"month": "2000-06", "title": "Launch MyChart", "description": "Epic launches MyChart, the first integrated patient portal for accessing medical records online.", "emoji": ":rocket:"},
-        {"month": "2001-06", "title": "EpicCare Inpatient", "description": "Epic releases the inpatient version of EpicCare, covering overnight hospital stays.", "emoji": ":gear:"},
-        {"month": "2003-06", "title": "Kaiser Deal", "description": "Epic wins a transformative contract with Kaiser Permanente, becoming the industry standard.", "emoji": ":handshake:"},
-        {"month": "2007-06", "title": "Verona Campus Opens", "description": "Epic opens its whimsical, large-scale campus in Verona, Wisconsin.", "emoji": ":office:"},
-        {"month": "2009-06", "title": "HITECH Act Boost", "description": "The HITECH Act accelerates EMR adoption, propelling Epic’s growth.", "emoji": ":chart_with_upwards_trend:"},
-        {"month": "2011-06", "title": "Hit $1B Revenue", "description": "Epic reaches $1 billion in annual revenue.", "emoji": ":chart_with_upwards_trend:"},
-        {"month": "2018-06", "title": "Cosmos Launch", "description": "Epic launches Cosmos, an anonymized database with hundreds of millions of patient records.", "emoji": ":gear:"},
-        {"month": "2021-12", "title": "Cerner Acquired", "description": "Oracle acquires Cerner, Epic’s main competitor, reinforcing Epic’s market leadership.", "emoji": ":handshake:"},
-        {"month": "2024-06", "title": "Record Revenue", "description": "Epic achieves $5.7 billion in annual revenue and serves nearly all major US hospitals.", "emoji": ":chart_with_upwards_trend:"}
-    ]
-},
-{
-    "episode_ids": [199],
-    "company": "Indian Premier League (IPL)",
-    "timestamps": [
-        {"month": "1991-06", "title": "Broadcast Rights Discovered", "description": "BCCI realizes the value of cricket broadcast rights after negotiating with South Africa.", "emoji": ":tv:"},
-        {"month": "2001-06", "title": "Player Contracts Centralized", "description": "BCCI introduces central contracts and pensions for Indian players, setting up control over talent.", "emoji": ":memo:"},
-        {"month": "2005-06", "title": "Lalit Modi Joins BCCI", "description": "Lalit Modi is appointed to the BCCI board and begins commercializing Indian cricket.", "emoji": ":bust_in_silhouette:"},
-        {"month": "2006-06", "title": "TV Rights Auctioned", "description": "BCCI auctions TV rights for international cricket, securing a $620 million deal with Nimbus.", "emoji": ":moneybag:"},
-        {"month": "2007-09", "title": "India Wins T20 World Cup", "description": "India wins the inaugural T20 World Cup, igniting national excitement for the new format.", "emoji": ":trophy:"},
-        {"month": "2008-01", "title": "IPL Franchise Auction", "description": "First IPL franchise auction is held, selling eight teams for $724 million.", "emoji": ":hammer:"},
-        {"month": "2008-04", "title": "IPL Launches", "description": "The inaugural IPL season begins, revolutionizing cricket with city-based teams and primetime matches.", "emoji": ":rocket:"},
-        {"month": "2009-04", "title": "IPL Moves to South Africa", "description": "IPL season is relocated to South Africa due to Indian general elections and security concerns.", "emoji": ":airplane:"},
-        {"month": "2010-06", "title": "Modi Ousted from BCCI", "description": "Lalit Modi is suspended from BCCI amid allegations of corruption and bid rigging.", "emoji": ":no_entry:"},
-        {"month": "2013-06", "title": "Spot Fixing Scandal", "description": "Indian police bust spot fixing involving Rajasthan Royals and Chennai Super Kings, prompting reforms.", "emoji": ":police_car:"},
-        {"month": "2015-06", "title": "Supreme Court Reforms BCCI", "description": "Indian Supreme Court restructures BCCI and IPL governance after corruption scandals.", "emoji": ":scales:"},
-        {"month": "2017-06", "title": "Star Secures Media Rights", "description": "Star India acquires IPL media rights for $2.5 billion over five years.", "emoji": ":tv:"},
-        {"month": "2021-06", "title": "New Teams Auctioned", "description": "Gujarat Titans and Lucknow Super Giants are auctioned for $750M and $950M, respectively.", "emoji": ":hammer:"},
-        {"month": "2022-06", "title": "Record Media Rights Deal", "description": "BCCI signs $6.2 billion media rights deals for TV and streaming, split between Star and Viacom18.", "emoji": ":moneybag:"},
-        {"month": "2024-01", "title": "Tata Secures Sponsorship", "description": "Tata acquires IPL presenting sponsorship for $60 million per year.", "emoji": ":handshake:"}
-    ]
-},
-{
-    "episode_ids": [198],
-    "company": "Rolex",
-    "timestamps": [
-        {"month": "1905-06", "title": "Company Founded", "description": "Hans Wilsdorf and Alfred Davis establish Wilsdorf & Davis in London.", "emoji": ":office:"},
-        {"month": "1908-06", "title": "Rolex Brand Created", "description": "Wilsdorf invents the name 'Rolex' for his wristwatches.", "emoji": ":gear:"},
-        {"month": "1910-06", "title": "First Chronometer", "description": "Rolex receives the first wristwatch chronometer certification.", "emoji": ":medal:"},
-        {"month": "1915-06", "title": "Renamed Rolex", "description": "Company officially becomes Rolex Watch Company Limited.", "emoji": ":office:"},
-        {"month": "1919-06", "title": "Move to Geneva", "description": "Rolex relocates headquarters to Geneva, Switzerland.", "emoji": ":cityscape:"},
-        {"month": "1926-07", "title": "Launch Oyster", "description": "Rolex introduces the first waterproof wristwatch, the Oyster.", "emoji": ":droplet:"},
-        {"month": "1927-10", "title": "Channel Swim Stunt", "description": "Mercedes Gleitze wears Rolex Oyster during English Channel swim.", "emoji": ":swimmer:"},
-        {"month": "1931-06", "title": "Oyster Perpetual", "description": "Rolex patents the self-winding perpetual rotor system.", "emoji": ":recycle:"},
-        {"month": "1944-06", "title": "Foundation Created", "description": "Hans Wilsdorf establishes Rolex’s charitable foundation.", "emoji": ":heart:"},
-        {"month": "1945-06", "title": "Launch Datejust", "description": "Rolex debuts the Datejust, the first watch with a date window.", "emoji": ":calendar:"},
-        {"month": "1953-06", "title": "Explorer Released", "description": "Rolex launches the Explorer, inspired by Everest summit.", "emoji": ":mountain:"},
-        {"month": "1954-06", "title": "Submariner Debut", "description": "Rolex introduces the Submariner dive watch.", "emoji": ":ocean:"},
-        {"month": "1955-06", "title": "GMT-Master Launch", "description": "Rolex releases the GMT-Master for pilots.", "emoji": ":airplane:"},
-        {"month": "1963-06", "title": "Daytona Introduced", "description": "Rolex launches the Daytona chronograph.", "emoji": ":race_car:"},
-        {"month": "1986-06", "title": "Paul Newman Craze", "description": "Italian collectors spark global demand for Daytona.", "emoji": ":moneybag:"},
-        {"month": "2004-06", "title": "Aegler Acquisition", "description": "Rolex acquires movement maker Aegler.", "emoji": ":handshake:"},
-        {"month": "2023-08", "title": "Bucherer Acquisition", "description": "Rolex acquires Bucherer retail chain.", "emoji": ":store:"}
-    ]
-},
-{
-    "episode_ids": [133],
-    "company": "TSMC",
-    "timestamps": [
-        {"month": "1987-06", "title": "TSMC Founded", "description": "Morris Chang founds TSMC as the world’s first pure-play semiconductor foundry in Taiwan.", "emoji": ":office:"},
-        {"month": "1994-06", "title": "IPO Taiwan", "description": "TSMC goes public on the Taiwan Stock Exchange, marking its first major financial milestone.", "emoji": ":chart_with_upwards_trend:"},
-        {"month": "1997-06", "title": "IPO NYSE", "description": "TSMC lists on the New York Stock Exchange, expanding its global investor base.", "emoji": ":chart_with_upwards_trend:"},
-        {"month": "2005-06", "title": "Chang Retires", "description": "Morris Chang retires as CEO after leading TSMC to global prominence.", "emoji": ":bust_in_silhouette:"},
-        {"month": "2009-06", "title": "Chang Returns", "description": "Morris Chang returns as CEO to guide TSMC through the mobile and cloud era.", "emoji": ":bust_in_silhouette:"},
-        {"month": "2012-06", "title": "Apple Partnership", "description": "TSMC secures a major deal to manufacture Apple’s custom chips, investing $9 billion in dedicated capacity.", "emoji": ":handshake:"},
-        {"month": "2014-06", "title": "iPhone 6 Chips", "description": "TSMC becomes sole supplier for Apple’s iPhone 6 chips, cementing its role in consumer electronics.", "emoji": ":rocket:"},
-        {"month": "2018-06", "title": "Chang Final Exit", "description": "Morris Chang retires for the last time, stepping down as chairman.", "emoji": ":bust_in_silhouette:"},
-        {"month": "2020-06", "title": "5nm Process", "description": "TSMC launches the world’s first 5-nanometer chip manufacturing process, leading the industry.", "emoji": ":gear:"},
-        {"month": "2021-04", "title": "CapEx Surge", "description": "TSMC announces $100 billion investment in new fabs over three years to maintain technological leadership.", "emoji": ":moneybag:"},
-        {"month": "2025-06", "title": "AI Era Leadership", "description": "TSMC becomes the manufacturing superpower behind the global AI wave, powering leading-edge chips.", "emoji": ":robot_face:"}
-    ]
-}
-
-
-] 
+    {
+        "episode_ids": [
+            202,
+            204,
+            205
+        ],
+        "company": "Google",
+        "timestamps": [
+            {
+                "month": "1995-09",
+                "title": "Stanford Meeting",
+                "description": "Larry Page and Sergey Brin meet at Stanford, sparking their partnership.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1996-06",
+                "title": "BackRub Project",
+                "description": "Larry and Sergey begin the BackRub project, developing PageRank.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1997-06",
+                "title": "BackRub Demo",
+                "description": "BackRub is demoed to search engines, but deals fall through.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1997-09",
+                "title": "Google Name",
+                "description": "The project is renamed Google, inspired by 'Googol'.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1998-06",
+                "title": "Google Founded",
+                "description": "Google Inc. is founded after Andy Bechtolsheim writes a $100,000 check.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1998-09",
+                "title": "Garage Office",
+                "description": "Google moves into Susan Wojcicki\u2019s Menlo Park garage.",
+                "emoji": ":house:"
+            },
+            {
+                "month": "1999-06",
+                "title": "Seed Funding",
+                "description": "Google raises $1 million from investors including Jeff Bezos.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "1999-08",
+                "title": "Venture Capital",
+                "description": "Google raises $25 million from Kleiner Perkins and Sequoia.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2000-06",
+                "title": "Yahoo Deal",
+                "description": "Google signs a major deal with Yahoo to power search results.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2001-03",
+                "title": "Eric Schmidt Joins",
+                "description": "Eric Schmidt becomes CEO, forming a three-person leadership team.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2002-01",
+                "title": "AdWords Launch",
+                "description": "Google launches AdWords with auction and pay-per-click model.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2002-06",
+                "title": "AOL Partnership",
+                "description": "Google signs a landmark ad deal with AOL, betting the company.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2003-02",
+                "title": "AdSense Launch",
+                "description": "Google launches AdSense, expanding ad revenue to publisher sites.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2004-08",
+                "title": "IPO",
+                "description": "Google goes public with a Dutch auction IPO, raising $1.7 billion.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1998-06",
+                "title": "Google Founded",
+                "description": "Google is founded by Larry Page and Sergey Brin in Menlo Park, California.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2001-06",
+                "title": "Gmail Development",
+                "description": "Paul Buchheit begins developing Gmail, pioneering web-based email and AJAX.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2004-04",
+                "title": "Gmail Launch",
+                "description": "Google launches Gmail with one gigabyte of free storage and invite-only access.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2004-08",
+                "title": "IPO",
+                "description": "Google goes public, raising $1.67 billion and becoming a major tech company.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2005-02",
+                "title": "Maps Launch",
+                "description": "Google launches Maps, introducing dynamic web mapping and AJAX to millions.",
+                "emoji": ":world_map:"
+            },
+            {
+                "month": "2005-08",
+                "title": "Android Acquisition",
+                "description": "Google acquires Android, setting the stage for its mobile operating system.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2006-03",
+                "title": "Docs Acquisition",
+                "description": "Google acquires Writely, launching Google Docs with real-time collaboration.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2006-11",
+                "title": "YouTube Acquisition",
+                "description": "Google acquires YouTube for $1.65 billion, entering the online video market.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2007-04",
+                "title": "DoubleClick Acquisition",
+                "description": "Google acquires DoubleClick for $3.1 billion, expanding its ad business.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2008-09",
+                "title": "Chrome Launch",
+                "description": "Google launches Chrome browser, revolutionizing web speed and security.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2008-09",
+                "title": "Android Launch",
+                "description": "Google launches Android with the HTC Dream, beginning its dominance in mobile.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2009-12",
+                "title": "Droid Launch",
+                "description": "Motorola Droid launches on Verizon, propelling Android to mass adoption.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2011-06",
+                "title": "Google+ Launch",
+                "description": "Google launches Google+, its major social networking initiative.",
+                "emoji": ":speech_balloon:"
+            },
+            {
+                "month": "2015-08",
+                "title": "Alphabet Formation",
+                "description": "Google reorganizes as Alphabet, with Sundar Pichai named CEO of Google.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2017-06",
+                "title": "Transformer Paper",
+                "description": "Google publishes the Transformer paper, laying the foundation for modern AI.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2024-06",
+                "title": "YouTube Revenue Milestone",
+                "description": "YouTube ad revenue surpasses $36 billion, making it the world\u2019s largest media platform.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2000-06",
+                "title": "AI Vision Stated",
+                "description": "Larry Page declares Google's ultimate goal is artificial intelligence in a public statement.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2001-06",
+                "title": "Language Model Work",
+                "description": "Noam Shazeer and George Herrick begin early language model research at Google, leading to 'Did You Mean'.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2003-06",
+                "title": "AdSense Launch",
+                "description": "Google launches AdSense, powered by PHIL language model, expanding ad revenue.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2007-04",
+                "title": "Deep Learning Arrival",
+                "description": "Sebastian Thrun joins Google, bringing deep learning expertise and launching Ground Truth for Maps.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2007-12",
+                "title": "Hinton Joins Google",
+                "description": "Geoff Hinton gives a pivotal tech talk at Google, catalyzing neural network research.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2011-06",
+                "title": "Google Brain Founded",
+                "description": "Google launches Google Brain, its deep learning research division led by Jeff Dean, Andrew Ng, and Greg Corrado.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2012-06",
+                "title": "Cat Paper Published",
+                "description": "Google Brain publishes the 'cat paper', proving unsupervised learning on large neural networks.",
+                "emoji": ":cat:"
+            },
+            {
+                "month": "2012-08",
+                "title": "DNN Research Acquired",
+                "description": "Google acquires DNN Research, bringing Geoff Hinton, Ilya Sutskever, and Alex Krizhevsky into Google Brain.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2014-01",
+                "title": "DeepMind Acquisition",
+                "description": "Google acquires DeepMind for $550M, adding world-class AI talent and research.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2016-06",
+                "title": "AlphaGo Victory",
+                "description": "DeepMind's AlphaGo defeats world champion Lee Sedol, demonstrating AI creativity in Go.",
+                "emoji": ":trophy:"
+            },
+            {
+                "month": "2017-06",
+                "title": "Transformer Paper",
+                "description": "Google Brain publishes 'Attention Is All You Need', introducing the Transformer architecture.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2018-06",
+                "title": "BERT Model Released",
+                "description": "Google releases BERT, a major Transformer-based language model for search and NLP.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2023-05",
+                "title": "Gemini Announced",
+                "description": "Google announces Gemini, its unified multimodal AI model, at Google I/O.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2023-06",
+                "title": "DeepMind-Brain Merge",
+                "description": "Google merges DeepMind and Brain teams, forming Google DeepMind under Demis Hassabis.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2023-12",
+                "title": "Gemini Released",
+                "description": "Google releases Gemini for public access, marking a new era in AI products.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2024-02",
+                "title": "Gemini 1.5 Launch",
+                "description": "Google launches Gemini 1.5 with a 1 million token context window, expanding AI capabilities.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2025-03",
+                "title": "Gemini 2.5 Pro",
+                "description": "Google launches Gemini 2.5 Pro, advancing multimodal AI performance and user adoption.",
+                "emoji": ":rocket:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [
+            208
+        ],
+        "company": "Coca-Cola",
+        "timestamps": [
+            {
+                "month": "1886-04",
+                "title": "Coca-Cola Invented",
+                "description": "Dr. John Pemberton creates the original formula for Coca-Cola in Atlanta.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1887-06",
+                "title": "Brand Named",
+                "description": "Frank Robinson names the drink Coca-Cola and designs the iconic script logo.",
+                "emoji": ":memo:"
+            },
+            {
+                "month": "1888-06",
+                "title": "Ownership Consolidated",
+                "description": "Asa Candler acquires full rights to the Coca-Cola formula and brand.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1892-06",
+                "title": "Company Incorporated",
+                "description": "The Coca-Cola Company is officially incorporated by Asa Candler.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1895-06",
+                "title": "National Expansion",
+                "description": "Coca-Cola is sold in every U.S. state and territory.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1899-07",
+                "title": "Bottling Rights Granted",
+                "description": "Exclusive bottling rights are granted to Thomas and Whitehead, enabling mass distribution.",
+                "emoji": ":package:"
+            },
+            {
+                "month": "1905-06",
+                "title": "Trademark Protection",
+                "description": "Federal Trademark Act is passed and Coca-Cola registers its trademark federally.",
+                "emoji": ":label:"
+            },
+            {
+                "month": "1916-06",
+                "title": "Contour Bottle Introduced",
+                "description": "The iconic Coca-Cola contour bottle is introduced to distinguish the brand.",
+                "emoji": ":bottle_with_popping_cork:"
+            },
+            {
+                "month": "1925-06",
+                "title": "Bottler Network Grows",
+                "description": "Coca-Cola bottler network expands to over 1,200 operations across the U.S.",
+                "emoji": ":factory:"
+            },
+            {
+                "month": "1941-06",
+                "title": "Global Expansion",
+                "description": "Coca-Cola begins global expansion during World War II, supplying U.S. troops abroad.",
+                "emoji": ":earth_americas:"
+            },
+            {
+                "month": "1982-06",
+                "title": "Diet Coke Launch",
+                "description": "Coca-Cola launches Diet Coke, its first major new brand since the original.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2012-06",
+                "title": "Brand Value Milestone",
+                "description": "Coca-Cola is recognized as one of the world\u2019s most valuable brands.",
+                "emoji": ":star:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [
+            200
+        ],
+        "company": "Epic Systems",
+        "timestamps": [
+            {
+                "month": "1979-06",
+                "title": "Epic Founded",
+                "description": "Judith Faulkner founds Human Services Computing, later renamed Epic Systems, in Madison, Wisconsin.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1983-06",
+                "title": "Rename Epic",
+                "description": "The company changes its name from Human Services Computing to Epic Systems.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1987-06",
+                "title": "Launch Resolute",
+                "description": "Epic launches its billing module, integrating clinical and billing systems.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1992-06",
+                "title": "EpicCare Debuts",
+                "description": "Epic releases EpicCare, the first graphical EMR application for ambulatory care.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2000-06",
+                "title": "Launch MyChart",
+                "description": "Epic launches MyChart, the first integrated patient portal for accessing medical records online.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2001-06",
+                "title": "EpicCare Inpatient",
+                "description": "Epic releases the inpatient version of EpicCare, covering overnight hospital stays.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2003-06",
+                "title": "Kaiser Deal",
+                "description": "Epic wins a transformative contract with Kaiser Permanente, becoming the industry standard.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2007-06",
+                "title": "Verona Campus Opens",
+                "description": "Epic opens its whimsical, large-scale campus in Verona, Wisconsin.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2009-06",
+                "title": "HITECH Act Boost",
+                "description": "The HITECH Act accelerates EMR adoption, propelling Epic\u2019s growth.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2011-06",
+                "title": "Hit $1B Revenue",
+                "description": "Epic reaches $1 billion in annual revenue.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2018-06",
+                "title": "Cosmos Launch",
+                "description": "Epic launches Cosmos, an anonymized database with hundreds of millions of patient records.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2021-12",
+                "title": "Cerner Acquired",
+                "description": "Oracle acquires Cerner, Epic\u2019s main competitor, reinforcing Epic\u2019s market leadership.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2024-06",
+                "title": "Record Revenue",
+                "description": "Epic achieves $5.7 billion in annual revenue and serves nearly all major US hospitals.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [
+            199
+        ],
+        "company": "Indian Premier League (IPL)",
+        "timestamps": [
+            {
+                "month": "1991-06",
+                "title": "Broadcast Rights Discovered",
+                "description": "BCCI realizes the value of cricket broadcast rights after negotiating with South Africa.",
+                "emoji": ":tv:"
+            },
+            {
+                "month": "2001-06",
+                "title": "Player Contracts Centralized",
+                "description": "BCCI introduces central contracts and pensions for Indian players, setting up control over talent.",
+                "emoji": ":memo:"
+            },
+            {
+                "month": "2005-06",
+                "title": "Lalit Modi Joins BCCI",
+                "description": "Lalit Modi is appointed to the BCCI board and begins commercializing Indian cricket.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2006-06",
+                "title": "TV Rights Auctioned",
+                "description": "BCCI auctions TV rights for international cricket, securing a $620 million deal with Nimbus.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2007-09",
+                "title": "India Wins T20 World Cup",
+                "description": "India wins the inaugural T20 World Cup, igniting national excitement for the new format.",
+                "emoji": ":trophy:"
+            },
+            {
+                "month": "2008-01",
+                "title": "IPL Franchise Auction",
+                "description": "First IPL franchise auction is held, selling eight teams for $724 million.",
+                "emoji": ":hammer:"
+            },
+            {
+                "month": "2008-04",
+                "title": "IPL Launches",
+                "description": "The inaugural IPL season begins, revolutionizing cricket with city-based teams and primetime matches.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2009-04",
+                "title": "IPL Moves to South Africa",
+                "description": "IPL season is relocated to South Africa due to Indian general elections and security concerns.",
+                "emoji": ":airplane:"
+            },
+            {
+                "month": "2010-06",
+                "title": "Modi Ousted from BCCI",
+                "description": "Lalit Modi is suspended from BCCI amid allegations of corruption and bid rigging.",
+                "emoji": ":no_entry:"
+            },
+            {
+                "month": "2013-06",
+                "title": "Spot Fixing Scandal",
+                "description": "Indian police bust spot fixing involving Rajasthan Royals and Chennai Super Kings, prompting reforms.",
+                "emoji": ":police_car:"
+            },
+            {
+                "month": "2015-06",
+                "title": "Supreme Court Reforms BCCI",
+                "description": "Indian Supreme Court restructures BCCI and IPL governance after corruption scandals.",
+                "emoji": ":scales:"
+            },
+            {
+                "month": "2017-06",
+                "title": "Star Secures Media Rights",
+                "description": "Star India acquires IPL media rights for $2.5 billion over five years.",
+                "emoji": ":tv:"
+            },
+            {
+                "month": "2021-06",
+                "title": "New Teams Auctioned",
+                "description": "Gujarat Titans and Lucknow Super Giants are auctioned for $750M and $950M, respectively.",
+                "emoji": ":hammer:"
+            },
+            {
+                "month": "2022-06",
+                "title": "Record Media Rights Deal",
+                "description": "BCCI signs $6.2 billion media rights deals for TV and streaming, split between Star and Viacom18.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2024-01",
+                "title": "Tata Secures Sponsorship",
+                "description": "Tata acquires IPL presenting sponsorship for $60 million per year.",
+                "emoji": ":handshake:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [
+            198
+        ],
+        "company": "Rolex",
+        "timestamps": [
+            {
+                "month": "1905-06",
+                "title": "Company Founded",
+                "description": "Hans Wilsdorf and Alfred Davis establish Wilsdorf & Davis in London.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1908-06",
+                "title": "Rolex Brand Created",
+                "description": "Wilsdorf invents the name 'Rolex' for his wristwatches.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1910-06",
+                "title": "First Chronometer",
+                "description": "Rolex receives the first wristwatch chronometer certification.",
+                "emoji": ":medal:"
+            },
+            {
+                "month": "1915-06",
+                "title": "Renamed Rolex",
+                "description": "Company officially becomes Rolex Watch Company Limited.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1919-06",
+                "title": "Move to Geneva",
+                "description": "Rolex relocates headquarters to Geneva, Switzerland.",
+                "emoji": ":cityscape:"
+            },
+            {
+                "month": "1926-07",
+                "title": "Launch Oyster",
+                "description": "Rolex introduces the first waterproof wristwatch, the Oyster.",
+                "emoji": ":droplet:"
+            },
+            {
+                "month": "1927-10",
+                "title": "Channel Swim Stunt",
+                "description": "Mercedes Gleitze wears Rolex Oyster during English Channel swim.",
+                "emoji": ":swimmer:"
+            },
+            {
+                "month": "1931-06",
+                "title": "Oyster Perpetual",
+                "description": "Rolex patents the self-winding perpetual rotor system.",
+                "emoji": ":recycle:"
+            },
+            {
+                "month": "1944-06",
+                "title": "Foundation Created",
+                "description": "Hans Wilsdorf establishes Rolex\u2019s charitable foundation.",
+                "emoji": ":heart:"
+            },
+            {
+                "month": "1945-06",
+                "title": "Launch Datejust",
+                "description": "Rolex debuts the Datejust, the first watch with a date window.",
+                "emoji": ":calendar:"
+            },
+            {
+                "month": "1953-06",
+                "title": "Explorer Released",
+                "description": "Rolex launches the Explorer, inspired by Everest summit.",
+                "emoji": ":mountain:"
+            },
+            {
+                "month": "1954-06",
+                "title": "Submariner Debut",
+                "description": "Rolex introduces the Submariner dive watch.",
+                "emoji": ":ocean:"
+            },
+            {
+                "month": "1955-06",
+                "title": "GMT-Master Launch",
+                "description": "Rolex releases the GMT-Master for pilots.",
+                "emoji": ":airplane:"
+            },
+            {
+                "month": "1963-06",
+                "title": "Daytona Introduced",
+                "description": "Rolex launches the Daytona chronograph.",
+                "emoji": ":race_car:"
+            },
+            {
+                "month": "1986-06",
+                "title": "Paul Newman Craze",
+                "description": "Italian collectors spark global demand for Daytona.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2004-06",
+                "title": "Aegler Acquisition",
+                "description": "Rolex acquires movement maker Aegler.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2023-08",
+                "title": "Bucherer Acquisition",
+                "description": "Rolex acquires Bucherer retail chain.",
+                "emoji": ":store:"
+            }
+        ]
+    },
+    {
+        "episode_ids": [
+            133,
+            197
+        ],
+        "company": "TSMC",
+        "timestamps": [
+            {
+                "month": "1987-06",
+                "title": "TSMC Founded",
+                "description": "Morris Chang founds TSMC as the world\u2019s first pure-play semiconductor foundry in Taiwan.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1994-06",
+                "title": "IPO Taiwan",
+                "description": "TSMC goes public on the Taiwan Stock Exchange, marking its first major financial milestone.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1997-06",
+                "title": "IPO NYSE",
+                "description": "TSMC lists on the New York Stock Exchange, expanding its global investor base.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2005-06",
+                "title": "Chang Retires",
+                "description": "Morris Chang retires as CEO after leading TSMC to global prominence.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2009-06",
+                "title": "Chang Returns",
+                "description": "Morris Chang returns as CEO to guide TSMC through the mobile and cloud era.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2012-06",
+                "title": "Apple Partnership",
+                "description": "TSMC secures a major deal to manufacture Apple\u2019s custom chips, investing $9 billion in dedicated capacity.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2014-06",
+                "title": "iPhone 6 Chips",
+                "description": "TSMC becomes sole supplier for Apple\u2019s iPhone 6 chips, cementing its role in consumer electronics.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2018-06",
+                "title": "Chang Final Exit",
+                "description": "Morris Chang retires for the last time, stepping down as chairman.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2020-06",
+                "title": "5nm Process",
+                "description": "TSMC launches the world\u2019s first 5-nanometer chip manufacturing process, leading the industry.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2021-04",
+                "title": "CapEx Surge",
+                "description": "TSMC announces $100 billion investment in new fabs over three years to maintain technological leadership.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2025-06",
+                "title": "AI Era Leadership",
+                "description": "TSMC becomes the manufacturing superpower behind the global AI wave, powering leading-edge chips.",
+                "emoji": ":robot_face:"
+            },
+            {
+                "month": "1987-06",
+                "title": "TSMC Founded",
+                "description": "Taiwan Semiconductor Manufacturing Company was founded as the world's first pure-play foundry.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1994-06",
+                "title": "IPO in Taiwan",
+                "description": "TSMC went public on the Taiwan Stock Exchange, marking its first major financial milestone.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1997-06",
+                "title": "Listed on NYSE",
+                "description": "TSMC became the first Taiwanese company to list on the New York Stock Exchange.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2005-06",
+                "title": "Morris Chang Retires",
+                "description": "Founder Morris Chang retired as CEO for the first time.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2009-06",
+                "title": "Morris Chang Returns",
+                "description": "Morris Chang returned as CEO during the financial crisis to steer TSMC through turbulent times.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2010-06",
+                "title": "Apple Partnership",
+                "description": "TSMC secured a major deal with Apple to manufacture chips for the iPhone.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2012-06",
+                "title": "A-Series Chips",
+                "description": "TSMC began producing Apple's A-series chips, starting with the A4.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2018-06",
+                "title": "Morris Chang Retires Again",
+                "description": "Morris Chang retired as chairman, marking the end of his leadership at TSMC.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2020-06",
+                "title": "Record Revenue Growth",
+                "description": "TSMC achieved 31% revenue growth, driven by demand for advanced chips.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2021-06",
+                "title": "Dominance in 5nm",
+                "description": "TSMC solidified its position as the leader in 5nm chip manufacturing.",
+                "emoji": ":gear:"
+            }
+        ]
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1837-06",
+                "title": "Hermes Founded",
+                "description": "Thierry Hermes establishes Hermes in Paris as a harness and carriage outfitter for the nobility.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1880-06",
+                "title": "Move to Faubourg",
+                "description": "Hermes relocates its workshop to 24 rue du Faubourg Saint-Honor\u00e9, its iconic headquarters.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1902-06",
+                "title": "First Bag Introduced",
+                "description": "Hermes introduces the Haut \u00e0 Courroies bag, precursor to the Kelly and Birkin bags.",
+                "emoji": ":handbag:"
+            },
+            {
+                "month": "1916-06",
+                "title": "Zipper Innovation",
+                "description": "Emile Hermes brings the zipper to France after visiting the US, launching the first zippered jacket.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1919-06",
+                "title": "Leadership Consolidation",
+                "description": "Emile Hermes buys out his brother and pivots the company toward handbags and travel goods.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "1925-06",
+                "title": "Handbag Launch",
+                "description": "Hermes launches its first modern handbag, marking its entry into the luxury handbag market.",
+                "emoji": ":handbag:"
+            },
+            {
+                "month": "1935-06",
+                "title": "Sac \u00e0 D\u00e9p\u00eaches Debut",
+                "description": "Robert Dumas redesigns the bag into the Sac \u00e0 D\u00e9p\u00eaches, later known as the Kelly bag.",
+                "emoji": ":handbag:"
+            },
+            {
+                "month": "1937-06",
+                "title": "Silk Scarf Launch",
+                "description": "Hermes introduces its iconic silk scarves, becoming a staple of French fashion.",
+                "emoji": ":scarf:"
+            },
+            {
+                "month": "1945-06",
+                "title": "Orange Box Adopted",
+                "description": "Hermes adopts the signature orange box due to wartime material shortages.",
+                "emoji": ":orange_book:"
+            },
+            {
+                "month": "1956-06",
+                "title": "Kelly Bag Renamed",
+                "description": "The Sac \u00e0 D\u00e9p\u00eaches is renamed the Kelly bag after Grace Kelly popularizes it.",
+                "emoji": ":handbag:"
+            },
+            {
+                "month": "1978-06",
+                "title": "Jean-Louis Dumas Leads",
+                "description": "Jean-Louis Dumas becomes CEO, revitalizing Hermes and expanding globally.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "1984-06",
+                "title": "Birkin Bag Created",
+                "description": "Hermes launches the Birkin bag, designed in collaboration with Jane Birkin.",
+                "emoji": ":handbag:"
+            },
+            {
+                "month": "1993-06",
+                "title": "IPO",
+                "description": "Hermes lists on the Paris Stock Exchange, selling 19% to the public while retaining family control.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2010-10",
+                "title": "Arnault Takeover Attempt",
+                "description": "LVMH's Bernard Arnault attempts a takeover, prompting Hermes family to lock up shares.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2014-06",
+                "title": "Family Defense Succeeds",
+                "description": "Hermes family successfully rebuffs LVMH, securing long-term family control.",
+                "emoji": ":shield:"
+            },
+            {
+                "month": "2021-06",
+                "title": "Craft School Founded",
+                "description": "Hermes opens \u00c9cole Herm\u00e8s de Savoir-Faire, formalizing artisan training in France.",
+                "emoji": ":school:"
+            }
+        ],
+        "episode_ids": [
+            186
+        ],
+        "company": "Hermes"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1978-06",
+                "title": "Renaissance Founded",
+                "description": "Jim Simons founds Renaissance Technologies with initial capital from his flooring business.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1982-06",
+                "title": "Axcom Created",
+                "description": "James Ax and Sandor Straus spin out Axcom for quantitative trading, with Renaissance as a major investor.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1988-06",
+                "title": "Medallion Fund Launch",
+                "description": "Renaissance launches the Medallion Fund, combining quantitative models and data engineering.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1990-01",
+                "title": "First Major Returns",
+                "description": "Medallion Fund achieves 77.8% gross returns, marking its breakthrough year.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1993-12",
+                "title": "Fund Closed",
+                "description": "Renaissance closes Medallion Fund to new investors to preserve performance.",
+                "emoji": ":lock:"
+            },
+            {
+                "month": "1994-06",
+                "title": "Equities Model Built",
+                "description": "Peter Brown and Bob Mercer join Renaissance to build unified equities trading models.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2000-06",
+                "title": "Tech Bubble Outperformance",
+                "description": "Medallion Fund posts 128% gross returns during the dot-com crash, proving its resilience.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2003-06",
+                "title": "Outside Investors Exit",
+                "description": "Renaissance removes all outside investors from Medallion Fund, keeping it exclusive to insiders.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2007-06",
+                "title": "Financial Crisis Gains",
+                "description": "Medallion Fund achieves 136% gross returns during the global financial crisis.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2009-12",
+                "title": "Simons Retires",
+                "description": "Jim Simons retires and Peter Brown and Bob Mercer become co-CEOs of Renaissance.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2017-06",
+                "title": "Leadership Change",
+                "description": "Bob Mercer steps down as co-CEO amid political controversy, but remains a scientist at the firm.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2020-06",
+                "title": "Pandemic Outperformance",
+                "description": "Medallion Fund posts 149% gross returns during the COVID-19 market volatility.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ],
+        "episode_ids": [
+            187
+        ],
+        "company": "Renaissance Technologies"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1975-04",
+                "title": "Microsoft Founded",
+                "description": "Bill Gates and Paul Allen found Microsoft in Albuquerque to develop software for microcomputers.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1975-06",
+                "title": "Altair BASIC Launch",
+                "description": "Microsoft delivers its first product, BASIC interpreter for the Altair 8800.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1977-11",
+                "title": "MITS Arbitration Win",
+                "description": "Microsoft wins arbitration, freeing it to license BASIC to other manufacturers.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1978-06",
+                "title": "International Expansion",
+                "description": "Microsoft begins global operations, partnering with Japan\u2019s Kay Nishi.",
+                "emoji": ":earth_asia:"
+            },
+            {
+                "month": "1979-06",
+                "title": "Move to Seattle",
+                "description": "Microsoft relocates headquarters from Albuquerque to Seattle for better recruiting.",
+                "emoji": ":house:"
+            },
+            {
+                "month": "1980-06",
+                "title": "IBM Partnership",
+                "description": "Microsoft partners with IBM to supply programming languages for the IBM PC.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1981-08",
+                "title": "MS-DOS Deal",
+                "description": "Microsoft licenses and adapts QDOS, creating MS-DOS for IBM PCs.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1983-11",
+                "title": "Windows Announced",
+                "description": "Microsoft announces Windows, its graphical operating environment.",
+                "emoji": ":window:"
+            },
+            {
+                "month": "1986-06",
+                "title": "IPO",
+                "description": "Microsoft goes public, raising $45 million and becoming a major tech company.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1989-06",
+                "title": "Office Suite Launch",
+                "description": "Microsoft launches Office, integrating Word, Excel, and other productivity apps.",
+                "emoji": ":briefcase:"
+            },
+            {
+                "month": "1990-05",
+                "title": "Windows 3.0 Release",
+                "description": "Windows 3.0 launches, becoming the standard for PC graphical interfaces.",
+                "emoji": ":computer:"
+            },
+            {
+                "month": "1995-08",
+                "title": "Windows 95 Launch",
+                "description": "Microsoft releases Windows 95, marking the mainstream adoption of PCs.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1995-08",
+                "title": "Windows 95",
+                "description": "Microsoft launches Windows 95, a major consumer OS release that popularized the Start menu and GUI, driving PC adoption.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1995-12",
+                "title": "Bundle Internet Explorer",
+                "description": "Bill Gates announces Internet Explorer will be free and bundled with Windows, beginning Microsoft's push into the browser market.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1997-08",
+                "title": "Apple Investment",
+                "description": "Microsoft invests $150 million in Apple and agrees to make Internet Explorer the default Mac browser, stabilizing Apple financially.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1997-12",
+                "title": "Hotmail Acquisition",
+                "description": "Microsoft acquires Hotmail, gaining a large consumer webmail service and early experience running web-scale online services.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1998-05",
+                "title": "DOJ Lawsuit",
+                "description": "The U.S. Department of Justice files a major antitrust lawsuit against Microsoft alleging abuse of monopoly power in operating systems and browsers.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1999-11",
+                "title": "Monopoly Ruling",
+                "description": "A federal judge issues a finding of fact that Microsoft holds monopoly power in the PC operating system market.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2000-06",
+                "title": "Breakup Order",
+                "description": "A court orders Microsoft to be split into separate operating system and applications companies as a remedy for antitrust violations.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2001-10",
+                "title": "Launch XP",
+                "description": "Microsoft ships Windows XP, unifying consumer and enterprise Windows lineages into a broadly adopted OS for users and businesses.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2001-11",
+                "title": "Settlement Proposed",
+                "description": "Microsoft and the DOJ reach a proposed settlement that reverses the breakup order and outlines behavioral remedies.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2002-06",
+                "title": "Settlement Approved",
+                "description": "The antitrust settlement is approved, instituting a five-year consent decree and interoperability requirements for Microsoft.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2006-01",
+                "title": "Azure Incubation",
+                "description": "An internal incubation led by Ray Ozzie begins (code-named Red Dog), starting the project that later becomes Microsoft Azure.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2007-10",
+                "title": "Facebook Investment",
+                "description": "Microsoft invests $240 million in Facebook and signs a commercial ad deal, strengthening ties to emerging social advertising.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2008-06",
+                "title": "Yahoo Bid",
+                "description": "Microsoft attempts a high-profile acquisition of Yahoo (bids reached ~$47 billion) as a strategic push into search and ads.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2009-06",
+                "title": "Launch Bing",
+                "description": "Microsoft launches Bing as its branded search engine, marking a renewed strategic focus on search and advertising.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2013-08",
+                "title": "Ballmer Retirement",
+                "description": "Steve Ballmer announces his planned retirement as CEO, beginning the company\u2019s leadership transition process.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2014-02",
+                "title": "Satya CEO",
+                "description": "Satya Nadella is named CEO, ushering a strategic shift toward cloud-first, mobile-first priorities and accelerating Azure growth.",
+                "emoji": ":bust_in_silhouette:"
+            }
+        ],
+        "episode_ids": [
+            188,
+            190
+        ],
+        "company": "Microsoft"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1971-06",
+                "title": "Starbucks Founded",
+                "description": "Jerry Baldwin, Zev Siegl, and Gordon Bowker open the first Starbucks store in Seattle, inspired by Peet's Coffee.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1982-06",
+                "title": "Schultz Joins",
+                "description": "Howard Schultz joins Starbucks as head of marketing, bringing new vision to the company.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "1983-06",
+                "title": "Italy Inspiration",
+                "description": "Schultz visits Milan and is inspired by Italian coffee bars, sparking the idea for Starbucks cafes.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1987-08",
+                "title": "Acquires Starbucks",
+                "description": "Howard Schultz acquires Starbucks, merging it with Il Giornale and begins rapid expansion.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1991-06",
+                "title": "Partner Program",
+                "description": "Starbucks introduces employee stock options and calls employees 'partners', pioneering workplace benefits.",
+                "emoji": ":busts_in_silhouette:"
+            },
+            {
+                "month": "1992-06",
+                "title": "IPO",
+                "description": "Starbucks goes public, becoming the first major coffee company to IPO.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1994-06",
+                "title": "First Acquisition",
+                "description": "Starbucks acquires Coffee Connection in Boston, expanding its footprint and gaining the Frappuccino trademark.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1995-06",
+                "title": "Launch Frappuccino",
+                "description": "Starbucks launches the Frappuccino, its first cold blended drink, which becomes a major hit.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1996-06",
+                "title": "Japan Entry",
+                "description": "Starbucks opens its first international store in Japan, marking the start of global expansion.",
+                "emoji": ":earth_asia:"
+            },
+            {
+                "month": "1999-06",
+                "title": "China Entry",
+                "description": "Starbucks enters China, pioneering coffee culture in a tea-dominated market.",
+                "emoji": ":earth_asia:"
+            },
+            {
+                "month": "2000-06",
+                "title": "Schultz Steps Down",
+                "description": "Howard Schultz steps down as CEO, becoming Executive Chairman as Starbucks reaches 3,500 stores.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2008-01",
+                "title": "Schultz Returns",
+                "description": "Howard Schultz returns as CEO to lead a turnaround during the financial crisis.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2009-06",
+                "title": "Mobile App Launch",
+                "description": "Starbucks launches its mobile app, revolutionizing ordering and payment in retail.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2017-06",
+                "title": "Johnson CEO",
+                "description": "Kevin Johnson becomes CEO, succeeding Schultz and guiding Starbucks through digital transformation.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2018-06",
+                "title": "China Growth",
+                "description": "Starbucks accelerates store openings in China, becoming a major revenue pillar.",
+                "emoji": ":earth_asia:"
+            },
+            {
+                "month": "2022-04",
+                "title": "Schultz Interim CEO",
+                "description": "Howard Schultz returns as interim CEO to guide Starbucks through post-COVID challenges.",
+                "emoji": ":bust_in_silhouette:"
+            }
+        ],
+        "episode_ids": [
+            189
+        ],
+        "company": "Starbucks"
+    },
+    {
+        "episode_ids": [
+            193
+        ],
+        "company": "Meta",
+        "timestamps": [
+            {
+                "month": "2004-02",
+                "title": "Facebook Launches",
+                "description": "Mark Zuckerberg launches thefacebook.com at Harvard, introducing a new social network.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "2004-06",
+                "title": "Expansion Begins",
+                "description": "Facebook expands to other universities, quickly gaining traction across campuses.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2004-06",
+                "title": "Palo Alto Move",
+                "description": "The founding team relocates to Palo Alto for the summer to work on Facebook full-time.",
+                "emoji": ":house:"
+            },
+            {
+                "month": "2004-09",
+                "title": "First Funding",
+                "description": "Facebook receives its first investment from Peter Thiel, securing $500,000.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2005-06",
+                "title": "Facebook Inc.",
+                "description": "Facebook incorporates as a company and transitions from a college project.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "2005-09",
+                "title": "Series A Funding",
+                "description": "Accel Partners leads a $12.7M Series A round, valuing Facebook at $98M.",
+                "emoji": ":moneybag:"
+            },
+            {
+                "month": "2005-10",
+                "title": "Photo Feature Launch",
+                "description": "Facebook launches photo sharing, driving massive engagement.",
+                "emoji": ":camera:"
+            },
+            {
+                "month": "2006-09",
+                "title": "Newsfeed Launch",
+                "description": "Facebook introduces Newsfeed, revolutionizing social media interaction.",
+                "emoji": ":newspaper:"
+            },
+            {
+                "month": "2006-09",
+                "title": "Open Registration",
+                "description": "Facebook opens registration to anyone, expanding beyond schools.",
+                "emoji": ":globe_with_meridians:"
+            },
+            {
+                "month": "2007-05",
+                "title": "Platform Launch",
+                "description": "Facebook launches its developer platform at F8, enabling third-party apps.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "2007-10",
+                "title": "Microsoft Partnership",
+                "description": "Microsoft invests at a $15B valuation and becomes Facebook\u2019s ad partner.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2008-03",
+                "title": "Sheryl Sandberg Joins",
+                "description": "Sheryl Sandberg joins as COO, professionalizing Facebook\u2019s business operations.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2009-02",
+                "title": "Like Button Launch",
+                "description": "Facebook launches the Like button, boosting engagement and ad targeting.",
+                "emoji": ":thumbsup:"
+            },
+            {
+                "month": "2012-05",
+                "title": "IPO",
+                "description": "Facebook goes public, raising $16B in the largest tech IPO at the time.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "2012-04",
+                "title": "Instagram Acquisition",
+                "description": "Facebook acquires Instagram for $1B, expanding its mobile presence.",
+                "emoji": ":camera:"
+            },
+            {
+                "month": "2014-02",
+                "title": "WhatsApp Acquisition",
+                "description": "Facebook acquires WhatsApp for $19B, strengthening its messaging platform.",
+                "emoji": ":speech_balloon:"
+            },
+            {
+                "month": "2021-10",
+                "title": "Meta Rebrand",
+                "description": "Facebook rebrands as Meta, signaling a shift toward the metaverse.",
+                "emoji": ":globe_with_meridians:"
+            }
+        ]
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1938-06",
+                "title": "First Loan",
+                "description": "Ingvar Kamprad takes a 500 krona loan to start his trading business.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1943-06",
+                "title": "IKEA Founded",
+                "description": "Ingvar Kamprad officially registers IKEA as a trading firm in Sm\u00e5land, Sweden.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1949-06",
+                "title": "Catalog Launch",
+                "description": "IKEA begins regular weekly publication of its furniture catalog.",
+                "emoji": ":book:"
+            },
+            {
+                "month": "1953-06",
+                "title": "First Showroom",
+                "description": "IKEA opens its first physical showroom in \u00c4lmhult, combining mail order with in-person experience.",
+                "emoji": ":department_store:"
+            },
+            {
+                "month": "1956-06",
+                "title": "Flat-Pack Innovation",
+                "description": "IKEA introduces flat-pack furniture and self-assembly, revolutionizing cost and logistics.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1965-06",
+                "title": "Stockholm Store Opens",
+                "description": "IKEA opens its flagship circular store on the outskirts of Stockholm, pioneering the modern IKEA store concept.",
+                "emoji": ":house:"
+            },
+            {
+                "month": "1971-06",
+                "title": "Store Rebuild",
+                "description": "After a major fire, the Stockholm store is rebuilt, solidifying IKEA's store model.",
+                "emoji": ":hammer:"
+            },
+            {
+                "month": "1976-06",
+                "title": "Testament Published",
+                "description": "Ingvar Kamprad writes 'The Testament of a Furniture Dealer', establishing IKEA's operating principles.",
+                "emoji": ":memo:"
+            },
+            {
+                "month": "1985-06",
+                "title": "US Entry",
+                "description": "IKEA opens its first US store in Plymouth Meeting, Pennsylvania.",
+                "emoji": ":earth_americas:"
+            },
+            {
+                "month": "1986-06",
+                "title": "Leadership Change",
+                "description": "Ingvar Kamprad steps down as president of IKEA store operations.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "1995-06",
+                "title": "Hotdog Policy",
+                "description": "IKEA formalizes its 'hotdog product' policy, offering ultra-low price items in every category.",
+                "emoji": ":hotdog:"
+            },
+            {
+                "month": "1998-06",
+                "title": "China Entry",
+                "description": "IKEA enters the Chinese market, marking a major international expansion.",
+                "emoji": ":earth_asia:"
+            },
+            {
+                "month": "2014-06",
+                "title": "Urban Stores",
+                "description": "IKEA launches small city stores, adapting to urbanization and changing retail trends.",
+                "emoji": ":cityscape:"
+            },
+            {
+                "month": "2018-01",
+                "title": "Founder Passes",
+                "description": "Ingvar Kamprad passes away at age 91, having shaped IKEA's legacy.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2021-06",
+                "title": "Catalog Ends",
+                "description": "IKEA discontinues its iconic catalog after 70 years.",
+                "emoji": ":book:"
+            }
+        ],
+        "episode_ids": [
+            194
+        ],
+        "company": "IKEA"
+    },
+    {
+        "timestamps": [
+            {
+                "month": "1920-06",
+                "title": "Mars Founded",
+                "description": "Frank C. Mars establishes a chocolate-focused candy business in Minneapolis, beginning the Mars chocolate enterprise.",
+                "emoji": ":office:"
+            },
+            {
+                "month": "1923-06",
+                "title": "Milky Way Launch",
+                "description": "Forrest Mars and Frank introduce the Milky Way nougat-and-caramel chocolate bar, driving rapid company growth.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1929-06",
+                "title": "Chicago Factory",
+                "description": "Mars opens a modern Chicago factory and begins large-scale production, reaching about 20 million Milky Way bars annually.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1930-06",
+                "title": "Snickers Launch",
+                "description": "Mars introduces the Snickers bar, which becomes a long-term flagship product for the company.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1933-06",
+                "title": "Learned Chocolate",
+                "description": "Forrest Mars trains in Swiss chocolate factories to master chocolate production and adapts recipes for international markets.",
+                "emoji": ":gear:"
+            },
+            {
+                "month": "1935-06",
+                "title": "Pet Food Entry",
+                "description": "Mars diversifies by acquiring the Chappel Brothers pet food business, beginning the company's long-term expansion into pet care.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1941-06",
+                "title": "M&M Production",
+                "description": "Forrest Mars and Bruce Murrie form M&M Limited and begin production of candy-coated M&M's in Newark with Hershey-supplied chocolate.",
+                "emoji": ":rocket:"
+            },
+            {
+                "month": "1949-06",
+                "title": "M&M Buyout",
+                "description": "Forrest Mars purchases Bruce Murrie's 20% stake in M&M's, moving toward sole ownership of the brand.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "1954-06",
+                "title": "M&M Marketing",
+                "description": "Mars debuts animated M&M characters and the 'melts in your mouth, not in your hand' positioning, creating a lasting marketing franchise.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "1964-06",
+                "title": "Control Consolidated",
+                "description": "Forrest Mars completes purchases of remaining shares and gains full control of Mars Incorporated, uniting the family's businesses.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "1973-06",
+                "title": "Top US Candy",
+                "description": "Mars surpasses Hershey to become the largest U.S. candy company following aggressive product sizing and marketing strategies.",
+                "emoji": ":chart_with_upwards_trend:"
+            },
+            {
+                "month": "1973-12",
+                "title": "Forrest Retires",
+                "description": "Forrest Mars retires and transfers ownership to his children, initiating the next generation of family leadership.",
+                "emoji": ":bust_in_silhouette:"
+            },
+            {
+                "month": "2008-10",
+                "title": "Wrigley Acquisition",
+                "description": "Mars acquires Wm. Wrigley Jr. Company for $23 billion, substantially expanding its global confection portfolio.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2017-06",
+                "title": "VCA Acquisition",
+                "description": "Mars expands into pet services by acquiring VCA, strengthening its global pet-care operations.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2020-06",
+                "title": "Kind Acquisition",
+                "description": "Mars acquires Kind to broaden its healthy-snack portfolio and accelerate global snacking expansion.",
+                "emoji": ":handshake:"
+            },
+            {
+                "month": "2023-06",
+                "title": "Revenue $50B",
+                "description": "Mars surpasses $50 billion in annual sales, reflecting extensive diversification across candy, pet care, and snacks.",
+                "emoji": ":chart_with_upwards_trend:"
+            }
+        ],
+        "episode_ids": [
+            195
+        ],
+        "company": "Mars"
+    }
+]
